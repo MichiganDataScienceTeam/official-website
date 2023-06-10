@@ -12,7 +12,7 @@ export default function Wave() {
       style: { height: '7rem', width: '100%' },
     },
     React.createElement('path', {
-      fill: '#1e40af',
+      fill: '#212121',
       d: 'M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z',
     })
   );

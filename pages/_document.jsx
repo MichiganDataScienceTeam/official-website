@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <meta property='og:title' content='MDST' key='title' />
       </Head>
-      <body className='text-blue-950 dark:text-white bg-blue-100 dark:bg-blue-950'>
+      <body className='text-grey-dark dark:text-white bg-white-100 dark:bg-grey-dark'>
         <Main />
         <NextScript />
       </body>
