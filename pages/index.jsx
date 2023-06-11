@@ -13,7 +13,7 @@ export default function Home({ content }) {
         <div className="container mx-auto ">
           <div className='flex gap-8 items-center'>
             <div className='w-1/2'>
-            <h1 className='mb-5 text-5xl font-bold'>U of M's Premier Data Science Club</h1>
+            <h1 className='mb-5 text-5xl font-bold'>U of M&apos;s Premier Data Science Club</h1>
           <p className='mb-10 text-2xl'>
           We empower the next generation of data scientists at the University of Michigan through education and exploration.
           </p>

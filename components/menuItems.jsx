@@ -1,3 +1,5 @@
+import Link, { Close } from 'next/link'
+
 const MenuItems = ({ showMenu, active }) => {
     return (
       <ul
@@ -9,25 +11,17 @@ const MenuItems = ({ showMenu, active }) => {
       >
         <Close onClick={showMenu} className="cursor-pointer" />
         <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/projects">
-            <a>Projects</a>
-          </Link>
+          <Link href="/projects">Projects</Link>
         </li>
   
         <li>
-          <Link href="/about">
-            <a>About</a>
-          </Link>
+          <Link href="/about">About</Link>
         </li>
         <li>
-          <Link href="/contact">
-            <a>Contact</a>
-          </Link>
+          <Link href="/contact">Contact</Link>
         </li>
       </ul>
     );
