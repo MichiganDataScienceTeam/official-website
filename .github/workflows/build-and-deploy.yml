@@ -1,7 +1,8 @@
 # .github/workflows/build-and-deploy.yml
 
 name: Node.js CI
-
+permissions:
+  contents: write
 on:
   push:
     branches: [main]
@@ -25,15 +26,11 @@ jobs:
         run: npm ci
       - name: Build Next App
         run: npm run build
-  export:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Export Next to static site
+      - name: Export Next App
         run: |
           npm run export
           touch out/.nojekyll
-
-      - name: Deploy static site to Github Pages
+      - name: Deploy to Github Pages
         # https://github.com/JamesIves/github-pages-deploy-action
         uses: JamesIves/github-pages-deploy-action@v4
         with:
