@@ -15,7 +15,7 @@ export default function Home({ content }) {
           <div className="flex gap-8 items-center md:flex-row flex-col-reverse ">
             <div className="md:w-1/2 w-full">
               <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold">
-                U of M's Premier Data Science Club
+                U of M&apos;s Premier Data Science Club
               </h1>
               <p className="mb-10 lg:text-2xl md:text-xl text-lg">
                 We empower the next generation of data scientists at
