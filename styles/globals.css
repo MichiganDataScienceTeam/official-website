@@ -10,3 +10,15 @@ html {
   @apply pt-24;
 background: radial-gradient(50% 50% at 50% 50%, #2998CA 0%, rgba(67, 151, 117, 0) 100%), conic-gradient(from 174.92deg at 50% 50%, #18895B -56.25deg, #2998CA 27.03deg, #34C5A2 169.15deg, #18895B 303.75deg, #2998CA 387.03deg);
 }
+
+.bullets {
+  @apply grid-cols-3;
+  grid-template-rows: 1fr auto 1fr;
+  
+}
+
+.project-card{
+  @apply bg-grey-light;
+  @apply p-2;
+  @apply rounded;
+}
