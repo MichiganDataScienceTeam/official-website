@@ -1,10 +1,11 @@
 import { useState } from 'react';
+import Link from 'next/link';
 
 function NavLink({ to, children }) {
   return (
-    <a href={to} className={`mx-4`}>
+    <Link href={to} className={`mx-4`}>
       {children}
-    </a>
+    </Link>
   );
 }
 
@@ -18,12 +19,12 @@ function MobileNav({ open, setOpen }) {
       <div className="flex items-center justify-center filter drop-shadow-md bg-grey-dark h-20">
         {' '}
         {/*logo container*/}
-        <a className="text-xl font-semibold" href="/">
+        <Link className="text-xl font-semibold" href="/">
           LOGO
-        </a>
+        </Link>
       </div>
       <div className="flex flex-col ml-4">
-        <a
+        <Link
           className="text-xl font-medium my-4"
           href="/about"
           onClick={() =>
@@ -33,8 +34,8 @@ function MobileNav({ open, setOpen }) {
           }
         >
           About
-        </a>
-        <a
+        </Link>
+        <Link
           className="text-xl font-normal my-4"
           href="/contact"
           onClick={() =>
@@ -44,7 +45,7 @@ function MobileNav({ open, setOpen }) {
           }
         >
           Contact
-        </a>
+        </Link>
       </div>
     </div>
   );
@@ -56,9 +57,9 @@ export default function Navbar() {
     <nav className="flex filter px-4 py-4 h-20 items-center fixed w-full backdrop-filter backdrop-blur z-50 ">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="w-3/12 flex items-center">
-        <a className="text-2xl font-semibold" href="/">
+        <Link className="text-2xl font-semibold" href="/">
           LOGO
-        </a>
+        </Link>
       </div>
       <div className="w-9/12 flex justify-end items-center">
         <div
