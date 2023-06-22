@@ -7,7 +7,7 @@ import path from 'path';
 import Markdown from 'markdown-to-jsx';
 import Image from 'next/image';
 
-export default function Projects({ pdfFiles, markdownFiles }) {
+export default function Projects({ groupedLinks }) {
   return (
     <Layout>
       <div className="text-center hero">
@@ -18,25 +18,26 @@ export default function Projects({ pdfFiles, markdownFiles }) {
             </h1>
           </div>
         </div>
-
         <Wave></Wave>
       </div>
-      {/* <div className='dark:bg-blue-800 p-4'>
-        <Markdown className='markdown'>{content}</Markdown>
-      </div> */}
-      <div>
-        <div>
-          {pdfFiles.map((link, index) => (
-            <Link href={link.href} key={index}>
-              {link.label}
-            </Link>
-          ))}
-          {markdownFiles.map((link, index) => (
-            <Link href={link.href} key={index}>
-              {link.label}
-            </Link>
-          ))}
-        </div>
+      <div className="container mx-auto">
+        {Object.entries(groupedLinks).map(([subdirectory, links]) => (
+          <div
+            key={subdirectory}
+            className="rounded border-grey border-2 my-2"
+          >
+            <h2 className="p-4 bg-grey">{subdirectory}</h2>
+            <ul className="p-4">
+              {links.map((link, index) => (
+                <li key={index}>
+                  <Link className="underline" href={link.href}>
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </Layout>
   );
@@ -48,26 +49,40 @@ export async function getStaticProps() {
     'public',
     'projects'
   );
-  const files = fs.readdirSync(projectsDirectory);
+  const subdirectories = fs
+    .readdirSync(projectsDirectory, { withFileTypes: true })
+    .filter((dirent) => dirent.isDirectory())
+    .map((dirent) => dirent.name);
 
-  const pdfFiles = files
-    .filter((file) => file.endsWith('.pdf'))
-    .map((pdfFile) => ({
-      href: `/projects/${pdfFile}`,
-      label: pdfFile,
-    }));
+  const groupedLinks = {};
+  subdirectories.forEach((subdirectory) => {
+    const subdirectoryPath = path.join(
+      projectsDirectory,
+      subdirectory
+    );
+    const files = fs.readdirSync(subdirectoryPath);
 
-  const markdownFiles = files
-    .filter((file) => file.endsWith('.md'))
-    .map((mdFile) => ({
-      href: `/projects/${mdFile.replace('.md', '')}`,
-      label: mdFile.replace('.md', ''),
-    }));
+    const links = [];
+    files.forEach((file) => {
+      if (file.endsWith('.pdf') || file.endsWith('.md')) {
+        const label = file
+          .replace('.pdf', '')
+          .replace('.md', '')
+          .split('_')
+          .join(' ');
+        const href = `/projects/${subdirectory}/${file.replace(
+          '.md',
+          ''
+        )}`;
 
+        links.push({ label, href });
+      }
+    });
+    groupedLinks[subdirectory.split('_').join(' ')] = links;
+  });
   return {
     props: {
-      pdfFiles,
-      markdownFiles,
+      groupedLinks,
     },
   };
 }
