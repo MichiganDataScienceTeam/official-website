@@ -68,7 +68,7 @@ export default function Home({ content }) {
             each semester in domains like finance, sports, computer
             vision, and more
           </p>
-          <p className="self-end">
+          <p className="self-end mt-4 sm:mt-0">
             Invest in your future career through
           </p>
           <p className="text-3xl">Tons of Events</p>
@@ -128,7 +128,7 @@ export default function Home({ content }) {
         </div>
         <Wave></Wave>
       </div>
-      <div className="container mx-auto py-4">
+      <div className="container mx-auto pb-8">
         <h2 className="text-3xl text-center">
           Interested? <br />
           All UM Ann Arbor students can join for free!
@@ -142,7 +142,7 @@ export default function Home({ content }) {
           </Link>
         </div>
       </div>
-      <div className="bg-grey py-4">
+      <div className="bg-grey py-8">
         <div className="container mx-auto">
           <h2 className="text-center text-xl">
             MDST is made possible by our sponsors
