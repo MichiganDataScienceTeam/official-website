@@ -87,7 +87,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden md:flex">
-          <NavLink to="/contact">CONTACT</NavLink>
+          <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/about">ABOUT</NavLink>
         </div>
       </div>
