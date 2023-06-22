@@ -3,10 +3,6 @@ import path from 'path';
 import Markdown from 'markdown-to-jsx';
 import { useRouter } from 'next/router';
 
-function MarkdownPage({ content }) {
-  return <ReactMarkdown>{content}</ReactMarkdown>;
-}
-
 export async function getStaticPaths() {
   const projectsDirectory = path.join(
     process.cwd(),
