@@ -2,7 +2,8 @@ import { useRouter } from 'next/router';
 import fs from 'fs';
 import path from 'path';
 import Markdown from 'markdown-to-jsx';
-
+import Layout from '@/components/layout';
+import Wave from '@/components/wave';
 function ProjectPage({ content }) {
   const router = useRouter();
   const { slug } = router.query;
@@ -15,7 +16,21 @@ function ProjectPage({ content }) {
     window.location.href = pdfPath;
     return null;
   }
-  return <Markdown className="markdown">{content}</Markdown>;
+  return (
+    <Layout>
+      <div className="text-center hero">
+        <div className="container mx-auto ">
+          <div className="flex gap-8 items-center flex-col ">
+            <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold text-center">
+              {fileName.split('_').join(' ')}
+            </h1>
+          </div>
+        </div>
+        <Wave></Wave>
+      </div>
+      <Markdown className="markdown">{content}</Markdown>
+    </Layout>
+  );
 }
 
 export async function getStaticProps({ params }) {
@@ -24,6 +39,13 @@ export async function getStaticProps({ params }) {
   const fileName = rest.join('/'); // Combine the remaining parts of the slug to form the file name
 
   // Fetch the necessary data for the project page using the subdirectory and fileName
+  //   if (!fileName.endsWith('.md')) {
+  //     return {
+  //       props: {
+  //         content: None,
+  //       },
+  //     };
+  //   }
   const filePath = path.join(
     process.cwd(),
     'public',
@@ -61,10 +83,11 @@ export async function getStaticPaths() {
     const files = fs.readdirSync(subdirectoryPath);
 
     files.forEach((file) => {
-      const isPdf = file.endsWith('.pdf');
-      const fileName = isPdf ? file : file.replace('.md', '');
-
-      paths.push({ params: { slug: [subdirectory, fileName] } });
+      const isMd = file.endsWith('.md');
+      if (isMd) {
+        const fileName = file.replace('.md', '');
+        paths.push({ params: { slug: [subdirectory, fileName] } });
+      }
     });
   });
 
