@@ -26,14 +26,14 @@ function MobileNav({ open, setOpen }) {
       <div className="flex flex-col ml-4">
         <Link
           className="text-xl font-medium my-4"
-          href="/about"
+          href="/projects"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
             }, 100)
           }
         >
-          About
+          Projects
         </Link>
         <Link
           className="text-xl font-normal my-4"
