@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  font-family: Oswald, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 .hero{
   @apply pt-24;

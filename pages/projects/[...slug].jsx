@@ -10,7 +10,7 @@ function ProjectPage({ content }) {
   const [subdirectory, ...rest] = slug;
   const fileName = rest.join('/');
   const isPdf = fileName.endsWith('.pdf');
-  console.log(fileName);
+
   if (isPdf) {
     const pdfPath = `/projects/${subdirectory}/${fileName}`;
     window.location.href = pdfPath;
