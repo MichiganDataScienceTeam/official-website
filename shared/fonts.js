@@ -1,13 +1,20 @@
 // Font definitions
 import { Inter, DM_Sans } from "next/font/google";
 
-export const inter = Inter({
+const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  weight: "300",
 });
 
-export const dmSans = DM_Sans({
+const dm_sans = DM_Sans({
   subsets: ["latin"],
   variable: "--font-dm-sans",
-  weight: "500",
+  weight: "400",
 });
+
+const fontbook = {
+  inter: inter.className,
+  dm_sans: dm_sans.className,
+};
+export default fontbook;

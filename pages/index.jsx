@@ -1,26 +1,28 @@
-import Layout from '@/components/layout';
-import Wave from '@/components/wave';
-import Wave180 from '@/components/wave180';
-import Link from 'next/link';
+import Layout from "@/components/layout";
+import Wave from "@/components/wave";
+import Wave180 from "@/components/wave180";
+import Link from "next/link";
 // import fs from 'fs';
 // import path from 'path';
 // import Markdown from 'markdown-to-jsx';
-import Image from 'next/image';
+import Image from "next/image";
+import fontbook from "@/shared/fonts";
 
 export default function Home({ content }) {
   return (
     <Layout>
-      <div className="text-center hero">
+      <div className="md:text-left text-center hero">
         <div className="container mx-auto ">
           <div className="flex gap-8 items-center md:flex-row flex-col-reverse">
             <div className="md:w-1/2 w-full">
-              <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold">
+              <h1
+                className={`mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight`}
+              >
                 U of M&apos;s Premier Data Science Club
               </h1>
-              <p className="mb-10 lg:text-2xl md:text-xl text-lg">
-                We empower the next generation of data scientists at
-                the University of Michigan through education and
-                exploration.
+              <p className="mb-10 lg:text-xl md:text-lg text-base font-light lg:tracking-wider tracking-normal">
+                We empower the next generation of data scientists at the
+                University of Michigan through education and exploration.
               </p>
             </div>
             <Image
@@ -51,11 +53,11 @@ export default function Home({ content }) {
         <Wave></Wave>
       </div>
       <div className="container mx-auto">
-        <div className="grid bullets  items-center text-center gap-x-8 gap-y-2 grid-flow-col">
+        <div className="grid bullets items-center text-center gap-x-8 gap-y-2 grid-flow-col">
           <p className="self-end">
             Join our community of data science enthusiasts with
           </p>
-          <p className="text-3xl">200+ Members</p>
+          <p className="text-3xl font-semibold">200+ Members</p>
           <p className="self-start">
             across 10+ different majors in 8 different U of M Schools
           </p>
@@ -63,27 +65,24 @@ export default function Home({ content }) {
           <p className="self-end">
             Build your data science expertise by working on one of our
           </p>
-          <p className="text-3xl">8-10 Projects</p>
+          <p className="text-3xl font-semibold">8-10 Projects</p>
           <p className="self-start">
-            each semester in domains like finance, sports, computer
-            vision, and more
+            each semester in domains like finance, sports, computer vision, and
+            more
           </p>
           <p className="self-end mt-4 sm:mt-0">
             Invest in your future career through
           </p>
-          <p className="text-3xl">Tons of Events</p>
+          <p className="text-3xl font-semibold">Tons of Events</p>
           <p className="self-start">
-            in career development, interview prep, education, and
-            networking.
+            in career development, interview prep, education, and networking.
           </p>
         </div>
       </div>
       <div className="bg-grey">
         <Wave180 className="rotate-180"></Wave180>
         <div className="container mx-auto py-4">
-          <h2 className="text-3xl text-center bold">
-            Recent Projects
-          </h2>
+          <h2 className="text-3xl text-center bold">Recent Projects</h2>
           <div className="flex gap-4 flex-col sm:flex-row p-4">
             <div className="project-card w-full">
               <Image
@@ -95,8 +94,7 @@ export default function Home({ content }) {
               />
               <h3 className="text-lg">Image Colorization</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Aliquam
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
               </p>
             </div>
             <div className="project-card w-full">
@@ -109,8 +107,8 @@ export default function Home({ content }) {
               />
               <h3 className="text-lg">Movie Quotes</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Aliquam pariatur reiciendis
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+                pariatur reiciendis
               </p>
             </div>
             <div className="project-card w-full">
