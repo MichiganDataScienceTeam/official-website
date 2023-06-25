@@ -46,6 +46,17 @@ function MobileNav({ open, setOpen }) {
         >
           Our Team
         </Link>
+        <Link
+          className="text-xl font-normal my-4"
+          href="/sponsors"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          Our Sponsors
+        </Link>
       </div>
     </div>
   );
@@ -89,6 +100,7 @@ export default function Navbar() {
         <div className="hidden md:flex">
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/team">Our Team</NavLink>
+          <NavLink to="/sponsors">Our Sponsors</NavLink>
         </div>
       </div>
     </nav>
