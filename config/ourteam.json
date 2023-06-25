@@ -1,59 +1,130 @@
 [
-    {
-        "groupName": "Eboard",
-        "description": "Meet the wonderfull team that makes MDST happen",
-        "members" : [{
-            "name": "Jay Shaver",
-            "title": "The man",
-            "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-            "github": "https://react-icons.github.io/react-icons/icons?name=io",
-            "image": "temp.png"
-        },{
-            "name": "Jay Shaver",
-            "title": "The man",
-            "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-            "github": "https://react-icons.github.io/react-icons/icons?name=io",
-            "image": "temp.png"
-        },{
-            "name": "Jay Shaver",
-            "title": "The man",
-            "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-            "github": "https://react-icons.github.io/react-icons/icons?name=io",
-            "image": "temp.png"
-        },{
-            "name": "Jay Shaver",
-            "title": "The man",
-            "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-            "github": "https://react-icons.github.io/react-icons/icons?name=io",
-            "image": "temp.png"
-        },{
-            "name": "Jay Shaver",
-            "title": "The man",
-            "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-            "github": "https://react-icons.github.io/react-icons/icons?name=io",
-            "image": "temp.png"
-        },{
-            "name": "Jay Shaver",
-            "title": "The man",
-            "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-            "github": "https://react-icons.github.io/react-icons/icons?name=io",
-            "image": "temp.png"
-        }]
-    },{
-        "groupName": "Social Committee",
-        "description": "These people plan events",
-        "members" : [{
-            "name": "Jay Shaver",
-            "title": "The man",
-            "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-            "github": "https://react-icons.github.io/react-icons/icons?name=io",
-            "image": "temp.png"
-        },{
-            "name": "Jay Shaver",
-            "title": "The man",
-            "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-            "github": "https://react-icons.github.io/react-icons/icons?name=io",
-            "image": "temp.png"
-        }]
-    }
+  {
+    "groupName": "Executive Board (E-Board)",
+    "description": "The leadership team determining the vision and direction of MDST.",
+    "members": [
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      }
+    ]
+  },
+  {
+    "groupName": "Project Committee",
+    "description": "Project advisors who help MDST operate our projects smoothly and at scale",
+    "members": [
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      }
+    ]
+  },
+  {
+    "groupName": "External Affairs Committee",
+    "description": "MDST's interface with the wider data science community at U of M and beyond",
+    "members": [
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      }
+    ]
+  },
+  {
+    "groupName": "Education Committee",
+    "description": "Supervises all of MDST's educational iniatives, supporting our members as they deepen their data science knowledge",
+    "members": [
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      }
+    ]
+  },
+  {
+    "groupName": "Social Committee",
+    "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work",
+    "members": [
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Jay Shaver",
+        "title": "The man",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      }
+    ]
+  }
 ]
