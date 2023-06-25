@@ -50,7 +50,7 @@ function MemberCard({ json }) {
         className="mx-auto mb-4 w-36 h-36 rounded-full"
         width="500"
         height="500"
-        src={`/images/${json.image}`}
+        src={`images/${json.image}`}
         alt="temp"
       />
       <h3 className="mb-1 text-2xl font-bold tracking-tight">
