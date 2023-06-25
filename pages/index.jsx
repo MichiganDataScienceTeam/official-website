@@ -1,4 +1,5 @@
 import Layout from "@/components/layout";
+import Button from "@/components/button";
 import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
 import Link from "next/link";
@@ -15,17 +16,23 @@ export default function Home({ sponsors, projects }) {
     <Layout>
       <div className="md:text-left text-center hero">
         <div className="container mx-auto ">
-          <div className="flex gap-8 items-center md:flex-row flex-col-reverse">
+          <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-7">
             <div className="md:w-1/2 w-full">
-              <h1
-                className={`mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight`}
-              >
-                U of M&apos;s Premier Data Science Club
-              </h1>
-              <p className="mb-10 lg:text-xl md:text-lg text-base font-light lg:tracking-wider tracking-normal">
-                We empower the next generation of data scientists at the
-                University of Michigan through education and exploration.
-              </p>
+              <div>
+                <h1
+                  className={`mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight`}
+                >
+                  U of M&apos;s Premier Data Science Club
+                </h1>
+                <p className="mb-10 lg:text-xl md:text-lg text-base font-light lg:tracking-wider tracking-normal">
+                  We empower the next generation of data scientists at the
+                  University of Michigan through education and exploration.
+                </p>
+              </div>
+              <div className="flex md:justify-start justify-center gap-5">
+                <Button link="" text="Join Us"></Button>
+                <Button link="" text="Work With Us"></Button>
+              </div>
             </div>
             <Image
               className="md:w-1/2 w-full"
@@ -96,15 +103,10 @@ export default function Home({ sponsors, projects }) {
       <div className="container mx-auto">
         <h2 className="text-3xl text-center">
           Interested? <br />
-          All UM Ann Arbor students can join for free!
+          All UM Ann Arbor students can join for free.
         </h2>
         <div className="flex mt-4 justify-center">
-          <Link
-            className="border-2 rounded-full p-3 hover:-translate-y-1"
-            href=""
-          >
-            Join Us
-          </Link>
+          <Button link="" text="Join Us"></Button>
         </div>
       </div>
 
