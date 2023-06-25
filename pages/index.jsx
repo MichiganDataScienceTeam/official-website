@@ -165,13 +165,13 @@ export default function Home({ content }) {
   );
 }
 
-export async function getStaticProps() {
-  const filePath = path.join(
-    process.cwd(),
-    'markdown',
-    'homepage.md'
-  );
-  const fileContent = fs.readFileSync(filePath, 'utf-8');
-  const content = fileContent;
-  return { props: { content } };
-}
+// export async function getStaticProps() {
+//   const filePath = path.join(
+//     process.cwd(),
+//     'markdown',
+//     'homepage.md'
+//   );
+//   const fileContent = fs.readFileSync(filePath, 'utf-8');
+//   const content = fileContent;
+//   return { props: { content } };
+// }
