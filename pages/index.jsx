@@ -142,22 +142,6 @@ export default function Home({ content }) {
           </Link>
         </div>
       </div>
-      <div className="bg-grey py-8">
-        <div className="container mx-auto">
-          <h2 className="text-center text-xl">
-            MDST is made possible by our sponsors
-          </h2>
-          <div className="flex mt-4 justify-center">
-            <Image
-              className=""
-              width="200"
-              height="200"
-              src="images/esg.png"
-              alt="temp"
-            />
-          </div>
-        </div>
-      </div>
       {/* <div className='dark:bg-blue-800 p-4'>
         <Markdown className='markdown'>{content}</Markdown>
       </div> */}
