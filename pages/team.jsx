@@ -20,18 +20,9 @@ export default function Team({ teamjson }) {
         </div>
         <Wave></Wave>
       </div>
-      <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-        <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <p className="font-light sm:text-xl">
-            Meet the wonderfull team that makes MDST happen
-          </p>
-        </div>
-        <div className="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {teamjson.map((memberinfo, index) => (
-            <MemberCard key={index} json={memberinfo} />
-          ))}
-        </div>
-      </div>
+      {teamjson.map((group, index) => (
+        <GroupSection key={group.groupName} group={group} />
+      ))}
     </Layout>
   );
 }
@@ -43,14 +34,30 @@ export async function getStaticProps() {
   return { props: { teamjson } };
 }
 
+function GroupSection({ group }) {
+  return (
+    <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+      <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+        <h2 className="text-3xl mb-4">{group.groupName}</h2>
+        <p className="font-light sm:text-xl">{group.description}</p>
+      </div>
+      <div className="flex flex-wrap justify-center gap-4 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        {group.members.map((memberinfo, index) => (
+          <MemberCard key={index} json={memberinfo} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 function MemberCard({ json }) {
   return (
-    <div className="text-center rounded bg-grey p-4">
+    <div className="text-center rounded bg-grey py-4 px-8 w-full sm:w-fit">
       <Image
         className="mx-auto mb-4 w-36 h-36 rounded-full"
         width="500"
         height="500"
-        src={`images/${json.image}`}
+        src={`images/team/${json.image}`}
         alt="temp"
       />
       <h3 className="mb-1 text-2xl font-bold tracking-tight">
