@@ -28,7 +28,7 @@ export default function Team({ teamjson }) {
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'ourteam.json');
+  const filePath = path.join(process.cwd(), 'config', 'ourteam.json');
   const fileContent = fs.readFileSync(filePath, 'utf-8');
   const teamjson = JSON.parse(fileContent);
   return { props: { teamjson } };
