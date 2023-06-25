@@ -1,5 +1,6 @@
 import Layout from "@/components/layout";
 import Button from "@/components/button";
+import Factbox from "@/components/factbox";
 import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
 import Link from "next/link";
@@ -19,9 +20,7 @@ export default function Home({ sponsors, projects }) {
           <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-7">
             <div className="md:w-1/2 w-full">
               <div>
-                <h1
-                  className={`mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight`}
-                >
+                <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
                   U of M&apos;s Premier Data Science Club
                 </h1>
                 <p className="mb-10 lg:text-xl md:text-lg text-base font-light lg:tracking-wider tracking-normal">
@@ -58,34 +57,26 @@ export default function Home({ sponsors, projects }) {
             </Link>
           </div>
         </div>
-
         <Wave></Wave>
       </div>
       <div className="container mx-auto">
-        <div className="grid bullets items-center text-center gap-x-8 gap-y-2 grid-flow-col">
-          <p className="self-end">
-            Join our community of data science enthusiasts with
-          </p>
-          <p className="text-3xl font-semibold">200+ Members</p>
-          <p className="self-start">
-            across 10+ different majors in 8 different U of M Schools
-          </p>
-
-          <p className="self-end">
-            Build your data science expertise by working on one of our
-          </p>
-          <p className="text-3xl font-semibold">8-10 Projects</p>
-          <p className="self-start">
-            each semester in domains like finance, sports, computer vision, and
-            more
-          </p>
-          <p className="self-end mt-4 sm:mt-0">
-            Invest in your future career through
-          </p>
-          <p className="text-3xl font-semibold">Tons of Events</p>
-          <p className="self-start">
-            in career development, interview prep, education, and networking.
-          </p>
+        <div className="grid grid-flow-row md:grid-flow-col p-7 gap-x-16 gap-y-10">
+          <Factbox
+            leader="Join our community of data science enthusiasts with"
+            fact="200+ Members"
+            closer="across 10+ different majors in 8 different U of M Schools"
+          ></Factbox>
+          <Factbox
+            leader="Build data science expertise by working on one of our"
+            fact="8-10 Projects"
+            closer="each semester in domains like finance, sports, computer vision,
+            and more"
+          ></Factbox>
+          <Factbox
+            leader="Invest in your future career through"
+            fact="Tons of Events"
+            closer="in career development, interview prep, education, and networking"
+          ></Factbox>
         </div>
       </div>
       <div className="bg-grey">
