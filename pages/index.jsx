@@ -2,9 +2,9 @@ import Layout from '@/components/layout';
 import Wave from '@/components/wave';
 import Wave180 from '@/components/wave180';
 import Link from 'next/link';
-import fs from 'fs';
-import path from 'path';
-import Markdown from 'markdown-to-jsx';
+// import fs from 'fs';
+// import path from 'path';
+// import Markdown from 'markdown-to-jsx';
 import Image from 'next/image';
 
 export default function Home({ content }) {
