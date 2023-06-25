@@ -12,7 +12,7 @@ export default function Home({ content }) {
     <Layout>
       <div className="text-center hero">
         <div className="container mx-auto ">
-          <div className="flex gap-8 items-center md:flex-row flex-col-reverse ">
+          <div className="flex gap-8 items-center md:flex-row flex-col-reverse">
             <div className="md:w-1/2 w-full">
               <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold">
                 U of M&apos;s Premier Data Science Club
@@ -90,7 +90,7 @@ export default function Home({ content }) {
                 className="w-full"
                 width="500"
                 height="500"
-                src="/images/temp.png"
+                src="images/temp.png"
                 alt="temp"
               />
               <h3 className="text-lg">Image Colorization</h3>
@@ -104,7 +104,7 @@ export default function Home({ content }) {
                 className="w-full"
                 width="500"
                 height="500"
-                src="/images/temp.png"
+                src="images/temp.png"
                 alt="temp"
               />
               <h3 className="text-lg">Movie Quotes</h3>
@@ -118,7 +118,7 @@ export default function Home({ content }) {
                 className="w-full"
                 width="500"
                 height="500"
-                src="/images/temp.png"
+                src="images/temp.png"
                 alt="temp"
               />
               <h3 className="text-lg">Wild fires</h3>
@@ -152,7 +152,7 @@ export default function Home({ content }) {
               className=""
               width="200"
               height="200"
-              src="/images/esg.png"
+              src="images/esg.png"
               alt="temp"
             />
           </div>
