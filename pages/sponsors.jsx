@@ -29,11 +29,11 @@ export default function Sponsors({ sponsors }) {
             As the leading practical data science and machine learning
             club at the University of Michigan, partnering with MDST
             can give you or your company access to a large group of
-            Michigan's most skilled and motivated students in this
-            field.
+            Michigan&apos;s most skilled and motivated students in
+            this field.
           </p>
           <p>
-            For more information about how MDST can help you contact{' '}
+            For more information about how MDST can help you contact
             <Link
               className="underline"
               href="email:mdst-coms@umich.edu"
