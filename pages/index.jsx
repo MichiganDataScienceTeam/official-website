@@ -37,13 +37,13 @@ export default function Home({ content }) {
           <div className="flex justify-center gap-5">
             <Link
               className="border-2 rounded-full p-3 hover:-translate-y-1"
-              href=""
+              href="/join"
             >
               Join Us
             </Link>
             <Link
               className="border-2 rounded-full p-3 hover:-translate-y-1"
-              href=""
+              href="/sponsors"
             >
               Work With Us
             </Link>
