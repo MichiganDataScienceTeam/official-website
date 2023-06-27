@@ -33,7 +33,7 @@ export default function Sponsors({ sponsors }) {
             this field.
           </p>
           <p>
-            For more information about how MDST can help you contact
+            For more information about how MDST can help you contact:{' '}
             <Link
               className="underline"
               href="email:mdst-coms@umich.edu"

@@ -24,3 +24,22 @@ background: radial-gradient(50% 50% at 50% 50%, #2998CA 0%, rgba(67, 151, 117, 0
   @apply p-2;
   @apply rounded;
 }
+
+.markdown h2 {
+  @apply text-3xl;
+  @apply mb-4;
+}
+
+.markdown h3 {
+  @apply text-2xl;
+  @apply mb-4;
+}
+
+.markdown p {
+  @apply mb-2;
+}
+
+.markdown a {
+  @apply underline;
+
+}
