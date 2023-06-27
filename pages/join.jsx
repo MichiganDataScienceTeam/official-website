@@ -1,14 +1,14 @@
-import Layout from '@/components/layout';
-import Wave from '@/components/wave';
-import Wave180 from '@/components/wave180';
-import Link from 'next/link';
-import Image from 'next/image';
-import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
-import fs from 'fs';
-import path from 'path';
-import Markdown from 'markdown-to-jsx';
+import Layout from "@/components/layout";
+import Wave from "@/components/wave";
+import Wave180 from "@/components/wave180";
+import Link from "next/link";
+import Image from "next/image";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import fs from "fs";
+import path from "path";
+import Markdown from "markdown-to-jsx";
 
-export default function Sponsors({ content }) {
+export default function Join({ content }) {
   return (
     <Layout>
       <div className="text-center hero">
@@ -28,8 +28,8 @@ export default function Sponsors({ content }) {
   );
 }
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'config', 'join.md');
-  const fileContent = fs.readFileSync(filePath, 'utf-8');
+  const filePath = path.join(process.cwd(), "config", "join.md");
+  const fileContent = fs.readFileSync(filePath, "utf-8");
   const content = fileContent;
   return { props: { content } };
 }
