@@ -29,7 +29,7 @@ export default function Home({ sponsors, projects }) {
                 </p>
               </div>
               <div className="flex md:justify-start justify-center gap-5">
-                <Button link="" text="Join Us"></Button>
+                <Button link="/join/" text="Join Us"></Button>
                 <Button link="" text="Work With Us"></Button>
               </div>
             </div>
@@ -40,21 +40,6 @@ export default function Home({ sponsors, projects }) {
               src="images/Dataframe_Graphic.svg"
               alt="Image of a dataframe"
             />
-          </div>
-
-          <div className="flex justify-center gap-5">
-            <Link
-              className="border-2 rounded-full p-3 hover:-translate-y-1"
-              href="/join"
-            >
-              Join Us
-            </Link>
-            <Link
-              className="border-2 rounded-full p-3 hover:-translate-y-1"
-              href="/sponsors"
-            >
-              Work With Us
-            </Link>
           </div>
         </div>
         <Wave></Wave>
