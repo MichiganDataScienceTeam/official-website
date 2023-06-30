@@ -4,43 +4,43 @@
     "description": "The leadership team determining the vision and direction of MDST.",
     "members": [
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Sachchit Kunichetty",
+        "title": "President",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Casper Guo",
+        "title": "VP of Education",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Andrew Ye",
+        "title": "VP of External Affairs",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Amanda Li",
+        "title": "VP of Finance",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Tom Sherman",
+        "title": "VP of Internal Affairs",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Hannah Shu",
+        "title": "VP of Projects",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
@@ -49,18 +49,25 @@
   },
   {
     "groupName": "Project Committee",
-    "description": "Project advisors who help MDST operate our projects smoothly and at scale",
+    "description": "Project advisors who help MDST operate our projects smoothly and at scale. Led by the VP of Projects.",
     "members": [
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Elijah Grubbs",
+        "title": "Project Committee Member",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Jason Yen",
+        "title": "Project Committee Member",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Michael Peng",
+        "title": "Project Committee Member",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
@@ -69,18 +76,25 @@
   },
   {
     "groupName": "External Affairs Committee",
-    "description": "MDST's interface with the wider data science community at U of M and beyond",
+    "description": "MDST's interface with the wider data science community at U of M and beyond. Jointly led by the VP of External Affairs and VP of Finance.",
     "members": [
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Elijah Grubbs",
+        "title": "External Affairs Committee Member",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Sara Li",
+        "title": "External Affairs Committee Member",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Amogh Madireddi",
+        "title": "External Affairs Committee Member",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
@@ -89,18 +103,25 @@
   },
   {
     "groupName": "Education Committee",
-    "description": "Supervises all of MDST's educational iniatives, supporting our members as they deepen their data science knowledge",
+    "description": "Supervises all of MDST's educational intiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education",
     "members": [
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Sreya Gogineni",
+        "title": "Education Committee Member",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Kevin Wang",
+        "title": "Education Committee Member",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Matthew Pacas-McCarthy",
+        "title": "Education Committee Member",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
@@ -109,7 +130,7 @@
   },
   {
     "groupName": "Social Committee",
-    "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work",
+    "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work. Led by the VP of Internal Affairs.",
     "members": [
       {
         "name": "Jay Shaver",
@@ -119,8 +140,15 @@
         "image": "temp.png"
       },
       {
-        "name": "Jay Shaver",
-        "title": "The man",
+        "name": "Amelia Weyhing",
+        "title": "Social Committee Member",
+        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "image": "temp.png"
+      },
+      {
+        "name": "Benjamin Brown",
+        "title": "Social Committee Member",
         "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
         "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
