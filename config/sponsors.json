@@ -1,76 +1,37 @@
 [
-    {
-        "tier" : "Partner",
-        "sponsors": [
-            {
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            },{
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            }
-        ]
-    },{
-        "tier" : "Diamond",
-        "sponsors": [
-            {
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            },{
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            },{
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            },{
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            },{
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            },{
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            }
-        ]
-    },{
-        "tier" : "Gold",
-        "sponsors": [
-            {
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            }
-        ]
-    },{
-        "tier" : "Silver",
-        "sponsors": [
-            {
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            },{
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            }
-        ]
-    },{
-        "tier" : "Bronze",
-        "sponsors": [
-            {
-                "name": "ESG",
-                "link": "https://github.com/MichiganDataScienceTeam/website",
-                "image": "esg.png"
-            }
-        ]
-    }
+  {
+    "tier": "Partner",
+    "sponsors": []
+  },
+  {
+    "tier": "Diamond",
+    "sponsors": []
+  },
+  {
+    "tier": "Gold",
+    "sponsors": []
+  },
+  {
+    "tier": "Silver",
+    "sponsors": []
+  },
+  {
+    "tier": "Bronze",
+    "sponsors": []
+  },
+  {
+    "tier": "Other Sponsors",
+    "sponsors": [
+      {
+        "name": "ESG",
+        "link": "https://esg.engin.umich.edu/",
+        "image": "esg.png"
+      },
+      {
+        "name": "Michigan Institute for Data Science",
+        "link": "https://midas.umich.edu/",
+        "image": "midas.png"
+      }
+    ]
+  }
 ]
