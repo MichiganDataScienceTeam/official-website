@@ -41,5 +41,13 @@ background: radial-gradient(50% 50% at 50% 50%, #2998CA 0%, rgba(67, 151, 117, 0
 
 .markdown a {
   @apply underline;
-
+}
+.markdown ul {
+  @apply relative;
+}
+.markdown li {
+  @apply before:content-['-'];
+  @apply before:absolute;
+  @apply before:left-0;
+  @apply ml-2;
 }

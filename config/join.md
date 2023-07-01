@@ -1,4 +1,4 @@
-## How to join
+## How nto join
 
 djal;jdflkjsdkfl;ajdflka
 dfsajflk;sdjfl;ajfdk;las
@@ -23,3 +23,6 @@ dfjkal;jdkl;ajfda
 ### lolo
 
 jkld;ajfdlk;fjdlk;fj;aj
+
+- hello
+- world
