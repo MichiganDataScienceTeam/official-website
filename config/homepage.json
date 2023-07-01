@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Image Colorization",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam",
+        "image": "temp.png",
+        "link": "/projects/Fall_2023/wildfire_predictions"
+    },{
+        "name": "Movie Quotes",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur reiciendis",
+        "image": "temp.png",
+        "link": "/projects/Fall_2023/wildfire_predictions"
+    },{
+        "name": "Wild fires",
+        "description": "Lorem ipsum dolor",
+        "image": "temp.png",
+        "link": "/projects/Fall_2023/wildfire_predictions"
+    }
+
+]

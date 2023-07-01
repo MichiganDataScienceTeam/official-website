@@ -2,13 +2,15 @@ import Layout from "@/components/layout";
 import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
 import Link from "next/link";
-// import fs from 'fs';
-// import path from 'path';
+import fs from "fs";
+import path from "path";
 // import Markdown from 'markdown-to-jsx';
 import Image from "next/image";
 import fontbook from "@/shared/fonts";
+import SponsorSection from "@/components/sponsorSection";
 
-export default function Home({ content }) {
+export default function Home({ sponsors, projects }) {
+  sponsors[0].tier = "MDST is made possible by our sponsors";
   return (
     <Layout>
       <div className="md:text-left text-center hero">
@@ -84,49 +86,14 @@ export default function Home({ content }) {
         <div className="container mx-auto py-4">
           <h2 className="text-3xl text-center bold">Recent Projects</h2>
           <div className="flex gap-4 flex-col sm:flex-row p-4">
-            <div className="project-card w-full">
-              <Image
-                className="w-full"
-                width="500"
-                height="500"
-                src="images/temp.png"
-                alt="temp"
-              />
-              <h3 className="text-lg">Image Colorization</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-              </p>
-            </div>
-            <div className="project-card w-full">
-              <Image
-                className="w-full"
-                width="500"
-                height="500"
-                src="images/temp.png"
-                alt="temp"
-              />
-              <h3 className="text-lg">Movie Quotes</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
-                pariatur reiciendis
-              </p>
-            </div>
-            <div className="project-card w-full">
-              <Image
-                className="w-full"
-                width="500"
-                height="500"
-                src="images/temp.png"
-                alt="temp"
-              />
-              <h3 className="text-lg">Wild fires</h3>
-              <p>Lorem ipsum dolor</p>
-            </div>
+            {projects.map((project, index) => (
+              <ProjectCard key={index} json={project} />
+            ))}
           </div>
         </div>
         <Wave></Wave>
       </div>
-      <div className="container mx-auto pb-8">
+      <div className="container mx-auto">
         <h2 className="text-3xl text-center">
           Interested? <br />
           All UM Ann Arbor students can join for free!
@@ -140,20 +107,41 @@ export default function Home({ content }) {
           </Link>
         </div>
       </div>
+
+      <SponsorSection group={sponsors[0]} />
+
       {/* <div className='dark:bg-blue-800 p-4'>
         <Markdown className='markdown'>{content}</Markdown>
       </div> */}
     </Layout>
   );
 }
+function ProjectCard({ json }) {
+  return (
+    <Link
+      href={json.link}
+      className="bg-grey-light p-2 rounded-lg w-full hover:-translate-y-1"
+    >
+      <Image
+        className="w-full rounded"
+        width="500"
+        height="500"
+        src={`images/${json.image}`}
+        alt="temp"
+      />
+      <h3 className="text-lg ">{json.name}</h3>
+      <p>{json.description}</p>
+    </Link>
+  );
+}
+export async function getStaticProps() {
+  const sponsorFilePath = path.join(process.cwd(), "config", "sponsors.json");
+  const sponsorFileContent = fs.readFileSync(sponsorFilePath, "utf-8");
+  const sponsors = JSON.parse(sponsorFileContent);
 
-// export async function getStaticProps() {
-//   const filePath = path.join(
-//     process.cwd(),
-//     'markdown',
-//     'homepage.md'
-//   );
-//   const fileContent = fs.readFileSync(filePath, 'utf-8');
-//   const content = fileContent;
-//   return { props: { content } };
-// }
+  const projectFilePath = path.join(process.cwd(), "config", "homepage.json");
+  const projectFileContent = fs.readFileSync(projectFilePath, "utf-8");
+  const projects = JSON.parse(projectFileContent);
+  console.log(projects);
+  return { props: { sponsors, projects } };
+}
