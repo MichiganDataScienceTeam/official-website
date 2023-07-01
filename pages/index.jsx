@@ -3,13 +3,13 @@ import Button from "@/components/button";
 import Factbox from "@/components/factbox";
 import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
-import Link from "next/link";
 import fs from "fs";
 import path from "path";
 // import Markdown from 'markdown-to-jsx';
 import Image from "next/image";
 import fontbook from "@/shared/fonts";
 import SponsorSection from "@/components/sponsorSection";
+import ProjectCarousel from "@/components/projectCarousel";
 
 export default function Home({ sponsors, projects }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
@@ -67,12 +67,7 @@ export default function Home({ sponsors, projects }) {
       <div className="bg-grey">
         <Wave180 className="rotate-180"></Wave180>
         <div className="container mx-auto py-4">
-          <h2 className="text-3xl text-center bold">Recent Projects</h2>
-          <div className="flex gap-4 flex-col sm:flex-row p-4">
-            {projects.map((project, index) => (
-              <ProjectCard key={index} json={project} />
-            ))}
-          </div>
+          <ProjectCarousel projects={projects}></ProjectCarousel>
         </div>
         <Wave></Wave>
       </div>
@@ -86,7 +81,7 @@ export default function Home({ sponsors, projects }) {
         </div>
       </div>
 
-      <SponsorSection group={sponsors[0]} />
+      <SponsorSection group={sponsors[sponsors.length - 1]} />
 
       {/* <div className='dark:bg-blue-800 p-4'>
         <Markdown className='markdown'>{content}</Markdown>
@@ -94,24 +89,7 @@ export default function Home({ sponsors, projects }) {
     </Layout>
   );
 }
-function ProjectCard({ json }) {
-  return (
-    <Link
-      href={json.link}
-      className="bg-grey-light p-2 rounded-lg w-full hover:-translate-y-1"
-    >
-      <Image
-        className="w-full rounded"
-        width="500"
-        height="500"
-        src={`images/${json.image}`}
-        alt="temp"
-      />
-      <h3 className="text-lg ">{json.name}</h3>
-      <p>{json.description}</p>
-    </Link>
-  );
-}
+
 export async function getStaticProps() {
   const sponsorFilePath = path.join(process.cwd(), "config", "sponsors.json");
   const sponsorFileContent = fs.readFileSync(sponsorFilePath, "utf-8");
