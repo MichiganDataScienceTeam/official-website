@@ -55,7 +55,7 @@ export default function Home({ sponsors, projects }) {
         <Wave></Wave>
       </div>
       <div className="container mx-auto">
-        <div className="grid bullets items-center text-center gap-x-8 gap-y-2 grid-flow-col">
+        <div className="grid bullets items-center gap-x-8 gap-y-2 grid-flow-col">
           <p className="self-end">
             Join our community of data science enthusiasts with
           </p>
@@ -142,6 +142,5 @@ export async function getStaticProps() {
   const projectFilePath = path.join(process.cwd(), "config", "homepage.json");
   const projectFileContent = fs.readFileSync(projectFilePath, "utf-8");
   const projects = JSON.parse(projectFileContent);
-  console.log(projects);
   return { props: { sponsors, projects } };
 }
