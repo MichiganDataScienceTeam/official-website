@@ -1,0 +1,17 @@
+[
+  {
+    "heading": "For Students",
+    "text": "Got questions about joining our club? Want to learn more about our data science projects? Or just want to keep up with what we're up to? Hit us up at the links below! We'd love to hear from you.",
+    "sources": ["email", "linkedin", "instagram"]
+  },
+  {
+    "heading": "For University of Michigan Departments",
+    "text": "MDST would be delighted to partner with your department to promote your data science efforts to our students. Please contact us if you are interested in hosting a talk or sponsoring our club.",
+    "sources": ["email"]
+  },
+  {
+    "heading": "For Industry Partners",
+    "text": "Partner with MDST to find top data science talent and power your company's mission. We offer engagement and sponsorship opportunities to fit your needs. Reach out via our contacts below to learn more.",
+    "sources": ["email"]
+  }
+]
