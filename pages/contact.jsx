@@ -3,6 +3,7 @@ import Wave from "@/components/wave";
 import path from "path";
 import Link from "next/link";
 import fs from "fs";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 
 function Accordion({ entries }) {
@@ -13,6 +14,7 @@ function Accordion({ entries }) {
         heading: entry.heading,
         text: entry.text,
         expand: index == 0,
+        sources: entry.sources,
       };
     })
   );
@@ -22,23 +24,45 @@ function Accordion({ entries }) {
       entryStates.map((entry, currIndex) => {
         return {
           ...entry,
-          expand: currIndex === index,
+          expand: entry.expand ? !entry.expand : currIndex === index,
         };
       })
     );
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-4 rounded-lg bg-grey">
+    <div className="max-w-4xl mx-auto px-8 py-2 rounded-lg bg-grey">
       {entryStates.map((entry, index) => (
-        <div key={entry.index} className="py-4 px-4">
-          <div className="flex justify-between mb-4">
-            <h1 className="text-4xl font-bold">{entry.heading}</h1>
-            <button onClick={() => expandAccordionEntry(index)}>
-              &#xf117;
-            </button>
+        <div key={entry.index} className="transition">
+          <div className={`pt-5 ${!entry.expand ? "pb-5" : "pb-2"}`}>
+            <div className="flex justify-between">
+              <h1 className="text-4xl font-bold">{entry.heading}</h1>
+              <button onClick={() => expandAccordionEntry(index)}>
+                <FontAwesomeIcon
+                  icon={entry.expand ? "fa-caret-up" : "fa-caret-down"}
+                  size="xl"
+                />
+              </button>
+            </div>
+            {entry.expand ? (
+              <div className="mt-4">
+                {entry.text}
+                <div className="flex justify-center">
+                  {entry.sources.map((source, index) => (
+                    <Link
+                      key={index}
+                      href={source.link}
+                      className="text-center p-4 m-2 bg-grey-light w-40 rounded-lg"
+                    >
+                      <FontAwesomeIcon icon={source.icon_name} size="2xl" />
+                      <p className="font-bold text-lg">{source.name}</p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : null}
           </div>
-          {entry.expand ? <div>{entry.text}</div> : null}
+          {index !== entryStates.length - 1 ? <hr></hr> : null}
         </div>
       ))}
     </div>
