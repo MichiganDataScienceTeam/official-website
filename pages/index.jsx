@@ -8,6 +8,7 @@ import path from "path";
 import Image from "next/image";
 import fontbook from "@/shared/fonts";
 import SponsorSection from "@/components/sponsorSection";
+const basePath = process.env.basePath;
 
 export default function Home({ sponsors, projects }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
@@ -31,7 +32,11 @@ export default function Home({ sponsors, projects }) {
               className="md:w-1/2 w-full"
               width="500"
               height="500"
-              src="/images/Dataframe_Graphic.svg"
+              src={
+                basePath
+                  ? `${basePath}/images/Dataframe_Graphic.svg`
+                  : "/images/Dataframe_Graphic.svg"
+              }
               alt="Image of a dataframe"
             />
           </div>
