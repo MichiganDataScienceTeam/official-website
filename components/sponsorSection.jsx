@@ -1,6 +1,6 @@
 import SponsorCard from "./sponsorCard";
 
-export default function SponsorSection({ group }) {
+export default function SponsorSection({ group, basePath }) {
   return (
     <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:px-6">
       <div className="mx-auto mb-8 max-w-screen-sm">
@@ -8,7 +8,7 @@ export default function SponsorSection({ group }) {
       </div>
       <div className="flex flex-wrap justify-center gap-4 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {group.sponsors.map((sponsor, index) => (
-          <SponsorCard key={index} json={sponsor} />
+          <SponsorCard key={index} basePath={basePath} json={sponsor} />
         ))}
       </div>
     </div>

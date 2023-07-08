@@ -1,16 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
-export default function SponsorCard({ json }) {
+export default function SponsorCard({ json, basePath }) {
   return (
     <Link
-      className="text-center rounded bg-grey py-4 px-8 w-full sm:w-fit hover:-translate-y-1"
+      className="text-center rounded bg-grey py-4 px-8 w-full sm:w-60 hover:-translate-y-1"
       href={json.link}
     >
       <Image
-        className="mx-auto mb-4 w-36 h-36 rounded-full"
+        className="mx-auto mb-4 w-52 h-36 rounded object-contain"
         width="500"
         height="500"
-        src={`images/sponsors/${json.image}`}
+        src={
+          basePath
+            ? `${basePath}/images/sponsors/${json.image}`
+            : `/images/sponsors/${json.image}`
+        }
         alt={json.name}
       />
 

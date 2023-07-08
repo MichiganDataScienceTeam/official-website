@@ -94,7 +94,7 @@ export default function Home({ sponsors, projects }) {
           <h2 className="text-3xl text-center bold">Recent Projects</h2>
           <div className="flex gap-4 flex-col sm:flex-row p-4">
             {projects.map((project, index) => (
-              <ProjectCard key={index} json={project} />
+              <ProjectCard key={index} basePath={basePath} json={project} />
             ))}
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function Home({ sponsors, projects }) {
         </div>
       </div>
 
-      <SponsorSection group={sponsors[0]} />
+      <SponsorSection group={sponsors[0]} basePath={basePath} />
 
       {/* <div className='dark:bg-blue-800 p-4'>
         <Markdown className='markdown'>{content}</Markdown>
@@ -123,7 +123,7 @@ export default function Home({ sponsors, projects }) {
     </Layout>
   );
 }
-function ProjectCard({ json }) {
+function ProjectCard({ json, basePath }) {
   return (
     <Link
       href={json.link}
@@ -133,8 +133,12 @@ function ProjectCard({ json }) {
         className="w-full rounded"
         width="500"
         height="500"
-        src={`images/${json.image}`}
-        alt="temp"
+        src={
+          basePath
+            ? `${basePath}/images/${json.image}`
+            : `/images/${json.image}`
+        }
+        alt={json.image.split(".")[0].split("_").join(" ")}
       />
       <h3 className="text-lg ">{json.name}</h3>
       <p>{json.description}</p>

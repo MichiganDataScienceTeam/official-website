@@ -6,8 +6,11 @@ import Image from "next/image";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import fs from "fs";
 import path from "path";
+import { useRouter } from "next/router";
 
 export default function Team({ teamjson }) {
+  const router = useRouter();
+  const basePath = router.basePath;
   return (
     <Layout>
       <div className="text-center hero">
@@ -21,7 +24,7 @@ export default function Team({ teamjson }) {
         <Wave></Wave>
       </div>
       {teamjson.map((group, index) => (
-        <GroupSection key={group.groupName} group={group} />
+        <GroupSection key={group.groupName} basePath={basePath} group={group} />
       ))}
     </Layout>
   );
@@ -34,7 +37,7 @@ export async function getStaticProps() {
   return { props: { teamjson } };
 }
 
-function GroupSection({ group }) {
+function GroupSection({ group, basePath }) {
   return (
     <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
@@ -43,22 +46,26 @@ function GroupSection({ group }) {
       </div>
       <div className="flex flex-wrap justify-center gap-4 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {group.members.map((memberinfo, index) => (
-          <MemberCard key={index} json={memberinfo} />
+          <MemberCard key={index} basePath={basePath} json={memberinfo} />
         ))}
       </div>
     </div>
   );
 }
 
-function MemberCard({ json }) {
+function MemberCard({ json, basePath }) {
   return (
     <div className="text-center rounded bg-grey py-4 px-8 w-60">
       <Image
         className="mx-auto mb-4 w-44 h-44 rounded-full"
         width="500"
         height="500"
-        src={`images/team/${json.image}`}
-        alt="temp"
+        src={
+          basePath
+            ? `${basePath}/images/team/${json.image}`
+            : `/images/team/${json.image}`
+        }
+        alt={json.image.split(".")[0].split("_").join(" ")}
       />
       <h3 className="mb-1 text-2xl font-bold tracking-tight">{json.name}</h3>
       <p>{json.title}</p>

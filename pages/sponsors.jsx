@@ -7,8 +7,11 @@ import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import fs from "fs";
 import path from "path";
 import SponsorSection from "@/components/sponsorSection";
+import { useRouter } from "next/router";
 
 export default function Sponsors({ sponsors }) {
+  const router = useRouter();
+  const basePath = router.basePath;
   return (
     <Layout>
       <div className="text-center hero">
@@ -22,7 +25,7 @@ export default function Sponsors({ sponsors }) {
         <Wave></Wave>
       </div>
       {sponsors.map((tier, index) => (
-        <SponsorSection key={index} group={tier} />
+        <SponsorSection key={index} basePath={basePath} group={tier} />
       ))}
       <div className="bg-grey py-8">
         <div className=" container mx-auto px-2">
