@@ -100,7 +100,7 @@ export default function Home({ sponsors, projects }) {
         </div>
         <Wave></Wave>
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-8">
         <h2 className="text-3xl text-center">
           Interested? <br />
           All UM Ann Arbor students can join for free!
@@ -115,7 +115,12 @@ export default function Home({ sponsors, projects }) {
         </div>
       </div>
 
-      <SponsorSection group={sponsors[0]} basePath={basePath} />
+      <div className="container mx-auto">
+        <h2 className="text-3xl text-center">
+          MDST is proudly supported by our sponsors
+        </h2>
+        <SponsorSection basePath={basePath} group={sponsors[0]} />
+      </div>
 
       {/* <div className='dark:bg-blue-800 p-4'>
         <Markdown className='markdown'>{content}</Markdown>

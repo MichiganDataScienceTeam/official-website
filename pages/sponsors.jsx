@@ -18,31 +18,27 @@ export default function Sponsors({ sponsors }) {
         <div className="container mx-auto ">
           <div className="flex gap-8 items-center flex-col ">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold text-center">
-              Our Wonderful Sponsors
+              MDST Sponsors
             </h1>
           </div>
         </div>
         <Wave></Wave>
       </div>
-      {sponsors.map((tier, index) => (
-        <SponsorSection key={index} basePath={basePath} group={tier} />
-      ))}
       <div className="bg-grey py-8">
-        <div className=" container mx-auto px-2">
-          <p>
-            As the leading practical data science and machine learning club at
-            the University of Michigan, partnering with MDST can give you or
-            your company access to a large group of Michigan&apos;s most skilled
-            and motivated students in this field.
-          </p>
-          <p>
-            For more information about how MDST can help you contact:{" "}
-            <Link className="underline" href="email:mdst-coms@umich.edu">
-              mdst-coms@umich.edu
-            </Link>
-          </p>
+        <div className=" container mx-auto px-7 text-lg">
+          MDST sponsors directly support our data science education efforts and
+          have direct access to our top data science talent. Reach out to{" "}
+          <Link className="underline" href="mailto:mdst-coms@umich.edu">
+            mdst-coms@umich.edu
+          </Link>{" "}
+          to learn more about ways to partner with us.
         </div>
       </div>
+      {sponsors.map((group, index) =>
+        group.sponsors.length > 0 ? (
+          <SponsorSection key={index} basePath={basePath} group={group} />
+        ) : null
+      )}
     </Layout>
   );
 }
