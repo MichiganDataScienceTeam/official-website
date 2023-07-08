@@ -8,10 +8,12 @@ import path from "path";
 import Image from "next/image";
 import fontbook from "@/shared/fonts";
 import SponsorSection from "@/components/sponsorSection";
-const basePath = process.env.basePath;
+import { useRouter } from "next/router";
 
 export default function Home({ sponsors, projects }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
+  const router = useRouter();
+  const basePath = router.basePath;
   return (
     <Layout>
       <div className="md:text-left text-center hero">
