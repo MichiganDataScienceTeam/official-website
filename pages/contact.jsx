@@ -1,45 +1,95 @@
 import Layout from "@/components/layout";
 import Wave from "@/components/wave";
-import Wave180 from "@/components/wave180";
+import path from "path";
 import Link from "next/link";
-import Image from "next/image";
-import { IoLogoSlack, IoLogoLinkedin } from "react-icons/io";
+import fs from "fs";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
 
-export default function Join({ content }) {
+function Accordion({ entries }) {
+  const [entryStates, setEntryStates] = useState(
+    entries.map((entry, index) => {
+      return {
+        key: index,
+        heading: entry.heading,
+        text: entry.text,
+        expand: index == 0,
+        sources: entry.sources,
+      };
+    })
+  );
+
+  const expandAccordionEntry = (index) => {
+    setEntryStates(
+      entryStates.map((entry, currIndex) => {
+        return {
+          ...entry,
+          expand: entry.expand ? !entry.expand : currIndex === index,
+        };
+      })
+    );
+  };
+
+  return (
+    <div className="max-w-4xl mx-auto px-8 py-2 rounded-lg bg-grey">
+      {entryStates.map((entry, index) => (
+        <div key={entry.index} className="transition">
+          <div className={`pt-5 ${!entry.expand ? "pb-5" : "pb-2"}`}>
+            <div className="flex justify-between">
+              <h1 className="text-4xl font-bold">{entry.heading}</h1>
+              <button onClick={() => expandAccordionEntry(index)}>
+                <FontAwesomeIcon
+                  icon={entry.expand ? "fa-caret-up" : "fa-caret-down"}
+                  size="xl"
+                />
+              </button>
+            </div>
+            {entry.expand ? (
+              <div className="mt-4">
+                {entry.text}
+                <div className="flex justify-center">
+                  {entry.sources.map((source, index) => (
+                    <Link
+                      key={index}
+                      href={source.link}
+                      className="text-center p-4 m-2 bg-grey-light w-40 rounded-lg"
+                    >
+                      <FontAwesomeIcon icon={source.icon_name} size="2xl" />
+                      <p className="font-bold text-lg">{source.name}</p>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ) : null}
+          </div>
+          {index !== entryStates.length - 1 ? <hr></hr> : null}
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default function Join({ entries }) {
   return (
     <Layout>
       <div className="text-center hero">
         <div className="container mx-auto ">
           <div className="flex gap-8 items-center flex-col ">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold text-center">
-              How to contact us
+              Contact Us
             </h1>
           </div>
         </div>
         <Wave></Wave>
       </div>
-      <div className="max-w-lg mx-auto p-4 rounded-lg bg-grey">
-        <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">For Students</h3>
-          <p className="text-gray-700">
-            Email:{" "}
-            <Link className="underline" href="mailto:students@example.com">
-              students@example.com
-            </Link>
-          </p>
-        </div>
-        <div className="mb-4">
-          <h3 className="text-lg font-semibold mb-2">For Sponsors</h3>
-          <p className="">
-            Email:{" "}
-            <Link className="underline" href="mailto:sponsors@example.com">
-              sponsors@example.com
-            </Link>
-          </p>
-        </div>
-      </div>
+      <Accordion entries={entries} />
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  const filePath = path.join(process.cwd(), "config", "contact.json");
+  const fileContent = fs.readFileSync(filePath, "utf-8");
+  const entries = JSON.parse(fileContent);
+  return { props: { entries } };
 }
