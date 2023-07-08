@@ -1,29 +1,9 @@
 [
   {
-    "tier": "Partner",
-    "sponsors": []
-  },
-  {
-    "tier": "Diamond",
-    "sponsors": []
-  },
-  {
-    "tier": "Gold",
-    "sponsors": []
-  },
-  {
-    "tier": "Silver",
-    "sponsors": []
-  },
-  {
-    "tier": "Bronze",
-    "sponsors": []
-  },
-  {
-    "tier": "Other Sponsors",
+    "type": "large",
     "sponsors": [
       {
-        "name": "ESG",
+        "name": "Engineering Student Government",
         "link": "https://esg.engin.umich.edu/",
         "image": "esg.png"
       },
