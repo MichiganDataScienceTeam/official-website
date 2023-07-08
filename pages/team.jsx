@@ -1,11 +1,11 @@
-import Layout from '@/components/layout';
-import Wave from '@/components/wave';
-import Wave180 from '@/components/wave180';
-import Link from 'next/link';
-import Image from 'next/image';
-import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
-import fs from 'fs';
-import path from 'path';
+import Layout from "@/components/layout";
+import Wave from "@/components/wave";
+import Wave180 from "@/components/wave180";
+import Link from "next/link";
+import Image from "next/image";
+import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import fs from "fs";
+import path from "path";
 
 export default function Team({ teamjson }) {
   return (
@@ -28,8 +28,8 @@ export default function Team({ teamjson }) {
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), 'config', 'ourteam.json');
-  const fileContent = fs.readFileSync(filePath, 'utf-8');
+  const filePath = path.join(process.cwd(), "config", "ourteam.json");
+  const fileContent = fs.readFileSync(filePath, "utf-8");
   const teamjson = JSON.parse(fileContent);
   return { props: { teamjson } };
 }
@@ -52,29 +52,31 @@ function GroupSection({ group }) {
 
 function MemberCard({ json }) {
   return (
-    <div className="text-center rounded bg-grey py-4 px-8 w-full sm:w-fit">
+    <div className="text-center rounded bg-grey py-4 px-8 w-60">
       <Image
-        className="mx-auto mb-4 w-36 h-36 rounded-full"
+        className="mx-auto mb-4 w-44 h-44 rounded-full"
         width="500"
         height="500"
         src={`images/team/${json.image}`}
         alt="temp"
       />
-      <h3 className="mb-1 text-2xl font-bold tracking-tight">
-        {json.name}
-      </h3>
+      <h3 className="mb-1 text-2xl font-bold tracking-tight">{json.name}</h3>
       <p>{json.title}</p>
       <ul className="flex justify-center mt-4 space-x-4">
-        <li>
-          <Link href={json.linkedin} className="hover:text-gray">
-            <IoLogoLinkedin className="w-6 h-6" />
-          </Link>
-        </li>
-        <li>
-          <Link href={json.github} className="hover:text-gray">
-            <IoLogoGithub className="w-6 h-6" />
-          </Link>
-        </li>
+        {json.linkedin ? (
+          <li>
+            <Link href={json.linkedin} className="hover:text-gray">
+              <IoLogoLinkedin className="w-6 h-6" />
+            </Link>
+          </li>
+        ) : null}
+        {json.github ? (
+          <li>
+            <Link href={json.github} className="hover:text-gray">
+              <IoLogoGithub className="w-6 h-6" />
+            </Link>
+          </li>
+        ) : null}
       </ul>
     </div>
   );
