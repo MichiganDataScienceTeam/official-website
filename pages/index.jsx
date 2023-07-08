@@ -115,7 +115,12 @@ export default function Home({ sponsors, projects }) {
         </div>
       </div>
 
-      <SponsorSection group={sponsors[0]} />
+      <div className="text-center w-full mt-12 p-6 bg-grey">
+        <h1 className="text-2xl font-bold">
+          MDST is proudly supported by our sponsors
+        </h1>
+        <SponsorSection group={sponsors[0]} />
+      </div>
 
       {/* <div className='dark:bg-blue-800 p-4'>
         <Markdown className='markdown'>{content}</Markdown>
