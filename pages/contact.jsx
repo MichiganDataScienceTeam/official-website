@@ -3,14 +3,14 @@ import Wave from "@/components/wave";
 import path from "path";
 import Link from "next/link";
 import fs from "fs";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useState } from "react";
+import Icon from "@/components/icon";
+import { useState, createElement } from "react";
 import Hero from "@/components/hero";
 function Accordion({ entries }) {
   const [entryStates, setEntryStates] = useState(
     entries.map((entry, index) => {
       return {
-        key: index,
+        key: entry.id,
         heading: entry.heading,
         text: entry.text,
         expand: index == 0,
@@ -33,28 +33,31 @@ function Accordion({ entries }) {
   return (
     <div className="max-w-4xl mx-auto px-8 py-2 rounded-lg bg-grey">
       {entryStates.map((entry, index) => (
-        <div key={entry.index} className="transition">
+        <div key={entry.id} className="transition">
           <div className={`pt-5 ${!entry.expand ? "pb-5" : "pb-2"}`}>
             <div className="flex justify-between">
-              <h1 className="text-4xl font-bold">{entry.heading}</h1>
-              <button onClick={() => expandAccordionEntry(index)}>
-                <FontAwesomeIcon
-                  icon={entry.expand ? "fa-caret-up" : "fa-caret-down"}
-                  size="xl"
-                />
+              <h1 className="text-3xl font-bold">{entry.heading}</h1>
+              <button
+                onClick={() => expandAccordionEntry(index)}
+                className="bg-grey-light rounded-full p-3"
+              >
+                <Icon name={entry.expand ? "caret_down" : "caret_up"} />
               </button>
             </div>
             {entry.expand ? (
               <div className="mt-4">
                 {entry.text}
                 <div className="flex justify-center">
-                  {entry.sources.map((source, index) => (
+                  {entry.sources.map((source) => (
                     <Link
-                      key={index}
+                      key={source.name}
                       href={source.link}
                       className="text-center p-4 m-2 bg-grey-light w-40 rounded-lg"
                     >
-                      <FontAwesomeIcon icon={source.icon_name} size="2xl" />
+                      <Icon
+                        name={source.icon_name}
+                        className="text-4xl inline"
+                      />
                       <p className="font-bold text-lg">{source.name}</p>
                     </Link>
                   ))}
