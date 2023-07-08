@@ -1,9 +1,6 @@
 import Layout from "@/components/layout";
-import Wave from "@/components/wave";
-import Wave180 from "@/components/wave180";
+import Hero from "@/components/hero";
 import Link from "next/link";
-import Image from "next/image";
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
 import fs from "fs";
 import path from "path";
 import SponsorSection from "@/components/sponsorSection";
@@ -14,16 +11,7 @@ export default function Sponsors({ sponsors }) {
   const basePath = router.basePath;
   return (
     <Layout>
-      <div className="text-center hero">
-        <div className="container mx-auto ">
-          <div className="flex gap-8 items-center flex-col ">
-            <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold text-center">
-              MDST Sponsors
-            </h1>
-          </div>
-        </div>
-        <Wave></Wave>
-      </div>
+      <Hero title="MDST Sponsors" />
       <div className="bg-grey py-8">
         <div className=" container mx-auto px-7 text-lg">
           MDST sponsors directly support our data science education efforts and

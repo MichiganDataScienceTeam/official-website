@@ -5,7 +5,7 @@ import Link from "next/link";
 import fs from "fs";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-
+import Hero from "@/components/hero";
 function Accordion({ entries }) {
   const [entryStates, setEntryStates] = useState(
     entries.map((entry, index) => {
@@ -72,16 +72,7 @@ function Accordion({ entries }) {
 export default function Join({ entries }) {
   return (
     <Layout>
-      <div className="text-center hero">
-        <div className="container mx-auto ">
-          <div className="flex gap-8 items-center flex-col ">
-            <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold text-center">
-              Contact Us
-            </h1>
-          </div>
-        </div>
-        <Wave></Wave>
-      </div>
+      <Hero title="Contact Us" />
       <Accordion entries={entries} />
     </Layout>
   );

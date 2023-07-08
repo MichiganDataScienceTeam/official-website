@@ -1,6 +1,7 @@
 import Layout from "@/components/layout";
 import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
+import Hero from "@/components/hero";
 import Link from "next/link";
 import fs from "fs";
 import path from "path";
@@ -16,52 +17,48 @@ export default function Home({ sponsors, projects }) {
   const basePath = router.basePath;
   return (
     <Layout>
-      <div className="md:text-left text-center hero">
-        <div className="container mx-auto ">
-          <div className="flex gap-8 items-center md:flex-row flex-col-reverse">
-            <div className="md:w-1/2 w-full">
-              <h1
-                className={`mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight`}
-              >
-                U of M&apos;s Premier Data Science Club
-              </h1>
-              <p className="mb-10 lg:text-xl md:text-lg text-base font-light lg:tracking-wider tracking-normal">
-                We empower the next generation of data scientists at the
-                University of Michigan through education and exploration.
-              </p>
-            </div>
-            <Image
-              className="md:w-1/2 w-full"
-              width="500"
-              height="500"
-              src={
-                basePath
-                  ? `${basePath}/images/Dataframe_Graphic.svg`
-                  : "/images/Dataframe_Graphic.svg"
-              }
-              alt="Image of a dataframe"
-            />
-          </div>
-
-          <div className="flex justify-center gap-5">
-            <Link
-              className="border-2 rounded-full p-3 hover:-translate-y-1"
-              href="/join"
+      <Hero>
+        <div className="flex gap-8 items-center md:flex-row flex-col-reverse">
+          <div className="md:w-1/2 w-full">
+            <h1
+              className={`mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight`}
             >
-              Join Us
-            </Link>
-            <Link
-              className="border-2 rounded-full p-3 hover:-translate-y-1"
-              href="/sponsors"
-            >
-              Work With Us
-            </Link>
+              U of M&apos;s Premier Data Science Club
+            </h1>
+            <p className="mb-10 lg:text-xl md:text-lg text-base font-light lg:tracking-wider tracking-normal">
+              We empower the next generation of data scientists at the
+              University of Michigan through education and exploration.
+            </p>
           </div>
+          <Image
+            className="md:w-1/2 w-full"
+            width="500"
+            height="500"
+            src={
+              basePath
+                ? `${basePath}/images/Dataframe_Graphic.svg`
+                : "/images/Dataframe_Graphic.svg"
+            }
+            alt="Image of a dataframe"
+          />
         </div>
 
-        <Wave></Wave>
-      </div>
-      <div className="container mx-auto">
+        <div className="flex justify-center gap-5">
+          <Link
+            className="border-2 rounded-full p-3 hover:-translate-y-1"
+            href="/join"
+          >
+            Join Us
+          </Link>
+          <Link
+            className="border-2 rounded-full p-3 hover:-translate-y-1"
+            href="/sponsors"
+          >
+            Work With Us
+          </Link>
+        </div>
+      </Hero>
+      <div className="container mx-auto px-2">
         <div className="grid bullets items-center gap-x-8 gap-y-2 grid-flow-col">
           <p className="self-end">
             Join our community of data science enthusiasts with
@@ -100,7 +97,7 @@ export default function Home({ sponsors, projects }) {
         </div>
         <Wave></Wave>
       </div>
-      <div className="container mx-auto mb-8">
+      <div className="container mx-auto mb-8 px-2">
         <h2 className="text-3xl text-center">
           Interested? <br />
           All UM Ann Arbor students can join for free!
@@ -115,7 +112,7 @@ export default function Home({ sponsors, projects }) {
         </div>
       </div>
 
-      <div className="container mx-auto">
+      <div className="container mx-auto px-2">
         <h2 className="text-3xl text-center">
           MDST is proudly supported by our sponsors
         </h2>

@@ -1,11 +1,9 @@
-import Layout from '@/components/layout';
-import Wave from '@/components/wave';
-import Link from 'next/link';
-
+import Layout from "@/components/layout";
+import Hero from "@/components/hero";
 export default function calendar({ content }) {
   return (
     <Layout>
-      <h1>Hello</h1>
+      <Hero title="Calendar" />
     </Layout>
   );
 }

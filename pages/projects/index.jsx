@@ -1,26 +1,14 @@
 import Layout from "@/components/layout";
-import Wave from "@/components/wave";
-import Wave180 from "@/components/wave180";
 import Link from "next/link";
 import fs from "fs";
 import path from "path";
-import Markdown from "markdown-to-jsx";
-import Image from "next/image";
+import Hero from "@/components/hero";
 
 export default function Projects({ groupedLinks }) {
   return (
     <Layout>
-      <div className="text-center hero">
-        <div className="container mx-auto ">
-          <div className="flex gap-8 items-center flex-col ">
-            <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold text-center">
-              Our Past Projects
-            </h1>
-          </div>
-        </div>
-        <Wave></Wave>
-      </div>
-      <div className="container mx-auto">
+      <Hero title={"Our Past Projects"} />
+      <div className="container mx-auto max-w-2xl">
         {Object.entries(groupedLinks).map(([subdirectory, links]) => (
           <div
             key={subdirectory}

@@ -1,6 +1,5 @@
 import Layout from "@/components/layout";
-import Wave from "@/components/wave";
-import Wave180 from "@/components/wave180";
+import Hero from "@/components/hero";
 import Link from "next/link";
 import Image from "next/image";
 import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
@@ -13,16 +12,7 @@ export default function Team({ teamjson }) {
   const basePath = router.basePath;
   return (
     <Layout>
-      <div className="text-center hero">
-        <div className="container mx-auto ">
-          <div className="flex gap-8 items-center flex-col ">
-            <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-3xl text-xl font-bold text-center">
-              Our Leadership Team
-            </h1>
-          </div>
-        </div>
-        <Wave></Wave>
-      </div>
+      <Hero title="Our Leadership Team" />
       {teamjson.map((group, index) => (
         <GroupSection key={group.groupName} basePath={basePath} group={group} />
       ))}
