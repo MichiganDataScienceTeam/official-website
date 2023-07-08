@@ -1,11 +1,11 @@
 import Layout from "@/components/layout";
-import Wave from "@/components/wave";
 import path from "path";
 import Link from "next/link";
 import fs from "fs";
 import Icon from "@/components/icon";
-import { useState, createElement } from "react";
+import { useState } from "react";
 import Hero from "@/components/hero";
+
 function Accordion({ entries }) {
   const [entryStates, setEntryStates] = useState(
     entries.map((entry, index) => {
@@ -37,10 +37,7 @@ function Accordion({ entries }) {
           <div className={`pt-5 ${!entry.expand ? "pb-5" : "pb-2"}`}>
             <div className="flex justify-between">
               <h1 className="text-3xl font-bold">{entry.heading}</h1>
-              <button
-                onClick={() => expandAccordionEntry(index)}
-                className="bg-grey-light rounded-full p-3"
-              >
+              <button onClick={() => expandAccordionEntry(index)}>
                 <Icon name={entry.expand ? "caret_down" : "caret_up"} />
               </button>
             </div>
