@@ -31,7 +31,7 @@ export default function Home({ sponsors, projects }) {
               className="md:w-1/2 w-full"
               width="500"
               height="500"
-              src="images/Dataframe_Graphic.svg"
+              src="/images/Dataframe_Graphic.svg"
               alt="Image of a dataframe"
             />
           </div>
