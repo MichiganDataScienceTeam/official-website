@@ -1,10 +1,6 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import {
-  IoLogoGithub,
-  IoLogoInstagram,
-  IoLogoLinkedin,
-} from 'react-icons/io';
+import Link from "next/link";
+import Image from "next/image";
+import Icon from "./icon";
 
 export default function Footer() {
   return (
@@ -12,13 +8,13 @@ export default function Footer() {
       <Link href="/">Logo</Link>
 
       <Link href="https://github.com/MichiganDataScienceTeam">
-        <IoLogoGithub className="text-4xl" />
+        <Icon name="github" className="text-4xl" />
       </Link>
       <Link href="https://instagram.com/your-instagram">
-        <IoLogoInstagram className="text-4xl" />
+        <Icon name="instagram" className="text-4xl" />
       </Link>
       <Link href="https://linkedin.com/your-linkedin">
-        <IoLogoLinkedin className="text-4xl" />
+        <Icon name="linkedin" className="text-4xl" />
       </Link>
     </footer>
   );

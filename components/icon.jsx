@@ -4,6 +4,7 @@ import {
   FaEnvelope,
   FaAngleDown,
   FaAngleUp,
+  FaGithub,
 } from "react-icons/fa6";
 import { createElement } from "react";
 
@@ -11,6 +12,7 @@ const iconMap = {
   envelope: FaEnvelope,
   instagram: FaInstagram,
   linkedin: FaLinkedin,
+  github: FaGithub,
   caret_up: FaAngleUp,
   caret_down: FaAngleDown,
 };
