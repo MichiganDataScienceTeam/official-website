@@ -1,20 +1,20 @@
 import {
-  FaInstagram,
-  FaLinkedin,
-  FaEnvelope,
-  FaAngleDown,
-  FaAngleUp,
-  FaGithub,
-} from "react-icons/fa6";
+  IoLogoInstagram,
+  IoLogoLinkedin,
+  IoIosMail,
+  IoMdArrowDropdown,
+  IoMdArrowDropup,
+  IoLogoGithub,
+} from "react-icons/io";
 import { createElement } from "react";
 
 const iconMap = {
-  envelope: FaEnvelope,
-  instagram: FaInstagram,
-  linkedin: FaLinkedin,
-  github: FaGithub,
-  caret_up: FaAngleUp,
-  caret_down: FaAngleDown,
+  envelope: IoIosMail,
+  instagram: IoLogoInstagram,
+  linkedin: IoLogoLinkedin,
+  github: IoLogoGithub,
+  caret_up: IoMdArrowDropup,
+  caret_down: IoMdArrowDropdown,
 };
 
 export default function Icon(props) {
