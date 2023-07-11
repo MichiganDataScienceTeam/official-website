@@ -20,17 +20,19 @@ export default function Home({ sponsors, projects }) {
   return (
     <Layout>
       <Hero>
-        <div className="flex gap-8 items-center md:flex-row flex-col-reverse">
+        <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
           <div className="md:w-1/2 w-full">
-            <h1
-              className={`mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight`}
-            >
+            <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
               U of M&apos;s Premier Data Science Club
             </h1>
-            <p className="mb-10 lg:text-xl md:text-lg text-base font-light lg:tracking-wider tracking-normal">
+            <p className="mb-5 xl:text-xl lg:text-lg text-base font-light lg:tracking-wider tracking-normal">
               We empower the next generation of data scientists at the
               University of Michigan through education and exploration.
             </p>
+            <div className="flex md:justify-start justify-center gap-5">
+              <Button href="/join" text="Join Us" />
+              <Button href="/sponsors" text="Work with Us" />
+            </div>
           </div>
           <Image
             className="md:w-1/2 w-full"
@@ -43,11 +45,6 @@ export default function Home({ sponsors, projects }) {
             }
             alt="Image of a dataframe"
           />
-        </div>
-
-        <div className="flex justify-center gap-5">
-          <Button href="/join" text="Join Us" />
-          <Button href="/sponsors" text="Work with Us" />
         </div>
       </Hero>
       <div className="container mx-auto px-2">
