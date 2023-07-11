@@ -2,7 +2,7 @@ import Layout from "@/components/layout";
 import Hero from "@/components/hero";
 import Link from "next/link";
 import Image from "next/image";
-import { IoLogoGithub, IoLogoLinkedin } from "react-icons/io";
+import Icon from "@/components/icon";
 import fs from "fs";
 import path from "path";
 import { useRouter } from "next/router";
@@ -63,14 +63,14 @@ function MemberCard({ json, basePath }) {
         {json.linkedin ? (
           <li>
             <Link href={json.linkedin} className="hover:text-gray">
-              <IoLogoLinkedin className="w-6 h-6" />
+              <Icon name="linkedin" className="text-3xl" />
             </Link>
           </li>
         ) : null}
         {json.github ? (
           <li>
             <Link href={json.github} className="hover:text-gray">
-              <IoLogoGithub className="w-6 h-6" />
+              <Icon name="github" className="text-3xl" />
             </Link>
           </li>
         ) : null}
