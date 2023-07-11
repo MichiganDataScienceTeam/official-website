@@ -3,6 +3,8 @@ import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
 import Hero from "@/components/hero";
 import Link from "next/link";
+import Button from "@/components/button";
+
 import fs from "fs";
 import path from "path";
 // import Markdown from 'markdown-to-jsx';
@@ -44,18 +46,8 @@ export default function Home({ sponsors, projects }) {
         </div>
 
         <div className="flex justify-center gap-5">
-          <Link
-            className="border-2 rounded-full p-3 hover:-translate-y-1"
-            href="/join"
-          >
-            Join Us
-          </Link>
-          <Link
-            className="border-2 rounded-full p-3 hover:-translate-y-1"
-            href="/sponsors"
-          >
-            Work With Us
-          </Link>
+          <Button href="/join" text="Join Us" />
+          <Button href="/sponsors" text="Work with Us" />
         </div>
       </Hero>
       <div className="container mx-auto px-2">
@@ -103,12 +95,7 @@ export default function Home({ sponsors, projects }) {
           All UM Ann Arbor students can join for free!
         </h2>
         <div className="flex mt-4 justify-center">
-          <Link
-            className="border-2 rounded-full p-3 hover:-translate-y-1"
-            href=""
-          >
-            Join Us
-          </Link>
+          <Button href="/join" text="Join Us" />
         </div>
       </div>
 
