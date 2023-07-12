@@ -35,32 +35,35 @@ function Accordion({ entries }) {
       {entryStates.map((entry, index) => (
         <div key={entry.id} className="transition">
           <div className={`pt-5 ${!entry.expand ? "pb-5" : "pb-2"}`}>
-            <div className="flex justify-between">
+            <div className="flex justify-between ">
               <h1 className="text-3xl font-bold">{entry.heading}</h1>
               <button onClick={() => expandAccordionEntry(index)}>
                 <Icon name={entry.expand ? "caret_down" : "caret_up"} />
               </button>
             </div>
-            {entry.expand ? (
-              <div className="mt-4">
-                {entry.text}
-                <div className="flex justify-center">
-                  {entry.sources.map((source) => (
-                    <Link
-                      key={source.name}
-                      href={source.link}
-                      className="text-center p-4 m-2 bg-grey-light w-40 rounded-lg"
-                    >
-                      <Icon
-                        name={source.icon_name}
-                        className="text-4xl inline"
-                      />
-                      <p className="font-bold text-lg">{source.name}</p>
-                    </Link>
-                  ))}
-                </div>
+            <div
+              className={`overflow-hidden transition-height ${
+                entry.expand ? "md:max-h-44 max-h-96" : "max-h-0"
+              }`}
+              style={{
+                transitionProperty: "max-height",
+                transitionDuration: "0.5s",
+              }}
+            >
+              {entry.text}
+              <div className="flex justify-center">
+                {entry.sources.map((source) => (
+                  <Link
+                    key={source.name}
+                    href={source.link}
+                    className="text-center p-4 m-2 bg-grey-light w-40 rounded-lg"
+                  >
+                    <Icon name={source.icon_name} className="text-4xl inline" />
+                    <p className="font-bold text-lg">{source.name}</p>
+                  </Link>
+                ))}
               </div>
-            ) : null}
+            </div>
           </div>
           {index !== entryStates.length - 1 ? <hr></hr> : null}
         </div>
