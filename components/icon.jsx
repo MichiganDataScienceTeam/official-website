@@ -5,6 +5,8 @@ import {
   IoMdArrowDropdown,
   IoMdArrowDropup,
   IoLogoGithub,
+  IoIosArrowBack,
+  IoIosArrowForward,
 } from "react-icons/io";
 import { createElement } from "react";
 
@@ -15,6 +17,8 @@ const iconMap = {
   github: IoLogoGithub,
   caret_up: IoMdArrowDropup,
   caret_down: IoMdArrowDropdown,
+  "arrow-left": IoIosArrowBack,
+  "arrow-right": IoIosArrowForward,
 };
 
 export default function Icon(props) {
