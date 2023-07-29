@@ -1,4 +1,4 @@
-# [MDST Website](https://michigandatascienceteam.github.io/website/)
+# [MDST Website](https://michigandatascienceteam.github.io/website-redesign/)
 
 This website was is designed with a few core criteria
 
