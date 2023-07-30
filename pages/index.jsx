@@ -4,13 +4,13 @@ import Wave180 from "@/components/wave180";
 import Hero from "@/components/hero";
 import Link from "next/link";
 import Button from "@/components/button";
-
+import Icon from "@/components/icon";
 import fs from "fs";
 import path from "path";
 import Image from "next/image";
 import SponsorSection from "@/components/sponsorSection";
 import { useRouter } from "next/router";
-
+import { useState } from "react";
 export default function Home({ sponsors, projects }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
   const router = useRouter();
@@ -65,18 +65,7 @@ export default function Home({ sponsors, projects }) {
           ></Factbox>
         </div>
       </div>
-      <div className="bg-grey">
-        <Wave180 className="rotate-180"></Wave180>
-        <div className="container mx-auto py-4">
-          <h2 className="text-3xl text-center font-bold">Recent Projects</h2>
-          <div className="flex gap-4 flex-col sm:flex-row p-4">
-            {projects.map((project, index) => (
-              <ProjectCard key={index} basePath={basePath} json={project} />
-            ))}
-          </div>
-        </div>
-        <Wave></Wave>
-      </div>
+      <Carousel projects={projects} basePath={basePath} />
       <div className="container mx-auto mb-8 px-2">
         <h2 className="text-3xl text-center">
           Interested? <br />
@@ -104,7 +93,7 @@ function ProjectCard({ json, basePath }) {
   return (
     <Link
       href={json.link}
-      className="bg-grey-light p-5 rounded-lg drop-shadow-sm w-full transition hover:-translate-y-1"
+      className="bg-grey-light p-5 rounded-lg drop-shadow-sm w-full transition hover:-translate-y-1 min-w-[200px]"
     >
       <Image
         className="w-full rounded mb-3"
@@ -129,6 +118,58 @@ function Factbox({ leader, fact, closer }) {
       <p className="self-end">{leader}</p>
       <p className="text-4xl font-semibold my-2">{fact}</p>
       <p className="self-start">{closer}</p>
+    </div>
+  );
+}
+
+function Carousel({ projects, basePath }) {
+  const [shown, setShown] = useState(0);
+  let translation = "0";
+
+  if (shown == -1) {
+    translation = "calc(200px + 1rem)";
+  } else if (shown == 1) {
+    translation = "calc(-200px - 1rem)";
+  } else {
+    translation = "0";
+  }
+  return (
+    <div className="bg-grey">
+      <Wave180 className="rotate-180"></Wave180>
+      <div className="container mx-auto py-4 relative overflow-hidden	">
+        <h2 className="text-3xl text-center font-bold">Recent Projects</h2>
+        <div
+          className="flex gap-4 flex-row p-4 justify-center transition"
+          style={{
+            transform: `translateX(${translation})`,
+          }}
+        >
+          {projects.map((project, index) => (
+            <ProjectCard key={index} basePath={basePath} json={project} />
+          ))}
+        </div>
+        <button
+          onClick={() => {
+            if (shown > -1) {
+              setShown(shown - 1);
+            }
+          }}
+          className="sm:hidden absolute text-4xl bg-[#000000d8] left-2 top-1/2 transform -translate-y-1/2 p-2 rounded-full z-10 drop-shadow-lg cursor-pointer"
+        >
+          <Icon className="" name="arrow-left" />
+        </button>
+        <button
+          onClick={() => {
+            if (shown < 1) {
+              setShown(shown + 1);
+            }
+          }}
+          className="sm:hidden absolute text-4xl bg-[#000000d8] right-2 top-1/2 transform -translate-y-1/2 p-2 rounded-full z-10 drop-shadow-lg cursor-pointer"
+        >
+          <Icon className="" name="arrow-right" />
+        </button>
+      </div>
+      <Wave></Wave>
     </div>
   );
 }
