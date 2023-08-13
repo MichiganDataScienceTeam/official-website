@@ -1,7 +1,6 @@
 
 
 export default function Timeline({ events }) {
-    console.log(events)
     return (
         <ol class="relative border-l border-grey-xlight">
             {events.map((event, index) => (
