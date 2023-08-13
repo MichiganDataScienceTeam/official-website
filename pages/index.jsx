@@ -9,9 +9,11 @@ import fs from "fs";
 import path from "path";
 import Image from "next/image";
 import SponsorSection from "@/components/sponsorSection";
+import Timeline from "@/components/timeline";
+
 import { useRouter } from "next/router";
 import { useState } from "react";
-export default function Home({ sponsors, projects }) {
+export default function Home({ sponsors, projects, timeline }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
   const router = useRouter();
   const basePath = router.basePath;
@@ -46,6 +48,7 @@ export default function Home({ sponsors, projects }) {
         </div>
       </Hero>
       <div className="container mx-auto px-7">
+
         <div className="grid grid-rows-3 grid-cols-1 md:grid-cols-3 md:grid-rows-1 gap-x-16 gap-y-10">
           <Factbox
             leader="Join our community of data science enthusiasts of"
@@ -65,6 +68,17 @@ export default function Home({ sponsors, projects }) {
           ></Factbox>
         </div>
       </div>
+      {timeline.show_on_homepage &&
+        <div className="container mx-auto px-7 pt-16 flex justify-center">
+          <div>
+            <h2 className="text-3xl font-bold mb-4">
+              {timeline.title}
+            </h2>
+            <Timeline events={timeline.events} />
+          </div>
+
+        </div>}
+
       <Carousel projects={projects} basePath={basePath} />
       <div className="container mx-auto mb-8 px-2">
         <h2 className="text-3xl text-center">
@@ -182,5 +196,9 @@ export async function getStaticProps() {
   const projectFilePath = path.join(process.cwd(), "config", "homepage.json");
   const projectFileContent = fs.readFileSync(projectFilePath, "utf-8");
   const projects = JSON.parse(projectFileContent);
-  return { props: { sponsors, projects } };
+
+  const timelineFilePath = path.join(process.cwd(), "config", "timeline.json");
+  const timelineFileContent = fs.readFileSync(timelineFilePath, "utf-8");
+  const timeline = JSON.parse(timelineFileContent);
+  return { props: { sponsors, projects, timeline } };
 }

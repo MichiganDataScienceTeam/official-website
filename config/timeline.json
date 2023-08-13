@@ -1,0 +1,21 @@
+{
+    "show_on_homepage": true,
+    "title": "Recruiting Timeline",
+    "events": [
+        {
+            "title": "Event 1",
+            "time": "April 20th",
+            "description": "Join us for the grand opening celebration!"
+        },
+        {
+            "title": "Event 2",
+            "time": "May 5th - August 15th",
+            "description": "Learn about the latest trends in technology."
+        },
+        {
+            "title": "Event 3",
+            "time": "June 15th",
+            "description": "Community picnic and games for all ages."
+        }
+    ]
+}
