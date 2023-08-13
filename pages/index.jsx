@@ -107,7 +107,7 @@ function ProjectCard({ json, basePath }) {
   return (
     <Link
       href={json.link}
-      className="bg-grey-light p-5 rounded-lg drop-shadow-sm w-full transition hover:-translate-y-1 min-w-[200px]"
+      className="bg-grey-light p-5 rounded-lg drop-shadow-sm max-w-[350px] transition hover:-translate-y-1 min-w-[200px]"
     >
       <Image
         className="w-full rounded mb-3"
