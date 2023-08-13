@@ -8,8 +8,8 @@ export default function Join({ content, timeline }) {
   return (
     <Layout>
       <Hero title="Join Us Now!" />
-      <div className="container mx-auto px-7 pb-16 flex justify-center">
-        <div>
+      <div className="container mx-auto px-2 sm:px-7 pb-24 flex justify-center">
+        <div className="bg-grey p-4 sm:p-8 rounded-lg">
           <h2 className="text-3xl font-bold mb-4">
             {timeline.title}
           </h2>
