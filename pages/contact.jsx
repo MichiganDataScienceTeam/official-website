@@ -33,18 +33,17 @@ function Accordion({ entries }) {
   return (
     <div className="max-w-4xl mx-auto px-8 py-2 rounded-lg bg-grey">
       {entryStates.map((entry, index) => (
-        <div key={entry.id} className="transition">
-          <div className={`pt-5 ${!entry.expand ? "pb-5" : "pb-2"}`}>
+        <div key={entry.id} className="transition" >
+          <div className={`pt-5 ${!entry.expand ? "pb-5" : "pb-2"}`} onClick={() => expandAccordionEntry(index)}>
             <div className="flex justify-between ">
               <h1 className="text-3xl font-bold">{entry.heading}</h1>
-              <button onClick={() => expandAccordionEntry(index)}>
+              <button >
                 <Icon name={entry.expand ? "caret_down" : "caret_up"} />
               </button>
             </div>
             <div
-              className={`overflow-hidden transition-height ${
-                entry.expand ? "md:max-h-44 max-h-96" : "max-h-0"
-              }`}
+              className={`overflow-hidden transition-height ${entry.expand ? "md:max-h-44 max-h-96" : "max-h-0"
+                }`}
               style={{
                 transitionProperty: "max-height",
                 transitionDuration: "0.5s",
