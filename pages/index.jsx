@@ -26,8 +26,9 @@ export default function Home({ sponsors, projects, timeline }) {
               U of M&apos;s Premier Data Science Club
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-              We empower the next generation of data scientists at the
-              University of Michigan through education and exploration.
+              Michigan Data Science Team empowers the next generation of data
+              scientists at the University of Michigan through education and
+              exploration.
             </p>
             <div className="flex md:justify-start justify-center gap-5">
               <Button href="/join" text="Join Us" />
@@ -48,7 +49,6 @@ export default function Home({ sponsors, projects, timeline }) {
         </div>
       </Hero>
       <div className="container mx-auto px-7">
-
         <div className="grid grid-rows-3 grid-cols-1 md:grid-cols-3 md:grid-rows-1 gap-x-16 gap-y-10">
           <Factbox
             leader="Join our community of data science enthusiasts of"
@@ -68,16 +68,14 @@ export default function Home({ sponsors, projects, timeline }) {
           ></Factbox>
         </div>
       </div>
-      {timeline.show_on_homepage &&
+      {timeline.show_on_homepage && (
         <div className="container mx-auto px-2 sm:px-7 pt-24 flex justify-center">
-          <div className="bg-grey p-4 sm:p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-4">
-              {timeline.title}
-            </h2>
+          <div className="bg-grey p-4 sm:p-8 rounded-lg overflow-auto snap-y max-h-96">
+            <h2 className="text-3xl font-bold mb-4">{timeline.title}</h2>
             <Timeline events={timeline.events} />
           </div>
-
-        </div>}
+        </div>
+      )}
 
       <Carousel projects={projects} basePath={basePath} />
       <div className="container mx-auto mb-8 px-2">

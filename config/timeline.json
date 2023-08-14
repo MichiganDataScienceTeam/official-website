@@ -1,21 +1,41 @@
 {
-    "show_on_homepage": true,
-    "title": "Recruiting Timeline",
-    "events": [
-        {
-            "title": "Event 1",
-            "time": "April 20th",
-            "description": "Join us for the grand opening celebration!"
-        },
-        {
-            "title": "Event 2",
-            "time": "May 5th - August 15th",
-            "description": "Learn about the latest trends in technology."
-        },
-        {
-            "title": "Event 3",
-            "time": "June 15th",
-            "description": "Community picnic and games for all ages."
-        }
-    ]
+  "show_on_homepage": true,
+  "title": "Recruiting Timeline",
+  "events": [
+    {
+      "title": "Festifall Central",
+      "time": "August 30th, 2023",
+      "description": "Stop by our booth to meet the E-Board and learn more about MDST."
+    },
+    {
+      "title": "Mass Meeting",
+      "time": "August 31th, 2023",
+      "description": "Join us to hear more about MDST and how to become a member."
+    },
+    {
+      "title": "Tutorial - Python",
+      "time": "September 3rd, 2023",
+      "description": "Develop essential Python skills for project participation."
+    },
+    {
+      "title": "Mass Meeting",
+      "time": "September 6th, 2023",
+      "description": "Join us to hear more about MDST and how to become a member."
+    },
+    {
+      "title": "Tutorial - Data Science",
+      "time": "September 10th, 2023",
+      "description": "Build basic data science knowledge for project participation."
+    },
+    {
+      "title": "Project Sign-Ups Due",
+      "time": "September 15th, 2023",
+      "description": "Sign up for your preferred projects. New members submit tutorial checkpoints."
+    },
+    {
+      "title": "First Project Work Session",
+      "time": "September 17th, 2023",
+      "description": "Meet your team and start work on your projects!"
+    }
+  ]
 }
