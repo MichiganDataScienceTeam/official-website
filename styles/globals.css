@@ -20,14 +20,22 @@ background: radial-gradient(50% 50% at 50% 50%, #2998CA 0%, rgba(67, 151, 117, 0
           grid-template-columns: 1fr;}
  }
 
+.markdown h1 {
+  @apply text-4xl;
+  @apply mb-4;
+  @apply font-bold;
+}
+
 .markdown h2 {
   @apply text-3xl;
   @apply mb-4;
+  @apply font-normal;
 }
 
 .markdown h3 {
   @apply text-2xl;
   @apply mb-4;
+  @apply font-normal;
 }
 
 .markdown p {
@@ -35,7 +43,9 @@ background: radial-gradient(50% 50% at 50% 50%, #2998CA 0%, rgba(67, 151, 117, 0
 }
 
 .markdown a {
-  @apply underline;
+  @apply font-bold;
+  @apply hover:underline;
+  @apply transition;
 }
 .markdown ul {
   @apply relative;
@@ -44,5 +54,13 @@ background: radial-gradient(50% 50% at 50% 50%, #2998CA 0%, rgba(67, 151, 117, 0
   @apply before:content-['-'];
   @apply before:absolute;
   @apply before:left-0;
-  @apply ml-2;
+  @apply ml-4;
+}
+
+.markdown hr {
+  @apply my-5
+}
+
+.markdown strong{
+  @apply font-bold;
 }

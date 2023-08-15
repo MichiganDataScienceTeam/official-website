@@ -139,7 +139,7 @@ function ProjectCard({ json, basePath }) {
 
 function Factbox({ fact, closer }) {
   return (
-    <div className="text-left self-center bg-translucent p-4 rounded-lg my-3 h-full">
+    <div className="text-left self-center bg-grey p-4 rounded-lg my-3 h-full">
       <p className="text-4xl font-semibold my-2">{fact}</p>
       <p className="self-start">{closer}</p>
     </div>
