@@ -47,14 +47,20 @@ export default function Home({ sponsors, projects, timeline }) {
           />
         </div>
       </Hero>
-      <div className="container mx-auto px-7 grid gap-8 grid-cols-2">
+      <div
+        className={`container mx-auto px-7  ${
+          timeline.show_on_homepage
+            ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
+            : "flex max-w-6xl"
+        }`}
+      >
         {timeline.show_on_homepage && (
           <div className="bg-grey p-4 sm:p-8 rounded-lg overflow-auto max-h-96">
             <h2 className="text-3xl font-bold mb-4">{timeline.title}</h2>
             <Timeline events={timeline.events} />
           </div>
         )}
-        <div>
+        <div className="lg:order-none order-first">
           <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal">
             <span className="font-bold">Michigan Data Science Team (MDST)</span>{" "}
             is the largest data science club at the University of Michigan,
@@ -71,7 +77,7 @@ export default function Home({ sponsors, projects, timeline }) {
               <Icon name="arrow-stem-left" className="my-auto" />
             </Link>
           </div>
-          <div className="grid grid-cols-3 gap-3 mt-10">
+          <div className="grid md:grid-cols-3 md:grid-rows-1 grid-cols-1 grid-rows-3 gap-3 mt-10">
             <Factbox fact="200+" closer="community members"></Factbox>
             <Factbox
               fact="8-10"
