@@ -61,14 +61,17 @@ export default function Home({ sponsors, projects, timeline }) {
             dedicated to cultivating the next generation of data science and
             machine learning talent.
           </div>
-          <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal my-2">
-            Interested?{" "}
-            <Link href="/join" className="underline">
-              Join now
+          <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal my-2 flex">
+            <p>Interested?&nbsp;</p>
+            <Link
+              href="/join"
+              className="font-bold flex content-center hover:-translate-y-0.5 transition"
+            >
+              <p>Join now&nbsp;</p>
+              <Icon name="arrow-stem-left" className="my-auto" />
             </Link>
-            .
           </div>
-          <div className="grid grid-cols-3 gap-3">
+          <div className="grid grid-cols-3 gap-3 mt-10">
             <Factbox fact="200+" closer="community members"></Factbox>
             <Factbox
               fact="8-10"
@@ -130,7 +133,7 @@ function ProjectCard({ json, basePath }) {
 
 function Factbox({ fact, closer }) {
   return (
-    <div className="text-left self-center bg-translucent p-4 rounded-lg my-3 h-48">
+    <div className="text-left self-center bg-translucent p-4 rounded-lg my-3 h-full">
       <p className="text-4xl font-semibold my-2">{fact}</p>
       <p className="self-start">{closer}</p>
     </div>
