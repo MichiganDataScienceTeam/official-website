@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
+import Logo from "@/components/logo";
 
 function NavLink({ to, children }) {
   return (
@@ -12,15 +13,14 @@ function NavLink({ to, children }) {
 function MobileNav({ open, setOpen }) {
   return (
     <div
-      className={`absolute  top-0 left-0 h-screen w-screen transform ${open ? "-translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 ease-in-out filter bg-grey`}
+      className={`absolute  top-0 left-0 h-screen w-screen transform ${
+        open ? "-translate-x-0" : "-translate-x-full"
+      } transition-transform duration-300 ease-in-out filter bg-grey`}
     >
       <div className="flex items-center justify-center filter drop-shadow-md bg-grey-dark h-20">
         {" "}
         {/*logo container*/}
-        <Link className="text-xl font-semibold" href="/">
-          LOGO
-        </Link>
+        <Logo size={60} />
       </div>
       <div className="flex flex-col ml-4">
         <Link
@@ -112,9 +112,7 @@ export default function Navbar() {
     <nav className="flex filter px-4 py-4 h-20 items-center fixed w-full backdrop-filter backdrop-blur z-50 ">
       <MobileNav open={open} setOpen={setOpen} />
       <div className="w-3/12 flex items-center">
-        <Link className="text-2xl font-semibold" href="/">
-          LOGO
-        </Link>
+        <Logo size={60} />
       </div>
       <div className="w-9/12 flex justify-end items-center">
         <div
@@ -125,16 +123,19 @@ export default function Navbar() {
         >
           {/* hamburger button */}
           <span
-            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""
-              }`}
+            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
+              open ? "rotate-45 translate-y-3.5" : ""
+            }`}
           />
           <span
-            className={`h-1 bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"
-              }`}
+            className={`h-1 bg-white rounded-lg transition-all duration-300 ease-in-out ${
+              open ? "w-0" : "w-full"
+            }`}
           />
           <span
-            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""
-              }`}
+            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
+              open ? "-rotate-45 -translate-y-3.5" : ""
+            }`}
           />
         </div>
 

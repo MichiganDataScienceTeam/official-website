@@ -7,6 +7,7 @@ import {
   IoLogoGithub,
   IoIosArrowBack,
   IoIosArrowForward,
+  IoIosArrowRoundForward,
 } from "react-icons/io";
 import { createElement } from "react";
 
@@ -19,6 +20,7 @@ const iconMap = {
   caret_down: IoMdArrowDropdown,
   "arrow-left": IoIosArrowBack,
   "arrow-right": IoIosArrowForward,
+  "arrow-stem-left": IoIosArrowRoundForward,
 };
 
 export default function Icon(props) {
