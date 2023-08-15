@@ -26,9 +26,8 @@ export default function Home({ sponsors, projects, timeline }) {
               U of M&apos;s Premier Data Science Club
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-              Michigan Data Science Team empowers the next generation of data
-              scientists at the University of Michigan through education and
-              exploration.
+              We empower the next generation of data scientists at the
+              University of Michigan through education and exploration.
             </p>
             <div className="flex md:justify-start justify-center gap-5">
               <Button href="/join" text="Join Us" />
@@ -48,35 +47,40 @@ export default function Home({ sponsors, projects, timeline }) {
           />
         </div>
       </Hero>
-      <div className="container mx-auto px-7">
-        <div className="grid grid-rows-3 grid-cols-1 md:grid-cols-3 md:grid-rows-1 gap-x-16 gap-y-10">
-          <Factbox
-            leader="Join our community of data science enthusiasts of"
-            fact="200+ Members"
-            closer="across 10+ different majors in 8 different U of M Schools"
-          ></Factbox>
-          <Factbox
-            leader="Build data science expertise working on one"
-            fact="8-10 Projects"
-            closer="each semester in domains like finance, sports, computer vision,
-            and more"
-          ></Factbox>
-          <Factbox
-            leader="Invest in your future career through"
-            fact="Tons of Events"
-            closer="in career development, interview prep, education, and networking"
-          ></Factbox>
-        </div>
-      </div>
-      {timeline.show_on_homepage && (
-        <div className="container mx-auto px-2 sm:px-7 pt-24 flex justify-center">
-          <div className="bg-grey p-4 sm:p-8 rounded-lg overflow-auto snap-y max-h-96">
+      <div className="container mx-auto px-7 grid gap-8 grid-cols-2">
+        {timeline.show_on_homepage && (
+          <div className="bg-grey p-4 sm:p-8 rounded-lg overflow-auto max-h-96">
             <h2 className="text-3xl font-bold mb-4">{timeline.title}</h2>
             <Timeline events={timeline.events} />
           </div>
+        )}
+        <div>
+          <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal">
+            <span className="font-bold">Michigan Data Science Team (MDST)</span>{" "}
+            is the largest data science club at the University of Michigan,
+            dedicated to cultivating the next generation of data science and
+            machine learning talent.
+          </div>
+          <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal my-2">
+            Interested?{" "}
+            <Link href="/join" className="underline">
+              Join now
+            </Link>
+            .
+          </div>
+          <div className="grid grid-cols-3 gap-3">
+            <Factbox fact="200+" closer="community members"></Factbox>
+            <Factbox
+              fact="8-10"
+              closer="data science projects per semester"
+            ></Factbox>
+            <Factbox
+              fact="20+"
+              closer="socials, tech talks, and other events per semester"
+            ></Factbox>
+          </div>
         </div>
-      )}
-
+      </div>
       <Carousel projects={projects} basePath={basePath} />
       <div className="container mx-auto mb-8 px-2">
         <h2 className="text-3xl text-center">
@@ -124,10 +128,9 @@ function ProjectCard({ json, basePath }) {
   );
 }
 
-function Factbox({ leader, fact, closer }) {
+function Factbox({ fact, closer }) {
   return (
-    <div className="text-left self-center">
-      <p className="self-end">{leader}</p>
+    <div className="text-left self-center bg-translucent p-4 rounded-lg my-3 h-48">
       <p className="text-4xl font-semibold my-2">{fact}</p>
       <p className="self-start">{closer}</p>
     </div>
