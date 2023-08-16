@@ -48,46 +48,48 @@ export default function Home({ sponsors, projects, timeline }) {
         </div>
       </Hero>
       <div
-        className={`container mx-auto px-7  ${
-          timeline.show_on_homepage
-            ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
-            : "flex max-w-6xl"
-        }`}
+        className={`container mx-auto px-7  ${timeline.show_on_homepage
+          ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
+          : "flex max-w-6xl"
+          }`}
       >
         {timeline.show_on_homepage && (
-          <div className="bg-grey p-4 sm:p-8 rounded-lg overflow-auto max-h-96">
+          <div className="bg-grey p-4 sm:p-8 rounded-lg">
             <h2 className="text-3xl font-bold mb-4">{timeline.title}</h2>
             <Timeline events={timeline.events} />
           </div>
         )}
         <div className="lg:order-none order-first">
-          <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal">
-            <span className="font-bold">Michigan Data Science Team (MDST)</span>{" "}
-            is the largest data science club at the University of Michigan,
-            dedicated to cultivating the next generation of data science and
-            machine learning talent.
+          <div className="sticky top-24">
+            <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-2">
+              <span className="font-bold">Michigan Data Science Team (MDST)</span>{" "}
+              is the largest data science club at the University of Michigan,
+              dedicated to cultivating the next generation of data science and
+              machine learning talent.
+            </div>
+            <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
+              <p>Interested?&nbsp;</p>
+              <Link
+                href="/join"
+                className="font-bold flex content-center hover:-translate-y-0.5 transition"
+              >
+                <p>Join now&nbsp;</p>
+                <Icon name="arrow-stem-left" className="my-auto font-bold" />
+              </Link>
+            </div>
+            <div className={`flex flex-col md:flex-row gap-4 ${timeline.show_on_homepage ? "lg:flex-col" : ""} xl:flex-row`}>
+              <Factbox fact="200+" closer="community members"></Factbox>
+              <Factbox
+                fact="8-10"
+                closer="data science projects per semester"
+              ></Factbox>
+              <Factbox
+                fact="20+"
+                closer="socials, tech talks, and other events per semester"
+              ></Factbox>
+            </div>
           </div>
-          <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal my-2 flex">
-            <p>Interested?&nbsp;</p>
-            <Link
-              href="/join"
-              className="font-bold flex content-center hover:-translate-y-0.5 transition"
-            >
-              <p>Join now&nbsp;</p>
-              <Icon name="arrow-stem-left" className="my-auto" />
-            </Link>
-          </div>
-          <div className="grid md:grid-cols-3 md:grid-rows-1 grid-cols-1 grid-rows-3 gap-3 mt-10">
-            <Factbox fact="200+" closer="community members"></Factbox>
-            <Factbox
-              fact="8-10"
-              closer="data science projects per semester"
-            ></Factbox>
-            <Factbox
-              fact="20+"
-              closer="socials, tech talks, and other events per semester"
-            ></Factbox>
-          </div>
+
         </div>
       </div>
       <Carousel projects={projects} basePath={basePath} />
@@ -139,7 +141,7 @@ function ProjectCard({ json, basePath }) {
 
 function Factbox({ fact, closer }) {
   return (
-    <div className="text-left self-center bg-grey p-4 rounded-lg my-3 h-full">
+    <div className="text-left bg-grey p-4 rounded-lg w-full">
       <p className="text-4xl font-semibold my-2">{fact}</p>
       <p className="self-start">{closer}</p>
     </div>
