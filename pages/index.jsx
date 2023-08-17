@@ -180,7 +180,7 @@ function Carousel({ projects, basePath }) {
               setShown(shown - 1);
             }
           }}
-          className="sm:hidden absolute text-4xl bg-[#000000d8] left-2 top-1/2 transform -translate-y-1/2 p-2 rounded-full z-10 drop-shadow-lg cursor-pointer"
+          className="sm:hidden absolute text-4xl bg-[#000000d8] left-2 top-1/2 -translate-y-1/2 p-2 rounded-full z-10 drop-shadow-lg cursor-pointer"
         >
           <Icon className="" name="arrow-left" />
         </button>
@@ -190,7 +190,7 @@ function Carousel({ projects, basePath }) {
               setShown(shown + 1);
             }
           }}
-          className="sm:hidden absolute text-4xl bg-[#000000d8] right-2 top-1/2 transform -translate-y-1/2 p-2 rounded-full z-10 drop-shadow-lg cursor-pointer"
+          className="sm:hidden absolute text-4xl bg-[#000000d8] right-2 top-1/2 -translate-y-1/2 p-2 rounded-full z-10 drop-shadow-lg cursor-pointer"
         >
           <Icon className="" name="arrow-right" />
         </button>
