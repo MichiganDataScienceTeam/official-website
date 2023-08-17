@@ -11,7 +11,13 @@
         "name": "Michigan Institute for Data Science",
         "link": "https://midas.umich.edu/",
         "image": "midas.png"
+      },
+        {
+        "name": "Rocket Companies",
+        "link": "https://www.rocketcompanies.com/",
+        "image": "rocket.png"
       }
+      
     ]
   }
 ]
