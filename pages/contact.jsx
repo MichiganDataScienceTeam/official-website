@@ -3,86 +3,53 @@ import path from "path";
 import Link from "next/link";
 import fs from "fs";
 import Icon from "@/components/icon";
-import { useState } from "react";
 import Hero from "@/components/hero";
 
-function Accordion({ entries }) {
-  const [entryStates, setEntryStates] = useState(
-    entries.map((entry, index) => {
-      return {
-        key: entry.id,
-        heading: entry.heading,
-        text: entry.text,
-        expand: index == 0,
-        sources: entry.sources,
-      };
-    })
-  );
 
-  const expandAccordionEntry = (index) => {
-    setEntryStates(
-      entryStates.map((entry, currIndex) => {
-        return {
-          ...entry,
-          expand: entry.expand ? !entry.expand : currIndex === index,
-        };
-      })
+export default function Join({ data }) {
+    return (
+        <Layout>
+            <Hero title="Contact Us" />
+            <div className="container mx-auto flex flex-row flex-wrap sm:flex-row gap-4 justify-evenly px-2 mb-16 text-center">
+                {
+                    data.sources.map((source) => (
+                        <div
+                            key={source.name}
+                            className="w-56"
+                        >
+                            <div className=" p-4 bg-grey rounded-lg w-fit mx-auto mb-2">
+                                <Link href={source.link}>
+                                    <Icon name={source.icon_name} className="text-4xl" />
+                                </Link>
+                            </div>
+
+                            <h2 className="font-bold text-lg">{source.name}:</h2>
+                            <Link href={source.link}
+                                className="underline">{source.link_text}
+                            </Link>
+                        </div>
+                    ))
+                }
+            </div>
+            <div className="container mx-auto flex flex-col md:flex-row gap-4 justify-stretch px-2">
+                {
+                    data.entries.map((entry, index) => (
+                        <div key={index} className="bg-grey p-4 rounded-lg w-full">
+                            <h2 className="text-3xl font-bold mb-4">{entry.heading}</h2>
+                            <p>{entry.text}</p>
+                        </div>
+                    ))
+                }
+
+            </div>
+
+        </Layout>
     );
-  };
-
-  return (
-    <div className="max-w-4xl mx-auto px-8 py-2 rounded-lg bg-grey">
-      {entryStates.map((entry, index) => (
-        <div key={entry.id} className="transition" >
-          <div className={`pt-5 ${!entry.expand ? "pb-5" : "pb-2"}`} onClick={() => expandAccordionEntry(index)}>
-            <div className="flex justify-between ">
-              <h1 className="text-3xl font-bold">{entry.heading}</h1>
-              <button >
-                <Icon name={entry.expand ? "caret_down" : "caret_up"} />
-              </button>
-            </div>
-            <div
-              className={`overflow-hidden transition-height ${entry.expand ? "md:max-h-44 max-h-96" : "max-h-0"
-                }`}
-              style={{
-                transitionProperty: "max-height",
-                transitionDuration: "0.5s",
-              }}
-            >
-              {entry.text}
-              <div className="flex justify-center">
-                {entry.sources.map((source) => (
-                  <Link
-                    key={source.name}
-                    href={source.link}
-                    className="text-center p-4 m-2 bg-grey-light w-40 rounded-lg"
-                  >
-                    <Icon name={source.icon_name} className="text-4xl inline" />
-                    <p className="font-bold text-lg">{source.name}</p>
-                  </Link>
-                ))}
-              </div>
-            </div>
-          </div>
-          {index !== entryStates.length - 1 ? <hr></hr> : null}
-        </div>
-      ))}
-    </div>
-  );
-}
-
-export default function Join({ entries }) {
-  return (
-    <Layout>
-      <Hero title="Contact Us" />
-      <Accordion entries={entries} />
-    </Layout>
-  );
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "config", "contact.json");
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  const entries = JSON.parse(fileContent);
-  return { props: { entries } };
+    const filePath = path.join(process.cwd(), "config", "contact.json");
+    const fileContent = fs.readFileSync(filePath, "utf-8");
+    const data = JSON.parse(fileContent);
+    return { props: { data } };
 }
