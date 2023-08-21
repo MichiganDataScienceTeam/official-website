@@ -4,10 +4,14 @@ import fs from "fs";
 import path from "path";
 import Markdown from "markdown-to-jsx";
 import Timeline from "@/components/timeline";
+import Button from "@/components/button";
 export default function Join({ content, timeline }) {
   return (
     <Layout>
       <Hero title="Joining MDST" />
+      <div className="container mx-auto mb-16 px-2 flex justify-center">
+        <Button href="https://forms.gle/B5TyHZHL44BcoKNX6" text="Interest Form" />
+      </div>
       <div className="container mx-auto px-2 sm:px-7 pb-24 justify-center grid md:grid-flow-col grid-flow-row gap-8">
         <div>
           <div className="bg-grey p-4 sm:p-8 rounded-lg">
