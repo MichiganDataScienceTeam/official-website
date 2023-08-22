@@ -1,5 +1,4 @@
-import Layout from "@/components/layout";
-import Hero from "@/components/hero";
+
 import Link from "next/link";
 import Image from "next/image";
 import Icon from "@/components/icon";
@@ -7,13 +6,24 @@ import HeadContent from "@/components/headContent";
 import fs from "fs";
 import path from "path";
 import React, { useState } from 'react';
+import { useRouter } from "next/router";
+
 export default function Links({ linksjson }) {
     const [showToast, setShowToast] = useState(false);
-
+    const router = useRouter();
+    const basePath = router.basePath;
     return (
         <div>
             <HeadContent title={"Michigan Data Science Team - Links"} />
-            <Image className="mx-auto" width={100} height={100} alt="MDST - Michigan Data Science Team Links Logo" src={"/images/favicon.png"} />
+            <Image
+                className="mx-auto"
+                width={100}
+                height={100}
+                alt="MDST - Michigan Data Science Team Links Logo"
+                src={basePath
+                    ? `${basePath}/images/favicon.png`
+                    : "/images/favicon.png"}
+            />
             <h1 className=" lg:text-3xl text-2xl font-bold text-center">
                 MDST - Michigan Data Science Team Links
             </h1>
