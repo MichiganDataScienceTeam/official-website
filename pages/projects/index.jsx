@@ -18,9 +18,12 @@ export default function Projects({ groupedLinks }) {
             <ul className="p-4">
               {links.map((link, index) => (
                 <li key={index}>
-                  <Link className="underline" href={link.href}>
-                    {link.label}
-                  </Link>
+                  {
+                    link.type != "none" ? <Link target="_blank" className="underline" href={link.href}>
+                      {link.label}
+                    </Link> : link.label
+                  }
+
                 </li>
               ))}
             </ul>
@@ -31,36 +34,69 @@ export default function Projects({ groupedLinks }) {
   );
 }
 
+
 export async function getStaticProps() {
   const projectsDirectory = path.join(process.cwd(), "public", "projects");
   const subdirectories = fs
     .readdirSync(projectsDirectory, { withFileTypes: true })
     .filter((dirent) => dirent.isDirectory())
-    .map((dirent) => dirent.name);
+    .map((dirent) => ({
+      name: dirent.name,
+      createdAt: fs.statSync(path.join(projectsDirectory, dirent.name)).birthtime,
+    }))
+    .sort((a, b) => b.createdAt - a.createdAt)
 
   const groupedLinks = {};
+  const paths = []
   subdirectories.forEach((subdirectory) => {
-    const subdirectoryPath = path.join(projectsDirectory, subdirectory);
-    const files = fs.readdirSync(subdirectoryPath);
+    const subdirectoryPath = path.join(projectsDirectory, subdirectory.name);
+    const innerDirectories = fs
+      .readdirSync(subdirectoryPath, { withFileTypes: true })
+      .filter((dirent) => dirent.isDirectory())
+      .map((dirent) => dirent.name);
 
     const links = [];
-    files.forEach((file) => {
-      if (file.endsWith(".pdf") || file.endsWith(".md")) {
-        const label = file
-          .replace(".pdf", "")
-          .replace(".md", "")
-          .split("_")
-          .join(" ");
-        const href = `/projects/${subdirectory}/${file.replace(".md", "")}`;
 
-        links.push({ label, href });
+    innerDirectories.forEach((innerDir) => {
+      const innerDirPath = path.join(subdirectoryPath, innerDir);
+
+      const writeupMdPath = path.join(innerDirPath, "writeup.md");
+      const writeupPdfPath = path.join(innerDirPath, "writeup.pdf");
+      const linkTxtPath = path.join(innerDirPath, "link.txt");
+
+      const label = innerDir.split("_")
+        .join(" ");
+      let type, href
+
+      if (fs.existsSync(linkTxtPath)) {
+        const link = fs.readFileSync(linkTxtPath, 'utf-8').trim();
+        href = link
+        type = "link"
+      } else if (fs.existsSync(writeupMdPath)) {
+        href = `/projects/${subdirectory.name}/${innerDir}`
+        type = "md"
       }
+      else if (fs.existsSync(writeupPdfPath)) {
+        href = `/projects/${subdirectory.name}/${innerDir}/writeup.pdf`
+        type = "pdf"
+      } else {
+        href = ""
+        type = "none"
+      }
+      links.push({ label, href, type })
+
     });
-    groupedLinks[subdirectory.split("_").join(" ")] = links;
+
+    if (links.length > 0) {
+      groupedLinks[subdirectory.name.split("_").join(" ")] = links;
+    }
+
   });
+
   return {
     props: {
       groupedLinks,
     },
   };
 }
+
