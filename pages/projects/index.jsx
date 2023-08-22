@@ -42,9 +42,28 @@ export async function getStaticProps() {
     .filter((dirent) => dirent.isDirectory())
     .map((dirent) => ({
       name: dirent.name,
-      createdAt: fs.statSync(path.join(projectsDirectory, dirent.name)).birthtime,
     }))
-    .sort((a, b) => b.createdAt - a.createdAt)
+    .sort((a, b) => {
+      const order = ['Fall_', 'Winter_'];
+
+      const getOrderIndex = (dirName) => {
+        const prefix = order.find(prefix => dirName.startsWith(prefix));
+        return prefix ? 0 : 1;
+      };
+
+      const orderComparison = getOrderIndex(a.name) - getOrderIndex(b.name);
+
+      if (orderComparison !== 0) {
+        return orderComparison;
+      } else if (getOrderIndex(a.name) === 0) {
+        const aNumber = parseInt(a.name.split('_')[1]);
+        const bNumber = parseInt(b.name.split('_')[1]);
+        return bNumber - aNumber;
+      } else {
+        return a.name.localeCompare(b.name)
+      }
+
+    });;
 
   const groupedLinks = {};
   const paths = []
