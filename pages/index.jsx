@@ -10,7 +10,7 @@ import path from "path";
 import Image from "next/image";
 import SponsorSection from "@/components/sponsorSection";
 import Timeline from "@/components/timeline";
-
+import HeadContent from "@/components/headContent";
 import { useRouter } from "next/router";
 import { useState } from "react";
 export default function Home({ sponsors, projects, timeline }) {
@@ -19,6 +19,7 @@ export default function Home({ sponsors, projects, timeline }) {
   const basePath = router.basePath;
   return (
     <Layout>
+      <HeadContent title={"MDST - Michigan Data Science Team"} description={"Michigan Data Science Team - MDST is the largest data science club at the University of Michigan, dedicated to cultivating the next generation of data science and machine learning talent."} />
       <Hero>
         <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
           <div className="md:w-1/2 w-full">
