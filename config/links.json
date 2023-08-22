@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Interest Form",
+        "href": "https://google.com",
+        "icon_name": "envelope",
+        "color": "primary"
+    },
+    {
+        "name": "Website",
+        "href": "https://www.mdst.club",
+        "icon_name": "website"
+    },
+    {
+        "name": "Linkedin",
+        "href": "https://google.com",
+        "icon_name": "linkedin"
+    },
+    {
+        "name": "Instagram",
+        "href": "https://google.com",
+        "icon_name": "instagram"
+    },
+    {
+        "name": "Github",
+        "href": "https://google.com",
+        "icon_name": "github"
+    },
+    {
+        "name": "Slack",
+        "href": "https://google.com",
+        "icon_name": "slack"
+    },
+    {
+        "name": "Email",
+        "href": "https://google.com",
+        "icon_name": "envelope"
+    }
+]

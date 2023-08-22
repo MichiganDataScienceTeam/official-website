@@ -1,26 +1,35 @@
 import {
   IoLogoInstagram,
   IoLogoLinkedin,
-  IoIosMail,
+  IoMail,
   IoMdArrowDropdown,
   IoMdArrowDropup,
   IoLogoGithub,
-  IoIosArrowBack,
-  IoIosArrowForward,
-  IoIosArrowRoundForward,
-} from "react-icons/io";
+  IoArrowBack,
+  IoArrowForward,
+  IoArrowRoundForward,
+  IoClipboardOutline,
+  IoBrowsersOutline,
+  IoLogoSlack,
+  IoCopyOutline
+} from "react-icons/io5";
 import { createElement } from "react";
 
 const iconMap = {
-  envelope: IoIosMail,
+  envelope: IoMail,
   instagram: IoLogoInstagram,
   linkedin: IoLogoLinkedin,
   github: IoLogoGithub,
   caret_up: IoMdArrowDropup,
   caret_down: IoMdArrowDropdown,
-  "arrow-left": IoIosArrowBack,
-  "arrow-right": IoIosArrowForward,
-  "arrow-stem-left": IoIosArrowRoundForward,
+  "arrow-left": IoArrowBack,
+  "arrow-right": IoArrowForward,
+  "arrow-stem-left": IoArrowRoundForward,
+  clipboard: IoClipboardOutline,
+  website: IoBrowsersOutline,
+  slack: IoLogoSlack,
+  copy: IoCopyOutline
+
 };
 
 export default function Icon(props) {

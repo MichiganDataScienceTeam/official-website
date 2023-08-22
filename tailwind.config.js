@@ -24,6 +24,8 @@ module.exports = {
       current: "currentColor",
       black: colors.black,
       white: colors.white,
+      green: colors.green,
+      primary: "#896AE4",
       grey: {
         xlight: "#A3A3A3",
         light: "#555555",
