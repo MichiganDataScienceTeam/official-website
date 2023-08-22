@@ -6,12 +6,14 @@ import Icon from "@/components/icon";
 import fs from "fs";
 import path from "path";
 import { useRouter } from "next/router";
-
+import HeadContent from "@/components/headContent";
 export default function Team({ teamjson }) {
   const router = useRouter();
   const basePath = router.basePath;
   return (
     <Layout>
+      <HeadContent title={"Michigan Data Science Team - Our Team"} description={"At the heart of The Michigan Data Science Team - MDST and our accomplishments is our exceptional team members and leaders, who bring their expertise and dedication to the forefront. United by a passion for data science, our diverse community collaborates under visionary guidance, propelling innovative ideas into impactful projects that push the boundaries of exploration."} />
+
       <Hero title="Our Leadership Team" />
       {teamjson.map((group, index) => (
         <GroupSection key={group.groupName} basePath={basePath} group={group} />

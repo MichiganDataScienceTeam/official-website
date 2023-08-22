@@ -3,10 +3,12 @@ import Link from "next/link";
 import fs from "fs";
 import path from "path";
 import Hero from "@/components/hero";
-
+import HeadContent from "@/components/headContent";
 export default function Projects({ groupedLinks }) {
   return (
     <Layout>
+      <HeadContent title={"Michigan Data Science Team - Projects"} description={"Michigan Data Science Team - MDST is the largest data science club at the University of Michigan, here are some our past projects"} />
+
       <Hero title={"Our Past Projects"} />
       <div className="container mx-auto max-w-2xl">
         {Object.entries(groupedLinks).map(([subdirectory, links]) => (

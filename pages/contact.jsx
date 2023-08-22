@@ -4,11 +4,13 @@ import Link from "next/link";
 import fs from "fs";
 import Icon from "@/components/icon";
 import Hero from "@/components/hero";
-
+import HeadContent from "@/components/headContent";
 
 export default function Join({ data }) {
     return (
         <Layout>
+            <HeadContent title={"Michigan Data Science Team - Contact Us"} description={"Interested in learning more about the Michigan Data Science Team - MDST, the premier data science team at the University of Michigan? Here are some helpful links that will allow you to get in touch with us. Whether you have questions, concerns, or are looking to collaborate with us, feel free to follow the links below."} />
+
             <Hero title="Contact Us" />
             <div className="container mx-auto flex flex-row flex-wrap sm:flex-row gap-4 justify-evenly px-2 mb-16 text-center">
                 {

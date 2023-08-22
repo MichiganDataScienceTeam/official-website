@@ -6,7 +6,7 @@ import Layout from "@/components/layout";
 import Wave from "@/components/wave";
 import Hero from "@/components/hero";
 import Image from "next/image";
-
+import HeadContent from "@/components/headContent";
 function ProjectPage({ content, title, route }) {
 
   const router = useRouter();
@@ -18,6 +18,8 @@ function ProjectPage({ content, title, route }) {
 
   return (
     <Layout>
+      <HeadContent title={title} description={title + "is a project done with The Michigan Data Science Team - MDST, the largest data science club at the University of Michigan."} />
+
       <Hero title={title} />
       <div className="container mx-auto px-2">
         <Markdown className="markdown" options={{

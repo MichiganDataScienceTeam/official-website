@@ -5,12 +5,14 @@ import fs from "fs";
 import path from "path";
 import SponsorSection from "@/components/sponsorSection";
 import { useRouter } from "next/router";
-
+import HeadContent from "@/components/headContent";
 export default function Sponsors({ sponsors }) {
   const router = useRouter();
   const basePath = router.basePath;
   return (
     <Layout>
+      <HeadContent title={"Michigan Data Science Team - Our Sponsors"} description={"The Michigan Data Science Team - MDST has collaborated with numerous esteemed sponsors to cultivate an enriching learning environment at the University of Michigan. Our club is dedicated to partnering with the finest sponsors to ensure an exceptional atmosphere for our members."} />
+
       <Hero title="MDST Sponsors" />
       <div className="bg-grey py-8">
         <div className=" container mx-auto px-7 text-lg">
