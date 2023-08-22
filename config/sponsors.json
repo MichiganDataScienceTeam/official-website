@@ -3,6 +3,16 @@
     "type": "large",
     "sponsors": [
       {
+        "name": "Rocket Companies",
+        "link": "https://www.myrocketcareer.com/",
+        "image": "rocket.png"
+      }
+    ]
+  },
+  {
+    "type": "small",
+    "sponsors": [
+      {
         "name": "Engineering Student Government",
         "link": "https://esg.engin.umich.edu/",
         "image": "esg.png"
