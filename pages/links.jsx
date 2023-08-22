@@ -24,7 +24,7 @@ export default function Links({ linksjson }) {
             <div className="py-8 px-2 flex flex-col justify-center items-center gap-4">
                 {
                     linksjson.map((link) => (
-                        <LinkElement link={link} toast={() => {
+                        <LinkElement key={link.name} link={link} toast={() => {
                             setShowToast(true)
                             setTimeout(() => {
                                 setShowToast(false);
