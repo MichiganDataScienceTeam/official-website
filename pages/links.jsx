@@ -52,7 +52,7 @@ function LinkElement({ link, toast }) {
         key={link.name}
         href={link.href}
         target="_blank"
-        className={link?.color === "primary" ? "p-4 bg-primary rounded-lg grid w-72 items-center gap-6 link" : "p-4 bg-grey rounded-lg grid w-72 items-center gap-6 link"}
+        className={`p-4 ${link?.color === "primary" ? "bg-primary" : "bg-grey"} rounded-lg grid w-72 items-center gap-6 link hover:-translate-y-1 `}
     >
         <Icon name={link.icon_name} className="text-4xl" />
         <h2 className="font-bold text-lg">{link.name}</h2>
