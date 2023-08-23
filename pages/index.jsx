@@ -121,10 +121,10 @@ function ProjectCard({ json, basePath }) {
   return (
     <Link
       href={json.link}
-      className="bg-grey-light p-5 rounded-lg drop-shadow-sm max-w-[350px] transition hover:-translate-y-1 min-w-[200px]"
+      className="bg-grey-light p-5 rounded-lg drop-shadow-sm max-w-[350px] transition hover:-translate-y-1 min-w-[200px] w-full"
     >
       <Image
-        className="w-full rounded mb-3"
+        className="w-full rounded mb-3 h-44 md:h-56 lg:h-72 xl:h-80 object-cover"
         width="500"
         height="500"
         src={
@@ -135,7 +135,7 @@ function ProjectCard({ json, basePath }) {
         alt={json.image.split(".")[0].split("_").join(" ")}
       />
       <h3 className="text-lg font-bold">{json.name}</h3>
-      <p className="line-clamp-2">{json.description}</p>
+      {json.description && <p className="line-clamp-2">{json.description}</p>}
     </Link>
   );
 }
@@ -163,7 +163,7 @@ function Carousel({ projects, basePath }) {
   return (
     <div className="bg-grey">
       <Wave180 className="rotate-180"></Wave180>
-      <div className="container mx-auto py-4 relative overflow-hidden	">
+      <div className="container mx-auto py-4 relative">
         <h2 className="text-3xl text-center font-bold">Recent Projects</h2>
         <div
           className="flex gap-4 flex-row p-4 justify-center transition"

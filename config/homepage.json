@@ -1,19 +1,17 @@
 [
     {
         "name": "Image Colorization",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam",
-        "image": "temp.png",
-        "link": "/projects/Fall_2023/wildfire_predictions"
-    },{
-        "name": "Movie Quotes",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam pariatur reiciendis",
-        "image": "temp.png",
-        "link": "/projects/Fall_2023/wildfire_predictions"
-    },{
-        "name": "Wild fires",
-        "description": "Lorem ipsum dolor",
-        "image": "temp.png",
-        "link": "/projects/Fall_2023/wildfire_predictions"
+        "image": "image_colorization.png",
+        "link": "https://docs.google.com/document/d/19CekIh2sZGKKMoRA5VNFEcjNGHc9GEYt/"
+    },
+    {
+        "name": "Webscraping",
+        "image": "webscraping.png",
+        "link": "https://docs.google.com/document/d/1uVD5nvpA0lg9E8tE9khuEQDlwCwHKgrHGqtvzKe2JoA/"
+    },
+    {
+        "name": "Footwear Classification",
+        "image": "footwear_classification.png",
+        "link": "https://docs.google.com/presentation/d/1Bb7nCc4o3fmV4OkR-NOeAwzl6i1E_BA_V937Gjoq1wc/"
     }
-
 ]
