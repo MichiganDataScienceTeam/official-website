@@ -19,7 +19,12 @@ export default function Home({ sponsors, projects, timeline }) {
   const basePath = router.basePath;
   return (
     <Layout>
-      <HeadContent title={"MDST - Michigan Data Science Team"} description={"Michigan Data Science Team - MDST is the largest data science club at the University of Michigan, dedicated to cultivating the next generation of data science and machine learning talent."} />
+      <HeadContent
+        title={"MDST - Michigan Data Science Team"}
+        description={
+          "Michigan Data Science Team - MDST is the largest data science club at the University of Michigan, dedicated to cultivating the next generation of data science and machine learning talent."
+        }
+      />
       <Hero>
         <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
           <div className="md:w-1/2 w-full">
@@ -49,10 +54,11 @@ export default function Home({ sponsors, projects, timeline }) {
         </div>
       </Hero>
       <div
-        className={`container mx-auto px-7  ${timeline.show_on_homepage
-          ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
-          : "flex max-w-6xl"
-          }`}
+        className={`container mx-auto px-7  ${
+          timeline.show_on_homepage
+            ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
+            : "flex max-w-6xl"
+        }`}
       >
         {timeline.show_on_homepage && (
           <div className="bg-grey p-4 sm:p-8 rounded-lg">
@@ -63,7 +69,9 @@ export default function Home({ sponsors, projects, timeline }) {
         <div className="lg:order-none order-first">
           <div className="sticky top-24">
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-2">
-              <span className="font-bold">Michigan Data Science Team (MDST)</span>{" "}
+              <span className="font-bold">
+                Michigan Data Science Team (MDST)
+              </span>{" "}
               is the largest data science club at the University of Michigan,
               dedicated to cultivating the next generation of data science and
               machine learning talent.
@@ -78,7 +86,11 @@ export default function Home({ sponsors, projects, timeline }) {
                 <Icon name="arrow-stem-left" className="my-auto font-bold" />
               </Link>
             </div>
-            <div className={`flex flex-col md:flex-row gap-4 ${timeline.show_on_homepage ? "lg:flex-col" : ""} xl:flex-row`}>
+            <div
+              className={`flex flex-col md:flex-row gap-4 ${
+                timeline.show_on_homepage ? "lg:flex-col" : ""
+              } xl:flex-row`}
+            >
               <Factbox fact="200+" closer="community members"></Factbox>
               <Factbox
                 fact="8-10"
@@ -90,7 +102,6 @@ export default function Home({ sponsors, projects, timeline }) {
               ></Factbox>
             </div>
           </div>
-
         </div>
       </div>
       <Carousel projects={projects} basePath={basePath} />
@@ -163,7 +174,7 @@ function Carousel({ projects, basePath }) {
   return (
     <div className="bg-grey">
       <Wave180 className="rotate-180"></Wave180>
-      <div className="container mx-auto py-4 relative">
+      <div className="container mx-auto py-4 relative overflow-hidden">
         <h2 className="text-3xl text-center font-bold">Recent Projects</h2>
         <div
           className="flex gap-4 flex-row p-4 justify-center transition"
