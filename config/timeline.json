@@ -3,38 +3,43 @@
   "title": "Recruiting Timeline",
   "events": [
     {
-      "title": "Festifall Central",
-      "time": "August 30th, 2023",
-      "description": "Stop by our booth to meet the E-Board and learn more about MDST."
+      "title": "Festifall Central @ Booth D79",
+      "time": "August 30th 2:30pm - 5pm",
+      "description": "Stop by our booth to meet the E-Board and learn about MDST."
     },
     {
-      "title": "Mass Meeting",
-      "time": "August 31th, 2023",
-      "description": "Join us to hear more about MDST and how to become a member."
+      "title": "Mass Meeting 1 (Location TBD)",
+      "time": "August 31th 7pm - 8pm",
+      "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
     },
     {
-      "title": "Tutorial - Python",
-      "time": "September 3rd, 2023",
+      "title": "Tutorial - Python (Location TBD)",
+      "time": "September 3rd 12pm - 3pm",
       "description": "Develop essential Python skills for project participation."
     },
     {
-      "title": "Mass Meeting",
-      "time": "September 6th, 2023",
-      "description": "Join us to hear more about MDST and how to become a member."
+      "title": "Mass Meeting 2 @ Michigan Union (Wolverine Room)",
+      "time": "September 4th 4:30pm - 5:30 pm",
+      "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
     },
     {
-      "title": "Tutorial - Data Science",
-      "time": "September 10th, 2023",
+      "title": "Tutorial - Data Science (Location TBD)",
+      "time": "September 10th 12pm - 3pm",
       "description": "Build basic data science knowledge for project participation."
     },
     {
-      "title": "Project Sign-Ups Due",
-      "time": "September 15th, 2023",
+      "title": "Project Exploration Fair (Location TBD)",
+      "time": "September 10th",
+      "description": "Explore MDST projects this semester and choose your favorites to signup for."
+    },
+    {
+      "title": "Project Sign-Ups Due @ Google Form",
+      "time": "September 15th",
       "description": "Sign up for your preferred projects. New members submit tutorial checkpoints."
     },
     {
-      "title": "First Project Work Session",
-      "time": "September 17th, 2023",
+      "title": "First Project Work Session @ BSB 1060",
+      "time": "September 17th 12pm - 3pm",
       "description": "Meet your team and start work on your projects!"
     }
   ]

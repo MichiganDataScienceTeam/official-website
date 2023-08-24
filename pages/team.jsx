@@ -12,7 +12,12 @@ export default function Team({ teamjson }) {
   const basePath = router.basePath;
   return (
     <Layout>
-      <HeadContent title={"Michigan Data Science Team - Our Team"} description={"At the heart of The Michigan Data Science Team - MDST and our accomplishments is our exceptional team members and leaders, who bring their expertise and dedication to the forefront. United by a passion for data science, our diverse community collaborates under visionary guidance, propelling innovative ideas into impactful projects that push the boundaries of exploration."} />
+      <HeadContent
+        title={"Michigan Data Science Team - Our Team"}
+        description={
+          "At the heart of The Michigan Data Science Team - MDST and our accomplishments is our exceptional team members and leaders, who bring their expertise and dedication to the forefront. United by a passion for data science, our diverse community collaborates under visionary guidance, propelling innovative ideas into impactful projects that push the boundaries of exploration."
+        }
+      />
 
       <Hero title="Our Leadership Team" />
       {teamjson.map((group, index) => (
@@ -52,6 +57,7 @@ function MemberCard({ json, basePath }) {
         className="mx-auto mb-4 w-44 h-44 rounded-full"
         width="500"
         height="500"
+        style={{ objectFit: "cover" }}
         src={
           basePath
             ? `${basePath}/images/team/${json.image}`
