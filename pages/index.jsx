@@ -22,8 +22,7 @@ export default function Home({ sponsors, projects, timeline }) {
       <HeadContent
         title={"MDST - Michigan Data Science Team"}
         description={
-          "Michigan Data Science Team - MDST is the largest data science club at the University of Michigan, dedicated to equip more Michigan students with data science
-              skills they needed to embrace future careers."
+          "Michigan Data Science Team - MDST is the largest data science club at UM"
         }
       />
       <Hero>
@@ -34,7 +33,8 @@ export default function Home({ sponsors, projects, timeline }) {
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
               We aim to equip more Michigan students with data science
-              skills they needed to embrace future careers.
+              skills they needed to embrace future careers. 
+              For all majors of any background!
             </p>
             <div className="flex md:justify-start justify-center gap-5">
               <Button href="/join" text="Join Us" />
@@ -74,7 +74,7 @@ export default function Home({ sponsors, projects, timeline }) {
                 Michigan Data Science Team (MDST)
               </span>{" "}
               is the largest data science club at the University of Michigan,
-              dedicated to equip more Michigan students with data science
+              dedicated to equipping more Michigan students with data science
               skills they needed to embrace future careers.
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
