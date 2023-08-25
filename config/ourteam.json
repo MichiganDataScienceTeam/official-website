@@ -7,42 +7,40 @@
         "name": "Sachchit Kunichetty",
         "title": "President",
         "linkedin": "https://www.linkedin.com/in/sachchit-kunichetty/",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
+        "github": "https://github.com/skunichetty",
+        "image": "skunich.jpeg"
       },
       {
         "name": "Casper Guo",
         "title": "VP of Education",
         "linkedin": "https://www.linkedin.com/in/casper-guo/",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
+        "github": "https://github.com/Casper-Guo",
+        "image": "casperg.jpg"
       },
       {
         "name": "Andrew Ye",
         "title": "VP of External Affairs",
         "linkedin": "https://www.linkedin.com/in/andrewye16/",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "github": "https://github.com/andrewye16",
         "image": "andreye.jpeg"
       },
       {
         "name": "Amanda Li",
         "title": "VP of Finance",
         "linkedin": "https://www.linkedin.com/in/amanda-j-li/",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "temp.png"
       },
       {
         "name": "Tom Sherman",
         "title": "VP of Internal Affairs",
         "linkedin": "https://www.linkedin.com/in/tom-sherman/",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
+        "github": "https://github.com/tsherman181",
+        "image": "tomsherm.jpeg"
       },
       {
         "name": "Hannah Shu",
         "title": "VP of Projects",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://www.linkedin.com/in/hannah-shu-6789b722b/",
+        "linkedin": "https://www.linkedin.com/in/hannah-shu-6789b722b/",
         "image": "hyshu.jpg"
       }
     ]
@@ -61,7 +59,6 @@
         "name": "Jason Yen",
         "title": "Project Committee Member",
         "linkedin": "https://www.linkedin.com/in/jason-yen-260056242/",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
         "image": "jasonyen.jpeg"
       },
       {
@@ -79,10 +76,9 @@
     "members": [
       {
         "name": "Elijah Grubbs",
-        "title": "External Affairs Committee Member",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
+        "title": "Project Committee Member",
+        "linkedin": "https://www.linkedin.com/in/grubbse",
+        "image": "grubbse.jpg"
       },
       {
         "name": "Sara Li",
@@ -93,9 +89,9 @@
       {
         "name": "Amogh Madireddi",
         "title": "External Affairs Committee Member",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
+        "linkedin": "https://www.linkedin.com/in/amoghmadireddi/",
+        "github": "https://github.com/amoghmadireddi",
+        "image": "amoghmm.jpg"
       }
     ]
   },
@@ -106,22 +102,20 @@
       {
         "name": "Sreya Gogineni",
         "title": "Education Committee Member",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "linkedin": "https://www.linkedin.com/in/sreya-gogineni-09b6961b0/",
         "image": "temp.png"
       },
       {
         "name": "Kevin Wang",
         "title": "Education Committee Member",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
-        "image": "temp.png"
+        "linkedin": "https://www.linkedin.com/in/kevin1015wang/",
+        "github": "https://github.com/kevin1015wang",
+        "image": "kevindw.JPG"
       },
       {
         "name": "Matthew Pacas-McCarthy",
         "title": "Education Committee Member",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "linkedin": "https://www.linkedin.com/in/matthew-pacas-mccarthy/",
         "image": "temp.png"
       }
     ]
@@ -146,8 +140,7 @@
       {
         "name": "Benjamin Brown",
         "title": "Social Committee Member",
-        "linkedin": "https://react-icons.github.io/react-icons/icons?name=io",
-        "github": "https://react-icons.github.io/react-icons/icons?name=io",
+        "linkedin": "https://www.linkedin.com/in/benjamin-brown-5771a7203/",
         "image": "temp.png"
       }
     ]
