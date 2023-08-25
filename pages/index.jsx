@@ -29,7 +29,7 @@ export default function Home({ sponsors, projects, timeline }) {
         <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
           <div className="md:w-1/2 w-full">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
-              Michigan&apos;s Premier Data Science Club
+              UM&apos;s Premier Data Science Club
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
               We aim to equip more Michigan students with data science
