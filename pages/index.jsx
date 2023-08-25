@@ -95,10 +95,10 @@ export default function Home({ sponsors, projects, timeline }) {
               <Factbox fact="200+" closer="community members"></Factbox>
               <Factbox
                 fact="14+"
-                closer="data science projects per semester"
+                closer="project teams for fall 2023"
               ></Factbox>
               <Factbox
-                fact="20+"
+                fact="10+"
                 closer="socials, workshops, guest talks, and more!"
               ></Factbox>
             </div>
