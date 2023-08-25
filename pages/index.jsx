@@ -22,18 +22,19 @@ export default function Home({ sponsors, projects, timeline }) {
       <HeadContent
         title={"MDST - Michigan Data Science Team"}
         description={
-          "Michigan Data Science Team - MDST is the largest data science club at the University of Michigan, dedicated to cultivating the next generation of data science and machine learning talent."
+          "Michigan Data Science Team - MDST is the largest data science club at the University of Michigan, dedicated to equip more Michigan students with data science
+              skills they needed to embrace future careers."
         }
       />
       <Hero>
         <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
           <div className="md:w-1/2 w-full">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
-              U of M&apos;s Premier Data Science Club
+              Michigan&apos;s Premier Data Science Club
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-              We empower the next generation of data scientists at the
-              University of Michigan through education and exploration.
+              We aim to equip more Michigan students with data science
+              skills they needed to embrace future careers.
             </p>
             <div className="flex md:justify-start justify-center gap-5">
               <Button href="/join" text="Join Us" />
@@ -73,8 +74,8 @@ export default function Home({ sponsors, projects, timeline }) {
                 Michigan Data Science Team (MDST)
               </span>{" "}
               is the largest data science club at the University of Michigan,
-              dedicated to cultivating the next generation of data science and
-              machine learning talent.
+              dedicated to equip more Michigan students with data science
+              skills they needed to embrace future careers.
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
               <p>Interested?&nbsp;</p>
@@ -93,12 +94,12 @@ export default function Home({ sponsors, projects, timeline }) {
             >
               <Factbox fact="200+" closer="community members"></Factbox>
               <Factbox
-                fact="8-10"
+                fact="14+"
                 closer="data science projects per semester"
               ></Factbox>
               <Factbox
                 fact="20+"
-                closer="socials, tech talks, and other events per semester"
+                closer="socials, workshops, guest talks, and more!"
               ></Factbox>
             </div>
           </div>
