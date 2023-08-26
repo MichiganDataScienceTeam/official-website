@@ -118,26 +118,12 @@ export default function Home({ sponsors, projects, timeline }) {
         </div>
       </div>
       <Carousel projects={projects} basePath={basePath} />
-      <div className="container mx-auto mb-8 px-2">
-        <h2 className="text-3xl text-center">
-          Interested? <br />
-          All UM Ann Arbor students can join for free!
-        </h2>
-        <div className="flex mt-4 justify-center">
-          <Button href="/join" text="Join Us" />
-        </div>
-      </div>
-
       <div className="container mx-auto px-2">
         <h2 className="text-3xl text-center">
           MDST is proudly supported by our sponsors
         </h2>
         <SponsorSection basePath={basePath} group={sponsors[0]} />
       </div>
-
-      {/* <div className='dark:bg-blue-800 p-4'>
-        <Markdown className='markdown'>{content}</Markdown>
-      </div> */}
     </Layout>
   );
 }
