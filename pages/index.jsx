@@ -29,14 +29,15 @@ export default function Home({ sponsors, projects, timeline }) {
         <div className="flex gap-8 items-center md:flex-row flex-col p-8">
           <div className="md:w-1/2 w-full">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
-              Project-Based Data Science at the University of Michigan
+              U-M&apos;s Premier Applied Data Science Club
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-              MDST members learn key skills through our semesterly projects
-              exploring the practical applications of data science.
+              MDST&apos;s semesterly projects teach U-M students how to use data
+              science to solve problems, offering them the chance to learn key
+              skills and work with emerging tech.
             </p>
             <div className="flex md:justify-start justify-center gap-5">
-              <Button href="/join" text="Learn More" />
+              <Button href="/join" text="Join Us" />
               <Button href="/sponsors" text="Work with Us" />
             </div>
           </div>
@@ -74,18 +75,18 @@ export default function Home({ sponsors, projects, timeline }) {
                   Michigan Data Science Team (MDST)
                 </span>{" "}
                 is the largest data science club at the University of Michigan,
-                dedicated to equipping more Michigan students with data science
-                skills needed to embrace future careers.
+                dedicated to equipping University of Michigan students with data
+                science skills needed for future data-driven careers.
               </div>
               <div className="mb-4">
-                Each semester, MDST runs team-based data science projects,
-                allowing you to learn and practice data science through their
-                applications to a variety of domains.
+                Each semester, MDST runs team-based projects, allowing you to
+                learn and practice data science skills and their applications in
+                a variety of domains.
               </div>
               <div className="mb-4">
-                In addition, we host guest talks, speaker events, and socials,
-                allowing you to meet and interact with the larger data science
-                community at the University of Michigan and beyond.
+                We also host guest talks, workshops, and socials, allowing you
+                to meet and interact with the larger data science community at
+                the University of Michigan and beyond.
               </div>
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
