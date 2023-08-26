@@ -1,6 +1,6 @@
-import { useState } from "react";
-import Link from "next/link";
 import Logo from "@/components/logo";
+import Link from "next/link";
+import { useState } from "react";
 
 function NavLink({ to, children }) {
   return (

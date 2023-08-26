@@ -21,7 +21,6 @@ export default function Join({ join_info, faq, timeline }) {
         <div className="mb-8">
           <Markdown className="markdown font-light">{join_info}</Markdown>
         </div>
-        <hr className="pt-2"></hr>
       </div>
       <div className="container mx-auto px-2 sm:px-7 pb-24 justify-center grid md:grid-flow-col grid-flow-row gap-8">
         <div>
