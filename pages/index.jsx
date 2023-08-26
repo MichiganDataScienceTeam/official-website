@@ -33,7 +33,7 @@ export default function Home({ sponsors, projects, timeline }) {
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
               We aim to equip more Michigan students with data science
-              skills they needed to embrace future careers. 
+              skills they need to embrace future careers. 
               For all majors of any background!
             </p>
             <div className="flex md:justify-start justify-center gap-5">
@@ -75,7 +75,7 @@ export default function Home({ sponsors, projects, timeline }) {
               </span>{" "}
               is the largest data science club at the University of Michigan,
               dedicated to equipping more Michigan students with data science
-              skills they needed to embrace future careers.
+              skills they need to embrace future careers.
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
               <p>Interested?&nbsp;</p>
