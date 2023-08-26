@@ -90,17 +90,16 @@ export default function Home({ sponsors, projects, timeline }) {
               </div>
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
-              <p>
-                All UM students of any background can join MDST.
-                Interested?&nbsp;
+              <p className="sm:flex block">
+                All UM students are welcome to join MDST.&nbsp;
+                <Link
+                  href="/join"
+                  className="font-bold flex whitespace-nowrap content-center hover:underline transition"
+                >
+                  Join now&nbsp;
+                  <Icon name="arrow-stem-left" className="my-auto font-bold" />
+                </Link>
               </p>
-              <Link
-                href="/join"
-                className="font-bold flex content-center hover:-translate-y-0.5 transition"
-              >
-                <p>Join now&nbsp;</p>
-                <Icon name="arrow-stem-left" className="my-auto font-bold" />
-              </Link>
             </div>
             <div
               className={`flex flex-col md:flex-row gap-4 ${
