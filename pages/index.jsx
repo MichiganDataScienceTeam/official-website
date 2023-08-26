@@ -1,17 +1,17 @@
-import Layout from "@/components/layout";
-import Wave from "@/components/wave";
-import Wave180 from "@/components/wave180";
-import Hero from "@/components/hero";
-import Link from "next/link";
 import Button from "@/components/button";
+import HeadContent from "@/components/headContent";
+import Hero from "@/components/hero";
 import Icon from "@/components/icon";
-import fs from "fs";
-import path from "path";
-import Image from "next/image";
+import Layout from "@/components/layout";
 import SponsorSection from "@/components/sponsorSection";
 import Timeline from "@/components/timeline";
-import HeadContent from "@/components/headContent";
+import Wave from "@/components/wave";
+import Wave180 from "@/components/wave180";
+import fs from "fs";
+import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
+import path from "path";
 import { useState } from "react";
 export default function Home({ sponsors, projects, timeline }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
@@ -26,18 +26,17 @@ export default function Home({ sponsors, projects, timeline }) {
         }
       />
       <Hero>
-        <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
+        <div className="flex gap-8 items-center md:flex-row flex-col p-8">
           <div className="md:w-1/2 w-full">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
-              UM&apos;s Premier Data Science Club
+              Project-Based Data Science at the University of Michigan
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-              We aim to equip more Michigan students with data science
-              skills they need to embrace future careers. 
-              For all majors of any background!
+              MDST members learn key skills through our semesterly projects
+              exploring the practical applications of data science.
             </p>
             <div className="flex md:justify-start justify-center gap-5">
-              <Button href="/join" text="Join Us" />
+              <Button href="/join" text="Learn More" />
               <Button href="/sponsors" text="Work with Us" />
             </div>
           </div>
@@ -70,15 +69,30 @@ export default function Home({ sponsors, projects, timeline }) {
         <div className="lg:order-none order-first">
           <div className="sticky top-24">
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-2">
-              <span className="font-bold">
-                Michigan Data Science Team (MDST)
-              </span>{" "}
-              is the largest data science club at the University of Michigan,
-              dedicated to equipping more Michigan students with data science
-              skills they need to embrace future careers.
+              <div className="mb-4">
+                <span className="font-bold">
+                  Michigan Data Science Team (MDST)
+                </span>{" "}
+                is the largest data science club at the University of Michigan,
+                dedicated to equipping more Michigan students with data science
+                skills needed to embrace future careers.
+              </div>
+              <div className="mb-4">
+                Each semester, MDST runs team-based data science projects,
+                allowing you to learn and practice data science through their
+                applications to a variety of domains.
+              </div>
+              <div className="mb-4">
+                In addition, we host guest talks, speaker events, and socials,
+                allowing you to meet and interact with the larger data science
+                community at the University of Michigan and beyond.
+              </div>
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
-              <p>Interested?&nbsp;</p>
+              <p>
+                All UM students of any background can join MDST.
+                Interested?&nbsp;
+              </p>
               <Link
                 href="/join"
                 className="font-bold flex content-center hover:-translate-y-0.5 transition"
@@ -93,13 +107,10 @@ export default function Home({ sponsors, projects, timeline }) {
               } xl:flex-row`}
             >
               <Factbox fact="200+" closer="community members"></Factbox>
-              <Factbox
-                fact="14+"
-                closer="project teams for fall 2023"
-              ></Factbox>
+              <Factbox fact="14+" closer="project teams"></Factbox>
               <Factbox
                 fact="10+"
-                closer="socials, workshops, guest talks, and more!"
+                closer="socials, workshops, tech talks, and more"
               ></Factbox>
             </div>
           </div>
