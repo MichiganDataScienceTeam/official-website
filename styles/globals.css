@@ -50,9 +50,11 @@ background: radial-gradient(50% 50% at 50% 50%, #896AE4 0%, rgba(67, 151, 117, 0
   @apply font-bold;
   @apply hover:underline;
   @apply transition;
+  color: #896AE4;
 }
 .markdown ul {
   @apply relative;
+  @apply my-4;
 }
 .markdown li {
   @apply before:content-['-'];
@@ -67,4 +69,15 @@ background: radial-gradient(50% 50% at 50% 50%, #896AE4 0%, rgba(67, 151, 117, 0
 
 .markdown strong{
   @apply font-bold;
+}
+
+.markdown .callout{
+  @apply m-4;
+  @apply bg-grey;
+  @apply rounded-lg;
+  @apply p-5;
+}
+
+.markdown u{
+  @apply font-normal
 }

@@ -1,19 +1,27 @@
+import loadStaticData from "@/shared/static";
+
 import Layout from "@/components/layout";
 import Hero from "@/components/hero";
-import fs from "fs";
-import path from "path";
 import Markdown from "markdown-to-jsx";
 import Timeline from "@/components/timeline";
-import Button from "@/components/button";
 import HeadContent from "@/components/headContent";
-export default function Join({ content, timeline }) {
+
+export default function Join({ join_info, faq, timeline }) {
   return (
     <Layout>
-      <HeadContent title={"Michigan Data Science Team - Join Today"} description={"Are you curious about harnessing the power of data to drive insights and make informed decisions? Join our community of data enthusiasts and collaborate with like-minded students to tackle real-world challenges. Whether you're an experienced data scientist or just getting started with the fundamentals, MDST provides a supportive environment for learning, growing, and contributing to meaningful projects."} />
+      <HeadContent
+        title={"Michigan Data Science Team - Join Today"}
+        description={
+          "Are you curious about harnessing the power of data to drive insights and make informed decisions? Join our community of data enthusiasts and collaborate with like-minded students to tackle real-world challenges. Whether you're an experienced data scientist or just getting started with the fundamentals, MDST provides a supportive environment for learning, growing, and contributing to meaningful projects."
+        }
+      />
 
       <Hero title="Joining MDST" />
-      <div className="container mx-auto mb-16 px-2 flex justify-center">
-        <Button href="https://forms.gle/B5TyHZHL44BcoKNX6" text="Interest Form" />
+      <div className="container mx-auto mb-16 px-2">
+        <div className="mb-8">
+          <Markdown className="markdown font-light">{join_info}</Markdown>
+        </div>
+        <hr className="pt-2"></hr>
       </div>
       <div className="container mx-auto px-2 sm:px-7 pb-24 justify-center grid md:grid-flow-col grid-flow-row gap-8">
         <div>
@@ -24,20 +32,16 @@ export default function Join({ content, timeline }) {
         </div>
 
         <div className="container mx-auto px-2">
-          <Markdown className="markdown font-light">{content}</Markdown>
+          <Markdown className="markdown font-light">{faq}</Markdown>
         </div>
       </div>
     </Layout>
   );
 }
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "config", "join.md");
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  const content = fileContent;
+  const join_info = loadStaticData("join.md");
+  const faq = loadStaticData("faq.md");
+  const timeline = loadStaticData("timeline.json");
 
-  const timelineFilePath = path.join(process.cwd(), "config", "timeline.json");
-  const timelineFileContent = fs.readFileSync(timelineFilePath, "utf-8");
-  const timeline = JSON.parse(timelineFileContent);
-
-  return { props: { content, timeline } };
+  return { props: { join_info, faq, timeline } };
 }
