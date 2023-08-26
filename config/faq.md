@@ -22,4 +22,4 @@ We primarily use **Python** for our projects. If you are an R user, we recommend
 
 ## I am not a student at the University of Michigan. Can I join?
 
-**No.** Unfortunately, we are not currently accepting students outside U of M.
+**No.** Unfortunately, we are not currently accepting students outside U-M.

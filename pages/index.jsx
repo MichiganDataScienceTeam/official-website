@@ -22,7 +22,7 @@ export default function Home({ sponsors, projects, timeline }) {
       <HeadContent
         title={"MDST - Michigan Data Science Team"}
         description={
-          "Michigan Data Science Team - MDST is the largest data science club at UM"
+          "Michigan Data Science Team - MDST is the largest data science club at U-M"
         }
       />
       <Hero>
@@ -91,7 +91,7 @@ export default function Home({ sponsors, projects, timeline }) {
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
               <p className="sm:flex block">
-                All UM students are welcome to join MDST.&nbsp;
+                All U-M students are welcome to join MDST.&nbsp;
                 <Link
                   href="/join"
                   className="font-bold flex whitespace-nowrap content-center hover:underline transition"
