@@ -75,8 +75,8 @@ export default function Home({ sponsors, projects, timeline }) {
                   Michigan Data Science Team (MDST)
                 </span>{" "}
                 is the largest data science club at the University of Michigan,
-                dedicated to equipping University of Michigan students with data
-                science skills needed for future data-driven careers.
+                dedicated to equipping U-M students with the skills needed for
+                future data-driven careers.
               </div>
               <div className="mb-4">
                 Each semester, MDST runs team-based projects, allowing you to
@@ -84,9 +84,9 @@ export default function Home({ sponsors, projects, timeline }) {
                 a variety of domains.
               </div>
               <div className="mb-4">
-                We also host guest talks, workshops, and socials, allowing you
-                to meet and interact with the larger data science community at
-                the University of Michigan and beyond.
+                We also host guest talks, workshops, and socials - all
+                opportunities to meet and interact with the larger data science
+                community at the U-M and beyond.
               </div>
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
