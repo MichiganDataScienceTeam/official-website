@@ -1,12 +1,12 @@
-import Layout from "@/components/layout";
-import Hero from "@/components/hero";
-import Link from "next/link";
-import Image from "next/image";
-import Icon from "@/components/icon";
-import fs from "fs";
-import path from "path";
-import { useRouter } from "next/router";
 import HeadContent from "@/components/headContent";
+import Hero from "@/components/hero";
+import Icon from "@/components/icon";
+import Layout from "@/components/layout";
+import loadStaticData from "@/shared/static";
+import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
+
 export default function Team({ teamjson }) {
   const router = useRouter();
   const basePath = router.basePath;
@@ -28,9 +28,7 @@ export default function Team({ teamjson }) {
 }
 
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "config", "ourteam.json");
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  const teamjson = JSON.parse(fileContent);
+  const teamjson = loadStaticData("ourteam.json");
   return { props: { teamjson } };
 }
 

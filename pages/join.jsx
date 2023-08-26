@@ -1,10 +1,10 @@
 import loadStaticData from "@/shared/static";
 
-import Layout from "@/components/layout";
-import Hero from "@/components/hero";
-import Markdown from "markdown-to-jsx";
-import Timeline from "@/components/timeline";
 import HeadContent from "@/components/headContent";
+import Hero from "@/components/hero";
+import Layout from "@/components/layout";
+import Timeline from "@/components/timeline";
+import Markdown from "markdown-to-jsx";
 
 export default function Join({ join_info, faq, timeline }) {
   return (

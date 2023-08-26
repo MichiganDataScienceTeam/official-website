@@ -7,12 +7,12 @@ import SponsorSection from "@/components/sponsorSection";
 import Timeline from "@/components/timeline";
 import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
-import fs from "fs";
+import loadStaticData from "@/shared/static";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import path from "path";
 import { useState } from "react";
+
 export default function Home({ sponsors, projects, timeline }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
   const router = useRouter();
@@ -211,16 +211,9 @@ function Carousel({ projects, basePath }) {
 }
 
 export async function getStaticProps() {
-  const sponsorFilePath = path.join(process.cwd(), "config", "sponsors.json");
-  const sponsorFileContent = fs.readFileSync(sponsorFilePath, "utf-8");
-  const sponsors = JSON.parse(sponsorFileContent);
+  const sponsors = loadStaticData("sponsors.json");
+  const projects = loadStaticData("homepage.json");
+  const timeline = loadStaticData("timeline.json");
 
-  const projectFilePath = path.join(process.cwd(), "config", "homepage.json");
-  const projectFileContent = fs.readFileSync(projectFilePath, "utf-8");
-  const projects = JSON.parse(projectFileContent);
-
-  const timelineFilePath = path.join(process.cwd(), "config", "timeline.json");
-  const timelineFileContent = fs.readFileSync(timelineFilePath, "utf-8");
-  const timeline = JSON.parse(timelineFileContent);
   return { props: { sponsors, projects, timeline } };
 }
