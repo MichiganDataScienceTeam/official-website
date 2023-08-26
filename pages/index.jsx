@@ -37,7 +37,7 @@ export default function Home({ sponsors, projects, timeline }) {
               skills and work with emerging tech.
             </p>
             <div className="flex md:justify-start justify-center gap-5">
-              <Button href="/join" text="Learn More" />
+              <Button href="/join" text="Join Us" />
               <Button href="/sponsors" text="Work with Us" />
             </div>
           </div>
