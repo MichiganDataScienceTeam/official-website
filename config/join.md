@@ -2,13 +2,15 @@
 
 Thank you for your interest in joining MDST! We're super excited to get you started on the process for joining the club.
 
-### Step 1 - Sign up for our mailing list
+### Step 1: Sign up for our mailing list
 
 Our mailing list is going to be the fastest way for us to reach you with the latest information on how to join, mass meetings, and other onboarding events. Fill out the [interest form](https://forms.gle/B5TyHZHL44BcoKNX6) linked below to be added to our mailing list.
 
 <p class="md-button-wrapper"><a class="md-button" href="https://forms.gle/B5TyHZHL44BcoKNX6"> Interest Form</a></p>
+
 <hr>
-### Step 2 - Attend our Mass Meetings
+
+### Step 2: Attend our Mass Meetings
 
 MDST will host **two mass meetings** over the first 2 weeks of the Fall 2023 semester. At these meetings, we will discuss alot more about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
@@ -18,7 +20,8 @@ MDST will host **two mass meetings** over the first 2 weeks of the Fall 2023 sem
 Both mass meetings will cover the same content and will be recorded if you are unable to attend. <u>You only need to attend a single mass meeting</u>.
 
 <hr>
-### Step 3 - Complete Tutorials Checkpoints
+
+### Step 3: Complete Tutorial Checkpoints
 
 New members are required to **complete two tutorials** giving an introduction to data science and programming in Python. The purpose of these tutorials is to make sure that all of our members, despite their background, is able to equally contribute to MDST projects.
 
@@ -42,12 +45,14 @@ If you feel frustrated at any point when working through the tutorials, know it 
 In addition, feel free to email us at [mdst-coms@umich.edu](mailto:mdst-coms@umich.edu) with any questions or issues you might have while working on tutorials.
 
 <hr>
-### Step 4 - Attend our Project Exploration Fair
+
+### Step 4: Attend our Project Exploration Fair
 
 Join us on **September 10th, 5:00 - 6:30 PM** to learn about all the data science we will run this semester and directly ask our project leaders any questions you have about the specific project goals and motivations. **Room pending**.
 
 <hr>
-### Step 5 - Submit Checkpoints and Sign-up For Projects
+
+### Step 5: Submit Checkpoints and Sign-up For Projects
 
 On **September 10th**, we will release the project sign-up form where you specify your project preferences along with a link to the GitHub repository containing all the completed checkpoints plus the optional challenges (if attempted). If you've never worked with Git and GitHub before, check out our [Git Version Control Guide](https://docs.google.com/document/d/1pq42R2xr_yoyhyzWE0ugReHgEKgwLdjrJR4mT3_CQEo/edit?usp=sharing).
 
