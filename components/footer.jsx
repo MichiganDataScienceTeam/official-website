@@ -6,10 +6,6 @@ export default function Footer() {
   return (
     <footer className="p-4 flex items-center justify-center gap-2">
       <Logo size={36} />
-      <div className="pr-7 leading-tight font-semibold text-sm">
-        Michigan Data <br />
-        Science Team
-      </div>
       <Link href="https://github.com/MichiganDataScienceTeam">
         <Icon name="github" className="text-4xl" />
       </Link>

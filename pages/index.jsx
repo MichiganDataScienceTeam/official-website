@@ -1,18 +1,18 @@
-import Layout from "@/components/layout";
-import Wave from "@/components/wave";
-import Wave180 from "@/components/wave180";
-import Hero from "@/components/hero";
-import Link from "next/link";
 import Button from "@/components/button";
+import HeadContent from "@/components/headContent";
+import Hero from "@/components/hero";
 import Icon from "@/components/icon";
-import fs from "fs";
-import path from "path";
-import Image from "next/image";
+import Layout from "@/components/layout";
 import SponsorSection from "@/components/sponsorSection";
 import Timeline from "@/components/timeline";
-import HeadContent from "@/components/headContent";
+import Wave from "@/components/wave";
+import Wave180 from "@/components/wave180";
+import loadStaticData from "@/shared/static";
+import Image from "next/image";
+import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
+
 export default function Home({ sponsors, projects, timeline }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
   const router = useRouter();
@@ -26,15 +26,15 @@ export default function Home({ sponsors, projects, timeline }) {
         }
       />
       <Hero>
-        <div className="flex gap-8 items-center md:flex-row flex-col-reverse p-8">
+        <div className="flex gap-8 items-center md:flex-row flex-col p-8">
           <div className="md:w-1/2 w-full">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
-              UM&apos;s Premier Data Science Club
+              U-M&apos;s Premier Applied Data Science Club
             </h1>
             <p className="mb-5 xl:text-lg lg:text-base text-sm font-light tracking-normal">
-              We aim to equip more Michigan students with data science
-              skills they need to embrace future careers. 
-              For all majors of any background!
+              MDST&apos;s semesterly projects teach U-M students how to use data
+              science to solve problems, offering them the chance to learn key
+              skills and work with emerging tech.
             </p>
             <div className="flex md:justify-start justify-center gap-5">
               <Button href="/join" text="Join Us" />
@@ -70,22 +70,36 @@ export default function Home({ sponsors, projects, timeline }) {
         <div className="lg:order-none order-first">
           <div className="sticky top-24">
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-2">
-              <span className="font-bold">
-                Michigan Data Science Team (MDST)
-              </span>{" "}
-              is the largest data science club at the University of Michigan,
-              dedicated to equipping more Michigan students with data science
-              skills they need to embrace future careers.
+              <div className="mb-4">
+                <span className="font-bold">
+                  Michigan Data Science Team (MDST)
+                </span>{" "}
+                is the largest data science club at the University of Michigan,
+                dedicated to equipping U-M students with the skills needed for
+                future data-driven careers.
+              </div>
+              <div className="mb-4">
+                Each semester, MDST runs team-based projects, allowing you to
+                learn and practice data science skills and their applications in
+                a variety of domains.
+              </div>
+              <div className="mb-4">
+                We also host guest talks, workshops, and socials - all
+                opportunities to meet and interact with the larger data science
+                community at the U-M and beyond.
+              </div>
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
-              <p>Interested?&nbsp;</p>
-              <Link
-                href="/join"
-                className="font-bold flex content-center hover:-translate-y-0.5 transition"
-              >
-                <p>Join now&nbsp;</p>
-                <Icon name="arrow-stem-left" className="my-auto font-bold" />
-              </Link>
+              <p className="sm:flex block">
+                All UM students are welcome to join MDST.&nbsp;
+                <Link
+                  href="/join"
+                  className="font-bold flex whitespace-nowrap content-center hover:underline transition"
+                >
+                  Join now&nbsp;
+                  <Icon name="arrow-stem-left" className="my-auto font-bold" />
+                </Link>
+              </p>
             </div>
             <div
               className={`flex flex-col md:flex-row gap-4 ${
@@ -93,39 +107,22 @@ export default function Home({ sponsors, projects, timeline }) {
               } xl:flex-row`}
             >
               <Factbox fact="200+" closer="community members"></Factbox>
-              <Factbox
-                fact="14+"
-                closer="project teams for fall 2023"
-              ></Factbox>
+              <Factbox fact="14+" closer="project teams"></Factbox>
               <Factbox
                 fact="10+"
-                closer="socials, workshops, guest talks, and more!"
+                closer="socials, workshops, tech talks, and more"
               ></Factbox>
             </div>
           </div>
         </div>
       </div>
       <Carousel projects={projects} basePath={basePath} />
-      <div className="container mx-auto mb-8 px-2">
-        <h2 className="text-3xl text-center">
-          Interested? <br />
-          All UM Ann Arbor students can join for free!
-        </h2>
-        <div className="flex mt-4 justify-center">
-          <Button href="/join" text="Join Us" />
-        </div>
-      </div>
-
       <div className="container mx-auto px-2">
         <h2 className="text-3xl text-center">
           MDST is proudly supported by our sponsors
         </h2>
         <SponsorSection basePath={basePath} group={sponsors[0]} />
       </div>
-
-      {/* <div className='dark:bg-blue-800 p-4'>
-        <Markdown className='markdown'>{content}</Markdown>
-      </div> */}
     </Layout>
   );
 }
@@ -214,16 +211,9 @@ function Carousel({ projects, basePath }) {
 }
 
 export async function getStaticProps() {
-  const sponsorFilePath = path.join(process.cwd(), "config", "sponsors.json");
-  const sponsorFileContent = fs.readFileSync(sponsorFilePath, "utf-8");
-  const sponsors = JSON.parse(sponsorFileContent);
+  const sponsors = loadStaticData("sponsors.json");
+  const projects = loadStaticData("homepage.json");
+  const timeline = loadStaticData("timeline.json");
 
-  const projectFilePath = path.join(process.cwd(), "config", "homepage.json");
-  const projectFileContent = fs.readFileSync(projectFilePath, "utf-8");
-  const projects = JSON.parse(projectFileContent);
-
-  const timelineFilePath = path.join(process.cwd(), "config", "timeline.json");
-  const timelineFileContent = fs.readFileSync(timelineFilePath, "utf-8");
-  const timeline = JSON.parse(timelineFileContent);
   return { props: { sponsors, projects, timeline } };
 }

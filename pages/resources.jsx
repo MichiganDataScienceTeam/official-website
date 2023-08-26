@@ -1,7 +1,6 @@
-import Layout from "@/components/layout";
 import Hero from "@/components/hero";
-import fs from "fs";
-import path from "path";
+import Layout from "@/components/layout";
+import loadStaticData from "@/shared/static";
 import Markdown from "markdown-to-jsx";
 
 export default function Resources({ content }) {
@@ -15,8 +14,6 @@ export default function Resources({ content }) {
   );
 }
 export async function getStaticProps() {
-  const filePath = path.join(process.cwd(), "config", "resources.md");
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  const content = fileContent;
+  const content = loadStaticData("resources.md");
   return { props: { content } };
 }
