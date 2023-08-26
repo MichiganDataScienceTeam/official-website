@@ -113,11 +113,6 @@ export default function Navbar() {
       <MobileNav open={open} setOpen={setOpen} />
       <div className="w-3/12 flex items-center">
         <Logo size={64} />
-        <div className="pr-7 leading-tight lg:block hidden text-sm font-medium">
-          Michigan
-          <br /> Data Science <br />
-          Team
-        </div>
       </div>
       <div className="w-9/12 flex justify-end items-center">
         <div
