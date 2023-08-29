@@ -91,7 +91,7 @@ export default function Home({ sponsors, projects, timeline }) {
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
               <p className="sm:flex block">
-                All U-M students are welcome to join MDST.&nbsp;
+                We believe data science is for everyone. All U-M students are welcome to join MDST.&nbsp;
                 <Link
                   href="/join"
                   className="font-bold flex whitespace-nowrap content-center hover:underline transition"
