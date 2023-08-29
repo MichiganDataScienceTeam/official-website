@@ -79,6 +79,7 @@ export default function Home({ sponsors, projects, timeline }) {
                 future data-driven careers.
               </div>
               <div className="mb-4">
+                We believe data science is for everyone. 
                 Each semester, MDST runs team-based projects, allowing you to
                 learn and practice data science skills and their applications in
                 a variety of domains.
@@ -91,7 +92,7 @@ export default function Home({ sponsors, projects, timeline }) {
             </div>
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
               <p className="sm:flex block">
-                We believe data science is for everyone. All U-M students are welcome to join MDST.&nbsp;
+                All U-M students are welcome to join MDST.&nbsp;
                 <Link
                   href="/join"
                   className="font-bold flex whitespace-nowrap content-center hover:underline transition"
