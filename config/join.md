@@ -14,7 +14,7 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 MDST will host **two mass meetings** over the first 2 weeks of the Fall 2023 semester. At these meetings, we will discuss alot more about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
-- **Mass Meeting 1**: August 31th, 7:00 - 8:00 PM. East Hall 1360 (**Tentative - sign up for our mailing list to hear about updates**)
+- **Mass Meeting 1**: August 31th, 6:30 - 7:30. East Hall 1360 (**Tentative - sign up for our mailing list to hear about updates**)
 - **Mass Meeting 2**: September 4th, 4:30 - 5:30 PM. Michigan Union (Wolverine Room)
 
 Both mass meetings will cover the same content and will be recorded if you are unable to attend. <u>You only need to attend a single mass meeting</u>.
