@@ -13,9 +13,9 @@
       "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
     },
     {
-      "title": "Tutorial - Python (Location TBD)",
+      "title": "Tutorial 1 @ Fishbowl Classroom",
       "time": "September 3rd 12pm - 3pm",
-      "description": "Develop essential Python skills for project participation."
+      "description": "Introduction to the command line and Q&A."
     },
     {
       "title": "Mass Meeting 2 @ Michigan Union (Wolverine Room)",
@@ -23,7 +23,12 @@
       "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
     },
     {
-      "title": "Tutorial - Data Science (Location TBD)",
+        "title": "Office Hours 1 @ UGLI Third Floor",
+        "time": "September 5th 7:00pm - 9:00pm",
+        "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+    },
+    {
+      "title": "Tutorial 2 - Data Science @ Fishbowl Classroom",
       "time": "September 10th 12pm - 3pm",
       "description": "Build basic data science knowledge for project participation."
     },
@@ -31,6 +36,16 @@
       "title": "Project Exploration Fair (Location TBD)",
       "time": "September 10th",
       "description": "Explore MDST projects this semester and choose your favorites to signup for."
+    },
+    {
+        "title": "Office Hours 2 @ UGLI Third Floor",
+        "time": "September 12th 7:00pm - 9:00pm",
+        "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+    },
+    {
+        "title": "Office Hours 3 @ UGLI Third Floor",
+        "time": "September 14th 7:00pm - 9:00pm",
+        "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
       "title": "Project Sign-Ups Due",

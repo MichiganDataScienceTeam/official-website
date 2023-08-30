@@ -26,14 +26,14 @@ Both mass meetings will cover the same content and will be recorded if you are u
 New members are required to **complete two tutorials** giving an introduction to data science and programming in Python. The purpose of these tutorials is to make sure that all of our members, despite their background, is able to equally contribute to MDST projects.
 
 <div class="callout font-normal">
-    The tutorials for Fall 2023 are still under development. Check back in at a later time for links to these tutorials and in-depth instructions on how to complete them. To hear first when they are released, sign up for our mailing list via our [interest form](https://forms.gle/B5TyHZHL44BcoKNX6). We also recommend reading through our [FAQ](#FAQ) for any questions you may have in the meantime.
+    The tutorials for Fall 2023 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/2023-Tutorials). The repository contains all the materials you need as well as information about the support we provide. We also recommend reading through our [FAQ](#FAQ) for any questions you may have in the meantime.
 </div>
 
 #### Tutorial Format
 
 The format of each tutorial includes:
 
-- A [Jupyter notebook](https://docs.jupyter.org/en/latest/) which walks you through the relevant content for that tutorial. Never heard of a Jupyter notebook before? Check out the [Jupyter documentation](https://docs.jupyter.org/en/latest/) to learn more. Follow [our setup guide](https://docs.google.com/document/d/17AOCdbztv6G0t5cha2_9buWi-MrCUS0vN20rbpKg-GI/edit?usp=sharing) to setup Jupyter locally.
+- A [Jupyter notebook](https://docs.jupyter.org/en/latest/) which walks you through the relevant content for that tutorial. Never heard of a Jupyter notebook before? Check out the [Jupyter documentation](https://docs.jupyter.org/en/latest/) to learn more.
 - A **checkpoint** to check your understanding of the tutorial content. <u>You must correctly complete and submit this checkpoint in order to join MDST</u>.
 
 <div class="callout">
