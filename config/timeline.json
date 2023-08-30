@@ -8,7 +8,7 @@
       "description": "Stop by our booth to meet the E-Board and learn about MDST."
     },
     {
-      "title": "Mass Meeting 1 @ EH 1360 (tentative)",
+      "title": "Mass Meeting 1 @ EH 1360 (Tentative)",
       "time": "August 31th 6:30pm - 7:30pm",
       "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
     },
@@ -23,9 +23,9 @@
       "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
     },
     {
-        "title": "Office Hours 1 @ UGLI Third Floor",
-        "time": "September 5th 7:00pm - 9:00pm",
-        "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+      "title": "Office Hours 1 @ UGLI Third Floor",
+      "time": "September 5th 7:00pm - 9:00pm",
+      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
       "title": "Tutorial 2 - Data Science @ Fishbowl Classroom",
@@ -38,17 +38,18 @@
       "description": "Explore MDST projects this semester and choose your favorites to signup for."
     },
     {
-        "title": "Office Hours 2 @ UGLI Third Floor",
-        "time": "September 12th 7:00pm - 9:00pm",
-        "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+      "title": "Office Hours 2 @ UGLI Third Floor",
+      "time": "September 12th 7:00pm - 9:00pm",
+      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
-        "title": "Office Hours 3 @ UGLI Third Floor",
-        "time": "September 14th 7:00pm - 9:00pm",
-        "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+      "title": "Office Hours 3 @ UGLI Third Floor",
+      "time": "September 14th 7:00pm - 9:00pm",
+      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
       "title": "Project Sign-Ups Due",
+      "time": "September 14th",
       "time": "September 14th",
       "description": "Sign up for your preferred projects. New members submit tutorial checkpoints."
     },
