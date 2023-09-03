@@ -19,6 +19,8 @@ MDST will host **two mass meetings** over the first 2 weeks of the Fall 2023 sem
 
 Both mass meetings will cover the same content and will be recorded if you are unable to attend. <u>You only need to attend a single mass meeting</u>.
 
+You can find our mass meeting slides [here](https://docs.google.com/presentation/d/17dY2_xR_FVxeIpnOmhFHEUQo9eCmQx6KzbvVj7K8YF0/edit?usp=sharing) and our recording [here](https://drive.google.com/file/d/1lztjqm4FDRo1RKCBERAQxN48msrd6CXq/view?usp=drive_link) (you will need to be logged into your U-M account).
+
 <hr>
 
 ### Step 3: Complete Tutorial Checkpoints
