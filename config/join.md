@@ -16,11 +16,12 @@ MDST will host **two mass meetings** over the first 2 weeks of the Fall 2023 sem
 
 - **Mass Meeting 1**: August 31th, 6:30 - 7:30. East Hall 1360
 - **Mass Meeting 2**: September 4th, 4:30 - 5:30 PM. Michigan Union (Wolverine Room)
+- **Our slides and recordings can be find below**
 
 Both mass meetings will cover the same content and will be recorded if you are unable to attend. 
 Mass Meetings are for informational purposes. **We do not take attendance, and they are not part of the application process.**
 
-You can find our mass meeting slides [here](https://docs.google.com/presentation/d/17dY2_xR_FVxeIpnOmhFHEUQo9eCmQx6KzbvVj7K8YF0/edit?usp=sharing) and our recording [here](https://drive.google.com/file/d/1lztjqm4FDRo1RKCBERAQxN48msrd6CXq/view?usp=drive_link) (you will need to be logged into your U-M account).
+You can find our mass meeting slides [here](https://docs.google.com/presentation/d/1eb_zenR8Zj8UAUyYdg0B27pB9w-9lVszJxb5Lzxec8E/edit?usp=sharing) and our recording [here](https://drive.google.com/file/d/1lztjqm4FDRo1RKCBERAQxN48msrd6CXq/view?usp=drive_link) (you will need to be logged into your U-M account).
 
 <hr>
 
