@@ -14,10 +14,11 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 MDST will host **two mass meetings** over the first 2 weeks of the Fall 2023 semester. At these meetings, we will discuss alot more about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
-- **Mass Meeting 1**: August 31th, 6:30 - 7:30. East Hall 1360 (**Tentative - sign up for our mailing list to hear about updates**)
+- **Mass Meeting 1**: August 31th, 6:30 - 7:30. East Hall 1360
 - **Mass Meeting 2**: September 4th, 4:30 - 5:30 PM. Michigan Union (Wolverine Room)
 
-Both mass meetings will cover the same content and will be recorded if you are unable to attend. <u>You only need to attend a single mass meeting</u>.
+Both mass meetings will cover the same content and will be recorded if you are unable to attend. 
+Mass Meetings are for informational purposes. <u> We do not take attendance, and they are not part of the application process.<u/>
 
 You can find our mass meeting slides [here](https://docs.google.com/presentation/d/17dY2_xR_FVxeIpnOmhFHEUQo9eCmQx6KzbvVj7K8YF0/edit?usp=sharing) and our recording [here](https://drive.google.com/file/d/1lztjqm4FDRo1RKCBERAQxN48msrd6CXq/view?usp=drive_link) (you will need to be logged into your U-M account).
 
