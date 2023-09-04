@@ -34,8 +34,8 @@ function MobileNav({ open, setOpen }) {
         >
           Projects
         </Link>
-        {/* <Link
-          className="text-xl font-medium my-4"
+        <Link
+          className="text-xl font-normal my-4"
           href="/resources"
           onClick={() =>
             setTimeout(() => {
@@ -44,7 +44,7 @@ function MobileNav({ open, setOpen }) {
           }
         >
           Resources
-        </Link> */}
+        </Link>
         <Link
           className="text-xl font-normal my-4"
           href="/team"
@@ -141,7 +141,7 @@ export default function Navbar() {
 
         <div className="hidden md:flex">
           <NavLink to="/projects">Projects</NavLink>
-          {/* <NavLink to="/resources">Resources</NavLink> */}
+          <NavLink to="/resources">Resources</NavLink>
           <NavLink to="/team">Our Team</NavLink>
           <NavLink to="/sponsors">Our Sponsors</NavLink>
           {/* <NavLink to="/calendar">Calendar</NavLink> */}
