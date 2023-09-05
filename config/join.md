@@ -18,7 +18,7 @@ MDST will host **two mass meetings** over the first 2 weeks of the Fall 2023 sem
 - **Mass Meeting 2**: September 4th, 4:30 - 5:30 PM. Michigan Union (Wolverine Room)
 - **Our slides and recordings can be find below**
 
-Both mass meetings will cover the same content and will be recorded if you are unable to attend. 
+Both mass meetings will cover the same content and will be recorded if you are unable to attend.
 Mass Meetings are for informational purposes. **We do not take attendance, and they are not part of the application process.**
 
 You can find our mass meeting slides [here](https://docs.google.com/presentation/d/1eb_zenR8Zj8UAUyYdg0B27pB9w-9lVszJxb5Lzxec8E/edit?usp=sharing) and our recording [here](https://drive.google.com/file/d/1lztjqm4FDRo1RKCBERAQxN48msrd6CXq/view?usp=drive_link) (you will need to be logged into your U-M account).
@@ -46,7 +46,7 @@ The format of each tutorial includes:
 
 If you feel frustrated at any point when working through the tutorials, know it is normal (the majority of active MDST members have been in your exact spot before and know how annoying working with some of this technology could be). For this reason, our education committee hosts **office hours** throughout the onboarding process so you can ask questions and get help on what you're stuck on. **See our [events calendar](https://calendar.google.com/calendar/embed?src=c_22ca0c151585760442cad5796fb91bd18b7db11d813e9143e38549aadce65afe%40group.calendar.google.com&ctz=America%2FNew_York) for office hour times and locations.**
 
-In addition, feel free to email us at [mdst-coms@umich.edu](mailto:mdst-coms@umich.edu) with any questions or issues you might have while working on tutorials.
+In addition, you should post any question on our [Piazza forum](https://piazza.com/umich/fall2023/mdst101). You may also email Casper at casperg@umich.edu. Please only use the email address for personal questions; all questions of a technical nature should be posted to Piazza.
 
 <hr>
 
