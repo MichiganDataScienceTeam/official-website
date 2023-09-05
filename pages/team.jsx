@@ -52,10 +52,9 @@ function MemberCard({ json, basePath }) {
   return (
     <div className="text-center rounded bg-grey py-4 px-8 w-full sm:w-60">
       <Image
-        className="mx-auto mb-4 w-44 h-44 rounded-full"
-        width="500"
-        height="500"
-        style={{ objectFit: "cover" }}
+        className="mx-auto mb-4 w-44 h-44 rounded-full object-cover"
+        width="176"
+        height="176"
         src={
           basePath
             ? `${basePath}/images/team/${json.image}`
