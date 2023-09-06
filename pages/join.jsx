@@ -31,7 +31,7 @@ export default function Join({ join_info, faq, timeline }) {
         </div>
 
         <div className="container mx-auto px-2">
-          <Markdown className="markdown font-light">{faq}</Markdown>
+          <Markdown id="FAQ" className="markdown font-light">{faq}</Markdown>
         </div>
       </div>
     </Layout>

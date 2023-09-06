@@ -54,9 +54,9 @@ background: radial-gradient(50% 50% at 50% 50%, #896AE4 0%, rgba(67, 151, 117, 0
 
 .markdown a {
   @apply font-bold;
-  @apply hover:underline;
+  @apply underline;
   @apply transition;
-  color: #896AE4;
+  @apply text-primary-light
 }
 .markdown ul {
   @apply relative;
@@ -98,9 +98,17 @@ background: radial-gradient(50% 50% at 50% 50%, #896AE4 0%, rgba(67, 151, 117, 0
   @apply transition; 
   @apply drop-shadow-md;
   color: #edfffe;
+  @apply no-underline;
 }
-
 .markdown .md-button-wrapper{
   @apply py-4;
   @apply mb-6;
+  @apply hover:-translate-y-2;
+  @apply transition;
+  @apply w-fit;
+}
+
+.markdown .highlight{
+  @apply font-bold;
+  @apply text-primary-light;
 }

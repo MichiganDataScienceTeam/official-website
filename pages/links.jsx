@@ -12,7 +12,7 @@ export default function Links({ linksjson }) {
   const router = useRouter();
   const basePath = router.basePath;
   return (
-    <div>
+    <main>
       <HeadContent title={"Michigan Data Science Team - Links"} />
       <Image
         className="mx-auto"
@@ -27,9 +27,8 @@ export default function Links({ linksjson }) {
         MDST - Michigan Data Science Team Links
       </h1>
       <div
-        className={`fixed top-4 ${
-          showToast ? "" : "-translate-y-40"
-        } duration-75	transition-transform left-1/2 transform -translate-x-1/2 p-2 bg-green-600 rounded text-white `}
+        className={`fixed top-4 ${showToast ? "" : "-translate-y-40"
+          } duration-75	transition-transform left-1/2 transform -translate-x-1/2 p-2 bg-green-600 rounded text-white `}
       >
         Copied!
       </div>
@@ -48,7 +47,7 @@ export default function Links({ linksjson }) {
           />
         ))}
       </div>
-    </div>
+    </main>
   );
 }
 
@@ -58,9 +57,8 @@ function LinkElement({ link, toast }) {
       key={link.name}
       href={link.href}
       target="_blank"
-      className={`p-4 ${
-        link?.color === "primary" ? "bg-primary" : "bg-grey"
-      } rounded-lg grid w-72 items-center gap-6 link hover:-translate-y-1 `}
+      className={`p-4 ${link?.color === "primary" ? "bg-primary-dark" : "bg-grey"
+        } rounded-lg grid w-72 items-center gap-6 link hover:-translate-y-1 `}
     >
       <Icon name={link.icon_name} className="text-4xl" />
       <h2 className="font-bold text-lg">{link.name}</h2>
@@ -87,7 +85,7 @@ function ShareButton({ link, toast }) {
     }
   };
   return (
-    <button onClick={sharePage}>
+    <button aria-label="copy" onClick={sharePage}>
       <Icon name="copy" className="text-2xl self-end" />
     </button>
   );

@@ -67,14 +67,14 @@ function MemberCard({ json, basePath }) {
       <ul className="flex justify-center mt-4 space-x-4">
         {json.linkedin ? (
           <li>
-            <Link href={json.linkedin} className="hover:text-gray">
+            <Link href={json.linkedin} className="hover:text-gray" aria-label="Linkedin">
               <Icon name="linkedin" className="text-3xl" />
             </Link>
           </li>
         ) : null}
         {json.github ? (
           <li>
-            <Link href={json.github} className="hover:text-gray">
+            <Link href={json.github} className="hover:text-gray" aria-label="GitHub">
               <Icon name="github" className="text-3xl" />
             </Link>
           </li>
