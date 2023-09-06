@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Timeline({ events }) {
   return (
     <div>
@@ -18,13 +19,12 @@ export default function Timeline({ events }) {
         ))}
       </ol>
       <div>
-        Subscribe to our events calendar{" "}
-        <a
-          className="font-bold hover:underline"
+        <Link
+          className="font-bold underline"
           href="https://calendar.google.com/calendar/embed?src=c_22ca0c151585760442cad5796fb91bd18b7db11d813e9143e38549aadce65afe%40group.calendar.google.com&ctz=America%2FNew_York"
         >
-          here
-        </a>
+          Subscribe to our events calendar
+        </Link>
       </div>
     </div>
   );

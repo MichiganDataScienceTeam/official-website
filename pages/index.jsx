@@ -50,16 +50,16 @@ export default function Home({ sponsors, projects, timeline }) {
                 ? `${basePath}/images/Dataframe_Graphic.svg`
                 : "/images/Dataframe_Graphic.svg"
             }
-            alt="Image of a dataframe"
+            alt="Dataframe of movie reviews and distribution"
+            priority={true}
           />
         </div>
       </Hero>
       <div
-        className={`container mx-auto px-7  ${
-          timeline.show_on_homepage
-            ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
-            : "flex max-w-6xl"
-        }`}
+        className={`container mx-auto px-7  ${timeline.show_on_homepage
+          ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
+          : "flex max-w-6xl"
+          }`}
       >
         {timeline.show_on_homepage && (
           <div className="bg-grey p-4 sm:p-8 rounded-lg">
@@ -68,7 +68,7 @@ export default function Home({ sponsors, projects, timeline }) {
           </div>
         )}
         <div className="lg:order-none order-first">
-          <div className="sticky top-24">
+          <div className="xl:sticky top-24">
             <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-2">
               <div className="mb-4">
                 <span className="font-bold">
@@ -79,7 +79,7 @@ export default function Home({ sponsors, projects, timeline }) {
                 future data-driven careers.
               </div>
               <div className="mb-4">
-                We believe data science is for everyone. 
+                We believe data science is for everyone.
                 Each semester, MDST runs team-based projects, allowing you to
                 learn and practice data science skills and their applications in
                 a variety of domains.
@@ -103,9 +103,8 @@ export default function Home({ sponsors, projects, timeline }) {
               </p>
             </div>
             <div
-              className={`flex flex-col md:flex-row gap-4 ${
-                timeline.show_on_homepage ? "lg:flex-col" : ""
-              } xl:flex-row`}
+              className={`flex flex-col md:flex-row gap-4 ${timeline.show_on_homepage ? "lg:flex-col" : ""
+                } xl:flex-row`}
             >
               <Factbox fact="200+" closer="community members"></Factbox>
               <Factbox fact="14+" closer="project teams"></Factbox>
@@ -142,7 +141,7 @@ function ProjectCard({ json, basePath }) {
             ? `${basePath}/images/${json.image}`
             : `/images/${json.image}`
         }
-        alt={json.image.split(".")[0].split("_").join(" ")}
+        alt={""}
       />
       <h3 className="text-lg font-bold">{json.name}</h3>
       {json.description && <p className="line-clamp-2">{json.description}</p>}
@@ -153,7 +152,7 @@ function ProjectCard({ json, basePath }) {
 function Factbox({ fact, closer }) {
   return (
     <div className="text-left bg-grey p-4 rounded-lg w-full">
-      <p className="text-4xl font-semibold my-2">{fact}</p>
+      <h2 className="text-4xl font-semibold my-2">{fact}</h2>
       <p className="self-start">{closer}</p>
     </div>
   );
@@ -186,6 +185,7 @@ function Carousel({ projects, basePath }) {
           ))}
         </div>
         <button
+          aria-label="Projects Left"
           onClick={() => {
             if (shown > -1) {
               setShown(shown - 1);
@@ -196,6 +196,7 @@ function Carousel({ projects, basePath }) {
           <Icon className="" name="arrow-left" />
         </button>
         <button
+          aria-label="Projects Right"
           onClick={() => {
             if (shown < 1) {
               setShown(shown + 1);

@@ -18,18 +18,14 @@ export default function Join({ data }) {
       <Hero title="Contact Us" />
       <div className="container mx-auto flex flex-row flex-wrap sm:flex-row gap-4 justify-evenly px-2 mb-16 text-center">
         {data.sources.map((source) => (
-          <div key={source.name} className="w-56">
+          <Link href={source.link} key={source.name} className="w-56">
             <div className=" p-4 bg-grey rounded-lg w-fit mx-auto mb-2">
-              <Link href={source.link}>
-                <Icon name={source.icon_name} className="text-4xl" />
-              </Link>
+              <Icon name={source.icon_name} aria-label={source.name} className="text-4xl" />
             </div>
 
             <h2 className="font-bold text-lg">{source.name}:</h2>
-            <Link href={source.link} className="underline">
-              {source.link_text}
-            </Link>
-          </div>
+            <p className="underline">{source.link_text}</p>
+          </Link>
         ))}
       </div>
       <div className="container mx-auto flex flex-col md:flex-row gap-4 justify-stretch px-2">
