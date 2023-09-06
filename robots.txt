@@ -1,9 +1,5 @@
-//robots.txt
-
-# Disable resources page for now
 User-agent: *
 Disallow: /resources
 
-# Allow all crawlers
 User-agent: *
 Allow: /
