@@ -54,7 +54,7 @@ In addition, you should post any question on our [Piazza forum](https://piazza.c
 
 Join us on **September 10th, 4:30 - 6:00 PM @ CCCB 2460** to learn about all the projects we will run this semester and directly ask our project leaders any questions you have about the specific project goals and motivations.
 
-This event is optional but highly encouraged. 
+This event is optional but highly encouraged.
 
 <hr>
 
