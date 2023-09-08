@@ -52,7 +52,7 @@ In addition, you should post any question on our [Piazza forum](https://piazza.c
 
 ### Step 4: Attend our Project Exploration Fair
 
-Join us on **September 10th, 5:00 - 6:30 PM** to learn about all the projects we will run this semester and directly ask our project leaders any questions you have about the specific project goals and motivations. **Room pending**.
+Join us on **September 10th, 4:30 - 6:00 PM @ CCCB 2460** to learn about all the projects we will run this semester and directly ask our project leaders any questions you have about the specific project goals and motivations.
 
 <hr>
 
