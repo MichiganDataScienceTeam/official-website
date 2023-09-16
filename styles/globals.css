@@ -9,6 +9,10 @@
 background: radial-gradient(50% 50% at 50% 50%, #896AE4 0%, rgba(67, 151, 117, 0) 100%), conic-gradient(from 174.92deg at 50% 50%, #3E9644 -56.25deg, #896AE4 27.03deg, #34C5A2 169.15deg, #3E9644 303.75deg, #896AE4 387.03deg);
 }
 
+.glow {
+    filter: drop-shadow(0 0 0.2rem #ffffff21);
+}
+
 .link {
   grid-template-columns: auto 1fr auto;
 }

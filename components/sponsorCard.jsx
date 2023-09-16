@@ -1,5 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
+import Link from "next/link";
 export default function SponsorCard({ type, json, basePath }) {
   const style = "relative " + (type === "small" ? "h-28 w-28" : "h-48 w-48");
   return (
@@ -10,7 +10,7 @@ export default function SponsorCard({ type, json, basePath }) {
       <Image
         className={
           "object-contain mx-auto " +
-          (type === "small" ? "h-28 w-28" : "h-48 w-48")
+          (type === "small" ? "h-28 w-28" : "glow h-48 w-48")
         }
         width="500"
         height="500"
