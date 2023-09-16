@@ -62,7 +62,7 @@ This event is optional but highly encouraged.
 
 <p className="md-button-wrapper"><a className="md-button" href="https://forms.gle/rbAPMckFMegE6fAM6"> Project Sign-up Form</a></p>
 
-We have release the project sign-up form. You can specify your project preferences, along with a link to the GitHub repository containing all the completed checkpoints plus the optional challenges (if attempted). If you've never worked with Git and GitHub before, check out our [Git Version Control Guide](https://docs.google.com/document/d/1pq42R2xr_yoyhyzWE0ugReHgEKgwLdjrJR4mT3_CQEo/edit?usp=sharing).
+We have released the project sign-up form. You can specify your project preferences, along with a link to the GitHub repository containing all the completed checkpoints plus the optional challenges (if attempted). If you've never worked with Git and GitHub before, check out our [Git Version Control Guide](https://docs.google.com/document/d/1pq42R2xr_yoyhyzWE0ugReHgEKgwLdjrJR4mT3_CQEo/edit?usp=sharing).
 
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 - Our education committee will evaluate your submission for your strength with Python programming and data science library usage. New members with greater skills in these areas are more likely to be placed into tougher projects.
