@@ -6,4 +6,8 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 <p className="md-button-wrapper"><a className="md-button" href="https://forms.gle/pcpfjMwrXobyvn9N9"> Interest Form</a></p>
 
+<<<<<<< HEAD
 Please visit our [tutorial repository](https://github.com/MichiganDataScienceTeam/2023-Tutorials) and read through the entirety of the README to begin your process of joining MDST.
+=======
+Stay tuned for steps for joining MDST in Winter 2024!
+>>>>>>> e9c75fc (Updated join page to include new interest form and remove join instructions for F23)
