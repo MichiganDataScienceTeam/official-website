@@ -1,5 +1,5 @@
 {
-  "show_on_homepage": false,
+  "show_on_homepage": true,
   "title": "Recruiting Timeline Winter 2024",
   "events": [
     {
@@ -8,9 +8,9 @@
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
-      "title": "Mass Meeting @ TBD",
-      "time": "January 18th TBA",
-      "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
+      "title": "Mass Meeting @ CCCB 0420 (Tentatively)",
+      "time": "January 18th 6:00-7:00pm",
+      "description": "Join us to learn more about MDST and how to become a member."
     },
     {
       "title": "Tutorial 1 @ Fishbowl Classroom",
