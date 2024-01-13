@@ -1,61 +1,56 @@
 {
   "show_on_homepage": false,
-  "title": "Recruiting Timeline Fall 2023 (OLD)",
+  "title": "Recruiting Timeline Winter 2024",
   "events": [
     {
-      "title": "Festifall Central @ Booth D79",
-      "time": "August 30th 2:30pm - 5pm",
-      "description": "Stop by our booth to meet the E-Board and learn about MDST."
+      "title": "Office Hours 1 @ UGLI Third Floor",
+      "time": "January 16th 7:00pm - 9:00pm",
+      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
-      "title": "Mass Meeting 1 @ EH 1360",
-      "time": "August 31th 6:30pm - 7:30pm",
+      "title": "Mass Meeting @ TBD",
+      "time": "January 18th TBA",
       "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
     },
     {
       "title": "Tutorial 1 @ Fishbowl Classroom",
-      "time": "September 3rd 12pm - 3pm",
-      "description": "Introduction to the command line and Q&A."
-    },
-    {
-      "title": "Mass Meeting 2 @ Michigan Union (Wolverine Room)",
-      "time": "September 4th 4:30pm - 5:30 pm",
-      "description": "Join us to hear more about MDST and how to become a member. Prospective members do not need to attend both mass meetings."
-    },
-    {
-      "title": "Office Hours 1 @ UGLI Third Floor",
-      "time": "September 5th 7:00pm - 9:00pm",
-      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
-    },
-    {
-      "title": "Tutorial 2 - Data Science @ Fishbowl Classroom",
-      "time": "September 10th 12pm - 3pm",
-      "description": "Build basic data science knowledge for project participation."
-    },
-    {
-      "title": "Project Exploration Fair @ CCCB 2460",
-      "time": "September 10th 4:30pm - 6:00pm",
-      "description": "Explore MDST projects this semester and choose your favorites to signup for."
+      "time": "January 21st 12pm - 3pm",
+      "description": "Introduction to the command line and Python."
     },
     {
       "title": "Office Hours 2 @ UGLI Third Floor",
-      "time": "September 12th 7:00pm - 9:00pm",
+      "time": "January 23rd 7:00pm - 9:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+    },
+    {
+      "title": "Tutorial 2 @ Fishbowl Classroom",
+      "time": "January 28th 12pm - 3pm",
+      "description": "Build basic data science knowledge for project participation."
     },
     {
       "title": "Office Hours 3 @ UGLI Third Floor",
-      "time": "September 14th 7:00pm - 9:00pm",
+      "time": "January 30th 7:00pm - 9:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
-      "title": "Project Sign-Ups Due",
-      "time": "September 14th, 11:59 PM",
-      "description": "Sign up for your preferred projects. New members submit tutorial checkpoints."
+      "title": "Tutorial Submission Due",
+      "time": "Febiary 1st 11:59pm",
+      "description": "Submit your completed tutorial materials for acceptance into the club."
     },
     {
-      "title": "First Project Work Session @ BSB 1060 / CCCB 2460",
-      "time": "September 17th 12:15pm - 3pm",
-      "description": "Meet your team and start work on your projects!"
+      "title": "Project Selection",
+      "time": "Febuary 4th TBD",
+      "description": "Meet with project leads and get to know the project offering."
+    },
+    {
+      "title": "Project Signup Due",
+      "time": "Febuary 8th 11:59pm",
+      "description": "Indicate your project preferences."
+    },
+    {
+      "title": "First Project Work Session @ TBD",
+      "time": "Febuary 11th 12:15pm - 3pm",
+      "description": "Start working on your projects!"
     }
   ]
 }
