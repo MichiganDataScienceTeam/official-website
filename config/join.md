@@ -26,6 +26,8 @@ New members are required to **complete two tutorials** giving an introduction to
     The tutorials for Winter 2024 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/2023-Tutorials). The repository contains all the materials and instructions you need to complete the tuturials, as well as information about the support we provide if you have any questions.
 </div>
 
+<span className="highlight">Note: </span> Please direct all technical and logistical questions regarding tutorials to our <a href="https://edstem.org/us/join/6PXxzF">forum</a> for better visibility.
+
 <hr>
 
 ### Step 4: Submit Tutorials
@@ -35,7 +37,6 @@ As a final step to join the club, you must submit your tutorials certifying that
 Closer to the submission date, we will post a Google Form where you can submit a link to the GitHub repository containing all the completed checkpoints plus the optional challenges (if attempted). See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/2023-Tutorials) for information on completing the tutorials. If you've never worked with Git and GitHub before, check out our [Git Version Control Guide](https://docs.google.com/document/d/1pq42R2xr_yoyhyzWE0ugReHgEKgwLdjrJR4mT3_CQEo/edit?usp=sharing).
 
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
-- Our education committee will evaluate your submission for your strength with Python programming and data science library usage. New members with greater skills in these areas are more likely to be placed into tougher projects.
-- Most people tend to get their top project choices, so don't worry!
+
 
 The project signup form will be due **February 1st, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2024 semester. 
