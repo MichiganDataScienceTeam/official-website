@@ -18,6 +18,8 @@ We meet on all Sundays (except for holidays) from 12-3 for a mandatory work sess
 
 We also meet on Thursdays from 6-7 for optional social and professional events such as guest speakers and networking sessions.
 
+For a detailed schedule, please see our [events calendar](https://calendar.google.com/calendar/embed?src=c_22ca0c151585760442cad5796fb91bd18b7db11d813e9143e38549aadce65afe%40group.calendar.google.com&ctz=America%2FNew_York).
+
 ### Will I be able to choose which project team I am on?
 
 Yes! After you join the club, you will be asked to rank your top 5 projects after talking with project leaders. Historically, 90+% of people are placed into one of their top two preferences.
