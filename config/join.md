@@ -12,9 +12,9 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 ### Step 2 (Optional): Attend our Mass Meetings
 
-MDST will host **one mass meeting** on January 18th, 2024 from 6:00-7:00pm at CCCB 0420 (tentatively). At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
-- Mass Meetings are for informational purposes. **We do not take attendance, and they are not part of the application process.**
-- We will record our mass meeting and post the recording and presentation to this page after completion
+MDST hosted **one mass meeting** on January 18th, 2024 from 6:00-7:00pm at CCCB 0420. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
+- <a href="https://docs.google.com/presentation/d/1KwbCaDidWKUAwzVfWL0gRVclE0ImLhjs05ypdxxqTa0/edit?usp=sharing">Mass Meeting Slides</a>
+- <a href="https://umich.zoom.us/rec/share/wVLHCDtudkjscVB3y8L2P6CFIwwOu6vyrwYd6YbATAvgEIrc6p1BWwBTLMbKZ9Uj.DjCG-vsr6OsiL-zA">Mass Meeting Recording</a>
 
 <hr>
 
