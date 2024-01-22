@@ -85,7 +85,7 @@
   },
   {
     "groupName": "Finance Committee",
-    "description": "This team keeps track of funding from our sponsors and allocates it accordingly. Led by the VP of Finance.",
+    "description": "The financial backbone of MDST, planning and allocating our monetary resources. Led by the VP of Finance.",
     "members": [
       {
         "name": "Elle Chen",
@@ -123,6 +123,11 @@
         "linkedin": "https://www.linkedin.com/in/advay-singh-638710295/",
         "github": "https://github.com/AdvaySingh1",
         "image": "advay.jpeg"
+      },
+      {
+        "name": "Aaron Williams",
+        "title": "Education Developer",
+        "image": "temp.png"
       },
       {
         "name": "Michael Peng",
