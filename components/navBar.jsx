@@ -13,9 +13,8 @@ function NavLink({ to, children }) {
 function MobileNav({ open, setOpen }) {
   return (
     <div
-      className={`absolute  top-0 left-0 h-screen w-screen transform ${
-        open ? "-translate-x-0" : "-translate-x-full"
-      } transition-transform duration-300 ease-in-out filter bg-grey`}
+      className={`absolute  top-0 left-0 h-screen w-screen transform ${open ? "-translate-x-0" : "-translate-x-full"
+        } transition-transform duration-300 ease-in-out filter bg-grey`}
     >
       <div className="flex items-center justify-center filter drop-shadow-md bg-grey-dark h-20">
         {" "}
@@ -67,7 +66,7 @@ function MobileNav({ open, setOpen }) {
         >
           Our Sponsors
         </Link>
-        {/* <Link
+        <Link
           className="text-xl font-normal my-4"
           href="/calendar"
           onClick={() =>
@@ -77,7 +76,7 @@ function MobileNav({ open, setOpen }) {
           }
         >
           Calendar
-        </Link> */}
+        </Link>
 
         <Link
           className="text-xl font-normal my-4"
@@ -123,19 +122,16 @@ export default function Navbar() {
         >
           {/* hamburger button */}
           <span
-            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
-              open ? "rotate-45 translate-y-3.5" : ""
-            }`}
+            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "rotate-45 translate-y-3.5" : ""
+              }`}
           />
           <span
-            className={`h-1 bg-white rounded-lg transition-all duration-300 ease-in-out ${
-              open ? "w-0" : "w-full"
-            }`}
+            className={`h-1 bg-white rounded-lg transition-all duration-300 ease-in-out ${open ? "w-0" : "w-full"
+              }`}
           />
           <span
-            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${
-              open ? "-rotate-45 -translate-y-3.5" : ""
-            }`}
+            className={`h-1 w-full bg-white rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""
+              }`}
           />
         </div>
 
@@ -144,7 +140,7 @@ export default function Navbar() {
           <NavLink to="/resources">Resources</NavLink>
           <NavLink to="/team">Our Team</NavLink>
           <NavLink to="/sponsors">Our Sponsors</NavLink>
-          {/* <NavLink to="/calendar">Calendar</NavLink> */}
+          <NavLink to="/calendar">Calendar</NavLink>
 
           <NavLink to="/contact">Contact</NavLink>
           <NavLink to="/join">Join</NavLink>
