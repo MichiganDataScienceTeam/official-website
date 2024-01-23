@@ -50,9 +50,9 @@ function GroupSection({ group, basePath }) {
 
 function MemberCard({ json, basePath }) {
   return (
-    <div className="text-center rounded bg-grey py-4 px-8 w-full sm:w-60">
+    <div className="text-left sm:text-center rounded bg-grey py-2 sm:py-4 px-2 sm:px-8 w-full sm:w-60 flex sm:block gap-8">
       <Image
-        className="mx-auto mb-4 w-44 h-44 rounded-full object-cover"
+        className="sm:mx-auto sm:mb-4 sm:w-44 sm:h-44 w-24 h-24 my-auto rounded-full object-cover"
         width="176"
         height="176"
         src={
@@ -62,24 +62,27 @@ function MemberCard({ json, basePath }) {
         }
         alt={json.image.split(".")[0].split("_").join(" ")}
       />
-      <h3 className="mb-1 text-2xl font-bold tracking-tight">{json.name}</h3>
-      <p>{json.title}</p>
-      <ul className="flex justify-center mt-4 space-x-4">
-        {json.linkedin ? (
-          <li>
-            <Link href={json.linkedin} className="hover:text-gray" aria-label="Linkedin">
-              <Icon name="linkedin" className="text-3xl" />
-            </Link>
-          </li>
-        ) : null}
-        {json.github ? (
-          <li>
-            <Link href={json.github} className="hover:text-gray" aria-label="GitHub">
-              <Icon name="github" className="text-3xl" />
-            </Link>
-          </li>
-        ) : null}
-      </ul>
+      <div className="">
+        <h3 className="mb-1 text-2xl font-bold tracking-tight">{json.name}</h3>
+        <p>{json.title}</p>
+        <ul className="flex sm:justify-center mt-2 sm:mt-4 space-x-4">
+          {json.linkedin ? (
+            <li>
+              <Link href={json.linkedin} className="hover:text-gray" aria-label="Linkedin">
+                <Icon name="linkedin" className="text-3xl" />
+              </Link>
+            </li>
+          ) : null}
+          {json.github ? (
+            <li>
+              <Link href={json.github} className="hover:text-gray" aria-label="GitHub">
+                <Icon name="github" className="text-3xl" />
+              </Link>
+            </li>
+          ) : null}
+        </ul>
+      </div>
+
     </div>
   );
 }
