@@ -11,7 +11,8 @@ import {
   IoClipboardOutline,
   IoBrowsersOutline,
   IoLogoSlack,
-  IoCopyOutline
+  IoCopyOutline,
+  IoCalendarOutline
 } from "react-icons/io5";
 import { createElement } from "react";
 
@@ -28,7 +29,8 @@ const iconMap = {
   clipboard: IoClipboardOutline,
   website: IoBrowsersOutline,
   slack: IoLogoSlack,
-  copy: IoCopyOutline
+  copy: IoCopyOutline,
+  calendar: IoCalendarOutline,
 
 };
 
