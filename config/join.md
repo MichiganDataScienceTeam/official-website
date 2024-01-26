@@ -44,3 +44,15 @@ See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/2023-Tutoria
 
 
 The project signup form will be due **February 1st, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2024 semester. 
+
+<hr>
+
+### Step 4: Submit Tutorials
+
+After joining the club, we will host a project exploration fair to share the projects which we will run this semester. 
+
+After attending, you will gain access to a form to specify your top 3 project choices and we will place you into your preferred project (subject to constraints and appropriate difficulty). 
+
+<div className="callout font-normal">
+    ⚠️ You **must attend** the exploration fair to be placed on a project this semester (or you must email us in advance letting us know that you will not be able to attend). This is to ensure a smoother project placement process.
+</div>
