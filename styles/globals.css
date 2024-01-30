@@ -85,8 +85,10 @@
 }
 
 .markdown hr {
-  @apply my-5
+  @apply my-5;
+  border: none; /* Remove the default border */
 }
+
 
 .markdown strong {
   @apply font-bold;
