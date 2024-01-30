@@ -43,4 +43,16 @@ See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/2023-Tutoria
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
 
-The project signup form will be due **February 1st, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2024 semester. 
+The tutorial submission form will be due **February 1st, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2024 semester. 
+
+<hr>
+
+### Step 5: Attend the Project Exploration Fair
+
+After joining the club, we will host a project exploration fair on **February 4th, 2024 12-3pm** in **CCCB 2460** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
+
+After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty). 
+
+<div className="callout font-normal">
+    ⚠️ You **must attend** the exploration fair to be placed on a project this semester. If you are unable to attend but would still like to participate in projects, you must [email us](mailto:mdst-coms@umich.edu) in advance letting us know, and we will consider your request on a case-by-case basis. If emailing us, please include `[EXPLORATION FAIR]` in your email title.
+</div>
