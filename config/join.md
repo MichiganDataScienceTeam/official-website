@@ -47,12 +47,12 @@ The project signup form will be due **February 1st, 11:59 PM**, after which we w
 
 <hr>
 
-### Step 4: Submit Tutorials
+### Step 5: Attend the Project Exploration Fair
 
-After joining the club, we will host a project exploration fair to share the projects which we will run this semester. 
+After joining the club, we will host a project exploration fair on **February 4th, 2024 12-3pm** in **CCCB 2460** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
 
-After attending, you will gain access to a form to specify your top 3 project choices and we will place you into your preferred project (subject to constraints and appropriate difficulty). 
+After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty). 
 
 <div className="callout font-normal">
-    ⚠️ You **must attend** the exploration fair to be placed on a project this semester (or you must email us in advance letting us know that you will not be able to attend). This is to ensure a smoother project placement process.
+    ⚠️ You **must attend** the exploration fair to be placed on a project this semester. If you are unable to attend but would still like to participate in projects, you must [email us](mailto:mdst-coms@umich.edu) in advance letting us know, and we will consider your request on a case-by-case basis. If emailing us, please include `[EXPLORATION FAIR]` in your email title.
 </div>
