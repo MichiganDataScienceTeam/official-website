@@ -30,22 +30,27 @@
   }
 }
 
+
 .markdown h1 {
   @apply text-4xl;
   @apply mb-4;
   @apply font-bold;
+  @apply capitalize;
 }
 
 .markdown h2 {
   @apply text-3xl;
   @apply mb-4;
   @apply font-normal;
+  @apply uppercase;
+  @apply font-bold;
 }
 
 .markdown h3 {
   @apply text-2xl;
   @apply mb-4;
   @apply font-normal;
+  @apply font-bold;
 }
 
 .markdown h4 {
@@ -55,7 +60,9 @@
 }
 
 .markdown p {
+  @apply text-xl;	
   @apply mb-3;
+  @apply leading-8;
 }
 
 .markdown a {
@@ -88,6 +95,8 @@
 .markdown .callout {
   @apply m-4;
   @apply bg-grey;
+  @apply bg-white; 
+  color: #000000;    
   @apply rounded-lg;
   @apply p-5;
 }
@@ -99,14 +108,16 @@
 .markdown .md-button {
   @apply rounded-lg;
   @apply p-5;
-  @apply lg:text-lg;
+  @apply lg:text-xl;
   @apply text-base;
   @apply hover:-translate-y-1;
   @apply bg-translucent;
   @apply transition;
   @apply drop-shadow-md;
-  color: #edfffe;
+  color: #ffffff;
   @apply no-underline;
+  @apply uppercase;
+  @apply font-bold;
 }
 
 .markdown .md-button-wrapper {
@@ -115,6 +126,20 @@
   @apply hover:-translate-y-2;
   @apply transition;
   @apply w-fit;
+}
+
+.markdown .md-button_2 {
+  @apply rounded-lg;
+  @apply p-6;
+  @apply lg:text-xl;
+  @apply text-base;
+  @apply hover:-translate-y-1;
+  @apply bg-primary-light;
+  @apply transition;
+  @apply drop-shadow-md;
+  color: #050505;
+  @apply no-underline;
+  @apply uppercase;
 }
 
 .markdown .highlight {
