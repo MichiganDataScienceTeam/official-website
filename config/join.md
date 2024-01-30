@@ -43,7 +43,7 @@ See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/2023-Tutoria
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
 
-The project signup form will be due **February 1st, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2024 semester. 
+The tutorial submission form will be due **February 1st, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2024 semester. 
 
 <hr>
 
