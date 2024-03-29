@@ -54,6 +54,7 @@ function MobileNav({ open, setOpen }) {
           }
         >
 
+
           Our Sponsors
         </Link>
         <Link
@@ -128,6 +129,7 @@ export default function Navbar() {
         <div className="hidden md:flex">
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/team">Our Team</NavLink>
+          <NavLink to="/projectleads">Project Leads</NavLink>
           <NavLink to="/sponsors">Our Sponsors</NavLink>
           <NavLink to="/calendar">Calendar</NavLink>
 
