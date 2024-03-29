@@ -35,7 +35,7 @@ function MobileNav({ open, setOpen }) {
         </Link>
         <Link
           className="text-xl font-normal my-4"
-          href="/resources"
+          href="/team"
           onClick={() =>
             setTimeout(() => {
               setOpen(!open);
