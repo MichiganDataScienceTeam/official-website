@@ -36,8 +36,21 @@ function GroupSection({ group, basePath }) {
   return (
     <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-        <h2 className="text-3xl mb-4">{group.groupName}</h2>
-        <p className="font-light sm:text-xl">{group.description}</p>
+      <div className="flex justify-between items-center mb-4">
+          <div>
+            <h2 className="text-3xl">{group.groupName}</h2>
+          </div>
+          {group.github && ( 
+            <ul className="flex sm:justify-center mt-2 sm:mt-4 space-x-4">
+              <li>
+                <Link href={group.github} className="hover:text-gray" aria-label="GitHub">
+                  <Icon name="github" className="text-3xl" />
+                </Link>
+              </li>
+            </ul>
+          )}
+        </div>
+        <p className="font-light sm:text-xl text-left">{group.description}</p>
       </div>
       <div className="flex flex-wrap justify-center gap-4 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {group.members.map((memberinfo, index) => (
@@ -47,6 +60,8 @@ function GroupSection({ group, basePath }) {
     </div>
   );
 }
+
+
 
 function MemberCard({ json, basePath }) {
   return (
