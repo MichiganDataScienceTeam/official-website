@@ -30,22 +30,27 @@
   }
 }
 
+
 .markdown h1 {
   @apply text-4xl;
   @apply mb-4;
   @apply font-bold;
+  @apply capitalize;
 }
 
 .markdown h2 {
   @apply text-3xl;
   @apply mb-4;
   @apply font-normal;
+  @apply uppercase;
+  @apply font-bold;
 }
 
 .markdown h3 {
   @apply text-2xl;
-  @apply mb-4;
+  @apply mb-5;
   @apply font-normal;
+  @apply font-bold;
 }
 
 .markdown h4 {
@@ -55,7 +60,9 @@
 }
 
 .markdown p {
+  @apply text-xl;	
   @apply mb-3;
+  @apply leading-8;
 }
 
 .markdown a {
@@ -78,8 +85,9 @@
 }
 
 .markdown hr {
-  @apply my-5
+  @apply my-6;
 }
+
 
 .markdown strong {
   @apply font-bold;
@@ -88,6 +96,8 @@
 .markdown .callout {
   @apply m-4;
   @apply bg-grey;
+  @apply bg-grey;
+  color: #ffffff;    
   @apply rounded-lg;
   @apply p-5;
 }
@@ -99,14 +109,16 @@
 .markdown .md-button {
   @apply rounded-lg;
   @apply p-5;
-  @apply lg:text-lg;
+  @apply lg:text-xl;
   @apply text-base;
   @apply hover:-translate-y-1;
   @apply bg-translucent;
   @apply transition;
   @apply drop-shadow-md;
-  color: #edfffe;
+  color: #ffffff;
   @apply no-underline;
+  @apply uppercase;
+  @apply font-bold;
 }
 
 .markdown .md-button-wrapper {
@@ -116,6 +128,7 @@
   @apply transition;
   @apply w-fit;
 }
+
 
 .markdown .highlight {
   @apply font-bold;
@@ -150,3 +163,55 @@
 .fc .fc-list-event-time {
   border-radius: 0.5rem 0 0 0.5rem;
 }
+
+/* CSS for scroll-back-up button */
+.scroll-up-button {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 15px; /* Adjust as needed */
+  color: #ffffff; /* Button text color */
+  background-color: #333333;
+  border: none;
+  border-radius: 5%; /* Make it round */
+  padding: 5px 15px; /* Adjust as needed */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Arrow icon */
+.scroll-up-button::before {
+  content: "\2191"; /* Unicode character for arrow up */
+  font-size: 60px; /* Adjust as needed */
+  font-weight: bold;
+}
+
+/* Hover effect */
+.scroll-up-button:hover {
+  background-color: #896AE4; /* Button background color on hover */
+  transform: scale(1.01); /* Scale up on hover */
+  @apply hover:-translate-y-2;
+}
+
+/* Scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll to top when button is clicked */
+.scroll-up-button:target {
+  scroll-behavior: auto;
+  animation: scrollUp 0.5s forwards;
+}
+
+@keyframes scrollUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+
+
+
