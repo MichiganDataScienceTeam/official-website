@@ -56,10 +56,11 @@ export default function Home({ sponsors, projects, timeline }) {
         </div>
       </Hero>
       <div
-        className={`container mx-auto px-7  ${timeline.show_on_homepage
-          ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
-          : "flex max-w-6xl"
-          }`}
+        className={`container mx-auto px-7  ${
+          timeline.show_on_homepage
+            ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
+            : "flex max-w-6xl"
+        }`}
       >
         {timeline.show_on_homepage && (
           <div className="bg-grey p-4 sm:p-8 rounded-lg">
@@ -79,10 +80,10 @@ export default function Home({ sponsors, projects, timeline }) {
                 future data-driven careers.
               </div>
               <div className="mb-4">
-                We believe data science is for everyone.
-                Each semester, MDST runs team-based projects, allowing you to
-                learn and practice data science skills and their applications in
-                a variety of domains.
+                We believe data science is for everyone. Each semester, MDST
+                runs team-based projects, allowing you to learn and practice
+                data science skills and their applications in a variety of
+                domains.
               </div>
               <div className="mb-4">
                 We also host guest talks, workshops, and socials - all
@@ -103,10 +104,11 @@ export default function Home({ sponsors, projects, timeline }) {
               </p>
             </div>
             <div
-              className={`flex flex-col md:flex-row gap-4 ${timeline.show_on_homepage ? "lg:flex-col" : ""
-                } xl:flex-row`}
+              className={`flex flex-col md:flex-row gap-4 ${
+                timeline.show_on_homepage ? "lg:flex-col" : ""
+              } xl:flex-row`}
             >
-              <Factbox fact="200+" closer="community members"></Factbox>
+              <Factbox fact="250+" closer="community members"></Factbox>
               <Factbox fact="14+" closer="project teams"></Factbox>
               <Factbox
                 fact="10+"
@@ -116,6 +118,7 @@ export default function Home({ sponsors, projects, timeline }) {
           </div>
         </div>
       </div>
+      <CommunityImages basePath={basePath} />
       <Carousel projects={projects} basePath={basePath} />
       <div className="container mx-auto px-2">
         <h2 className="text-3xl text-center">
@@ -146,6 +149,30 @@ function ProjectCard({ json, basePath }) {
       <h3 className="text-lg font-bold">{json.name}</h3>
       {json.description && <p className="line-clamp-2">{json.description}</p>}
     </Link>
+  );
+}
+function CommunityImages({ basePath }) {
+  return (
+    <div className="flex flex-col sm:flex-row items-center">
+      <div className="w-full sm:w-1/2 p-8 pb-1 flex flex-col justify-center items-center">
+        <Image
+          src={`${basePath}/images/community/WN24_EXPO.JPG`}
+          alt="Image 1"
+          width={500}
+          height={500}
+        />
+        <p className="font-sans text-base mt-2">WN24 Project Expo</p>
+      </div>
+      <div className="w-full sm:w-1/2 p-8 pb-1 flex flex-col justify-center items-center">
+        <Image
+          src={`${basePath}/images/community/WN24_DSN.JPG`}
+          alt="Image 2"
+          width={500}
+          height={500}
+        />
+        <p className="font-sans text-base mt-2">WN24 Data Science Night</p>
+      </div>
+    </div>
   );
 }
 
