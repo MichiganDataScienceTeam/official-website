@@ -153,7 +153,7 @@ function ProjectCard({ json, basePath }) {
 }
 function CommunityImages({ basePath }) {
   return (
-    <div className="flex flex-col sm:flex-row items-center">
+    <div className="flex flex-col sm:flex-row items-center mx-auto max-w-6xl">
       <div className="w-full sm:w-1/2 mx-4 mb-6 flex flex-col justify-center items-center">
         <p className="text-base mt-2">WN24 Project Expo</p>
         <Image
