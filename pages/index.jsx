@@ -118,9 +118,9 @@ export default function Home({ sponsors, projects, timeline }) {
           </div>
         </div>
       </div>
-      <CommunityImages basePath={basePath} />
       <Carousel projects={projects} basePath={basePath} />
-      <div className="container mx-auto px-2">
+      <CommunityImages basePath={basePath} />
+      <div className="container mx-auto px-2 mt-8">
         <h2 className="text-3xl text-center">
           MDST is proudly supported by our sponsors
         </h2>
@@ -154,23 +154,23 @@ function ProjectCard({ json, basePath }) {
 function CommunityImages({ basePath }) {
   return (
     <div className="flex flex-col sm:flex-row items-center">
-      <div className="w-full sm:w-1/2 p-8 pb-1 flex flex-col justify-center items-center">
+      <div className="w-full sm:w-1/2 mx-4 mb-6 flex flex-col justify-center items-center">
+        <p className="text-base mt-2">WN24 Project Expo</p>
         <Image
           src={`${basePath}/images/community/WN24_EXPO.JPG`}
           alt="Image 1"
           width={500}
           height={500}
         />
-        <p className="font-sans text-base mt-2">WN24 Project Expo</p>
       </div>
-      <div className="w-full sm:w-1/2 p-8 pb-1 flex flex-col justify-center items-center">
+      <div className="w-full sm:w-1/2 mx-4 mb-6 flex flex-col justify-center items-center">
+        <p className="text-base mt-2">WN24 Data Science Night</p>
         <Image
           src={`${basePath}/images/community/WN24_DSN.JPG`}
           alt="Image 2"
           width={500}
           height={500}
         />
-        <p className="font-sans text-base mt-2">WN24 Data Science Night</p>
       </div>
     </div>
   );
