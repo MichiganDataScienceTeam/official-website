@@ -4,44 +4,40 @@
     "description": "The leadership team determining the vision and direction of MDST.",
     "members": [
       {
-        "name": "Sachchit Kunichetty",
+        "name": "Amelia Weyhing",
         "title": "President",
-        "linkedin": "https://www.linkedin.com/in/sachchit-kunichetty/",
-        "github": "https://github.com/skunichetty",
-        "image": "skunich.jpeg"
+        "linkedin": "https://www.linkedin.com/in/amelia-weyhing/ ",
+        "image": "aweyhing.JPG"
       },
       {
-        "name": "Casper Guo",
+        "name": "Weile Zheng",
         "title": "VP of Education",
-        "linkedin": "https://www.linkedin.com/in/casper-guo/",
-        "github": "https://github.com/Casper-Guo",
-        "image": "casperg.jpeg"
+        "linkedin": "https://www.linkedin.com/in/weile-zheng-200118262/",
+        "github": "https://github.com/weile-zheng",
+        "image": "weilez.jpeg"
       },
       {
-        "name": "Andrew Ye",
+        "name": "Vincent Wu",
         "title": "VP of External Affairs",
-        "linkedin": "https://www.linkedin.com/in/andrewye16/",
-        "github": "https://github.com/andrewye16",
-        "image": "andreye.jpeg"
+        "image": "bigpanda.jpeg"
       },
       {
-        "name": "Amanda Li",
+        "name": "Uma Iyer",
         "title": "VP of Finance",
-        "linkedin": "https://www.linkedin.com/in/amanda-j-li/",
-        "image": "mandali.jpeg"
+        "image": "uiyer.jpeg"
       },
       {
-        "name": "Tom Sherman",
+        "name": "Jonathon Rosevelt",
         "title": "VP of Internal Affairs",
-        "linkedin": "https://www.linkedin.com/in/tom-sherman/",
-        "github": "https://github.com/tsherman181",
-        "image": "tomsherm.jpeg"
+        "linkedin": "https://www.linkedin.com/in/jonathon-rosevelt/",
+        "image": "jrosevel.jpeg"
       },
       {
-        "name": "Hannah Shu",
+        "name": "Amirali Danai",
         "title": "VP of Projects",
-        "linkedin": "https://www.linkedin.com/in/hannah-shu-6789b722b/",
-        "image": "hyshu.jpeg"
+        "linkedin": "https://www.linkedin.com/in/amiralidanai/",
+        "github": "https://github.com/danaiamirali",
+        "image": "amiralid.png"
       }
     ]
   },
@@ -91,13 +87,13 @@
         "name": "Elle Chen",
         "title": "Budgeting Lead",
         "linkedin": "https://www.linkedin.com/in/elle-chen/",
-        "image": "ellechen.jpeg"
+        "image": "ellechen.png"
       },
       {
         "name": "Niyati Kashyap",
         "title": "Budgeting Lead",
         "linkedin": "https://www.linkedin.com/in/niyati-kashyap",
-        "image": "niyatik.jpeg"
+        "image": "niyatik.jpg"
       }
     ]
   },
@@ -105,12 +101,6 @@
     "groupName": "Project Committee",
     "description": "Project advisors who help MDST operate our projects smoothly and at scale. Led by the VP of Projects.",
     "members": [
-      {
-        "name": "Elijah Grubbs",
-        "title": "Project Planner",
-        "linkedin": "https://www.linkedin.com/in/grubbse",
-        "image": "grubbse.jpeg"
-      },
       {
         "name": "Xinya Xu",
         "title": "Project Planner",
@@ -127,7 +117,7 @@
       {
         "name": "Aaron Williams",
         "title": "Education Developer",
-        "image": "temp.png"
+        "image": "temp.jpeg"
       },
       {
         "name": "Michael Peng",
@@ -143,38 +133,50 @@
     "description": "MDST's interface with the wider data science community at U-M and beyond.",
     "members": [
       {
-        "name": "Jay Shaver",
+        "name": "Isabella Giallanza",
         "title": "Website Lead",
-        "linkedin": "https://www.linkedin.com/in/jay-shaver-a270a0178/",
-        "github": "https://github.com/broad-well",
-        "image": "jmshaver.jpeg"
-      },
-      {
-        "name": "Joshua Rhee",
-        "title": "Outreach Lead",
-        "image": "jprhee.jpeg"
+        "linkedin": "https://www.linkedin.com/in/isabella-giallanza-199238213/",
+        "github": "https://github.com/izzyg770",
+        "image": "igiallan.jpeg"
       },
       {
         "name": "Rohan Athreya",
         "title": "Outreach Lead",
         "linkedin": "https://www.linkedin.com/in/rohanmathreya/",
-        "image": "rathreya.jpeg"
+        "image": "rathreya.jpg"
       },
       {
-        "name": "Vincent Wu",
+        "name": "Jeremy Moon",
         "title": "Outreach Lead",
-        "image": "bigpanda.jpeg"
+        "linkedin": "https://www.linkedin.com/in/jeremy-moon7/",
+        "github": "https://github.com/jere67",
+        "image": "jeremoon.png"
       },
       {
-        "name": "Uma Iyer",
-        "title": "Social Media Manager",
-        "image": "uiyer.jpeg"
+        "name": "Julia Sochava",
+        "title": "Outreach Lead",
+        "linkedin": "https://www.linkedin.com/in/julia-sochava-b00710218/",
+        "image": "jsochava.JPG"
       },
       {
-        "name": "Linda Ru",
+        "name": "Harish Jaisankar",
         "title": "Web Developer",
-        "linkedin": "https://www.linkedin.com/in/caiyilindaru/",
-        "image": "clindaru.jpeg"
+        "linkedin": "https://www.linkedin.com/in/harishjai",
+        "github": "https://github.com/harishj-um",
+        "image": "harishj.png"
+      },
+      {
+        "name": "Sriyan Madugula",
+        "title": "Web Developer",
+        "linkedin": "https://www.linkedin.com/in/sriyanm",
+        "github": "https://github.com/sriyan-madugula-um",
+        "image": "sriyan.png"
+      },
+      {
+        "name": "Neeyam Muddappa",
+        "title": "Web Developer",
+        "linkedin": "https://www.linkedin.com/in/neeyam/",
+        "image": "neeyam.jpeg"
       }
     ]
   },
@@ -182,6 +184,12 @@
     "groupName": "Education Committee",
     "description": "Supervises all of MDST's educational intiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education",
     "members": [
+      {
+        "name": "Kajal Patel",
+        "title": "",
+        "linkedin": "www.linkedin.com/in/kajal-patel-20426328b",
+        "image": "kajalpat.png"
+      },
       {
         "name": "Sreya Gogineni",
         "title": "Educational Resource Creator",
@@ -194,6 +202,13 @@
         "linkedin": "https://www.linkedin.com/in/yueqi-peter-ren-ab671125a/",
         "github": "https://github.com/peteryqr",
         "image": "yueqiren.jpeg"
+      },
+      {
+        "name": "Sriyan Madugula",
+        "title": "Educational Resource Creator",
+        "linkedin": "https://www.linkedin.com/in/sriyanm",
+        "github": "https://github.com/sriyan-madugula-um",
+        "image": "sriyan.png"
       },
       {
         "name": "Weile Zheng",
