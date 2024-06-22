@@ -7,6 +7,7 @@
         "name": "Amelia Weyhing",
         "title": "President",
         "linkedin": "https://www.linkedin.com/in/amelia-weyhing/ ",
+        "github": "https://github.com/aweyhing",
         "image": "aweyhing.JPG"
       },
       {
@@ -19,11 +20,13 @@
       {
         "name": "Vincent Wu",
         "title": "VP of External Affairs",
+        "linkedin": "https://www.linkedin.com/in/vinwu1/",
         "image": "bigpanda.jpeg"
       },
       {
         "name": "Uma Iyer",
         "title": "VP of Finance",
+        "linkedin": "https://www.linkedin.com/in/uma3iyer/",
         "image": "uiyer.jpeg"
       },
       {
@@ -42,89 +45,35 @@
     ]
   },
   {
-    "groupName": "Social Committee",
-    "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work. Led by the VP of Internal Affairs.",
+    "groupName": "Education Committee",
+    "description": "Supervises all of MDST's educational intiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education",
     "members": [
       {
-        "name": "Jay Shaver",
-        "title": "The man",
-        "linkedin": "https://www.linkedin.com/in/jay-shaver-a270a0178/",
-        "github": "https://github.com/broad-well",
-        "image": "jmshaver.jpeg"
+        "name": "Yueqi Ren",
+        "title": "GitHub Maintainer",
+        "linkedin": "https://www.linkedin.com/in/yueqi-peter-ren-ab671125a/",
+        "github": "https://github.com/peteryqr",
+        "image": "yueqiren.JPG"
       },
       {
-        "name": "Amelia Weyhing",
-        "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/amelia-weyhing/ ",
-        "image": "aweyhing.jpeg"
+        "name": "Sriyan Madugula",
+        "title": "Educational Resource Creator",
+        "linkedin": "https://www.linkedin.com/in/sriyanm",
+        "github": "https://github.com/sriyan-madugula-um",
+        "image": "sriyan.png"
       },
       {
-        "name": "Benjamin Brown",
-        "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/benjamin-brown-5771a7203/",
-        "github": "https://github.com/B-N-Brown",
-        "image": "bneilb.jpeg"
+        "name": "Jeremy Moon",
+        "title": "Educational Resource Creator",
+        "linkedin": "https://www.linkedin.com/in/jeremy-moon7/",
+        "github": "jere67.github.io ",
+        "image": "jeremoon.png"
       },
       {
-        "name": "Jonathon Rosevelt",
-        "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/jonathon-rosevelt/",
-        "image": "jrosevel.jpeg"
-      },
-      {
-        "name": "Taylor Lane",
-        "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/taylor-lane-a58105263 ",
-        "image": "taylornl.jpeg"
-      }
-    ]
-  },
-  {
-    "groupName": "Finance Committee",
-    "description": "The financial backbone of MDST, planning and allocating our monetary resources. Led by the VP of Finance.",
-    "members": [
-      {
-        "name": "Elle Chen",
-        "title": "Budgeting Lead",
-        "linkedin": "https://www.linkedin.com/in/elle-chen/",
-        "image": "ellechen.png"
-      },
-      {
-        "name": "Niyati Kashyap",
-        "title": "Budgeting Lead",
-        "linkedin": "https://www.linkedin.com/in/niyati-kashyap",
-        "image": "niyatik.jpg"
-      }
-    ]
-  },
-  {
-    "groupName": "Project Committee",
-    "description": "Project advisors who help MDST operate our projects smoothly and at scale. Led by the VP of Projects.",
-    "members": [
-      {
-        "name": "Xinya Xu",
-        "title": "Project Planner",
-        "linkedin": "https://www.linkedin.com/in/xinya-grace-xu-76bab7225/",
-        "image": "xinyaxu.jpeg"
-      },
-      {
-        "name": "Advay Singh",
-        "title": "Project Lead Training Manager",
-        "linkedin": "https://www.linkedin.com/in/advay-singh-638710295/",
-        "github": "https://github.com/AdvaySingh1",
-        "image": "advay.jpeg"
-      },
-      {
-        "name": "Aaron Williams",
-        "title": "Education Developer",
-        "image": "temp.jpeg"
-      },
-      {
-        "name": "Michael Peng",
-        "title": "Education Developer",
-        "linkedin": "https://www.linkedin.com/in/michael-peng-0a669617b",
-        "github": "https://github.com/broad-well",
-        "image": "mipeng.jpeg"
+        "name": "Kajal Patel",
+        "title": "Educational Resource Creator",
+        "linkedin": "www.linkedin.com/in/kajal-patel-20426328b",
+        "image": "kajalpat.png"
       }
     ]
   },
@@ -181,46 +130,125 @@
     ]
   },
   {
-    "groupName": "Education Committee",
-    "description": "Supervises all of MDST's educational intiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education",
+    "groupName": "Finance Committee",
+    "description": "The financial backbone of MDST, planning and allocating our monetary resources. Led by the VP of Finance.",
     "members": [
       {
-        "name": "Kajal Patel",
-        "title": "",
-        "linkedin": "www.linkedin.com/in/kajal-patel-20426328b",
-        "image": "kajalpat.png"
+        "name": "Elle Chen",
+        "title": "Budgeting Lead",
+        "linkedin": "https://www.linkedin.com/in/elle-chen/",
+        "image": "ellechen.png"
       },
       {
-        "name": "Sreya Gogineni",
-        "title": "Educational Resource Creator",
-        "linkedin": "https://www.linkedin.com/in/sreya-gogineni-09b6961b0/",
-        "image": "gosreya.jpeg"
+        "name": "Niyati Kashyap",
+        "title": "Budgeting Lead",
+        "linkedin": "https://www.linkedin.com/in/niyati-kashyap",
+        "image": "niyatik.jpg"
+      }
+    ]
+  },
+  {
+    "groupName": "Project Committee",
+    "description": "Project advisors who help MDST operate our projects smoothly and at scale. Led by the VP of Projects.",
+    "members": [
+       {
+        "name": "Anthony Chen",
+        "title": "Project Planner & Lead",
+        "linkedin": "https://www.linkedin.com/in/anthony-chen0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "image": "anthoc.jpeg"
+       },
+       {
+        "name": "Daniel Griggs",
+        "title": "Project Planner",
+        "linkedin": "https://www.linkedin.com/in/glenngr",
+        "image": "glenngr.jpeg"
+       },
+       {
+        "name": "Cai Yi Linda Ru",
+        "title": "Project Planner",
+        "linkedin": "https://www.linkedin.com/in/caiyilindaru/",
+        "image": "clindaru.png"
+       },
+       {
+        "name": "Elizabeth Szwajnos",
+        "title": "Project Planner",
+        "image": "elaszwaj.jpg"
+       },
+       {
+       "name": "Erin Alcott",
+       "title": "Project Lead",
+       "linkedin": "https://www.linkedin.com/in/erin-alcott/",
+       "image": "ealcott.jpg"
       },
       {
-        "name": "Yueqi Ren",
-        "title": "GitHub Maintainer",
-        "linkedin": "https://www.linkedin.com/in/yueqi-peter-ren-ab671125a/",
-        "github": "https://github.com/peteryqr",
-        "image": "yueqiren.jpeg"
-      },
+        "name": "Andrew Black",
+        "title": "Project Lead",
+        "linkedin": "https://www.linkedin.com/in/andrew-c-black/",
+        "image": "andbl.jpeg"
+       },
+       {
+        "name": "Shiva Chandran",
+        "title": "Project Lead",
+        "linkedin": "www.linkedin.com/in/shiva-chandran-215434268",
+        "image": "shivac.jpg"
+       },
+       {
+        "name": "Matthew Drutis",
+        "title": "Project Lead",
+        "linkedin": "https://www.linkedin.com/in/matthew-drutis/",
+        "github": "https://madrutis.github.io/",
+        "image": "madrutis.jpg"
+       },
+       {
+        "name": "Tiernan Jesrani",
+        "title": "Project Lead",
+        "linkedin": "https://www.linkedin.com/in/tiernan-jesrani-7b4912258/",
+        "github": "https://github.com/TiernanJesrani",
+        "image": "tiernanj.jpg"
+       },
+       {
+        "name": "Jordan Jones",
+        "title": "Project Lead",
+        "linkedin": "www.linkedin.com/in/jordan-jones-683704268",
+        "image": "jordanrj.jpeg"
+       },
+       {
+        "name": "Aditi Kashi",
+        "title": "Project Lead",
+        "linkedin": "https://www.linkedin.com/in/aditi-kashi/",
+        "image": "adikashi.jpg"
+       },
+       {
+        "name": "Jenny Lee",
+        "title": "Project Lead",
+        "linkedin": "http://linkedin.com/in/jenny-lee-42a31a227",
+        "github": "https://github.com/jleeone",
+        "image": "jleeone.jpeg"
+       },
+       {
+        "name": "Amelia Weyhing",
+        "title": "Project Lead",
+        "linkedin": "https://www.linkedin.com/in/amelia-weyhing/",
+        "github": "https://github.com/aweyhing",
+        "image": "aweyhing.JPG"
+       },
+       {
+        "name": "Luke Yang",
+        "title": "Project Lead",
+        "linkedin": "https://www.linkedin.com/in/um-luke-yang",
+        "image": "lukeyang.jpeg"
+       }
+    ]
+  },
+  {
+    "groupName": "Social Committee",
+    "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work. Led by the VP of Internal Affairs.",
+    "members": [
       {
-        "name": "Sriyan Madugula",
-        "title": "Educational Resource Creator",
-        "linkedin": "https://www.linkedin.com/in/sriyanm",
-        "github": "https://github.com/sriyan-madugula-um",
-        "image": "sriyan.png"
-      },
-      {
-        "name": "Weile Zheng",
-        "title": "Educational Resource Creator",
-        "linkedin": "https://www.linkedin.com/in/weile-zheng-200118262/",
-        "github": "https://github.com/weile-zheng",
-        "image": "weilez.jpeg"
-      },
-      {
-        "name": "Samuel Tan",
-        "title": "Educational Resource Creator",
-        "image": "tansam.jpeg"
+        "name": "Jonathon Rosevelt",
+        "title": "Social Planner",
+        "linkedin": "https://www.linkedin.com/in/jonathon-rosevelt/",
+        "image": "jrosevel.jpeg"
       }
     ]
   }
