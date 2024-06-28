@@ -153,7 +153,7 @@
     "members": [
        {
         "name": "Anthony Chen",
-        "title": "Project Planner & Lead",
+        "title": "Project Planner",
         "linkedin": "https://www.linkedin.com/in/anthony-chen0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         "image": "anthoc.jpeg"
        },
@@ -173,6 +173,30 @@
         "name": "Elizabeth Szwajnos",
         "title": "Project Planner",
         "image": "elaszwaj.jpg"
+       }
+    ]
+  },
+  {
+    "groupName": "Social Committee",
+    "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work. Led by the VP of Internal Affairs.",
+    "members": [
+      {
+        "name": "Jonathon Rosevelt",
+        "title": "Social Planner",
+        "linkedin": "https://www.linkedin.com/in/jonathon-rosevelt/",
+        "image": "jrosevel.jpeg"
+      }
+    ]
+  },
+  {
+    "groupName": "Project Leads",
+    "description": "Individuals who spearhead specific projects within MDST, ensuring successful execution from inception to completion. They coordinate team efforts, manage timelines, and serve as the primary point of contact for their respective projects.",
+    "members": [
+      {
+        "name": "Anthony Chen",
+        "title": "Project Lead",
+        "linkedin": "https://www.linkedin.com/in/anthony-chen0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "image": "anthoc.jpeg"
        },
        {
        "name": "Erin Alcott",
@@ -238,18 +262,6 @@
         "linkedin": "https://www.linkedin.com/in/um-luke-yang",
         "image": "lukeyang.jpeg"
        }
-    ]
-  },
-  {
-    "groupName": "Social Committee",
-    "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work. Led by the VP of Internal Affairs.",
-    "members": [
-      {
-        "name": "Jonathon Rosevelt",
-        "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/jonathon-rosevelt/",
-        "image": "jrosevel.jpeg"
-      }
     ]
   }
 ]
