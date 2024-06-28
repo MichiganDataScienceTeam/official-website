@@ -46,7 +46,7 @@
   },
   {
     "groupName": "Education Committee",
-    "description": "Supervises all of MDST's educational intiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education",
+    "description": "Supervises all of MDST's educational intiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education.",
     "members": [
       {
         "name": "Yueqi Ren",
@@ -79,7 +79,7 @@
   },
   {
     "groupName": "External Affairs Committee",
-    "description": "MDST's interface with the wider data science community at U-M and beyond.",
+    "description": "MDST's interface with the wider data science community at U-M and beyond. Led by the VP of External Affairs.",
     "members": [
       {
         "name": "Isabella Giallanza",
