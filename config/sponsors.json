@@ -26,6 +26,11 @@
         "name": "Michigan Institute for Data Science",
         "link": "https://midas.umich.edu/",
         "image": "midas.png"
+      },
+      {
+        "name": "University of Michigan School of Information",
+        "link": "https://www.si.umich.edu/",
+        "image": "umsi.png"
       }
     ]
   }

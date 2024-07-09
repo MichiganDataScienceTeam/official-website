@@ -15,6 +15,8 @@ import {
   IoCalendarOutline
 } from "react-icons/io5";
 import { createElement } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGoogleDrive } from "@fortawesome/free-brands-svg-icons";
 
 const iconMap = {
   envelope: IoMail,
@@ -31,13 +33,20 @@ const iconMap = {
   slack: IoLogoSlack,
   copy: IoCopyOutline,
   calendar: IoCalendarOutline,
-
+  googleSlides: faGoogleDrive,
 };
 
-export default function Icon(props) {
-  if (!(props.name in iconMap)) {
-    console.error("Could not find name " + props.name);
+export default function Icon({ name, ...props }) {
+  const IconComponent = iconMap[name];
+
+  if (!IconComponent) {
+    console.error(`Could not find icon with name "${name}"`);
     return null;
   }
-  return createElement(iconMap[props.name], props);
+
+  if (name === 'googleSlides') {
+    return <FontAwesomeIcon icon={IconComponent} {...props} />;
+  }
+
+  return createElement(IconComponent, props);
 }
