@@ -188,10 +188,22 @@
     "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work. Led by the VP of Internal Affairs.",
     "members": [
       {
-        "name": "Jonathon Rosevelt",
+        "name": "Erin Alcott",
         "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/jonathon-rosevelt/",
-        "image": "jrosevel.jpeg"
+        "linkedin": "https://www.linkedin.com/in/erin-alcott/",
+        "image": "ealcott.jpg"
+      },
+      {
+        "name": "Shiva Chandran",
+        "title": "Social Planner",
+        "linkedin": "https://www.linkedin.com/in/shiva-chandran-215434268",
+        "image": "shivac.jpg"
+      },
+      {
+        "name": "Taylor Lane",
+        "title": "Social Planner",
+        "linkedin": "https://www.linkedin.com/in/taynlane/",
+        "image": "taylornl.png"
       }
     ]
   },
@@ -220,7 +232,7 @@
       {
         "name": "Shiva Chandran",
         "title": "Project Lead",
-        "linkedin": "www.linkedin.com/in/shiva-chandran-215434268",
+        "linkedin": "https://www.linkedin.com/in/shiva-chandran-215434268",
         "image": "shivac.jpg"
       },
       {
