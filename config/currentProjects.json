@@ -1,0 +1,43 @@
+[
+    {
+        "label": "Economic Forecasting",
+        "image": "economic_forecasting.jpg",
+        "leads": [
+            { "name": "Jordan Ives", "image": "temp.jpeg" },
+            { "name": "Amelia Weyhing", "image": "aweyhing.JPG" }
+        ]
+    },
+    {
+        "label": "Research Grant Analysis",
+        "image": "research_grant_analysis.jpg",
+        "leads": [
+            { "name": "Erin Alcott", "image": "ealcott.jpg" },
+            { "name": "Linda Ru", "image": "clindaru.png" }
+        ]
+    },
+    {
+        "label": "Car Brand Classification",
+        "image": "car_brand_classification.jpg",
+        "leads": [
+            { "name": "Aditi Kashi", "image": "adikashi.jpg" },
+            { "name": "Anish Kudupudi", "image": "temp.jpeg" }
+        ]
+    },
+    {
+        "label": "SoccerNet",
+        "image": "soccerNet.jpg",
+        "leads": [
+            { "name": "Antonio Capdevielle", "image": "temp.jpeg" },
+            { "name": "Shiva Chandran", "image": "shivac.jpg" }
+        ]
+    },
+    {
+        "label": "LLM Augmentation",
+        "image": "llm_augmentation.jpg",
+        "leads": [
+            { "name": "Aditya Murali", "image": "amiralid.png" },
+            { "name": "Jordan Jones", "image": "jordanrj.jpeg" }
+        ]
+    }
+  ]
+  

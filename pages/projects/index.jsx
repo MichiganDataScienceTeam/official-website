@@ -1,14 +1,13 @@
+import fs from "fs";
+import path from "path";
 import HeadContent from "@/components/headContent";
 import Hero from "@/components/hero";
 import Layout from "@/components/layout";
-import fs from "fs";
-import path from "path";
-import Link from "next/link";
-import Image from "next/image";
+import ProjectCard from "@/components/ProjectCard";
+import CurrentProjectCard from "@/components/CurrentProjectCard";
 import { useRouter } from "next/router";
-import Icon from "@/components/icon";
 
-export default function Projects({ groupedLinks }) {
+export default function Projects({ groupedLinks, currentProjects }) {
   const router = useRouter();
   const basePath = router.basePath;
 
@@ -18,7 +17,19 @@ export default function Projects({ groupedLinks }) {
         title={"Michigan Data Science Team - Projects"} 
         description={"Michigan Data Science Team - MDST is the largest data science club at the University of Michigan. Here are some of our past projects."} 
       />
-      <Hero title="Our Past Projects" />
+      <Hero title="Our Projects" />
+      
+      <section className="current-projects py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
+        <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
+          <h2 className="text-3xl mb-4">Current Projects</h2>
+        </div>
+        <div className="flex flex-wrap justify-center gap-8">
+          {currentProjects.map((project, index) => (
+            <CurrentProjectCard key={index} project={project} basePath={basePath} />
+          ))}
+        </div>
+      </section>
+
       {Object.entries(groupedLinks).map(([subdirectory, links]) => (
         <ProjectSection key={subdirectory} subdirectory={subdirectory} links={links} basePath={basePath} />
       ))}
@@ -36,54 +47,6 @@ function ProjectSection({ subdirectory, links, basePath }) {
         {links.map((link, index) => (
           <ProjectCard key={index} basePath={basePath} project={link} />
         ))}
-      </div>
-    </div>
-  );
-}
-
-function ProjectCard({ project, basePath }) {
-  const imagePath = `${basePath}/images/projects/${project.label.toLowerCase().split(" ").join("_")}.jpg`;
-  return (
-    <div className="text-left sm:text-center rounded bg-grey py-2 sm:py-4 px-2 sm:px-8 w-full sm:w-60 flex sm:block gap-8">
-      <Image
-        className="sm:mx-auto sm:mb-4 sm:w-44 sm:h-44 w-24 h-24 my-auto rounded-full object-cover"
-        width="176"
-        height="176"
-        src={imagePath}
-        alt={project.label}
-      />
-      <div className="">
-        <h3 className="mb-1 text-2xl font-bold tracking-tight">{project.label}</h3>
-        <ul className="flex sm:justify-center mt-2 sm:mt-4 space-x-4">
-          {project.type === "link" && (
-            <li>
-              <Link href={project.href} className="hover:text-gray" aria-label="Github Repo">
-                <Icon name="github" className="text-3xl" />
-              </Link>
-            </li>
-          )}
-          {project.type === "md" && (
-            <li>
-              <Link href={project.href} className="hover:text-gray" aria-label="Markdown">
-                <Icon name="file-text" className="text-3xl" />
-              </Link>
-            </li>
-          )}
-          {project.type === "pdf" && (
-            <li>
-              <Link href={project.href} className="hover:text-gray" aria-label="PDF">
-                <Icon name="file-pdf" className="text-3xl" />
-              </Link>
-            </li>
-          )}
-          {project.type === "googleSlides" && (
-            <li>
-              <Link href={project.href} className="hover:text-gray" aria-label="Google Slides">
-                <Icon name="googleSlides" className="text-3xl" />
-              </Link>
-            </li>
-          )}
-        </ul>
       </div>
     </div>
   );
@@ -146,9 +109,13 @@ export async function getStaticProps() {
     return acc;
   }, {});
 
+  const currentProjectsPath = path.join(process.cwd(), "config", "currentProjects.json");
+  const currentProjects = JSON.parse(fs.readFileSync(currentProjectsPath, "utf-8"));
+
   return {
     props: {
       groupedLinks,
+      currentProjects,
     },
   };
 }
