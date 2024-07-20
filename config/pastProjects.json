@@ -1,4 +1,62 @@
 {
+    "Winter 2024": [
+        {
+            "label": "Codenames"
+        },
+        {
+            "label": "LLM Augmentation"
+        },
+        {
+            "label": "Poker Bot"
+        }, 
+        {
+            "label": "Rate My Professor Sentiment Analysis"
+        },
+        {
+            "label": "Real vs Fake Faces"
+        },
+        {
+            "label": "Shazam Clone"
+        },
+        {
+            "label": "Spotify Analysis"
+        },
+        {
+            "label": "Stock Market Analysis"
+        },
+        {
+            "label": "TikTok Videos"
+        }
+    ],
+    "Fall 2023": [
+        {
+            "label": "Automated Poker Bot"
+        },
+        {
+            "label": "College Football Success Factors"
+        },
+        {
+            "label": "Cracking Wordle"
+        },
+        {
+            "label": "Network Intrusion Detection"
+        },
+        {
+            "label": "NHANES"
+        },
+        {
+            "label": "Real vs Photoshopped Faces"
+        },
+        {
+            "label": "Reinforcement Learning"
+        },
+        {
+            "label": "Sentence Completer"
+        },
+        {
+            "label": "Webscraping"
+        }
+    ],
     "Winter 2023": [
         {
             "label": "Footwear Image Classification",
@@ -6,6 +64,7 @@
         },
         {
             "label": "Image Colorization",
+            "github": "https://github.com/MichiganDataScienceTeam/W23-Image-Colorization",
             "googleSlides": "https://docs.google.com/document/d/19CekIh2sZGKKMoRA5VNFEcjNGHc9GEYt/"
         },
         {
@@ -22,6 +81,7 @@
         },
         {
             "label": "Webscraping",
+            "github": "https://github.com/MichiganDataScienceTeam/W23-Webscraping",
             "googleSlides": "https://docs.google.com/document/d/1uVD5nvpA0lg9E8tE9khuEQDlwCwHKgrHGqtvzKe2JoA/"
         },
         {
