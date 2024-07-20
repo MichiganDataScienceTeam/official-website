@@ -12,11 +12,11 @@ import {
   IoBrowsersOutline,
   IoLogoSlack,
   IoCopyOutline,
-  IoCalendarOutline
+  IoCalendarOutline,
+  IoDocumentTextOutline,
+  IoDocumentOutline
 } from "react-icons/io5";
 import { createElement } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGoogleDrive } from "@fortawesome/free-brands-svg-icons";
 
 const iconMap = {
   envelope: IoMail,
@@ -33,7 +33,8 @@ const iconMap = {
   slack: IoLogoSlack,
   copy: IoCopyOutline,
   calendar: IoCalendarOutline,
-  googleSlides: faGoogleDrive,
+  "file-text": IoDocumentTextOutline,
+  "file-pdf": IoDocumentOutline
 };
 
 export default function Icon({ name, ...props }) {
@@ -42,10 +43,6 @@ export default function Icon({ name, ...props }) {
   if (!IconComponent) {
     console.error(`Could not find icon with name "${name}"`);
     return null;
-  }
-
-  if (name === 'googleSlides') {
-    return <FontAwesomeIcon icon={IconComponent} {...props} />;
   }
 
   return createElement(IconComponent, props);

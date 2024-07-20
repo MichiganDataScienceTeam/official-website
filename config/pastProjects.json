@@ -1,0 +1,62 @@
+{
+    "Winter 2023": [
+        {
+            "label": "Footwear Image Classification",
+            "googleSlides": "https://docs.google.com/presentation/d/1Bb7nCc4o3fmV4OkR-NOeAwzl6i1E_BA_V937Gjoq1wc/"
+        },
+        {
+            "label": "Image Colorization",
+            "googleSlides": "https://docs.google.com/document/d/19CekIh2sZGKKMoRA5VNFEcjNGHc9GEYt/"
+        },
+        {
+            "label": "Mini DALL-E"
+        },
+        {
+            "label": "MOOC Data Analysis"        },
+        {
+            "label": "Movie Quote Sentiment Analysis"
+        },
+        {
+            "label": "Twitter Chatbot",
+            "googleSlides": "https://docs.google.com/document/d/1_vf3Snj2KxcnSunW7eRLbDOLffrK5OKGKrFRIFLYDpM/"
+        },
+        {
+            "label": "Webscraping",
+            "googleSlides": "https://docs.google.com/document/d/1uVD5nvpA0lg9E8tE9khuEQDlwCwHKgrHGqtvzKe2JoA/"
+        },
+        {
+            "label": "Wildfire Spread Prediction"
+        }
+    ],
+    "Fall 2022": [
+        {
+            "label": "College Football"
+        },
+        {
+            "label": "Dogs vs Cats"
+        },
+        {
+            "label": "Image Super Resolution"
+        },
+        {
+            "label": "Language Translation Application"
+        },
+        {
+            "label": "Pokemon Data Science"
+        },
+        {
+            "label": "SEC Insider Information",
+            "github": "https://github.com/MichiganDataScienceTeam/F22-SEC-Insider-Trading"
+        },
+        {
+            "label": "Sports Data Science"
+        },
+        { 
+            "label": "TLDR Machine"
+        },
+        {
+            "label": "Twitter Sentiment Analysis"
+        }
+    ]
+  }
+  

@@ -16,31 +16,17 @@ export default function ProjectCard({ project, basePath }) {
       <div className="">
         <h3 className="mb-1 text-2xl font-bold tracking-tight">{project.label}</h3>
         <ul className="flex sm:justify-center mt-2 sm:mt-4 space-x-4">
-          {project.type === "link" && (
+          {project.github && (
             <li>
-              <Link href={project.href} className="hover:text-gray" aria-label="Github Repo">
+              <Link href={project.github} className="hover:text-gray" aria-label="Github Repo">
                 <Icon name="github" className="text-3xl" />
               </Link>
             </li>
           )}
-          {project.type === "md" && (
+          {project.googleSlides && (
             <li>
-              <Link href={project.href} className="hover:text-gray" aria-label="Markdown">
-                <Icon name="file-text" className="text-3xl" />
-              </Link>
-            </li>
-          )}
-          {project.type === "pdf" && (
-            <li>
-              <Link href={project.href} className="hover:text-gray" aria-label="PDF">
+              <Link href={project.googleSlides} className="hover:text-gray" aria-label="Google Slides">
                 <Icon name="file-pdf" className="text-3xl" />
-              </Link>
-            </li>
-          )}
-          {project.type === "googleSlides" && (
-            <li>
-              <Link href={project.href} className="hover:text-gray" aria-label="Google Slides">
-                <Icon name="googleSlides" className="text-3xl" />
               </Link>
             </li>
           )}
