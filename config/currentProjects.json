@@ -49,7 +49,7 @@
     },
     {
         "label": "RL Neuroevolution",
-        "image": "rl_neuroevolution.jpg",
+        "image": "reinforcement_learning.jpg",
         "leads": [
             { "name": "Luke Yang", "image": "lukeyang.jpeg" },
             { "name": "Nathan Kawamoto", "image": "temp.jpeg" }
@@ -57,7 +57,7 @@
     },
     {
         "label": "Mining & Analyzing Tweets",
-        "image": "mining_&_analyzing_tweets.jpg",
+        "image": "twitter_sentiment_analysis.jpg",
         "leads": [
             { "name": "Nidhil Nayudu", "image": "temp.jpeg" },
             { "name": "Tiernan Jesrani", "image": "tiernanj.jpg" }
