@@ -99,13 +99,16 @@
     ],
     "Fall 2022": [
         {
-            "label": "College Football"
+            "label": "College Football",
+            "googleSlides": "https://docs.google.com/document/d/1aD0UfCwea5I35nqoAEfS0PNpnzrAv3LX-X4kTCLVuu4/"
         },
         {
-            "label": "Dogs vs Cats"
+            "label": "Dogs vs Cats",
+            "googleSlides": "https://docs.google.com/presentation/d/1p-nNSJNfZd09ApFk05hJZfRlY2Z8PlsiVTgp0i6_U44/"
         },
         {
-            "label": "Image Super Resolution"
+            "label": "Image Super Resolution",
+            "googleSlides": "https://drive.google.com/file/d/1cKrjVCl-M5wXzARgPMj8Gr-foZpEkIS_/"
         },
         {
             "label": "Language Translation Application"

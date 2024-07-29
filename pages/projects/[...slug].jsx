@@ -9,9 +9,14 @@ import HeadContent from "@/components/headContent";
 
 // Function to get all projects from JSON files
 const getAllProjects = () => {
-  const pastProjects = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'pastProjects.json'), 'utf-8'));
-  const currentProjects = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'currentProjects.json'), 'utf-8'));
-  return [...pastProjects, ...currentProjects];
+  try {
+    const pastProjects = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'pastProjects.json'), 'utf-8'));
+    const currentProjects = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'currentProjects.json'), 'utf-8'));
+    return [...pastProjects, ...currentProjects];
+  } catch (error) {
+    console.error("Error reading or parsing JSON files:", error);
+    return [];
+  }
 };
 
 function ProjectPage({ content, title, images }) {
