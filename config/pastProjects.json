@@ -1,7 +1,8 @@
 {
     "Winter 2024": [
         {
-            "label": "Codenames"
+            "label": "Codenames",
+            "googleSlides": "https://docs.google.com/presentation/d/1EEHSw-WKN6Oes6NFfYK7iZHj91J1CgmHiiV8aO99r6I/"
         },
         {
             "label": "LLM Augmentation",
@@ -31,6 +32,10 @@
         {
             "label": "TikTok Videos",
             "github": "https://github.com/MichiganDataScienceTeam/W24-TikTokVideos"
+        },
+        {
+            "label": "Neural Nets from Scratch",
+            "googleSlides": "https://docs.google.com/presentation/d/1eygF8pf7d1f8UMB-v2oypFPFSCwICGlTM48-deNqibI/"
         }
     ],
     "Fall 2023": [
@@ -38,7 +43,8 @@
             "label": "Automated Poker Bot"
         },
         {
-            "label": "College Football Success Factors"
+            "label": "College Football Success Factors",
+            "googleSlides": "https://docs.google.com/presentation/d/1tmIdFj_GK67cwrD3ueg2BlnUTtP9SWHVOYZPKaXCI5A/"
         },
         {
             "label": "Cracking Wordle"
@@ -51,11 +57,12 @@
         },
         {
             "label": "Real vs Fake Faces",
-            "github": "F23-RvF"
+            "github": "https://github.com/MichiganDataScienceTeam/W24-RvFF"
         },
         {
             "label": "Reinforcement Learning",
-            "github": "https://github.com/MichiganDataScienceTeam/F23-Reinforcement-Learning"
+            "github": "https://github.com/MichiganDataScienceTeam/F23-Reinforcement-Learning",
+            "googleSlides": "https://docs.google.com/presentation/d/1d4I_1fqJCD7ZppEVOkYuTzfMbQ8NKCpYjbQkIEoSwNk/"
         },
         {
             "label": "Sentence Completer"
@@ -114,17 +121,21 @@
             "label": "Language Translation Application"
         },
         {
-            "label": "Pokemon Data Science"
+            "label": "Pokemon Data Science",
+            "github": "https://docs.google.com/presentation/d/1vgOGh7djJRqNI7Ihf-R4ZZh7ON_KlCtCsHYucy0Aujk/"
         },
         {
             "label": "SEC Insider Trading",
-            "github": "https://github.com/MichiganDataScienceTeam/F22-SEC-Insider-Trading"
+            "github": "https://github.com/MichiganDataScienceTeam/F22-SEC-Insider-Trading",
+            "googleSlides": "https://docs.google.com/presentation/d/1dfPMDMX9n3X6GxDN9UDY6cfULwg4e-BLKfpSPziidKY/"
         },
         {
-            "label": "Sports Data Science"
+            "label": "Sports Data Science",
+            "googleSlides": "https://docs.google.com/presentation/d/1q_kJey90QQsP4Nm5b96o5NVMg4gRgbTqe9THJfaXle0/"
         },
         { 
-            "label": "TLDR Machine"
+            "label": "TLDR Machine",
+            "googleSlides": "https://docs.google.com/presentation/d/1dmCTwBANTU1W1ik5dSXuwD5ycRRRCtjyiQzMFE2zDgs/"
         },
         {
             "label": "Twitter Sentiment Analysis"
