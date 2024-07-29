@@ -30,11 +30,11 @@ function ProjectPage({ content, title, images }) {
 
 export async function getStaticProps({ params }) {
   const [subdirectory, innerDir] = params.slug;
-  const filePath = path.join(process.cwd(), 'public', 'projects', subdirectory, innerDir, 'writeup.md');
+  const filePath = path.join(process.cwd(), 'content', 'projects', subdirectory, innerDir, 'writeup.md');
   const fileContent = fs.readFileSync(filePath, 'utf-8');
   
-  const imagesDir = path.join(process.cwd(), 'public', 'projects', subdirectory, innerDir, 'images');
-  const images = fs.existsSync(imagesDir) ? fs.readdirSync(imagesDir).map(img => path.join('/projects', subdirectory, innerDir, 'images', img)) : [];
+  const imagesDir = path.join(process.cwd(), 'public', 'images', 'projects', subdirectory, innerDir);
+  const images = fs.existsSync(imagesDir) ? fs.readdirSync(imagesDir).map(img => path.join('/images/projects', subdirectory, innerDir, img)) : [];
 
   return {
     props: {
@@ -46,7 +46,7 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const projectsDirectory = path.join(process.cwd(), "public", "projects");
+  const projectsDirectory = path.join(process.cwd(), "content", "projects");
   const subdirectories = fs.readdirSync(projectsDirectory, { withFileTypes: true }).filter(dirent => dirent.isDirectory());
 
   const paths = subdirectories.flatMap(subdirectory => {
