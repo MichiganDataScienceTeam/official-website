@@ -52,31 +52,35 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    width: '100%',
+    flex: 1,
   },
   projectInfo: {
     marginBottom: '16px',
+    flex: 1,
   },
   projectImage: {
     borderRadius: '10%',
     objectFit: 'cover',
-    width: 'auto',
-    height: '100%',
+    width: '100%',
+    height: 'auto',
   },
   projectTitle: {
     marginTop: '16px',
     fontSize: '24px',
     fontWeight: 'bold',
     textAlign: 'center',
+    color: 'white',
   },
   leadsInfo: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    flex: 1,
   },
   leadText: {
     fontSize: '20px',
     fontWeight: 'bold',
+    color: 'white',
   },
   leadsContainer: {
     display: 'flex',
@@ -101,5 +105,6 @@ const styles = {
     textAlign: 'center',
     fontSize: '14px',
     fontWeight: '500',
+    color: 'white',
   },
 };
