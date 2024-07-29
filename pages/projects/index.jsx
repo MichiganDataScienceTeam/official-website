@@ -3,8 +3,8 @@ import path from "path";
 import HeadContent from "@/components/headContent";
 import Hero from "@/components/hero";
 import Layout from "@/components/layout";
-import CurrentProjectCard from "@/components/CurrentProjectCard";
-import ProjectCard from "@/components/ProjectCard";
+import CurrentProjectCard from "@/components/currentProjectCard";
+import ProjectCard from "@/components/projectCard";
 import { useRouter } from "next/router";
 
 export default function Projects({ groupedLinks, currentProjects }) {
