@@ -7,6 +7,13 @@ import Hero from "@/components/hero";
 import Image from "next/image";
 import HeadContent from "@/components/headContent";
 
+// Function to get all projects from JSON files
+const getAllProjects = () => {
+  const pastProjects = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'pastProjects.json'), 'utf-8'));
+  const currentProjects = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'currentProjects.json'), 'utf-8'));
+  return [...pastProjects, ...currentProjects];
+};
+
 function ProjectPage({ content, title, images }) {
   const router = useRouter();
   const basePath = router.basePath;
@@ -29,7 +36,14 @@ function ProjectPage({ content, title, images }) {
 }
 
 export async function getStaticProps({ params }) {
+  const allProjects = getAllProjects();
   const [subdirectory, innerDir] = params.slug;
+  const project = allProjects.find(proj => proj.subdirectory === subdirectory && proj.innerDir === innerDir);
+
+  if (!project) {
+    return { notFound: true };
+  }
+
   const filePath = path.join(process.cwd(), 'content', 'projects', subdirectory, innerDir, 'writeup.md');
   const fileContent = fs.readFileSync(filePath, 'utf-8');
   
@@ -46,13 +60,13 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-  const projectsDirectory = path.join(process.cwd(), "content", "projects");
-  const subdirectories = fs.readdirSync(projectsDirectory, { withFileTypes: true }).filter(dirent => dirent.isDirectory());
+  const allProjects = getAllProjects();
 
-  const paths = subdirectories.flatMap(subdirectory => {
-    const innerDirectories = fs.readdirSync(path.join(projectsDirectory, subdirectory.name), { withFileTypes: true }).filter(dirent => dirent.isDirectory());
-    return innerDirectories.map(innerDir => ({ params: { slug: [subdirectory.name, innerDir.name] } }));
-  });
+  const paths = allProjects.map(project => ({
+    params: {
+      slug: [project.subdirectory, project.innerDir],
+    },
+  }));
 
   return {
     paths,
