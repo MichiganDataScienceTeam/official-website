@@ -1,17 +1,18 @@
 [
-    {
-        "name": "Image Colorization",
-        "image": "image_colorization.png",
-        "link": "https://docs.google.com/document/d/19CekIh2sZGKKMoRA5VNFEcjNGHc9GEYt/"
-    },
-    {
-        "name": "Webscraping",
-        "image": "webscraping.png",
-        "link": "https://docs.google.com/document/d/1uVD5nvpA0lg9E8tE9khuEQDlwCwHKgrHGqtvzKe2JoA/"
-    },
-    {
-        "name": "Footwear Classification",
-        "image": "footwear_classification.png",
-        "link": "https://docs.google.com/presentation/d/1Bb7nCc4o3fmV4OkR-NOeAwzl6i1E_BA_V937Gjoq1wc/"
-    }
+  {
+    "name": "LLM Augmentation",
+    "image": "llm_augmentation.png",
+    "link": "https://github.com/MichiganDataScienceTeam/W24-llm-augmentation"
+  },
+
+  {
+    "name": "Image Colorization",
+    "image": "image_colorization.png",
+    "link": "https://docs.google.com/document/d/19CekIh2sZGKKMoRA5VNFEcjNGHc9GEYt/"
+  },
+  {
+    "name": "Real Vs Fake Face",
+    "image": "rvf.png",
+    "link": "https://github.com/MichiganDataScienceTeam/W24-RvF/tree/main"
+  }
 ]
