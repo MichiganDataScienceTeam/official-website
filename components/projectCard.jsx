@@ -3,7 +3,10 @@ import Image from "next/image";
 import Icon from "@/components/icon";
 
 export default function ProjectCard({ project, basePath }) {
-  const imagePath = `${basePath}/images/projects/${project.label.toLowerCase().split(" ").join("_")}.jpg`;
+  const imagePath = `${basePath}/images/projects/${project.label
+    .toLowerCase()
+    .split(" ")
+    .join("_")}.jpg`;
   return (
     <div className="text-left sm:text-center rounded bg-grey py-2 sm:py-4 px-2 sm:px-8 w-full sm:w-60 flex sm:block gap-8">
       <Image
@@ -14,18 +17,28 @@ export default function ProjectCard({ project, basePath }) {
         alt={project.label}
       />
       <div className="">
-        <h3 className="mb-1 text-2xl font-bold tracking-tight">{project.label}</h3>
+        <h3 className="mb-1 text-2xl font-bold tracking-tight">
+          {project.label}
+        </h3>
         <ul className="flex sm:justify-center mt-2 sm:mt-4 space-x-4">
           {project.github && (
             <li>
-              <Link href={project.github} className="hover:text-gray" aria-label="Github Repo">
+              <Link
+                href={project.github}
+                className="hover:text-gray"
+                aria-label="Github Repo"
+              >
                 <Icon name="github" className="text-3xl" />
               </Link>
             </li>
           )}
           {project.googleSlides && (
             <li>
-              <Link href={project.googleSlides} className="hover:text-gray" aria-label="Google Slides">
+              <Link
+                href={project.googleSlides}
+                className="hover:text-gray"
+                aria-label="Google Slides"
+              >
                 <Icon name="file-pdf" className="text-3xl" />
               </Link>
             </li>
