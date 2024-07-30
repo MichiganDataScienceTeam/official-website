@@ -12,7 +12,9 @@ import {
   IoBrowsersOutline,
   IoLogoSlack,
   IoCopyOutline,
-  IoCalendarOutline
+  IoCalendarOutline,
+  IoDocumentTextOutline,
+  IoDocumentOutline
 } from "react-icons/io5";
 import { createElement } from "react";
 
@@ -31,13 +33,17 @@ const iconMap = {
   slack: IoLogoSlack,
   copy: IoCopyOutline,
   calendar: IoCalendarOutline,
-
+  "file-text": IoDocumentTextOutline,
+  "file-pdf": IoDocumentOutline
 };
 
-export default function Icon(props) {
-  if (!(props.name in iconMap)) {
-    console.error("Could not find name " + props.name);
+export default function Icon({ name, ...props }) {
+  const IconComponent = iconMap[name];
+
+  if (!IconComponent) {
+    console.error(`Could not find icon with name "${name}"`);
     return null;
   }
-  return createElement(iconMap[props.name], props);
+
+  return createElement(IconComponent, props);
 }

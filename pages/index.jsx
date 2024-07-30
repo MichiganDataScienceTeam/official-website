@@ -7,13 +7,14 @@ import SponsorSection from "@/components/sponsorSection";
 import Timeline from "@/components/timeline";
 import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
+import CommunityImages from "@/components/communityImages";
 import loadStaticData from "@/shared/static";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-export default function Home({ sponsors, projects, timeline }) {
+export default function Home({ sponsors, projects, timeline, communityImages }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
   const router = useRouter();
   const basePath = router.basePath;
@@ -119,7 +120,7 @@ export default function Home({ sponsors, projects, timeline }) {
         </div>
       </div>
       <Carousel projects={projects} basePath={basePath} />
-      <CommunityImages basePath={basePath} />
+      <CommunityImages basePath={basePath} images={communityImages} />
       <div className="container mx-auto px-2 mt-8">
         <h2 className="text-3xl text-center">
           MDST is proudly supported by our sponsors
@@ -149,30 +150,6 @@ function ProjectCard({ json, basePath }) {
       <h3 className="text-lg font-bold">{json.name}</h3>
       {json.description && <p className="line-clamp-2">{json.description}</p>}
     </Link>
-  );
-}
-function CommunityImages({ basePath }) {
-  return (
-    <div className="flex flex-col sm:flex-row items-center mx-auto max-w-6xl">
-      <div className="w-full sm:w-1/2 mx-4 mb-6 flex flex-col justify-center items-center">
-        <p className="text-base mt-2">WN24 Project Expo</p>
-        <Image
-          src={`${basePath}/images/community/WN24_EXPO.JPG`}
-          alt="Image 1"
-          width={500}
-          height={500}
-        />
-      </div>
-      <div className="w-full sm:w-1/2 mx-4 mb-6 flex flex-col justify-center items-center">
-        <p className="text-base mt-2">WN24 Data Science Night</p>
-        <Image
-          src={`${basePath}/images/community/WN24_DSN.JPG`}
-          alt="Image 2"
-          width={500}
-          height={500}
-        />
-      </div>
-    </div>
   );
 }
 
@@ -243,6 +220,7 @@ export async function getStaticProps() {
   const sponsors = loadStaticData("sponsors.json");
   const projects = loadStaticData("homepage.json");
   const timeline = loadStaticData("timeline.json");
+  const communityImages = loadStaticData("communityImages.json");
 
-  return { props: { sponsors, projects, timeline } };
+  return { props: { sponsors, projects, timeline, communityImages } };
 }
