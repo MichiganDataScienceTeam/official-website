@@ -25,7 +25,7 @@
     },
     {
         "label": "SoccerNet",
-        "image": "soccernet.jpg",
+        "image": "soccernet.png",
         "leads": [
             { "name": "Antonio Capdevielle", "image": "temp.jpeg" },
             { "name": "Shiva Chandran", "image": "shivac.jpg" }
