@@ -4,19 +4,15 @@
 
 .hero {
   @apply pt-24;
-  background: radial-gradient(
-      50% 50% at 50% 50%,
+  background: radial-gradient(50% 50% at 50% 50%,
       #896ae4 0%,
-      rgba(67, 151, 117, 0) 100%
-    ),
-    conic-gradient(
-      from 174.92deg at 50% 50%,
+      rgba(67, 151, 117, 0) 100%),
+    conic-gradient(from 174.92deg at 50% 50%,
       #3e9644 -56.25deg,
       #896ae4 27.03deg,
       #34c5a2 169.15deg,
       #3e9644 303.75deg,
-      #896ae4 387.03deg
-    );
+      #896ae4 387.03deg);
 }
 
 .glow {
@@ -157,7 +153,7 @@
   border-radius: 0.5rem;
 }
 
-.fc .fc-list-sticky .fc-list-day > * {
+.fc .fc-list-sticky .fc-list-day>* {
   border-radius: 0.5rem;
 }
 
@@ -172,28 +168,37 @@
 /* CSS for scroll-back-up button */
 .scroll-up-button {
   position: fixed;
-  bottom: 20px; /* Adjust as needed */
-  right: 15px; /* Adjust as needed */
-  color: #ffffff; /* Button text color */
+  bottom: 20px;
+  /* Adjust as needed */
+  right: 15px;
+  /* Adjust as needed */
+  color: #ffffff;
+  /* Button text color */
   background-color: #333333;
   border: none;
-  border-radius: 5%; /* Make it round */
-  padding: 5px 15px; /* Adjust as needed */
+  border-radius: 5%;
+  /* Make it round */
+  padding: 5px 15px;
+  /* Adjust as needed */
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
 }
 
 /* Arrow icon */
 .scroll-up-button::before {
-  content: "\2191"; /* Unicode character for arrow up */
-  font-size: 60px; /* Adjust as needed */
+  content: "\2191";
+  /* Unicode character for arrow up */
+  font-size: 60px;
+  /* Adjust as needed */
   font-weight: bold;
 }
 
 /* Hover effect */
 .scroll-up-button:hover {
-  background-color: #896ae4; /* Button background color on hover */
-  transform: scale(1.01); /* Scale up on hover */
+  background-color: #896ae4;
+  /* Button background color on hover */
+  transform: scale(1.01);
+  /* Scale up on hover */
   @apply hover:-translate-y-2;
 }
 
@@ -212,6 +217,7 @@ html {
   from {
     transform: translateY(0);
   }
+
   to {
     transform: translateY(-100%);
   }
