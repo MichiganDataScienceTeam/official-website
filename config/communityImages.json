@@ -1,11 +1,10 @@
 [
-    {
-      "name": "WN24 Project Expo",
-      "image": "WN24_EXPO.JPG"
-    },
-    {
-      "name": "WN24 Data Science Night",
-      "image": "WN24_DSN.JPG"
-    }
-  ]
-  
+  {
+    "name": "",
+    "image": "WN24_EXPO.JPG"
+  },
+  {
+    "name": "",
+    "image": "WN24_DSN.JPG"
+  }
+]

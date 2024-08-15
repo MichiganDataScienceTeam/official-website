@@ -25,7 +25,7 @@
     },
     {
         "label": "SoccerNet",
-        "image": "soccernet.jpg",
+        "image": "soccernet.png",
         "leads": [
             { "name": "Antonio Capdevielle", "image": "temp.jpeg" },
             { "name": "Shiva Chandran", "image": "shivac.jpg" }
@@ -85,7 +85,7 @@
         "leads": [
             { "name": "Jason Yen", "image": "temp.jpeg" },
             { "name": "Onat Ozer", "image": "temp.jpeg" },
-            { "name": "Adita Sinha", "image": "temp.jpeg" }
+            { "name": "Aditya Sinha", "image": "temp.jpeg" }
         ]
     }
   ]

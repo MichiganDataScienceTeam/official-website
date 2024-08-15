@@ -8,6 +8,11 @@
         "image": "rocket.png"
       },
       {
+        "name": "Discover",
+        "link": "https://www.discover.com/",
+        "image": "discover.png"
+      },
+      {
         "name": "Wolverine Trading",
         "link": "https://www.wolve.com/",
         "image": "wolve.png"

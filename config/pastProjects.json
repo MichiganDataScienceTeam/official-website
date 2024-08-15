@@ -1,19 +1,23 @@
 {
     "Winter 2024": [
         {
-            "label": "Codenames"
+            "label": "Codenames",
+            "googleSlides": "https://docs.google.com/presentation/d/1EEHSw-WKN6Oes6NFfYK7iZHj91J1CgmHiiV8aO99r6I/"
         },
         {
-            "label": "LLM Augmentation"
+            "label": "LLM Augmentation",
+            "github": "https://github.com/MichiganDataScienceTeam/W24-llm-augmentation"
         },
         {
             "label": "Poker Bot"
         }, 
         {
-            "label": "Rate My Professor Sentiment Analysis"
+            "label": "RMP Sentiment Analysis",
+            "github": "https://github.com/MichiganDataScienceTeam/WN2024-RMP"
         },
         {
-            "label": "Real vs Fake Faces"
+            "label": "Real vs Fake Faces",
+            "github": "https://github.com/MichiganDataScienceTeam/W24-RvF"
         },
         {
             "label": "Shazam Clone"
@@ -22,10 +26,16 @@
             "label": "Spotify Analysis"
         },
         {
-            "label": "Stock Market Analysis"
+            "label": "Stock Market Analysis",
+            "github": "https://github.com/MichiganDataScienceTeam/W24-StockAnalysis"
         },
         {
-            "label": "TikTok Videos"
+            "label": "TikTok Videos",
+            "github": "https://github.com/MichiganDataScienceTeam/W24-TikTokVideos"
+        },
+        {
+            "label": "Neural Nets from Scratch",
+            "googleSlides": "https://docs.google.com/presentation/d/1eygF8pf7d1f8UMB-v2oypFPFSCwICGlTM48-deNqibI/"
         }
     ],
     "Fall 2023": [
@@ -33,7 +43,8 @@
             "label": "Automated Poker Bot"
         },
         {
-            "label": "College Football Success Factors"
+            "label": "College Football Success Factors",
+            "googleSlides": "https://docs.google.com/presentation/d/1tmIdFj_GK67cwrD3ueg2BlnUTtP9SWHVOYZPKaXCI5A/"
         },
         {
             "label": "Cracking Wordle"
@@ -45,16 +56,20 @@
             "label": "NHANES"
         },
         {
-            "label": "Real vs Photoshopped Faces"
+            "label": "Real vs Fake Faces",
+            "github": "https://github.com/MichiganDataScienceTeam/W24-RvFF"
         },
         {
-            "label": "Reinforcement Learning"
+            "label": "Reinforcement Learning",
+            "github": "https://github.com/MichiganDataScienceTeam/F23-Reinforcement-Learning",
+            "googleSlides": "https://docs.google.com/presentation/d/1d4I_1fqJCD7ZppEVOkYuTzfMbQ8NKCpYjbQkIEoSwNk/"
         },
         {
             "label": "Sentence Completer"
         },
         {
-            "label": "Webscraping"
+            "label": "Webscraping",
+            "github": "https://github.com/MichiganDataScienceTeam/F23-Webscraping"
         }
     ],
     "Winter 2023": [
@@ -91,29 +106,36 @@
     ],
     "Fall 2022": [
         {
-            "label": "College Football"
+            "label": "College Football",
+            "googleSlides": "https://docs.google.com/document/d/1aD0UfCwea5I35nqoAEfS0PNpnzrAv3LX-X4kTCLVuu4/"
         },
         {
-            "label": "Dogs vs Cats"
+            "label": "Dogs vs Cats",
+            "googleSlides": "https://docs.google.com/presentation/d/1p-nNSJNfZd09ApFk05hJZfRlY2Z8PlsiVTgp0i6_U44/"
         },
         {
-            "label": "Image Super Resolution"
+            "label": "Image Super Resolution",
+            "googleSlides": "https://drive.google.com/file/d/1cKrjVCl-M5wXzARgPMj8Gr-foZpEkIS_/"
         },
         {
             "label": "Language Translation Application"
         },
         {
-            "label": "Pokemon Data Science"
+            "label": "Pokemon Data Science",
+            "github": "https://docs.google.com/presentation/d/1vgOGh7djJRqNI7Ihf-R4ZZh7ON_KlCtCsHYucy0Aujk/"
         },
         {
-            "label": "SEC Insider Information",
-            "github": "https://github.com/MichiganDataScienceTeam/F22-SEC-Insider-Trading"
+            "label": "SEC Insider Trading",
+            "github": "https://github.com/MichiganDataScienceTeam/F22-SEC-Insider-Trading",
+            "googleSlides": "https://docs.google.com/presentation/d/1dfPMDMX9n3X6GxDN9UDY6cfULwg4e-BLKfpSPziidKY/"
         },
         {
-            "label": "Sports Data Science"
+            "label": "Sports Data Science",
+            "googleSlides": "https://docs.google.com/presentation/d/1q_kJey90QQsP4Nm5b96o5NVMg4gRgbTqe9THJfaXle0/"
         },
         { 
-            "label": "TLDR Machine"
+            "label": "TLDR Machine",
+            "googleSlides": "https://docs.google.com/presentation/d/1dmCTwBANTU1W1ik5dSXuwD5ycRRRCtjyiQzMFE2zDgs/"
         },
         {
             "label": "Twitter Sentiment Analysis"
