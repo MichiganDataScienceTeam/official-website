@@ -130,7 +130,7 @@ export default function Home({ companies, sponsors, projects, timeline, communit
       </div>
       <div className="container mx-auto px-2 mt-8">
         <h2 className="text-3xl text-center">
-          Companies We Work With:
+          Companies We Worked With:
         </h2>
         <CompanySection basePath={basePath} group={companies[0]}/>
       </div>
