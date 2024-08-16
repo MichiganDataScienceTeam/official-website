@@ -1,0 +1,51 @@
+[
+  {
+    "companies": [
+      {
+        "name": "Rocket Companies",
+        "link": "https://www.myrocketcareer.com/",
+        "image": "rocket-company.png"
+      },
+      {
+        "name": "PwC",
+        "link": "https://www.pwc.com/",
+        "image": "pwc.png"
+      },
+      {
+        "name": "Bloomberg",
+        "link": "https://www.bloomberg.com/",
+        "image": "bloomberg.png"
+      },
+      {
+        "name": "Dominos",
+        "link": "https://www.dominos.com/",
+        "image": "dominos.png"
+      },
+      {
+        "name": "Figma",
+        "link": "https://www.figma.com/",
+        "image": "figma.png"
+      },
+      {
+        "name": "Discover",
+        "link": "https://www.discover.com/",
+        "image": "discover.png"
+      },
+      {
+        "name": "Capital One",
+        "link": "https://www.capitalone.com/",
+        "image": "capital-one.png"
+      },
+      {
+        "name": "Nissan",
+        "link": "https://www.nissan-global.com/",
+        "image": "nissan.png"
+      },
+      {
+        "name": "Rockstar Games",
+        "link": "https://www.rockstargames.com/",
+        "image": "rockstar-games.png"
+      }
+    ]
+  }
+]

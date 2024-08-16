@@ -4,6 +4,7 @@ import Hero from "@/components/hero";
 import Icon from "@/components/icon";
 import Layout from "@/components/layout";
 import SponsorSection from "@/components/sponsorSection";
+import CompanySection from "@/components/companySection";
 import Timeline from "@/components/timeline";
 import Wave from "@/components/wave";
 import Wave180 from "@/components/wave180";
@@ -14,7 +15,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-export default function Home({ sponsors, projects, timeline, communityImages }) {
+export default function Home({ companies, sponsors, projects, timeline, communityImages }) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
   const router = useRouter();
   const basePath = router.basePath;
@@ -127,6 +128,12 @@ export default function Home({ sponsors, projects, timeline, communityImages }) 
         </h2>
         <SponsorSection basePath={basePath} group={sponsors[0]} />
       </div>
+      <div className="container mx-auto px-2 mt-8">
+        <h2 className="text-3xl text-center">
+          Companies We Worked With:
+        </h2>
+        <CompanySection basePath={basePath} group={companies[0]}/>
+      </div>
     </Layout>
   );
 }
@@ -218,9 +225,10 @@ function Carousel({ projects, basePath }) {
 
 export async function getStaticProps() {
   const sponsors = loadStaticData("sponsors.json");
+  const companies = loadStaticData("companies.json");
   const projects = loadStaticData("homepage.json");
   const timeline = loadStaticData("timeline.json");
   const communityImages = loadStaticData("communityImages.json");
 
-  return { props: { sponsors, projects, timeline, communityImages } };
+  return { props: { companies, sponsors, projects, timeline, communityImages } };
 }
