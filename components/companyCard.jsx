@@ -15,8 +15,8 @@ export default function CompanyCard({ json, basePath }) {
         height="500"
         src={
           basePath
-            ? `${basePath}/images/sponsors/${json.image}`
-            : `/images/sponsors/${json.image}`
+            ? `${basePath}/images/worked-with/${json.image}`
+            : `/images/worked-with/${json.image}`
         }
         alt={json.name}
       />
