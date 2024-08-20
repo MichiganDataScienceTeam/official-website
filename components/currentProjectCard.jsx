@@ -47,12 +47,14 @@ const styles = {
     width: '100%',
     maxWidth: '600px',
     marginBottom: '32px',
+    justifyContent: 'space-between',
+    alignItems: 'stretch',
   },
   column: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    flex: 1,
+    justifyContent: 'center',
   },
   projectInfo: {
     flex: '1 1 300px',
@@ -61,9 +63,9 @@ const styles = {
   },
   projectImage: {
     borderRadius: '10%',
-    objectFit: 'cover',
-    width: '100%',
-    height: 'auto',
+    objectFit: 'contain',
+    width: 'auto',
+    height: '100%',
   },
   projectTitle: {
     marginTop: '16px',
@@ -73,6 +75,7 @@ const styles = {
     color: 'white',
   },
   leadsInfo: {
+    flex: '0 0 35%',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
@@ -88,6 +91,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    justifyContent: 'center',
     marginTop: '8px',
     gap: '16px',
   },
@@ -95,6 +99,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
+    justifyContent: 'center',
   },
   leadImage: {
     borderRadius: '50%',
