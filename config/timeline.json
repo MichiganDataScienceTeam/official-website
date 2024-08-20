@@ -3,53 +3,43 @@
   "title": "Recruiting Timeline Fall 2024",
   "events": [
     {
-      "title": "Office Hours 1 @ UGLI Third Floor",
-      "time": "January 16th 7:00pm - 9:00pm",
-      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+      "title": "Mass Meeting 1",
+      "time": "September 2nd 6:30-7:30pm",
+      "description": "Join us to learn more about MDST and how to become a member."
     },
     {
-      "title": "Mass Meeting @ CCCB 0420",
-      "time": "January 18th 6:00-7:00pm",
+      "title": "Mass Meeting 2",
+      "time": "September 3rd 6:30-7:30pm",
       "description": "Join us to learn more about MDST and how to become a member."
     },
     {
       "title": "Tutorial 1 @ Fishbowl Classroom",
-      "time": "January 21st 12pm - 3pm",
+      "time": "September 4th 7pm - 9pm",
       "description": "Introduction to the command line and Python."
     },
     {
-      "title": "Office Hours 2 @ UGLI Third Floor",
-      "time": "January 23rd 7:00pm - 9:00pm",
+      "title": "Project Exploration Fair @ CCCB 2460",
+      "time": "September 8th",
+      "description": "Meet with project leads and get to know the project offerings for this semester."
+    },
+    {
+      "title": "Office Hours 1",
+      "time": "September 11th 7:00pm - 9:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
-      "title": "Tutorial 2 @ Fishbowl Classroom",
-      "time": "January 28th 12pm - 3pm",
-      "description": "Build basic data science knowledge for project participation."
-    },
-    {
-      "title": "Office Hours 3 @ UGLI Third Floor",
-      "time": "January 30th 7:00pm - 9:00pm",
+      "title": "Office Hours 2",
+      "time": "September 14th 2:00pm - 4:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
       "title": "Tutorial Submission Due",
-      "time": "February 1st 11:59pm",
+      "time": "September 16th 11:59pm",
       "description": "Submit your completed tutorial materials for acceptance into the club."
     },
     {
-      "title": "Project Exploration Fair @ CCCB 2460",
-      "time": "February 4th, 12-3pm",
-      "description": "Meet with project leads and get to know the project offerings for this semester."
-    },
-    {
-      "title": "Project Signup Due",
-      "time": "February 8th 11:59pm",
-      "description": "Indicate your project preferences."
-    },
-    {
       "title": "Project Work Session @ CCCB 3420 and CCCB 2460",
-      "time": "February 11th 12:15pm - 3pm",
+      "time": "September 22nd 12:15pm - 3pm",
       "description": "Start working on data science projects!"
     }
   ]
