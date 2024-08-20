@@ -42,7 +42,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'row',
     backgroundColor: '#333',
-    padding: '32px',
+    padding: '25px', 
     borderRadius: '8px',
     width: '100%',
     maxWidth: '600px',
@@ -57,12 +57,9 @@ const styles = {
     justifyContent: 'center',
   },
   projectInfo: {
-    flex: '0 0 65%',
-    display: 'flex',
-    flexDirection: 'column',
+    flex: '1 1 300px',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingLeft: '32px',
   },
   projectImage: {
     borderRadius: '10%',
@@ -83,6 +80,7 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
+    flex: '1 1 75px',
   },
   leadText: {
     fontSize: '20px',

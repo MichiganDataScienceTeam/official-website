@@ -31,7 +31,7 @@ New members are required to **complete two tutorials** giving an introduction to
     The tutorials for Fall 2024 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/MDST-Onboarding). The repository contains all the materials and instructions you need to complete the tutorials, as well as information about the support we provide if you have any questions.
 </div>
 
-<span className="highlight">Note: </span> Please direct all technical and logistical questions regarding tutorials to our <a href="https://edstem.org/us/join/6PXxzF">forum</a> for better visibility.
+<span className="highlight">Note: </span> Please direct all technical and logistical questions regarding tutorials to our <a href="https://edstem.org/us/join/jxVrDG">forum</a> for better visibility.
 
 <hr>
 
@@ -39,12 +39,7 @@ New members are required to **complete two tutorials** giving an introduction to
 <!--- Do we have a new project submission link for FA 2024? --->
 As a final step to join the club, you must submit your tutorials certifying that you've completed the fundamental requirements to join the club. 
 
-<div className="callout font-normal">
-    Submit your tutorials <a href="https://forms.gle/5P3dFz1UGBpCyL538">here</a> to finish your process of joining the club. Fill out this form by <b>September 16th, 2024</b> at <b>11:59 PM</b> Eastern Standard Time.
-</div>
-
-See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboarding) for information on completing the tutorials. If you've never worked with Git and GitHub before, check out our [Git Version Control Guide](https://docs.google.com/document/d/1pq42R2xr_yoyhyzWE0ugReHgEKgwLdjrJR4mT3_CQEo/edit?usp=sharing).
-
+See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboarding) for information on completing and submiting the tutorials. 
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
 
@@ -56,7 +51,7 @@ The tutorial submission form will be due **September 16th, 11:59 PM**, after whi
 <!--- Need to add time and place --->
 After joining the club, we will host a project exploration fair on **September 8th, 2024** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
 
-After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty). 
+After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty).
 
 <div className="callout font-normal">
     ⚠️ You **must attend** the exploration fair to be placed on a project this semester. If you are unable to attend but would still like to participate in projects, you must [email us](mailto:mdst-coms@umich.edu) in advance letting us know, and we will consider your request on a case-by-case basis. If emailing us, please include `[EXPLORATION FAIR]` in your email title.
