@@ -1,5 +1,20 @@
 [
     {
+        "label": "Spotify Data Analysis",
+        "image": "spotify.png",
+        "leads": [
+            { "name": "Jenny Lee", "image": "jleeone.jpeg" }
+        ]
+    },
+    {
+        "label": "Recidivism Analysis",
+        "image": "compas-analysis.avif",
+        "leads": [
+            { "name": "Lucas Tam", "image": "temp.jpeg" },
+            { "name": "Angela Li", "image": "temp.jpeg" }
+        ]
+    },
+    {
         "label": "Economic Forecasting",
         "image": "economic_forecasting.jpg",
         "leads": [
