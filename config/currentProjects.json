@@ -71,8 +71,8 @@
         ]
     },
     {
-        "label": "Mining & Analyzing Tweets",
-        "image": "twitter_sentiment_analysis.jpg",
+        "label": "Mining & Analyzing Reddit",
+        "image": "reddit.avif",
         "leads": [
             { "name": "Nidhil Nayudu", "image": "temp.jpeg" },
             { "name": "Tiernan Jesrani", "image": "tiernanj.jpg" }
