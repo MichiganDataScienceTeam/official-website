@@ -88,7 +88,7 @@
     },
     {
         "label": "Mini Copilot",
-        "image": "mini_copilot.jpg",
+        "image": "mini-copilot.png",
         "leads": [
             { "name": "Amirali Danai", "image": "amiralid.png" },
             { "name": "Nishant Dash", "image": "temp.jpeg" }
