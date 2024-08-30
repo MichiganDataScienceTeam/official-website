@@ -10,6 +10,8 @@ import { useRouter } from "next/router";
 export default function Projects({ groupedLinks, currentProjects }) {
   const router = useRouter();
   const basePath = router.basePath;
+  const notionIconPath = `${basePath ? basePath : ''}/images/notion.png`;
+  const notionPageUrl = "https://mdst-club.notion.site/Fall-2024-Project-Directory-734d91c7dd6f4991b98eef461504a1eb";
 
   return (
     <Layout>
@@ -20,15 +22,18 @@ export default function Projects({ groupedLinks, currentProjects }) {
       <Hero title="Our Projects" />
       
       <section className="current-projects py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-        <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <h2 className="text-3xl mb-4">Current Projects</h2>
-        </div>
-        <div className="flex flex-wrap justify-center gap-8">
-          {currentProjects.map((project, index) => (
-            <CurrentProjectCard key={index} project={project} basePath={basePath} />
-          ))}
-        </div>
-      </section>
+  <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16 flex items-center justify-center">
+    <h2 className="text-3xl mb-4">Current Projects</h2>
+    <a href={notionPageUrl} target="_blank" rel="noopener noreferrer" className="ml-2">
+      <img src={notionIconPath} alt="Notion Page" style={{ width: '24px', height: '24px' }} />
+    </a>
+  </div>
+  <div className="flex flex-wrap justify-center gap-8">
+    {currentProjects.map((project, index) => (
+      <CurrentProjectCard key={index} project={project} basePath={basePath} />
+    ))}
+  </div>
+</section>
 
       {Object.entries(groupedLinks).sort((a, b) => {
         const [aSeason, aYear] = a[0].split(" ");

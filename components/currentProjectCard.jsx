@@ -3,6 +3,7 @@ import Image from "next/image";
 export default function CurrentProjectCard({ project, basePath }) {
   const projectImagePath = `${basePath ? basePath : ''}/images/projects/${project.image}`;
   const leadText = project.leads.length > 1 ? "Leads" : "Lead";
+  const iconPath = `${basePath ? basePath : ''}/images/notion.png`;
 
   return (
     <div style={styles.card}>
@@ -33,6 +34,15 @@ export default function CurrentProjectCard({ project, basePath }) {
           ))}
         </div>
       </div>
+      <a href={project.notion} target="_blank" rel="noopener noreferrer" style={styles.notionLink}>
+          <img
+            src={iconPath}  // Using a static <img> for simplicity with the icon
+            alt="Notion Page"
+            style={styles.notionIcon}
+            width="30"
+            height="30"
+          />
+        </a>
     </div>
   );
 }

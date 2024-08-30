@@ -4,7 +4,8 @@
         "image": "spotify.png",
         "leads": [
             { "name": "Jenny Lee", "image": "jleeone.jpeg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Spotify-Data-Analysis-52e6efaf32e545b8a1e76609523fc4af"
     },
     {
         "label": "Recidivism Analysis",
@@ -12,7 +13,8 @@
         "leads": [
             { "name": "Lucas Tam", "image": "lucastam.png" },
             { "name": "Angela Li", "image": "anqili.jfif" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Recidivism-Analysis-f3af0be080514af29ccd9c44bdda8f4b?pvs=25"
     },
     {
         "label": "Economic Forecasting",
@@ -20,7 +22,8 @@
         "leads": [
             { "name": "Jordyn Ives", "image": "temp.jpeg" },
             { "name": "Amelia Weyhing", "image": "aweyhing.JPG" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Economic-Forecasting-fb2dad546e4347188a034fbff20c97f6?pvs=25"
     },
     {
         "label": "Research Grant Analysis",
@@ -28,7 +31,8 @@
         "leads": [
             { "name": "Erin Alcott", "image": "ealcott.jpg" },
             { "name": "Linda Ru", "image": "clindaru.png" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Research-Grant-Analysis-51a73de6a04d4ab6ac49272aa8dad3bf?pvs=25"
     },
     {
         "label": "Car Brand Classification",
@@ -36,7 +40,8 @@
         "leads": [
             { "name": "Aditi Kashi", "image": "adikashi.jpg" },
             { "name": "Anish Kudupudi", "image": "temp.jpeg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Car-Brand-Classification-d3720be2963f4efb96a7955039522351?pvs=25"
     },
     {
         "label": "SoccerNet",
@@ -44,7 +49,8 @@
         "leads": [
             { "name": "Antonio Capdevielle", "image": "acapdevi.jpg" },
             { "name": "Shiva Chandran", "image": "shivac.jpg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/SoccerNet-00c2b51ee2c2458da6086416387bcba1?pvs=25"
     },
     {
         "label": "LLM Augmentation",
@@ -52,7 +58,8 @@
         "leads": [
             { "name": "Aditya Murali", "image": "adityamu.jpeg" },
             { "name": "Jordan Jones", "image": "jordanrj.jpeg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/LLM-Augmentation-d67b7e2adc274862b9b6e4a6074e7c4b?pvs=25"
     },
     {
         "label": "Facial Recognition",
@@ -60,7 +67,8 @@
         "leads": [
             { "name": "Andrew Black", "image": "andbl.jpeg" },
             { "name": "Judith Wu", "image": "temp.jpeg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Facial-Recognition-8070df0dbf2a488bbac39151369b37de?pvs=25"
     },
     {
         "label": "RL Neuroevolution",
@@ -68,7 +76,8 @@
         "leads": [
             { "name": "Luke Yang", "image": "lukeyang.jpeg" },
             { "name": "Nathan Kawamoto", "image": "temp.jpeg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/RL-Neuroevolution-0a9a40832cce47b0bcb5a18325f68c2e?pvs=25"
     },
     {
         "label": "Mining & Analyzing Reddit",
@@ -76,7 +85,8 @@
         "leads": [
             { "name": "Nidhil Nayudu", "image": "temp.jpeg" },
             { "name": "Tiernan Jesrani", "image": "tiernanj.jpg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Mining-Analyzing-Reddit-Posts-97ac6fe372d3476fb56cc1387c0bf1b1?pvs=25"
     },
     {
         "label": "ViT From Scratch",
@@ -84,7 +94,8 @@
         "leads": [
             { "name": "Anthony Chen", "image": "anthoc.jpeg" },
             { "name": "Matthew Drutis", "image": "madrutis.jpg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/ViT-from-Scratch-4fceb0c2af724da4880087c314c18bd3?pvs=25"
     },
     {
         "label": "Mini Copilot",
@@ -92,7 +103,8 @@
         "leads": [
             { "name": "Amirali Danai", "image": "amiralid.png" },
             { "name": "Nishant Dash", "image": "temp.jpeg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Mini-Copilot-98d69920f204460598856f5e86ae1807?pvs=25"
     },
     {
         "label": "Poker Bot",
@@ -101,7 +113,8 @@
             { "name": "Jason Yen", "image": "temp.jpeg" },
             { "name": "Onat Ozer", "image": "temp.jpeg" },
             { "name": "Aditya Sinha", "image": "temp.jpeg" }
-        ]
+        ],
+        "notion": "https://mdst-club.notion.site/Poker-Bot-50f6b98b476646858663064b14259398?pvs=25"
     }
   ]
   
