@@ -25,7 +25,7 @@ Take a look at our slides and recording from last semester's mass meeting:
 
 ### Step 3: Complete Tutorial Checkpoints
 
-New members are required to **complete two tutorials** giving an introduction to data science and programming in Python. The purpose of these tutorials is to make sure that all of our members, despite their background, are able to equally contribute to MDST projects.
+New members are required to **complete two checkpoints** giving an introduction to data science and programming in Python. The purpose of these tutorials is to make sure that all of our members, despite their background, are able to equally contribute to MDST projects.
 
 <div className="callout font-normal">
     The tutorials for Fall 2024 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/MDST-Onboarding). The repository contains all the materials and instructions you need to complete the tutorials, as well as information about the support we provide if you have any questions.
@@ -37,13 +37,13 @@ New members are required to **complete two tutorials** giving an introduction to
 
 ### Step 4: Submit Tutorials
 <!--- Do we have a new project submission link for FA 2024? --->
-As a final step to join the club, you must submit your tutorials certifying that you've completed the fundamental requirements to join the club. 
+As a final step to join the club, you must submit your checkpoints certifying that you've completed the fundamental requirements to join the club. 
 
 See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboarding) for information on completing and submiting the tutorials. 
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
 
-The tutorial submission form will be due **September 16th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2024 semester. 
+The submission form will be due **September 16th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2024 semester. 
 
 <hr>
 
