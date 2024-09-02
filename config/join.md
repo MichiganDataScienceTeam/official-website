@@ -14,7 +14,7 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 ### Step 2 (Optional): Attend our Mass Meetings
 <!--- Still need place for mass meetings --->
-MDST is hosting two mass meetings this year. Join us on September 2nd, 2024 or September 3rd, 2024 from 6:30 PM to 7:30 PM. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
+MDST is hosting two mass meetings this year. Join us on September 2nd, 2024 or September 3rd, 2024. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
 Take a look at our slides and recording from last semester's mass meeting:
 
