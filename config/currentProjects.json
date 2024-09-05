@@ -1,107 +1,104 @@
 [
-    {
-        "label": "Spotify Data Analysis",
-        "image": "spotify.png",
-        "leads": [
-            { "name": "Jenny Lee", "image": "jleeone.jpeg" }
-        ]
-    },
-    {
-        "label": "Recidivism Analysis",
-        "image": "compas-analysis.avif",
-        "leads": [
-            { "name": "Lucas Tam", "image": "lucastam.png" },
-            { "name": "Angela Li", "image": "anqili.jfif" }
-        ]
-    },
-    {
-        "label": "Economic Forecasting",
-        "image": "economic_forecasting.jpg",
-        "leads": [
-            { "name": "Jordyn Ives", "image": "temp.jpeg" },
-            { "name": "Amelia Weyhing", "image": "aweyhing.JPG" }
-        ]
-    },
-    {
-        "label": "Research Grant Analysis",
-        "image": "research_grant_analysis.jpg",
-        "leads": [
-            { "name": "Erin Alcott", "image": "ealcott.jpg" },
-            { "name": "Linda Ru", "image": "clindaru.png" }
-        ]
-    },
-    {
-        "label": "Car Brand Classification",
-        "image": "car_brand_classification.jpg",
-        "leads": [
-            { "name": "Aditi Kashi", "image": "adikashi.jpg" },
-            { "name": "Anish Kudupudi", "image": "temp.jpeg" }
-        ]
-    },
-    {
-        "label": "SoccerNet",
-        "image": "soccernet.png",
-        "leads": [
-            { "name": "Antonio Capdevielle", "image": "acapdevi.jpg" },
-            { "name": "Shiva Chandran", "image": "shivac.jpg" }
-        ]
-    },
-    {
-        "label": "LLM Augmentation",
-        "image": "llm_augmentation.jpg",
-        "leads": [
-            { "name": "Aditya Murali", "image": "adityamu.jpeg" },
-            { "name": "Jordan Jones", "image": "jordanrj.jpeg" }
-        ]
-    },
-    {
-        "label": "Facial Recognition",
-        "image": "facial_recognition.jpg",
-        "leads": [
-            { "name": "Andrew Black", "image": "andbl.jpeg" },
-            { "name": "Judith Wu", "image": "temp.jpeg" }
-        ]
-    },
-    {
-        "label": "RL Neuroevolution",
-        "image": "reinforcement_learning.jpg",
-        "leads": [
-            { "name": "Luke Yang", "image": "lukeyang.jpeg" },
-            { "name": "Nathan Kawamoto", "image": "temp.jpeg" }
-        ]
-    },
-    {
-        "label": "Mining & Analyzing Reddit",
-        "image": "reddit.avif",
-        "leads": [
-            { "name": "Nidhil Nayudu", "image": "temp.jpeg" },
-            { "name": "Tiernan Jesrani", "image": "tiernanj.jpg" }
-        ]
-    },
-    {
-        "label": "ViT From Scratch",
-        "image": "vit_from_scratch.jpg",
-        "leads": [
-            { "name": "Anthony Chen", "image": "anthoc.jpeg" },
-            { "name": "Matthew Drutis", "image": "madrutis.jpg" }
-        ]
-    },
-    {
-        "label": "Mini Copilot",
-        "image": "mini-copilot.png",
-        "leads": [
-            { "name": "Amirali Danai", "image": "amiralid.png" },
-            { "name": "Nishant Dash", "image": "ndash.JPG" }
-        ]
-    },
-    {
-        "label": "Poker Bot",
-        "image": "poker_bot.jpg",
-        "leads": [
-            { "name": "Jason Yen", "image": "temp.jpeg" },
-            { "name": "Onat Ozer", "image": "temp.jpeg" },
-            { "name": "Aditya Sinha", "image": "temp.jpeg" }
-        ]
-    }
-  ]
-  
+  {
+    "label": "Spotify Data Analysis",
+    "image": "spotify_analysis.jpg",
+    "leads": [{ "name": "Jenny Lee", "image": "jleeone.jpeg" }]
+  },
+  {
+    "label": "Recidivism Analysis",
+    "image": "compas-analysis.avif",
+    "leads": [
+      { "name": "Lucas Tam", "image": "lucastam.png" },
+      { "name": "Angela Li", "image": "anqili.jfif" }
+    ]
+  },
+  {
+    "label": "Economic Forecasting",
+    "image": "economic_forecasting.jpg",
+    "leads": [
+      { "name": "Jordyn Ives", "image": "temp.jpeg" },
+      { "name": "Amelia Weyhing", "image": "aweyhing.JPG" }
+    ]
+  },
+  {
+    "label": "Research Grant Analysis",
+    "image": "research_grant_analysis.jpg",
+    "leads": [
+      { "name": "Erin Alcott", "image": "ealcott.jpg" },
+      { "name": "Linda Ru", "image": "clindaru.png" }
+    ]
+  },
+  {
+    "label": "Car Brand Classification",
+    "image": "car_brand_classification.jpg",
+    "leads": [
+      { "name": "Aditi Kashi", "image": "adikashi.jpg" },
+      { "name": "Anish Kudupudi", "image": "temp.jpeg" }
+    ]
+  },
+  {
+    "label": "SoccerNet",
+    "image": "soccernet.png",
+    "leads": [
+      { "name": "Antonio Capdevielle", "image": "acapdevi.jpg" },
+      { "name": "Shiva Chandran", "image": "shivac.jpg" }
+    ]
+  },
+  {
+    "label": "LLM Augmentation",
+    "image": "llm_augmentation.jpg",
+    "leads": [
+      { "name": "Aditya Murali", "image": "adityamu.jpeg" },
+      { "name": "Jordan Jones", "image": "jordanrj.jpeg" }
+    ]
+  },
+  {
+    "label": "Facial Recognition",
+    "image": "facial_recognition.jpg",
+    "leads": [
+      { "name": "Andrew Black", "image": "andbl.jpeg" },
+      { "name": "Judith Wu", "image": "temp.jpeg" }
+    ]
+  },
+  {
+    "label": "RL Neuroevolution",
+    "image": "reinforcement_learning.jpg",
+    "leads": [
+      { "name": "Luke Yang", "image": "lukeyang.jpeg" },
+      { "name": "Nathan Kawamoto", "image": "temp.jpeg" }
+    ]
+  },
+  {
+    "label": "Mining & Analyzing Reddit",
+    "image": "reddit.avif",
+    "leads": [
+      { "name": "Nidhil Nayudu", "image": "temp.jpeg" },
+      { "name": "Tiernan Jesrani", "image": "tiernanj.jpg" }
+    ]
+  },
+  {
+    "label": "ViT From Scratch",
+    "image": "vit_from_scratch.jpg",
+    "leads": [
+      { "name": "Anthony Chen", "image": "anthoc.jpeg" },
+      { "name": "Matthew Drutis", "image": "madrutis.jpg" }
+    ]
+  },
+  {
+    "label": "Mini Copilot",
+    "image": "mini-copilot.png",
+    "leads": [
+      { "name": "Amirali Danai", "image": "amiralid.png" },
+      { "name": "Nishant Dash", "image": "ndash.JPG" }
+    ]
+  },
+  {
+    "label": "Poker Bot",
+    "image": "poker_bot.jpg",
+    "leads": [
+      { "name": "Jason Yen", "image": "temp.jpeg" },
+      { "name": "Onat Ozer", "image": "temp.jpeg" },
+      { "name": "Aditya Sinha", "image": "temp.jpeg" }
+    ]
+  }
+]
