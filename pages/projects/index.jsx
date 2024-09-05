@@ -25,7 +25,7 @@ export default function Projects({ groupedLinks, currentProjects }) {
         <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
           <h2 className="text-3xl mb-4">Current Projects</h2>
           <h3>
-            Our Notion page have detailed project labeling and descriptions:{" "}
+            You can find specific details about the projects on our{" "}
             <a
               href="https://mdst-club.notion.site/Fall-2024-Project-Directory-734d91c7dd6f4991b98eef461504a1eb"
               style={{
@@ -34,7 +34,7 @@ export default function Projects({ groupedLinks, currentProjects }) {
                 textDecoration: "underline",
               }}
             >
-              here
+              Notion Page
             </a>
           </h3>
         </div>
