@@ -13,13 +13,14 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 <hr>
 
 ### Step 2 (Optional): Attend our Mass Meetings
+
 <!--- Still need place for mass meetings --->
+
 MDST is hosting two mass meetings this year. Join us on September 2nd, 2024 or September 3rd, 2024. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
 Take a look at our slides and recording from last semester's mass meeting:
 
-<p className="md-button-wrapper"><a className="md-button" href="https://docs.google.com/presentation/d/1KwbCaDidWKUAwzVfWL0gRVclE0ImLhjs05ypdxxqTa0/edit?usp=sharing"> Mass Meeting Slides</a></p>
-<p className="md-button-wrapper"><a className="md-button" href="https://umich.zoom.us/rec/share/wVLHCDtudkjscVB3y8L2P6CFIwwOu6vyrwYd6YbATAvgEIrc6p1BWwBTLMbKZ9Uj.DjCG-vsr6OsiL-zA"> Mass Meeting Recording</a></p>
+<p className="md-button-wrapper"><a className="md-button" href="https://docs.google.com/presentation/d/1Mwjlcn5mIzR_os_4xjpWfFwecRu8stc1w-tb_76mVak/edit?usp=sharing"> Mass Meeting Slides</a></p>
 
 <hr>
 
@@ -36,19 +37,23 @@ New members are required to **complete two checkpoints** giving an introduction 
 <hr>
 
 ### Step 4: Submit Tutorials
-<!--- Do we have a new project submission link for FA 2024? --->
-As a final step to join the club, you must submit your checkpoints certifying that you've completed the fundamental requirements to join the club. 
 
-See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboarding) for information on completing and submiting the tutorials. 
+<!--- Do we have a new project submission link for FA 2024? --->
+
+As a final step to join the club, you must submit your checkpoints certifying that you've completed the fundamental requirements to join the club.
+
+See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboarding) for information on completing and submiting the tutorials.
+
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
-
-The submission form will be due **September 16th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2024 semester. 
+The submission form will be due **September 16th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2024 semester.
 
 <hr>
 
 ### Step 5: Attend the Project Exploration Fair
+
 <!--- Need to add time and place --->
+
 After joining the club, we will host a project exploration fair on **September 8th, 2024** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
 
 After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty).
