@@ -1,7 +1,9 @@
 import Image from "next/image";
 
 export default function CurrentProjectCard({ project, basePath }) {
-  const projectImagePath = `${basePath ? basePath : ''}/images/projects/${project.image}`;
+  const projectImagePath = `${basePath ? basePath : ""}/images/projects/${
+    project.image
+  }`;
   const leadText = project.leads.length > 1 ? "Leads" : "Lead";
 
   return (
@@ -25,7 +27,7 @@ export default function CurrentProjectCard({ project, basePath }) {
                 style={styles.leadImage}
                 width="75"
                 height="75"
-                src={`${basePath ? basePath : ''}/images/team/${lead.image}`}
+                src={`${basePath ? basePath : ""}/images/team/${lead.image}`}
                 alt={lead.name}
               />
               <p style={styles.leadName}>{lead.name}</p>
@@ -39,79 +41,80 @@ export default function CurrentProjectCard({ project, basePath }) {
 
 const styles = {
   card: {
-    display: 'flex',
-    flexDirection: 'row',
-    backgroundColor: '#333',
-    padding: '25px', 
-    borderRadius: '8px',
-    width: '100%',
-    maxWidth: '600px',
-    marginBottom: '32px',
-    justifyContent: 'space-between',
-    alignItems: 'stretch',
+    display: "flex",
+    flexDirection: "row",
+    backgroundColor: "#333",
+    padding: "25px",
+    borderRadius: "8px",
+    width: "100%",
+    maxWidth: "600px",
+    marginBottom: "32px",
+    justifyContent: "space-between",
+    alignItems: "stretch",
   },
   column: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
   },
   projectInfo: {
-    flex: '1 1 300px',
-    alignItems: 'center',
-    justifyContent: 'center',
+    flex: "1 1 300px",
+    alignItems: "center",
+    justifyContent: "center",
+    marginRight: "16px",
   },
   projectImage: {
-    borderRadius: '10%',
-    objectFit: 'contain',
-    width: 'auto',
-    height: '100%',
+    borderRadius: "10%",
+    objectFit: "contain",
+    width: "auto",
+    height: "auto",
   },
   projectTitle: {
-    marginTop: '16px',
-    fontSize: '24px',
-    fontWeight: 'bold',
-    textAlign: 'center',
-    color: 'white',
+    marginTop: "16px",
+    fontSize: "24px",
+    fontWeight: "bold",
+    textAlign: "center",
+    color: "white",
   },
   leadsInfo: {
-    flex: '0 0 35%',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    flex: '1 1 75px',
+    flex: "0 0 35%",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    flex: "1 1 75px",
   },
   leadText: {
-    fontSize: '20px',
-    fontWeight: 'bold',
-    color: 'white',
+    fontSize: "20px",
+    fontWeight: "bold",
+    color: "white",
   },
   leadsContainer: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: '8px',
-    gap: '16px',
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: "8px",
+    gap: "16px",
   },
   lead: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    justifyContent: 'center',
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
   },
   leadImage: {
-    borderRadius: '50%',
-    objectFit: 'cover',
-    width: '75px',
-    height: '75px',
+    borderRadius: "50%",
+    objectFit: "cover",
+    width: "75px",
+    height: "75px",
   },
   leadName: {
-    marginTop: '8px',
-    textAlign: 'center',
-    fontSize: '14px',
-    fontWeight: '500',
-    color: 'white',
+    marginTop: "8px",
+    textAlign: "center",
+    fontSize: "14px",
+    fontWeight: "500",
+    color: "white",
   },
 };
