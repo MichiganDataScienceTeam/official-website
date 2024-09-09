@@ -15,8 +15,8 @@ export default function CommunityImages({ images, basePath }) {
   };
 
   return (
-    <div className="flex flex-col items-center mx-auto max-w-6xl">
-      <div className="relative w-full">
+    <div className="items-center mx-auto max-w-6xl">
+      <div className="relative">
         <button
           onClick={prevImage}
           className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded"
@@ -26,8 +26,8 @@ export default function CommunityImages({ images, basePath }) {
         <div
           style={{
             margin: "auto",
-            width: "1000px",
-            height: "600px",
+            width: "85%",
+            aspectRatio: 16 / 9,
           }}
         >
           <img
