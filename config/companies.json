@@ -45,6 +45,11 @@
         "name": "Rockstar Games",
         "link": "https://www.rockstargames.com/",
         "image": "rockstar-games.png"
+      },
+      {
+        "name": "American Airline",
+        "link": "https://www.aa.com/",
+        "image": "american_airline.jpg"
       }
     ]
   }
