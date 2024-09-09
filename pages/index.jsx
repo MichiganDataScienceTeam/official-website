@@ -15,7 +15,13 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-export default function Home({ companies, sponsors, projects, timeline, communityImages }) {
+export default function Home({
+  companies,
+  sponsors,
+  projects,
+  timeline,
+  communityImages,
+}) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
   const router = useRouter();
   const basePath = router.basePath;
@@ -124,15 +130,17 @@ export default function Home({ companies, sponsors, projects, timeline, communit
       <CommunityImages basePath={basePath} images={communityImages} />
       <div className="container mx-auto px-2 mt-8">
         <h2 className="text-3xl text-center">
+          {/** This Sponsor section in our home page only includes big sponsors(large logos)*/}
           MDST is proudly supported by our sponsors
         </h2>
         <SponsorSection basePath={basePath} group={sponsors[0]} />
       </div>
       <div className="container mx-auto px-2 mt-8">
         <h2 className="text-3xl text-center">
+          {/** Companies worked with are configed by config/companies.json */}
           Companies We Worked With:
         </h2>
-        <CompanySection basePath={basePath} group={companies[0]}/>
+        <CompanySection basePath={basePath} group={companies[0]} />
       </div>
     </Layout>
   );
@@ -230,5 +238,7 @@ export async function getStaticProps() {
   const timeline = loadStaticData("timeline.json");
   const communityImages = loadStaticData("communityImages.json");
 
-  return { props: { companies, sponsors, projects, timeline, communityImages } };
+  return {
+    props: { companies, sponsors, projects, timeline, communityImages },
+  };
 }
