@@ -1,23 +1,56 @@
-import Image from 'next/image';
+import Image from "next/image";
+import { useState } from "react";
 
 export default function CommunityImages({ images, basePath }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const nextImage = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  const prevImage = () => {
+    setCurrentIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+    );
+  };
+
   return (
-    <div className="flex flex-col sm:flex-row items-center mx-auto max-w-6xl">
-      {images.map((image, index) => (
-        <div key={index} className="w-full sm:w-1/2 mx-4 mb-6 flex flex-col justify-center items-center">
-          <p className="text-base mt-2">{image.name}</p>
-          <Image
-            width={500}
-            height={500}
+    <div className="items-center mx-auto max-w-6xl">
+      <div className="relative">
+        <button
+          onClick={prevImage}
+          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded"
+        >
+          ❮
+        </button>
+        <div
+          style={{
+            margin: "auto",
+            width: "85%",
+            aspectRatio: 16 / 9,
+          }}
+        >
+          <img
             src={
               basePath
-                ? `${basePath}/images/community/${image.image}`
-                : `/images/community/${image.image}`
+                ? `${basePath}/images/community/${images[currentIndex].image}`
+                : `/images/community/${images[currentIndex].image}`
             }
-            alt={image.name}
+            alt={images[currentIndex].name}
+            style={{
+              width: "100%",
+              height: "100%",
+            }}
           />
         </div>
-      ))}
+        <button
+          onClick={nextImage}
+          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded"
+        >
+          ❯
+        </button>
+      </div>
+      <p className="text-base mt-2">{images[currentIndex].name}</p>
     </div>
   );
 }
