@@ -40,6 +40,7 @@ export default function CommunityImages({ images, basePath }) {
             style={{
               width: "100%",
               height: "100%",
+              objectFit: "cover", // Ensure the image covers the container while maintaining aspect ratio
             }}
           />
         </div>
