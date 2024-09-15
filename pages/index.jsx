@@ -169,23 +169,40 @@ import React, { useEffect } from "react";
 function Factbox({ fact, closer }) {
   useEffect(() => {
     const elements = document.querySelectorAll(".number");
-    elements.forEach((element) => {
-      const target = +element.getAttribute("data-target");
-      const increment = target / 250; // Adjust this value to control the speed
-      let count = 0;
 
-      const updateCount = () => {
-        count += increment;
-        if (count < target) {
-          element.textContent = Math.ceil(count);
-          requestAnimationFrame(updateCount);
-        } else {
-          element.textContent = target;
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const element = entry.target;
+          const target = +element.getAttribute("data-target");
+          const increment = target / 250; // Adjust this value to control the speed
+          let count = 0;
+
+          const updateCount = () => {
+            count += increment;
+            if (count < target) {
+              element.textContent = Math.ceil(count);
+              requestAnimationFrame(updateCount);
+            } else {
+              element.textContent = target;
+            }
+          };
+
+          updateCount();
+          observer.unobserve(element); // Stop observing once the animation starts
         }
-      };
-
-      updateCount();
+      });
     });
+
+    elements.forEach((element) => {
+      observer.observe(element);
+    });
+
+    return () => {
+      elements.forEach((element) => {
+        observer.unobserve(element);
+      });
+    };
   }, []);
 
   return (
