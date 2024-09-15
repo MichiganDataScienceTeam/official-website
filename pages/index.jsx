@@ -164,18 +164,15 @@ function ProjectCard({ json, basePath }) {
   );
 }
 
-import React, { useEffect } from "react";
-
 function Factbox({ fact, closer }) {
-  useEffect(() => {
+  if (typeof window !== "undefined") {
     const elements = document.querySelectorAll(".number");
-
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           const element = entry.target;
           const target = +element.getAttribute("data-target");
-          const increment = target / 250; // Adjust this value to control the speed
+          const increment = target / 50; // Adjust this value to control the speed
           let count = 0;
 
           const updateCount = () => {
@@ -193,18 +190,10 @@ function Factbox({ fact, closer }) {
         }
       });
     });
-
     elements.forEach((element) => {
       observer.observe(element);
     });
-
-    return () => {
-      elements.forEach((element) => {
-        observer.unobserve(element);
-      });
-    };
-  }, []);
-
+  }
   return (
     <div className="text-left bg-grey p-4 rounded-lg w-full">
       <h2 className="text-4xl font-semibold my-2">
