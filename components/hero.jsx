@@ -12,9 +12,9 @@ export default function Hero({ children, title }) {
           ) : null}
           {children}
         </div>
-        <div className="absolute bottom-0 w-full">
-          <Wave />
-        </div>
+      </div>
+      <div className="absolute bottom-0 w-full">
+        <Wave />
       </div>
     </div>
   );
