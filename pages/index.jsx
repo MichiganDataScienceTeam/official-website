@@ -141,6 +141,7 @@ export default function Home({
     </Layout>
   );
 }
+
 function ProjectCard({ json, basePath }) {
   return (
     <Link
@@ -228,8 +229,7 @@ function Carousel({ projects, basePath }) {
   }
   return (
     <div className="bg-grey">
-      <Wave180 className="rotate-180"></Wave180>
-      <div className="container mx-auto py-4 relative overflow-hidden">
+      <div className="container mx-auto mt-16 mb-16 py-4 p-4 relative overflow-hidden">
         <h2 className="text-3xl text-center font-bold">Recent Projects</h2>
         <div
           className="flex gap-4 flex-row p-4 justify-center transition"
@@ -264,7 +264,6 @@ function Carousel({ projects, basePath }) {
           <Icon className="" name="arrow-right" />
         </button>
       </div>
-      <Wave></Wave>
     </div>
   );
 }
