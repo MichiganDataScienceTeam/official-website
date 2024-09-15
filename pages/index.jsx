@@ -6,8 +6,6 @@ import Layout from "@/components/layout";
 import SponsorSection from "@/components/sponsorSection";
 import CompanySection from "@/components/companySection";
 import Timeline from "@/components/timeline";
-import Wave from "@/components/wave";
-import Wave180 from "@/components/wave180";
 import CommunityImages from "@/components/communityImages";
 import loadStaticData from "@/shared/static";
 import Image from "next/image";

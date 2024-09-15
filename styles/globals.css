@@ -17,6 +17,10 @@
       #3e9644 303.75deg,
       #896ae4 387.03deg
     );
+  padding-top: 10%;
+  padding-bottom: 20%;
+  margin-bottom: 6%;
+  height: 90vh;
 }
 
 .gradient-text {
