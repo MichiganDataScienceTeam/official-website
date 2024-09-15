@@ -164,9 +164,12 @@ function ProjectCard({ json, basePath }) {
   );
 }
 
+import React, { useEffect } from "react";
+
 function Factbox({ fact, closer }) {
-  if (typeof window !== "undefined") {
+  useEffect(() => {
     const elements = document.querySelectorAll(".number");
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -190,10 +193,12 @@ function Factbox({ fact, closer }) {
         }
       });
     });
+
     elements.forEach((element) => {
       observer.observe(element);
     });
-  }
+  }, []); // Empty dependency array means this effect runs once after the initial render
+
   return (
     <div className="text-left bg-grey p-4 rounded-lg w-full">
       <h2 className="text-4xl font-semibold my-2">
