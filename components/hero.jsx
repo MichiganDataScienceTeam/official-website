@@ -13,9 +13,6 @@ export default function Hero({ children, title }) {
           {children}
         </div>
       </div>
-      <div className="absolute bottom-0 w-full">
-        <Wave />
-      </div>
     </div>
   );
 }
