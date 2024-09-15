@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useState } from "react";
 
 export default function CommunityImages({ images, basePath }) {
@@ -15,18 +14,21 @@ export default function CommunityImages({ images, basePath }) {
   };
 
   return (
-    <div className="items-center mx-auto max-w-6xl">
-      <div className="relative">
+    <div className="items-center mx-auto">
+      <div className="relative community-image-container">
         <button
           onClick={prevImage}
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded"
+          className="absolute left-12 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded"
         >
           ❮
         </button>
+        <h1 className="community-image-headline gradient-text">
+          {images[currentIndex].name}
+        </h1>
         <div
           style={{
             margin: "auto",
-            width: "85%",
+            width: "70%",
             aspectRatio: 16 / 9,
           }}
         >
@@ -46,12 +48,11 @@ export default function CommunityImages({ images, basePath }) {
         </div>
         <button
           onClick={nextImage}
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded"
+          className="absolute right-12 top-1/2 transform -translate-y-1/2 bg-gray-500 text-white p-2 rounded"
         >
           ❯
         </button>
       </div>
-      <p className="text-base mt-2">{images[currentIndex].name}</p>
     </div>
   );
 }

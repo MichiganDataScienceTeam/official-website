@@ -206,6 +206,36 @@
   font-weight: bold;
 }
 
+.community-image-headline {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.community-image-container {
+  background-color: rgb(21, 21, 21);
+  margin-bottom: 7%;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  width: 100%;
+}
+.community-image-container::before,
+.community-image-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #4f3168, #feb47b); /* Gradient colors */
+}
+
+.community-image-container::before {
+  top: 0; /* Position at the top */
+}
+
+.community-image-container::after {
+  bottom: 0; /* Position at the bottom */
+}
+
 /* Hover effect */
 .scroll-up-button:hover {
   background-color: #896ae4;
