@@ -4,17 +4,30 @@
 
 .hero {
   @apply pt-24;
-  background: radial-gradient(50% 50% at 50% 50%,
+  background: radial-gradient(
+      50% 50% at 50% 50%,
       #896ae4 0%,
-      rgba(67, 151, 117, 0) 100%),
-    conic-gradient(from 174.92deg at 50% 50%,
+      rgba(67, 151, 117, 0) 100%
+    ),
+    conic-gradient(
+      from 174.92deg at 50% 50%,
       #3e9644 -56.25deg,
       #896ae4 27.03deg,
       #34c5a2 169.15deg,
       #3e9644 303.75deg,
-      #896ae4 387.03deg);
+      #896ae4 387.03deg
+    );
 }
 
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    #896ae4,
+    #feb47b
+  ); /* Adjust the gradient colors as needed */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .glow {
   filter: drop-shadow(0 0 0.2rem #ffffff21);
 }
@@ -153,7 +166,7 @@
   border-radius: 0.5rem;
 }
 
-.fc .fc-list-sticky .fc-list-day>* {
+.fc .fc-list-sticky .fc-list-day > * {
   border-radius: 0.5rem;
 }
 

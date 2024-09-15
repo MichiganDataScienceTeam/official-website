@@ -15,7 +15,13 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-export default function Home({ companies, sponsors, projects, timeline, communityImages }) {
+export default function Home({
+  companies,
+  sponsors,
+  projects,
+  timeline,
+  communityImages,
+}) {
   sponsors[0].tier = "MDST is made possible by our sponsors";
   const router = useRouter();
   const basePath = router.basePath;
@@ -129,10 +135,8 @@ export default function Home({ companies, sponsors, projects, timeline, communit
         <SponsorSection basePath={basePath} group={sponsors[0]} />
       </div>
       <div className="container mx-auto px-2 mt-8">
-        <h2 className="text-3xl text-center">
-          Companies We Worked With:
-        </h2>
-        <CompanySection basePath={basePath} group={companies[0]}/>
+        <h2 className="text-3xl text-center">Companies We Worked With:</h2>
+        <CompanySection basePath={basePath} group={companies[0]} />
       </div>
     </Layout>
   );
@@ -160,10 +164,41 @@ function ProjectCard({ json, basePath }) {
   );
 }
 
+import React, { useEffect } from "react";
+
 function Factbox({ fact, closer }) {
+  useEffect(() => {
+    const elements = document.querySelectorAll(".number");
+    elements.forEach((element) => {
+      const target = +element.getAttribute("data-target");
+      const increment = target / 250; // Adjust this value to control the speed
+      let count = 0;
+
+      const updateCount = () => {
+        count += increment;
+        if (count < target) {
+          element.textContent = Math.ceil(count);
+          requestAnimationFrame(updateCount);
+        } else {
+          element.textContent = target;
+        }
+      };
+
+      updateCount();
+    });
+  }, []);
+
   return (
     <div className="text-left bg-grey p-4 rounded-lg w-full">
-      <h2 className="text-4xl font-semibold my-2">{fact}</h2>
+      <h2 className="text-4xl font-semibold my-2">
+        <span
+          className="number gradient-text"
+          data-target={fact.replace("+", "")}
+        >
+          0
+        </span>
+        +
+      </h2>
       <p className="self-start">{closer}</p>
     </div>
   );
@@ -230,5 +265,7 @@ export async function getStaticProps() {
   const timeline = loadStaticData("timeline.json");
   const communityImages = loadStaticData("communityImages.json");
 
-  return { props: { companies, sponsors, projects, timeline, communityImages } };
+  return {
+    props: { companies, sponsors, projects, timeline, communityImages },
+  };
 }
