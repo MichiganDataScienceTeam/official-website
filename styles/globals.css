@@ -22,7 +22,15 @@
   margin-bottom: 6%;
   height: 90vh;
 }
-
+/* Media query for phones */
+@media (max-width: 500px) {
+  .hero {
+    padding-top: 25%;
+    padding-bottom: 40%;
+    margin-bottom: 20%;
+    height: 90vh;
+  }
+}
 .gradient-text {
   background: linear-gradient(
     90deg,
