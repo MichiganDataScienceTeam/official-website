@@ -254,6 +254,7 @@ html {
 }
 
 footer {
+  margin-top: 3%;
   border-top: 0.5px solid;
   border-top-color: #cabbf6;
   background-color: rgb(21, 21, 21);
