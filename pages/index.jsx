@@ -6,8 +6,6 @@ import Layout from "@/components/layout";
 import SponsorSection from "@/components/sponsorSection";
 import CompanySection from "@/components/companySection";
 import Timeline from "@/components/timeline";
-import Wave from "@/components/wave";
-import Wave180 from "@/components/wave180";
 import CommunityImages from "@/components/communityImages";
 import loadStaticData from "@/shared/static";
 import Image from "next/image";
@@ -72,7 +70,9 @@ export default function Home({
       >
         {timeline.show_on_homepage && (
           <div className="bg-grey p-4 sm:p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-4">{timeline.title}</h2>
+            <h2 className="text-3xl font-bold mb-4 gradient-text">
+              {timeline.title}
+            </h2>
             <Timeline events={timeline.events} />
           </div>
         )}
