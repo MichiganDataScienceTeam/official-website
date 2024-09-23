@@ -1,18 +1,26 @@
 [
   {
-    "name": "Winter 2024 Project Expo",
+    "name": "WN24 Project Expo",
     "image": "WN24_EXPO.JPG"
   },
   {
-    "name": "Winter 2024 Data Science Night",
-    "image": "WN24_DSN.JPG"
+    "name": "FA24 Economic-Forcasting",
+    "image": "economic-forcasting1.JPG"
   },
   {
-    "name": "Fall 2024 Mass Meeting 1",
+    "name": "FA24 Poker Bot",
+    "image": "pokerbot1.JPG"
+  },
+  {
+    "name": "FA24 Mass Meeting 1",
     "image": "mass_meeting1.JPG"
   },
   {
-    "name": "Fall 2024 Mass Meeting 2",
+    "name": "FA24 Mass Meeting 2",
     "image": "mass_meeting2.JPG"
+  },
+  {
+    "name": "WN24 Data Science Night",
+    "image": "WN24_DSN.JPG"
   }
 ]
