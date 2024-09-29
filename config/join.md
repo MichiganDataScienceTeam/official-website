@@ -4,9 +4,9 @@ Thank you for your interest in joining MDST! We're super excited to get you star
 
 ### Step 1: Sign up for our mailing list
 
-Our mailing list is going to be the fastest way for us to reach you with the latest information on how to join, mass meetings, and other onboarding events. Fill out the [interest form](https://forms.gle/MYYA8pqXLMuqb93F7)) linked below to be added to our mailing list.
+Our mailing list is going to be the fastest way for us to reach you with the latest information on how to join, mass meetings, and other onboarding events. Fill out the interest form linked below to be added to our mailing list.
 
-<p className="md-button-wrapper"><a className="md-button" href="https://forms.gle/MYYA8pqXLMuqb93F7"> Interest Form</a></p>
+<p className="md-button-wrapper"><a className="md-button" href="https://docs.google.com/forms/d/e/1FAIpQLSe0kGexorGyJScrIcAuoYBKd62owD9XScJbcqxLR0PVBMBlcA/viewform"> Interest Form</a></p>
 
 <a href="#top" class="scroll-up-button"></a>
 
