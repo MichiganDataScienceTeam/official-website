@@ -11,17 +11,17 @@
         "name": "Discover",
         "link": "https://www.discover.com/",
         "image": "discover.png"
+      },
+      {
+        "name": "College of Engineering",
+        "link": "https://www.engin.umich.edu/",
+        "image": "coe.png"
       }
     ]
   },
   {
     "type": "small",
     "sponsors": [
-      {
-        "name": "Engineering Student Government",
-        "link": "https://esg.engin.umich.edu/",
-        "image": "esg.png"
-      },
       {
         "name": "Michigan Institute for Data Science",
         "link": "https://midas.umich.edu/",
