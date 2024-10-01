@@ -1,6 +1,6 @@
 # [MDST Website](https://michigandatascienceteam.github.io/website-redesign/)
 
-This website was is designed with a few core criteria
+This website was designed with a few core criteria
 
 - Modern and professional design
 - Easy to edit and maintain without changing the code
