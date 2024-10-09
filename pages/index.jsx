@@ -133,6 +133,7 @@ export default function Home({
           MDST is proudly supported by our sponsors
         </h2>
         <SponsorSection basePath={basePath} group={sponsors[0]} />
+        <SponsorSection basePath={basePath} group={sponsors[1]} />
       </div>
       <div className="container mx-auto px-2 mt-8">
         <h2 className="text-3xl text-center">Companies We Worked With:</h2>
