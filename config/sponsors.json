@@ -16,6 +16,11 @@
         "name": "College of Engineering",
         "link": "https://www.engin.umich.edu/",
         "image": "coe.png"
+      },
+      {
+        "name": "Intuit",
+        "link": "https://www.intuit.com/",
+        "image": "intuit.png"
       }
     ]
   },
