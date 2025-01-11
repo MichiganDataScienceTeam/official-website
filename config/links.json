@@ -34,5 +34,9 @@
     "name": "Calendar",
     "href": "https://calendar.google.com/calendar/u/0?cid=Y18yMmNhMGMxNTE1ODU3NjA0NDJjYWQ1Nzk2ZmI5MWJkMThiN2RiMTFkODEzZTkxNDNlMzg1NDlhYWRjZTY1YWZlQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20",
     "icon_name": "calendar"
+  },
+  {
+    "name": "Zoom",
+    "href": "https://umich.zoom.us/j/96762839103"
   }
 ]

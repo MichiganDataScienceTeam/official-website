@@ -10,7 +10,12 @@ export default function Timeline({ events }) {
               {event.time}
             </time>
             <h3 className="text-lg font-semibold text-white snap-center">
-              {event.title}
+              {event.title}{" "}
+              {event.zoom && (
+                <Link href={event.zoom} className="font-bold underline">
+                  Zoom
+                </Link>
+              )}
             </h3>
             <p className="mb-4 text-base font-normal text-white">
               {event.description}
