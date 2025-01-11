@@ -81,6 +81,19 @@
         "linkedin": "https://www.linkedin.com/in/jeremy-moon7/",
         "github": "jere67.github.io ",
         "image": "jeremoon.png"
+      },
+      {
+        "name": "Russell Day",
+        "title": "Education Developer",
+        "linkedin": "https://www.linkedin.com/in/russell-day/",
+        "github": "https://github.com/Russell-Day",
+        "image": "russellday.jpg"
+      },
+      {
+        "name": "Grace Liu",
+        "title": "Education Developer",
+        "linkedin": "https://www.linkedin.com/in/grace-liu15/",
+        "image": "graceliu.jpg"
       }
     ]
   },

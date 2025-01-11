@@ -16,7 +16,7 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 <!--- Still need place for mass meetings --->
 
-MDST is hosting two mass meetings this year. Join us on September 2nd, 2024 or September 3rd, 2024. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
+MDST is hosting two mass meetings this year. Join us on January 12, 2025 at 12:00pm or 6:00pm. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
 Take a look at our slides and recording from last semester's mass meeting:
 
@@ -29,10 +29,10 @@ Take a look at our slides and recording from last semester's mass meeting:
 New members are required to **complete two checkpoints** giving an introduction to data science and programming in Python. The purpose of these tutorials is to make sure that all of our members, despite their background, are able to equally contribute to MDST projects.
 
 <div className="callout font-normal">
-    The tutorials for Fall 2024 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/MDST-Onboarding). The repository contains all the materials and instructions you need to complete the tutorials, as well as information about the support we provide if you have any questions.
+    The tutorials for Winter 2025 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/MDST-Onboarding). The repository contains all the materials and instructions you need to complete the tutorials, as well as information about the support we provide if you have any questions.
 </div>
 
-<span className="highlight">Note: </span> Please direct all technical and logistical questions regarding tutorials to our <a href="https://edstem.org/us/join/jxVrDG">forum</a> for better visibility.
+<span className="highlight">Note: </span> Please direct all technical and logistical questions regarding tutorials to our <a href="https://edstem.org/us/join/Mx3ut8">forum</a> for better visibility.
 
 <hr>
 
@@ -46,7 +46,7 @@ See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboard
 
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
-The submission form will be due **September 16th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2024 semester.
+The submission form will be due **January 24th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2025 semester.
 
 <hr>
 
@@ -54,7 +54,7 @@ The submission form will be due **September 16th, 11:59 PM**, after which we wil
 
 <!--- Need to add time and place --->
 
-After joining the club, we will host a project exploration fair on **September 8th, 2024** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
+Before joining the club, we will host a project exploration fair on **January 19th, 2025** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
 
 After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty).
 
