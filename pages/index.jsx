@@ -272,7 +272,7 @@ function Carousel({ projects, basePath }) {
 export async function getStaticProps() {
   const sponsors = loadStaticData("sponsors.json");
   const companies = loadStaticData("companies.json");
-  const projects = loadStaticData("homepage.json");
+  const projects = loadStaticData("homepage_projects.json");
   const timeline = loadStaticData("timeline.json");
   const communityImages = loadStaticData("communityImages.json");
 
