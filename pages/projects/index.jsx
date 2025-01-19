@@ -25,9 +25,9 @@ export default function Projects({ groupedLinks, currentProjects }) {
         <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
           <h2 className="text-3xl mb-4">Current Projects 2024 Fall</h2>
           <h3>
-            You can find specific details about the projects on our{" "}
+            You can find winter 2025 projects on our{" "}
             <a
-              href="https://mdst-club.notion.site/Fall-2024-Project-Directory-734d91c7dd6f4991b98eef461504a1eb"
+              href="https://mdst-club.notion.site/w25-projects"
               style={{
                 color: "#C8BAF3",
                 fontWeight: "bold",
