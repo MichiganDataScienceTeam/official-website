@@ -1,7 +1,7 @@
 {
     "Fall 2024": [
         {
-            "label": "Spotify Data Analysis"
+            "label": "Spotify Analysis"
         },
         {
             "label": "Recidivism Analysis"
@@ -28,7 +28,7 @@
             "label": "RL Neuroevolution"
         },
         {
-            "label": "Mining & Analyzing Reddit"
+            "label": "Mining and Analyzing Reddit"
         },
         {
             "label": "ViT From Scratch"
