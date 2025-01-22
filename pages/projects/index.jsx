@@ -23,7 +23,7 @@ export default function Projects({ groupedLinks, currentProjects }) {
 
       <section className="current-projects py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <h2 className="text-3xl mb-4">Current Projects 2024 Fall</h2>
+          <h2 className="text-3xl mb-4">Current Projects 2025 Winter</h2>
           <h3>
             You can find winter 2025 projects on our{" "}
             <a

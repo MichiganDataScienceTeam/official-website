@@ -1,4 +1,45 @@
 {
+    "Fall 2024": [
+        {
+            "label": "Spotify Data Analysis"
+        },
+        {
+            "label": "Recidivism Analysis"
+        },
+        {
+            "label": "Economic Forecasting"
+        },
+        {
+            "label": "Research Grant Analysis"
+        },
+        {
+            "label": "Car Brand Classification"
+        },
+        {
+            "label": "SoccerNet"
+        },
+        {
+            "label": "LLM Augmentation"
+        },
+        {
+            "label": "Facial Recognition"
+        },
+        {
+            "label": "RL Neuroevolution"
+        },
+        {
+            "label": "Mining & Analyzing Reddit"
+        },
+        {
+            "label": "ViT From Scratch"
+        },
+        {
+            "label": "Mini Copilot"
+        },
+        {
+            "label": "Poker Bot"
+        }
+    ],
     "Winter 2024": [
         {
             "label": "Codenames",
@@ -10,7 +51,7 @@
         },
         {
             "label": "Poker Bot"
-        }, 
+        },
         {
             "label": "RMP Sentiment Analysis",
             "github": "https://github.com/MichiganDataScienceTeam/WN2024-RMP"
@@ -86,7 +127,7 @@
             "label": "Mini DALL-E"
         },
         {
-            "label": "MOOC Data Analysis"        
+            "label": "MOOC Data Analysis"
         },
         {
             "label": "Movie Quote Sentiment Analysis"
@@ -133,7 +174,7 @@
             "label": "Sports Data Science",
             "googleSlides": "https://docs.google.com/presentation/d/1q_kJey90QQsP4Nm5b96o5NVMg4gRgbTqe9THJfaXle0/"
         },
-        { 
+        {
             "label": "TLDR Machine",
             "googleSlides": "https://docs.google.com/presentation/d/1dmCTwBANTU1W1ik5dSXuwD5ycRRRCtjyiQzMFE2zDgs/"
         },
@@ -141,5 +182,4 @@
             "label": "Twitter Sentiment Analysis"
         }
     ]
-  }
-  
+}
