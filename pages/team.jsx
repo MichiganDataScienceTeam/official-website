@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import HeadContent from "@/components/headContent";
 import Hero from "@/components/hero";
 import Icon from "@/components/icon";
@@ -10,6 +11,8 @@ import { useRouter } from "next/router";
 export default function Team({ teamjson }) {
   const router = useRouter();
   const basePath = router.basePath;
+  const [activeGroup, setActiveGroup] = useState(teamjson[0]); // Default to the first group ("Current Board")
+
   return (
     <Layout>
       <HeadContent
@@ -20,9 +23,34 @@ export default function Team({ teamjson }) {
       />
 
       <Hero title="Our Leadership Team" />
-      {teamjson.map((group, index) => (
-        <GroupSection key={group.groupName} basePath={basePath} group={group} />
-      ))}
+
+      {/* Tab Navigation */}
+      <div className="flex justify-center my-8">
+        {teamjson.map((group, index) => (
+          <button
+            key={group.groupName}
+            onClick={() => setActiveGroup(group)}
+            className={`mx-2 px-4 py-2 rounded transition-colors ${
+              activeGroup.groupName === group.groupName
+                ? 'bg-blue-500 text-white'
+                : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+            }`}
+          >
+            {group.groupName}
+          </button>
+        ))}
+      </div>
+
+      {/* Display Active Group */}
+      {activeGroup.groupName === "Current Board" ? (
+        // Render nested groups for "Current Board"
+        activeGroup.groups.map((group, index) => (
+          <GroupSection key={index} basePath={basePath} group={group} />
+        ))
+      ) : (
+        // Render single group for "Project Leads" or "Alumni"
+        <GroupSection basePath={basePath} group={activeGroup} />
+      )}
     </Layout>
   );
 }
@@ -82,7 +110,6 @@ function MemberCard({ json, basePath }) {
           ) : null}
         </ul>
       </div>
-
     </div>
   );
 }
