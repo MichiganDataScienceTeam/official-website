@@ -1,7 +1,7 @@
 [
   {
     "label": "American Airlines",
-    "image": "american_airlines.png",
+    "image": "american_airlines.jpg",
     "leads": [
       {
         "name": "Tiernan Jesrani",
@@ -11,7 +11,7 @@
   },
   {
     "label": "Recidivism Analysis",
-    "image": "compas-analysis.avif",
+    "image": "recidivism_analysis.jpg",
     "leads": [
       {
         "name": "Lucas Tam",
@@ -53,7 +53,7 @@
   },
   {
     "label": "Minecraft Clip Summarizer",
-    "image": "minecraft_clip_summarizer.jpeg",
+    "image": "minecraft_clip_summarizer.jpg",
     "leads": [
       {
         "name": "Antonio Capdevielle",
@@ -67,7 +67,7 @@
   },
   {
     "label": "Mini AlphaGo",
-    "image": "mini_alphago.png",
+    "image": "mini_alphago.jpg",
     "leads": [
       {
         "name": "Onat Ozer",
@@ -81,7 +81,7 @@
   },
   {
     "label": "Fruit Nutrition",
-    "image": "fruit_nutrition.png",
+    "image": "fruit_nutrition.jpg",
     "leads": [
       {
         "name": "Cai Yi Linda Ru",
@@ -99,7 +99,7 @@
   },
   {
     "label": "Traffic Accident Prediction",
-    "image": "traffic_accident_prediction.png",
+    "image": "traffic_accident_prediction.jpg",
     "leads": [
       {
         "name": "Daehwan (Danny) Yoo",
@@ -141,7 +141,7 @@
   },
   {
     "label": "Election Voting Analysis",
-    "image": "election_voting_analysis.jpeg",
+    "image": "election_voting_analysis.jpg",
     "leads": [
       {
         "name": "Jordyn Ives",
@@ -155,7 +155,7 @@
   },
   {
     "label": "MDST Dashboard",
-    "image": "mdst_dashboard.png",
+    "image": "mdst_dashboard.jpg",
     "leads": [
       {
         "name": "Shiva Chandran",
@@ -169,7 +169,7 @@
   },
   {
     "label": "Breast Cancer Detection",
-    "image": "breast_cancer_detection.png",
+    "image": "breast_cancer_detection.jpg",
     "leads": [
       {
         "name": "Russell Day",
@@ -187,7 +187,7 @@
   },
   {
     "label": "Image Style Transfer",
-    "image": "image_style_transfer.png",
+    "image": "image_style_transfer.jpg",
     "leads": [
       {
         "name": "Luke Yang",
@@ -205,7 +205,7 @@
   },
   {
     "label": "JARVIS",
-    "image": "jarvis.png",
+    "image": "jarvis.jpg",
     "leads": [
       {
         "name": "Aarushi Shah",
