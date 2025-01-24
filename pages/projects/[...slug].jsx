@@ -25,9 +25,9 @@ function ProjectPage({ content, title, images }) {
 
   return (
     <Layout>
-      <HeadContent 
-        title={title} 
-        description={`${title} is a project done with The Michigan Data Science Team - MDST, the largest data science club at the University of Michigan.`} 
+      <HeadContent
+        title={title}
+        description={`${title} is a project done with The Michigan Data Science Team - MDST, the largest data science club at the University of Michigan.`}
       />
       <Hero title={title} />
       <div className="container mx-auto px-2">
@@ -51,7 +51,7 @@ export async function getStaticProps({ params }) {
 
   const filePath = path.join(process.cwd(), 'content', 'projects', subdirectory, innerDir, 'writeup.md');
   const fileContent = fs.readFileSync(filePath, 'utf-8');
-  
+
   const imagesDir = path.join(process.cwd(), 'public', 'images', 'projects', subdirectory, innerDir);
   const images = fs.existsSync(imagesDir) ? fs.readdirSync(imagesDir).map(img => path.join('/images/projects', subdirectory, innerDir, img)) : [];
 

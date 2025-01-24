@@ -62,11 +62,10 @@ export default function Home({
         </div>
       </Hero>
       <div
-        className={`container mx-auto px-7  ${
-          timeline.show_on_homepage
-            ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
-            : "flex max-w-6xl"
-        }`}
+        className={`container mx-auto px-7  ${timeline.show_on_homepage
+          ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
+          : "flex max-w-6xl"
+          }`}
       >
         {timeline.show_on_homepage && (
           <div className="bg-grey p-4 sm:p-8 rounded-lg">
@@ -112,9 +111,8 @@ export default function Home({
               </p>
             </div>
             <div
-              className={`flex flex-col md:flex-row gap-4 ${
-                timeline.show_on_homepage ? "lg:flex-col" : ""
-              } xl:flex-row`}
+              className={`flex flex-col md:flex-row gap-4 ${timeline.show_on_homepage ? "lg:flex-col" : ""
+                } xl:flex-row`}
             >
               <Factbox fact="250+" closer="community members"></Factbox>
               <Factbox fact="14+" closer="project teams"></Factbox>

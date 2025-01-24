@@ -47,7 +47,7 @@ const styles = {
     padding: "25px",
     borderRadius: "8px",
     width: "100%",
-    maxWidth: "600px",
+    maxWidth: "500px",
     marginBottom: "32px",
     justifyContent: "space-between",
     alignItems: "stretch",
@@ -67,8 +67,6 @@ const styles = {
   projectImage: {
     borderRadius: "10%",
     objectFit: "contain",
-    width: "auto",
-    height: "auto",
   },
   projectTitle: {
     marginTop: "16px",
