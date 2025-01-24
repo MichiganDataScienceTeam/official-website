@@ -25,7 +25,7 @@ export default function Projects({ groupedLinks, currentProjects }) {
         <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
           <h2 className="text-3xl mb-4">Current Projects 2025 Winter</h2>
           <h3>
-            You can find winter 2025 projects on our{" "}
+            More project details are on our{" "}
             <a
               href="https://mdst-club.notion.site/w25-projects"
               style={{
@@ -56,7 +56,7 @@ export default function Projects({ groupedLinks, currentProjects }) {
           const seasonOrder = { Winter: 0, Fall: 1 };
 
           if (aYear === bYear) {
-            return seasonOrder[aSeason] - seasonOrder[bSeason];
+            return seasonOrder[bSeason] - seasonOrder[aSeason];
           } else {
             return parseInt(bYear) - parseInt(aYear);
           }
