@@ -79,10 +79,195 @@
         "description": "The leaders of MDST's ongoing projects, driving innovation and impact.",
         "members": [
           {
+            "name": "Tiernan Jesrani",
+            "title": "American Airlines Project Lead",
+            "linkedin": "https://www.linkedin.com/in/tiernan-jesrani-7b4912258/",
+            "image": "tiernanj.jpg"
+          },
+          {
+            "name": "Lucas Tam",
+            "title": "Recidivism Analysis Project Lead",
+            "linkedin": "https://www.linkedin.com/in/lucasktam/",
+            "image": "lucastam.png"
+          },
+          {
+            "name": "Angela Li",
+            "title": "Recidivism Analysis Project Lead",
+            "linkedin": "https://www.linkedin.com/in/angela-li8/",
+            "image": "anqili.jpg"
+          },
+          {
+            "name": "Aditi Kashi",
+            "title": "Car Brand Classification Project Lead",
+            "linkedin": "https://www.linkedin.com/in/aditi-kashi/",
+            "image": "adikashi.jpg"
+          },
+          {
+            "name": "Anish Kudupudi",
+            "title": "Car Brand Classification Project Lead",
+            "linkedin": "https://www.linkedin.com/in/anish-kudupudi/",
+            "image": "anishkudupudi.png"
+          },
+          {
+            "name": "Aditya Murali",
+            "title": "LLM App Development Project Lead",
+            "linkedin": "https://www.linkedin.com/in/adityamurali2706/",
+            "image": "adityamu.jpeg"
+          },
+          {
+            "name": "Jordan Jones",
+            "title": "LLM App Development Project Lead",
+            "linkedin": "https://www.linkedin.com/in/jordan-rjones/",
+            "image": "jordanrj.jpeg"
+          },
+          {
+            "name": "Antonio Capdevielle",
+            "title": "Minecraft Clip Summarizer Project Lead",
+            "linkedin": "https://www.linkedin.com/in/antonio-capdevielle-347281303/",
+            "image": "acapdevi.jpg"
+          },
+          {
+            "name": "Yatin Bichala",
+            "title": "Minecraft Clip Summarizer Project Lead",
+            "linkedin": "https://www.linkedin.com/in/yatinbichala/",
+            "image": "yatinbichala.jpg"
+          },
+          {
+            "name": "Onat Ozer",
+            "title": "Mini AlphaGo Project Lead",
+            "linkedin": "https://www.linkedin.com/in/onat-ozer-299012328/",
+            "image": "onatozer.jpeg"
+          },
+          {
+            "name": "Jeffrey Lu",
+            "title": "Mini AlphaGo Project Lead",
+            "linkedin": "https://www.linkedin.com/in/jeffrey-p-lu/",
+            "image": "temp.jpeg"
+          },
+          {
+            "name": "Cai Yi Linda Ru",
+            "title": "Fruit Nutrition Project Lead",
+            "linkedin": "https://www.linkedin.com/in/caiyilindaru/",
+            "image": "clindaru.png"
+          },
+          {
+            "name": "Sergey Kislenkov",
+            "title": "Fruit Nutrition Project Lead",
+            "linkedin": "https://www.linkedin.com/in/sergey-kislenkov-17b60125a/",
+            "image": "sergeykislenkov.png"
+          },
+          {
+            "name": "Nick Johnson",
+            "title": "Fruit Nutrition Project Lead",
+            "linkedin": "https://www.linkedin.com/in/nick-johnson-michigan/",
+            "image": "temp.jpeg"
+          },
+          {
+            "name": "Daehwan (Danny) Yoo",
+            "title": "Traffic Accident Prediction Project Lead",
+            "linkedin": "https://www.linkedin.com/in/daehwan-yoo-7a01b51a9/?originalSubdomain=kr",
+            "image": "daewhanyoo.jpg"
+          },
+          {
+            "name": "Yishan Lin",
+            "title": "Traffic Accident Prediction Project Lead",
+            "linkedin": "https://www.linkedin.com/in/yishan-lin-057293262/?locale=en_US",
+            "image": "yishanlin.jpg"
+          },
+          {
+            "name": "Nidhil Nayudu",
+            "title": "Resume Screener Project Lead",
+            "linkedin": "https://www.linkedin.com/in/nidhilnayudu/",
+            "image": "nnayudu.jpg"
+          },
+          {
+            "name": "Maxim Kim",
+            "title": "Resume Screener Project Lead",
+            "linkedin": "https://www.linkedin.com/in/maxim-kim-b057bb240/",
+            "image": "temp.jpeg"
+          },
+          {
+            "name": "Lorenzo Lupano",
+            "title": "Flight Price Prediction Project Lead",
+            "linkedin": "https://www.linkedin.com/in/lorenzo-lupano/",
+            "image": "lorenzolupano.jpg"
+          },
+          {
+            "name": "Swapan Gudaru",
+            "title": "Flight Price Prediction Project Lead",
+            "linkedin": "https://www.linkedin.com/in/swapan-gudaru-29717b212/",
+            "image": "gudaru.jpg"
+          },
+          {
+            "name": "Jordyn Ives",
+            "title": "Election Voting Analysis Project Lead",
+            "linkedin": "https://www.linkedin.com/in/jordyn-ives/",
+            "image": "jordynives.png"
+          },
+          {
+            "name": "Amy Do",
+            "title": "Election Voting Analysis Project Lead",
+            "linkedin": "https://www.linkedin.com/in/amy-do-8549a722b/",
+            "image": "amydo.jpeg"
+          },
+          {
+            "name": "Shiva Chandran",
+            "title": "MDST Dashboard Project Lead",
+            "linkedin": "https://www.linkedin.com/in/shiva-chandran-215434268",
+            "image": "shivac.jpg"
+          },
+          {
+            "name": "Vatsal Shah",
+            "title": "MDST Dashboard Project Lead",
+            "linkedin": "https://www.linkedin.com/in/vatsal-shah0914/",
+            "image": "temp.jpeg"
+          },
+          {
+            "name": "Russell Day",
+            "title": "Breast Cancer Detection Project Lead",
+            "linkedin": "https://www.linkedin.com/in/russell-day/",
+            "image": "russellday.jpg"
+          },
+          {
+            "name": "Andrew Zhou",
+            "title": "Breast Cancer Detection Project Lead",
+            "linkedin": "https://www.linkedin.com/in/zhouandrew52/",
+            "image": "andrewzhou.HEIC"
+          },
+          {
+            "name": "Andre Gala-Garza",
+            "title": "Breast Cancer Detection Project Lead",
+            "linkedin": "https://www.linkedin.com/in/andre-gala-garza-872213254/",
+            "image": "andregarza.jpg"
+          },
+          {
+            "name": "Luke Yang",
+            "title": "Image Style Transfer Project Lead",
+            "linkedin": "https://www.linkedin.com/in/um-luke-yang/",
+            "image": "lukeyang.jpeg"
+          },
+          {
+            "name": "Judith Wu",
+            "title": "Image Style Transfer Project Lead",
+            "image": "judithwu.jpg"
+          },
+          {
+            "name": "Shreyas Shrivastava",
+            "title": "Image Style Transfer Project Lead",
+            "linkedin": "https://www.linkedin.com/in/shreyas-shrivastava-589263270/",
+            "image": "temp.jpeg"
+          },
+          {
             "name": "Aarushi Shah",
             "title": "JARVIS Project Lead",
             "linkedin": "https://www.linkedin.com/in/aarushishah/",
-            "image": "aarushis.jpg"
+            "image": "aarushishah.jpg"
+          },
+          {
+            "name": "Muhammad (Abubakar) Siddiq",
+            "title": "JARVIS Project Lead",
+            "linkedin": "https://www.linkedin.com/in/muhammad-siddiq-/",
+            "image": "siddiq.jpeg"
           }
         ]
       },
@@ -194,6 +379,13 @@
             "linkedin": "https://www.linkedin.com/in/harishjai",
             "github": "https://github.com/harishj-um",
             "image": "harishj.png"
+          },
+          {
+            "name": "Sriyan Madugula",
+            "title": "Web Developer",
+            "linkedin": "https://www.linkedin.com/in/sriyanm/",
+            "github": "https://github.com/sriyanm",
+            "image": "sriyan.png"
           },
           {
             "name": "Neeyam Muddappa",
