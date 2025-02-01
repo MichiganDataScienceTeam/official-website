@@ -42,15 +42,11 @@ export default function Team({ teamjson }) {
       </div>
 
       {/* Display Active Group */}
-      {activeGroup.groupName === "Current Board" ? (
-        // Render nested groups for "Current Board"
+      { // Render nested groups for each view
         activeGroup.groups.map((group, index) => (
           <GroupSection key={index} basePath={basePath} group={group} />
         ))
-      ) : (
-        // Render single group for "Project Leads" or "Alumni"
-        <GroupSection basePath={basePath} group={activeGroup} />
-      )}
+      }
     </Layout>
   );
 }

@@ -1,6 +1,6 @@
 [
   {
-    "groupName": "Current Board",
+    "groupName": "E-Board",
     "description": "The leadership team and committee members driving MDST's vision and operations.",
     "groups": [
       {
@@ -48,6 +48,70 @@
           }
         ]
       },
+      {
+        "groupName": "Alumni",
+        "description": "Our alumni who have contributed significantly to the team.",
+        "members": [
+          {
+            "name": "Jane Doe",
+            "title": "President (23-24)",
+            "linkedin": "https://www.linkedin.com/",
+            "github": "https://github.com/",
+            "image": "temp.jpeg"
+          },
+          {
+            "name": "John Doe",
+            "title": "Vice President (23-24)",
+            "linkedin": "https://www.linkedin.com",
+            "github": "https://github.com",
+            "image": "temp.jpeg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "Project Leads",
+    "description": "The leaders of MDST's ongoing projects, driving innovation and impact.",
+    "groups": [
+      {
+        "groupName": "Project Leads",
+        "description": "The leaders of MDST's ongoing projects, driving innovation and impact.",
+        "members": [
+          {
+            "name": "Aarushi Shah",
+            "title": "JARVIS Project Lead",
+            "linkedin": "https://www.linkedin.com/in/aarushishah/",
+            "image": "aarushis.jpg"
+          }
+        ]
+      },
+      {
+        "groupName": "Alumni",
+        "description": "Our alumni who have contributed significantly to the team.",
+        "members": [
+          {
+            "name": "Jane Doe",
+            "title": "President (23-24)",
+            "linkedin": "https://www.linkedin.com/",
+            "github": "https://github.com/",
+            "image": "temp.jpeg"
+          },
+          {
+            "name": "John Doe",
+            "title": "Vice President (23-24)",
+            "linkedin": "https://www.linkedin.com",
+            "github": "https://github.com",
+            "image": "temp.jpeg"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "Committees",
+    "description": "Our alumni who have contributed significantly to the team.",
+    "groups": [
       {
         "groupName": "Education Committee",
         "description": "Supervises all of MDST's onboarding and educational initiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education.",
@@ -214,38 +278,6 @@
             "image": "taylornl.png"
           }
         ]
-      }
-    ]
-  },
-  {
-    "groupName": "Project Leads",
-    "description": "The leaders of MDST's ongoing projects, driving innovation and impact.",
-    "members": [
-      {
-        "name": "Aarushi Shah",
-        "title": "JARVIS Project Lead",
-        "linkedin": "https://www.linkedin.com/in/aarushishah/",
-        "image": "aarushis.jpg"
-      }
-    ]
-  },
-  {
-    "groupName": "Alumni",
-    "description": "Our alumni who have contributed significantly to the team.",
-    "members": [
-      {
-        "name": "Jane Doe",
-        "title": "President (23-24)",
-        "linkedin": "https://www.linkedin.com/",
-        "github": "https://github.com/",
-        "image": "temp.jpeg"
-      },
-      {
-        "name": "John Doe",
-        "title": "Vice President (23-24)",
-        "linkedin": "https://www.linkedin.com",
-        "github": "https://github.com",
-        "image": "temp.jpeg"
       }
     ]
   }
