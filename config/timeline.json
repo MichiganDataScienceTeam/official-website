@@ -1,50 +1,35 @@
 {
   "show_on_homepage": true,
-  "title": "Recruiting Timeline Winter 2025",
+  "title": "Recruiting Timeline Fall 2025",
   "events": [
     {
-      "title": "Mass Meeting 1 @ Virtual",
-      "time": "January 12th 12:00 - 1:00pm",
-      "description": "Join us to learn more about MDST and how to become a member.",
+      "title": "Mass Meeting #1 @ Michigan Union 2210 ABC",
+      "time": "August 28th 7:30 - 8:30pm",
+      "description": "Join us to learn more about MDST and how to become a member."
+    },
+    {
+      "title": "Mass Meeting 2 @ Online",
+      "time": "September 2nd 6:00 - 7:00pm",
+      "description": "Same content as Mass Meeting #1.",
       "external": {
         "name": "Zoom",
         "link": "https://umich.zoom.us/j/96762839103"
       }
     },
     {
-      "title": "Mass Meeting 2 @ Michigan Union - Kuenzel Room",
-      "time": "January 12th 6:00 - 7:00pm",
-      "description": "Same content as Mass Meeting."
-    },
-    {
-      "title": "Office Hours 1 @ Mason Hall 3411",
-      "time": "January 16th 8:30 - 9:30pm",
+      "title": "Tutorial #1",
+      "time": "September 5th 6:00 - 7:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
-      "title": "*Mandatory* Project Exploration Fair @ CCCB 2460",
-      "time": "January 19th 12:00 - 2:00pm",
-      "description": "Meet with project leads and get to know the project offerings for this semester. Please block out ~30 minutes within this timeframe to attend. If you have a conflict, fill out the form above BEFORE the event, no exceptions will be made if you let us know after 11:59 a.m. on 01/19."
-    },
-    {
-      "title": "Office Hours 2 @ Fishbowl Classroom G444C",
-      "time": "January 19th 3:00 - 5:00pm",
+      "title": "Office Hours 1 @ Mason Hall 2448",
+      "time": "September 9th 6:00 - 8:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
-      "title": "Office Hours 3 @ Mason Hall 3427",
-      "time": "January 21th 7:30 - 9:00pm",
+      "title": "Office Hours 2 @ Mason Hall 2448",
+      "time": "September 12th 5:00 - 7:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
-    },
-    {
-      "title": "Tutorial Submission Due",
-      "time": "January 24th 11:59pm",
-      "description": "Submit your completed tutorial materials for acceptance into the club."
-    },
-    {
-      "title": "*Mandatory* First Project Work Session @ Location TBA",
-      "time": "January 26th 12:00 - 3pm",
-      "description": "Start working on data science projects!"
     }
   ]
 }
