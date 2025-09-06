@@ -18,16 +18,16 @@
         "image": "weilez.jpeg"
       },
       {
-        "name": "Vincent Wu",
+        "name": "Amy Do",
         "title": "VP of External Affairs",
-        "linkedin": "https://www.linkedin.com/in/vinwu1/",
-        "image": "bigpanda.jpeg"
+        "linkedin": "https://www.linkedin.com/in/amy-do-8549a722b/",
+        "image": "amydo.jpeg"
       },
       {
-        "name": "Uma Iyer",
+        "name": "Noah Pendo",
         "title": "VP of Finance",
-        "linkedin": "https://www.linkedin.com/in/uma3iyer/",
-        "image": "uiyer.jpeg"
+        "linkedin": "https://www.linkedin.com/in/noah-pendo/",
+        "image": "noahpendo.jpg"
       },
       {
         "name": "Jonathon Rosevelt",
@@ -94,6 +94,13 @@
         "title": "Education Developer",
         "linkedin": "https://www.linkedin.com/in/grace-liu15/",
         "image": "graceliu.jpg"
+      },
+      {
+        "name": "Connor Tivadar",
+        "title": "Education Developer",
+        "linkedin": "https://www.linkedin.com/in/connortivadar/",
+        "github": "https://github.com/ctivadar",
+        "image": "connortivadar.jpg"
       }
     ]
   },
