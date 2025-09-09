@@ -22,6 +22,11 @@
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
     },
     {
+      "title": "Project Fair",
+      "time": "September 7th 12:00 - 3:00pm",
+      "description": "Meet with project leads to learn about our projects and ask questions."
+    },
+    {
       "title": "Office Hours 1 @ Mason Hall 2448",
       "time": "September 9th 6:00 - 8:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
@@ -30,6 +35,11 @@
       "title": "Office Hours 2 @ Mason Hall 2448",
       "time": "September 12th 5:00 - 7:00pm",
       "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+    },
+    {
+      "title": "Application Due",
+      "time": "September 15th 11:59pm",
+      "description": "Submit your application!"
     }
   ]
 }
