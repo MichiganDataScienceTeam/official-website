@@ -46,7 +46,7 @@ See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboard
 
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
-The submission form will be due **January 24th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2025 semester.
+The submission form will be due **September 15th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2025 semester.
 
 <hr>
 
@@ -54,7 +54,7 @@ The submission form will be due **January 24th, 11:59 PM**, after which we will 
 
 <!--- Need to add time and place --->
 
-Before joining the club, we will host a project exploration fair on **January 19th, 2025** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
+Before joining the club, we will host a project exploration fair on **Setember 7th, 2025** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
 
 After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty).
 
