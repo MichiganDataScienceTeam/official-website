@@ -4,18 +4,17 @@
     "description": "The leadership team determining the vision and direction of MDST.",
     "members": [
       {
-        "name": "Amelia Weyhing",
+        "name": "Shiva Chandran",
         "title": "President",
-        "linkedin": "https://www.linkedin.com/in/amelia-weyhing/ ",
-        "github": "https://github.com/aweyhing",
-        "image": "aweyhing.JPG"
+        "linkedin": "https://www.linkedin.com/in/shiva-chandran-215434268",
+        "image": "shivac.jpg"
       },
       {
-        "name": "Weile Zheng",
+        "name": "Russell Day",
         "title": "VP of Education",
-        "linkedin": "https://www.linkedin.com/in/weile-zheng-200118262/",
-        "github": "https://github.com/weile-zheng",
-        "image": "weilez.jpeg"
+        "linkedin": "https://www.linkedin.com/in/russell-day/",
+        "github": "https://github.com/Russell-Day",
+        "image": "russellday.jpg"
       },
       {
         "name": "Amy Do",
@@ -30,17 +29,16 @@
         "image": "noahpendo.jpg"
       },
       {
-        "name": "Jonathon Rosevelt",
+        "name": "Jordyn Ives",
         "title": "VP of Internal Affairs",
-        "linkedin": "https://www.linkedin.com/in/jonathon-rosevelt/",
-        "image": "jrosevel.jpeg"
+        "image": "jordynives.png"
       },
       {
-        "name": "Amirali Danai",
+        "name": "Linda Ru",
         "title": "VP of Projects",
-        "linkedin": "https://www.linkedin.com/in/amiralidanai/",
-        "github": "https://github.com/danaiamirali",
-        "image": "amiralid.png"
+        "linkedin": "https://www.linkedin.com/in/caiyilindaru/",
+        "github": "https://github.com/clindaru",
+        "image": "clindaru.png"
       }
     ]
   },
@@ -83,16 +81,10 @@
         "image": "jeremoon.png"
       },
       {
-        "name": "Russell Day",
-        "title": "Education Developer",
-        "linkedin": "https://www.linkedin.com/in/russell-day/",
-        "github": "https://github.com/Russell-Day",
-        "image": "russellday.jpg"
-      },
-      {
         "name": "Grace Liu",
         "title": "Education Developer",
         "linkedin": "https://www.linkedin.com/in/grace-liu15/",
+        "github": "https://github.com/graceliu15",
         "image": "graceliu.jpg"
       },
       {
@@ -116,10 +108,23 @@
         "image": "igiallan.jpeg"
       },
       {
+        "name": "Ishan Tripathy",
+        "title": "Outreach Lead",
+        "linkedin": "https://www.linkedin.com/in/ishan-tripathy/",
+        "github": "https://github.com/itripathy0622",
+        "image": "ishantripathy.png"
+      },
+      {
         "name": "Rohan Athreya",
         "title": "Outreach Lead",
         "linkedin": "https://www.linkedin.com/in/rohanmathreya/",
         "image": "rathreya.jpg"
+      },
+      {
+        "name": "Will McKanna",
+        "title": "Outreach Lead",
+        "linkedin": "https://www.linkedin.com/in/will-mckanna-63a798331/",
+        "image": "williammckanna.jpeg"
       },
       {
         "name": "Jeremy Moon",
@@ -171,6 +176,12 @@
         "title": "Budgeting Lead",
         "linkedin": "https://www.linkedin.com/in/niyati-kashyap",
         "image": "niyatik.jpg"
+      },
+      {
+        "name": "Varsha Rajesh",
+        "title": "Budgeting Lead",
+        "linkedin": "http://www.linkedin.com/in/varsha-rajesh08",
+        "image": "varsharajesh.jpeg"
       }
     ]
   },
@@ -193,13 +204,14 @@
         "name": "Daniel Griggs",
         "title": "Project Planner",
         "linkedin": "https://www.linkedin.com/in/glenngr",
+        "github": "https://github.com/glenngriggs",
         "image": "glenngr.jpeg"
       },
       {
-        "name": "Cai Yi Linda Ru",
+        "name": "Honghao Zhang",
         "title": "Project Planner",
-        "linkedin": "https://www.linkedin.com/in/caiyilindaru/",
-        "image": "clindaru.png"
+        "linkedin": "https://www.linkedin.com/in/honghaozhang1/",
+        "image": "honghaozhang.png"
       },
       {
         "name": "Elizabeth Szwajnos",
@@ -219,16 +231,23 @@
         "image": "ealcott.jpg"
       },
       {
-        "name": "Shiva Chandran",
+        "name": "Amelia Weyhing",
         "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/shiva-chandran-215434268",
-        "image": "shivac.jpg"
+        "linkedin": "https://www.linkedin.com/in/amelia-weyhing/ ",
+        "github": "https://github.com/aweyhing",
+        "image": "aweyhing.JPG"
       },
       {
         "name": "Taylor Lane",
         "title": "Social Planner",
         "linkedin": "https://www.linkedin.com/in/taynlane/",
         "image": "taylornl.png"
+      },
+      {
+        "name": "Henry Chen",
+        "title": "Social Planner",
+        "linkedin": "https://www.linkedin.com/in/ching-yao-henry-chen/",
+        "image": "henrychen.jpeg"
       }
     ]
   }
