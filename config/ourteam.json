@@ -47,37 +47,10 @@
     "description": "Supervises all of MDST's onboarding and educational initiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education.",
     "members": [
       {
-        "name": "Yueqi Ren",
-        "title": "Education Developer",
-        "linkedin": "https://www.linkedin.com/in/yueqi-peter-ren-ab671125a/",
-        "github": "https://github.com/peteryqr",
-        "image": "yueqiren.JPG"
-      },
-      {
-        "name": "Dennis Farmer",
-        "title": "Education Developer",
-        "linkedin": "https://www.linkedin.com/in/dennis-farmer/",
-        "github": "https://github.com/dennisfarmer",
-        "image": "dennis.jpeg"
-      },
-      {
-        "name": "Sriyan Madugula",
-        "title": "GitHub Maintainer",
-        "linkedin": "https://www.linkedin.com/in/sriyanm",
-        "github": "https://github.com/sriyan-madugula-um",
-        "image": "sriyan.png"
-      },
-      {
-        "name": "Kajal Patel",
-        "title": "Recruitment Lead",
-        "linkedin": "https://www.linkedin.com/in/kajal-patel-20426328b",
-        "image": "kajalpat.png"
-      },
-      {
         "name": "Jeremy Moon",
         "title": "Recruitment Lead",
         "linkedin": "https://www.linkedin.com/in/jeremy-moon7/",
-        "github": "jere67.github.io ",
+        "github": "jere67.github.io",
         "image": "jeremoon.png"
       },
       {
@@ -93,6 +66,18 @@
         "linkedin": "https://www.linkedin.com/in/connortivadar/",
         "github": "https://github.com/ctivadar",
         "image": "connortivadar.jpg"
+      },
+      {
+        "name": "Layne Malek",
+        "title": "Education Developer",
+        "image": "temp.jpg"
+      },
+      {
+        "name": "Sriyan Madugula",
+        "title": "Web Developer",
+        "linkedin": "https://www.linkedin.com/in/sriyanm",
+        "github": "https://github.com/sriyan-madugula-um",
+        "image": "sriyan.png"
       }
     ]
   },
@@ -101,13 +86,6 @@
     "description": "MDST's interface with the wider data science community at U-M and beyond. Led by the VP of External Affairs.",
     "members": [
       {
-        "name": "Isabella Giallanza",
-        "title": "Website Lead",
-        "linkedin": "https://www.linkedin.com/in/isabella-giallanza-199238213/",
-        "github": "https://github.com/izzyg770",
-        "image": "igiallan.jpeg"
-      },
-      {
         "name": "Ishan Tripathy",
         "title": "Outreach Lead",
         "linkedin": "https://www.linkedin.com/in/ishan-tripathy/",
@@ -115,23 +93,10 @@
         "image": "ishantripathy.png"
       },
       {
-        "name": "Rohan Athreya",
-        "title": "Outreach Lead",
-        "linkedin": "https://www.linkedin.com/in/rohanmathreya/",
-        "image": "rathreya.jpg"
-      },
-      {
         "name": "Will McKanna",
         "title": "Outreach Lead",
         "linkedin": "https://www.linkedin.com/in/will-mckanna-63a798331/",
         "image": "williammckanna.jpeg"
-      },
-      {
-        "name": "Jeremy Moon",
-        "title": "Outreach Lead",
-        "linkedin": "https://www.linkedin.com/in/jeremy-moon7/",
-        "github": "https://github.com/jere67",
-        "image": "jeremoon.png"
       },
       {
         "name": "Julia Sochava",
@@ -152,12 +117,6 @@
         "linkedin": "https://www.linkedin.com/in/sriyanm",
         "github": "https://github.com/sriyan-madugula-um",
         "image": "sriyan.png"
-      },
-      {
-        "name": "Neeyam Muddappa",
-        "title": "Web Developer",
-        "linkedin": "https://www.linkedin.com/in/neeyam/",
-        "image": "neeyam.jpeg"
       }
     ]
   },
@@ -165,18 +124,6 @@
     "groupName": "Finance Committee",
     "description": "The financial backbone of MDST, planning and allocating our monetary resources. Led by the VP of Finance.",
     "members": [
-      {
-        "name": "Elle Chen",
-        "title": "Budgeting Lead",
-        "linkedin": "https://www.linkedin.com/in/elle-chen/",
-        "image": "ellechen.png"
-      },
-      {
-        "name": "Niyati Kashyap",
-        "title": "Budgeting Lead",
-        "linkedin": "https://www.linkedin.com/in/niyati-kashyap",
-        "image": "niyatik.jpg"
-      },
       {
         "name": "Varsha Rajesh",
         "title": "Budgeting Lead",
@@ -195,12 +142,6 @@
         "image": "aaron.jpg"
       },
       {
-        "name": "Anthony Chen",
-        "title": "Project Planner",
-        "linkedin": "https://www.linkedin.com/in/anthony-chen0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "image": "anthoc.jpeg"
-      },
-      {
         "name": "Daniel Griggs",
         "title": "Project Planner",
         "linkedin": "https://www.linkedin.com/in/glenngr",
@@ -217,6 +158,11 @@
         "name": "Elizabeth Szwajnos",
         "title": "Project Planner",
         "image": "elaszwaj.jpg"
+      },
+      {
+        "name": "Layne Malek",
+        "title": "Project Planner",
+        "image": "temp.jpg"
       }
     ]
   },
@@ -225,10 +171,9 @@
     "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work. Led by the VP of Internal Affairs.",
     "members": [
       {
-        "name": "Erin Alcott",
+        "name": "Jonathon Rosevelt",
         "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/erin-alcott/",
-        "image": "ealcott.jpg"
+        "image": "jrosevel.jpeg"
       },
       {
         "name": "Amelia Weyhing",
@@ -248,6 +193,16 @@
         "title": "Social Planner",
         "linkedin": "https://www.linkedin.com/in/ching-yao-henry-chen/",
         "image": "henrychen.jpeg"
+      },
+      {
+        "name": "Chris Chen",
+        "title": "Social Planner",
+        "image": "temp.jpeg"
+      },
+      {
+        "name": "Uma Iyer",
+        "title": "Social Planner",
+        "image": "uiyer.jpeg"
       }
     ]
   }
