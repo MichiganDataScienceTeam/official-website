@@ -190,42 +190,5 @@
         {
             "label": "Wildfire Spread Prediction"
         }
-    ],
-    "Fall 2022": [
-        {
-            "label": "College Football",
-            "googleSlides": "https://docs.google.com/document/d/1aD0UfCwea5I35nqoAEfS0PNpnzrAv3LX-X4kTCLVuu4/"
-        },
-        {
-            "label": "Dogs vs Cats",
-            "googleSlides": "https://docs.google.com/presentation/d/1p-nNSJNfZd09ApFk05hJZfRlY2Z8PlsiVTgp0i6_U44/"
-        },
-        {
-            "label": "Image Super Resolution",
-            "googleSlides": "https://drive.google.com/file/d/1cKrjVCl-M5wXzARgPMj8Gr-foZpEkIS_/"
-        },
-        {
-            "label": "Language Translation Application"
-        },
-        {
-            "label": "Pokemon Data Science",
-            "github": "https://docs.google.com/presentation/d/1vgOGh7djJRqNI7Ihf-R4ZZh7ON_KlCtCsHYucy0Aujk/"
-        },
-        {
-            "label": "SEC Insider Trading",
-            "github": "https://github.com/MichiganDataScienceTeam/F22-SEC-Insider-Trading",
-            "googleSlides": "https://docs.google.com/presentation/d/1dfPMDMX9n3X6GxDN9UDY6cfULwg4e-BLKfpSPziidKY/"
-        },
-        {
-            "label": "Sports Data Science",
-            "googleSlides": "https://docs.google.com/presentation/d/1q_kJey90QQsP4Nm5b96o5NVMg4gRgbTqe9THJfaXle0/"
-        },
-        {
-            "label": "TLDR Machine",
-            "googleSlides": "https://docs.google.com/presentation/d/1dmCTwBANTU1W1ik5dSXuwD5ycRRRCtjyiQzMFE2zDgs/"
-        },
-        {
-            "label": "Twitter Sentiment Analysis"
-        }
     ]
 }
