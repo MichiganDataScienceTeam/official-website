@@ -1,7 +1,7 @@
 [
   {
     "label": "American Airlines",
-    "image": "american_airlines.jpg",
+    "image": "american_airlines.png",
     "leads": [
       {
         "name": "Akshith Pulgam",
@@ -11,7 +11,7 @@
   },
   {
     "label": "Recidivism Analysis",
-    "image": "recidivism_analysis.jpg",
+    "image": "recidivism_analysis.png",
     "leads": [
       {
         "name": "William McKanna",
@@ -25,7 +25,7 @@
   },
   {
     "label": "Sports Data Analysis",
-    "image": "sports_data_analysis.jpg",
+    "image": "sports_data_analysis.png",
     "leads": [
       {
         "name": "Rahul Govil",
@@ -35,7 +35,7 @@
   },
   {
     "label": "Building ML Models",
-    "image": "building_ml_models.jpg",
+    "image": "building_ml_models.png",
     "leads": [
       {
         "name": "Kevin Calopisis",
@@ -49,7 +49,7 @@
   },
   {
     "label": "Shazam Clone",
-    "image": "shazam_clone.webp",
+    "image": "shazam_clone.png",
     "leads": [
       {
         "name": "Dennis Farmer",
@@ -63,7 +63,7 @@
   },
   {
     "label": "Alzheimer's MRI Classifier",
-    "image": "alzheimers_mri_classifier.jpeg",
+    "image": "alzheimers_mri_classifier.png",
     "leads": [
       {
         "name": "Aman Amith Shastry",
@@ -91,7 +91,7 @@
   },
   {
     "label": "Mini-Stocks",
-    "image": "mini_stocks.jpg",
+    "image": "mini_stocks.png",
     "leads": [
       {
         "name": "Jeffrey Lu",
@@ -105,7 +105,7 @@
   },
   {
     "label": "Replicating GPT-2",
-    "image": "replicating_gpt_2.jpg",
+    "image": "replicating_gpt_2.png",
     "leads": [
       {
         "name": "Nathan Kawamoto",
