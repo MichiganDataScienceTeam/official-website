@@ -4,8 +4,8 @@
     "image": "american_airlines.jpg",
     "leads": [
       {
-        "name": "Tiernan Jesrani",
-        "image": "tiernanj.jpg"
+        "name": "Akshith Pulgam",
+        "image": "blank.webp"
       }
     ]
   },
@@ -14,206 +14,106 @@
     "image": "recidivism_analysis.jpg",
     "leads": [
       {
-        "name": "Lucas Tam",
-        "image": "lucastam.png"
+        "name": "William McKanna",
+        "image": "blank.webp"
       },
       {
-        "name": "Angela Li",
-        "image": "anqili.jfif"
+        "name": "Ryan Zimmel",
+        "image": "blank.webp"
+      }
+    ]
+  },
+  {
+    "label": "Sports Data Analysis",
+    "image": "sports_data_analysis.jpg",
+    "leads": [
+      {
+        "name": "Rahul Govil",
+        "image": "blank.webp"
+      }
+    ]
+  },
+  {
+    "label": "Building ML Models",
+    "image": "building_ml_models.jpg",
+    "leads": [
+      {
+        "name": "Kevin Calopisis",
+        "image": "blank.webp"
+      },
+      {
+        "name": "Isaac Heitmann",
+        "image": "blank.webp"
       }
     ]
   },
   {
     "label": "Shazam Clone",
-    "image": "car_brand_classification.jpeg",
+    "image": "shazam_clone.webp",
     "leads": [
       {
-        "name": "Aditi Kashi",
-        "image": "adikashi.jpg"
+        "name": "Dennis Farmer",
+        "image": "blank.webp"
       },
       {
-        "name": "Anish Kudupudi",
+        "name": "Evan Teal",
         "image": "blank.webp"
       }
     ]
   },
   {
-    "label": "LLM App Development",
-    "image": "llm_augmentation.jpg",
+    "label": "Alzheimer's MRI Classifier",
+    "image": "alzheimers_mri_classifier.webp",
     "leads": [
       {
-        "name": "Aditya Murali",
-        "image": "adityamu.jpeg"
+        "name": "Aman Amith Shastry",
+        "image": "blank.webp"
       },
       {
-        "name": "Jordan Jones",
-        "image": "jordanrj.jpeg"
-      }
-    ]
-  },
-  {
-    "label": "Minecraft Clip Summarizer",
-    "image": "minecraft_clip_summarizer.jpg",
-    "leads": [
-      {
-        "name": "Antonio Capdevielle",
-        "image": "acapdevi.jpg"
-      },
-      {
-        "name": "Yatin Bichala",
+        "name": "Timothy Baker",
         "image": "blank.webp"
       }
     ]
   },
   {
-    "label": "Mini AlphaGo",
-    "image": "mini_alphago.jpg",
+    "label": "Text-to-Image Generator",
+    "image": "text_to_image_generator.png",
     "leads": [
       {
-        "name": "Onat Ozer",
-        "image": "onatozer.jpeg"
+        "name": "Yunwoo Chang",
+        "image": "blank.webp"
       },
+      {
+        "name": "Muhammad Siddiq",
+        "image": "blank.webp"
+      }
+    ]
+  },
+  {
+    "label": "Mini-Stocks",
+    "image": "mini_stocks.jpg",
+    "leads": [
       {
         "name": "Jeffrey Lu",
         "image": "blank.webp"
-      }
-    ]
-  },
-  {
-    "label": "Fruit Nutrition",
-    "image": "fruit_nutrition.jpg",
-    "leads": [
-      {
-        "name": "Cai Yi Linda Ru",
-        "image": "clindaru.png"
       },
       {
-        "name": "Sergey Kislenkov",
-        "image": "blank.webp"
-      },
-      {
-        "name": "Nick Johnson",
+        "name": "Anish Nandamuri",
         "image": "blank.webp"
       }
     ]
   },
   {
-    "label": "Traffic Accident Prediction",
-    "image": "traffic_accident_prediction.jpg",
+    "label": "Replicating GPT-2",
+    "image": "replicating_gpt_2.jpg",
     "leads": [
       {
-        "name": "Daehwan (Danny) Yoo",
-        "image": "dannyyoo.jpg"
-      },
-      {
-        "name": "Yishan Lin",
-        "image": "yishanlin.jpg"
-      }
-    ]
-  },
-  {
-    "label": "Resume Screener",
-    "image": "resume_screener.jpg",
-    "leads": [
-      {
-        "name": "Nidhil Nayudu",
-        "image": "nidhilnayudu.jpg"
-      },
-      {
-        "name": "Maxim Kim",
-        "image": "blank.webp"
-      }
-    ]
-  },
-  {
-    "label": "Flight Price Prediction",
-    "image": "flight_price_prediction.jpg",
-    "leads": [
-      {
-        "name": "Lorenzo Lupano",
-        "image": "lorenzol.jpg"
-      },
-      {
-        "name": "Swapan Gudaru",
-        "image": "swapang.jpg"
-      }
-    ]
-  },
-  {
-    "label": "Election Voting Analysis",
-    "image": "election_voting_analysis.jpg",
-    "leads": [
-      {
-        "name": "Jordyn Ives",
+        "name": "Nathan Kawamoto",
         "image": "blank.webp"
       },
       {
-        "name": "Amy Do",
-        "image": "amydo.jpeg"
-      }
-    ]
-  },
-  {
-    "label": "MDST Dashboard",
-    "image": "mdst_dashboard.jpg",
-    "leads": [
-      {
-        "name": "Shiva Chandran",
-        "image": "shivac.jpg"
-      },
-      {
-        "name": "Vatsal Shah",
+        "name": "Jason Majoros",
         "image": "blank.webp"
-      }
-    ]
-  },
-  {
-    "label": "Breast Cancer Detection",
-    "image": "breast_cancer_detection.jpg",
-    "leads": [
-      {
-        "name": "Russell Day",
-        "image": "russellday.jpg"
-      },
-      {
-        "name": "Andrew Zhou",
-        "image": "andrewzhou.jpg"
-      },
-      {
-        "name": "Andre Gala-Garza",
-        "image": "andregarza.jpg"
-      }
-    ]
-  },
-  {
-    "label": "Image Style Transfer",
-    "image": "image_style_transfer.jpg",
-    "leads": [
-      {
-        "name": "Luke Yang",
-        "image": "lukeyang.jpeg"
-      },
-      {
-        "name": "Judith Wu",
-        "image": "judithwu.jpg"
-      },
-      {
-        "name": "Shreyas Shrivastava",
-        "image": "blank.webp"
-      }
-    ]
-  },
-  {
-    "label": "JARVIS",
-    "image": "jarvis.jpg",
-    "leads": [
-      {
-        "name": "Aarushi Shah",
-        "image": "aarushis.jpg"
-      },
-      {
-        "name": "Muhammad (Abubakar) Siddiq",
-        "image": "muhammads.jpeg"
       }
     ]
   }
