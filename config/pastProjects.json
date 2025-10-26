@@ -1,4 +1,50 @@
-{
+{   "Winter 2025":[
+    {
+       "label": "American Airlines",
+    },
+    {
+       "label": "Recidivism Analysis",
+    },
+    {
+       "label": "Car Brand Classification",
+    },
+    {
+       "label": "LLM App Development",
+    },
+    {
+       "label": "Minecraft Clip Summarizer",
+    },
+    {
+       "label": "Mini AlphaGo",
+    },
+    {
+       "label": "Fruit Nutrition",
+    },
+    {
+       "label": "Traffic Accident Prediction",
+    },
+    {
+       "label": "Resume Screener",
+    },
+    {
+       "label": "Flight Price Prediction",
+    },
+    {
+       "label": "Election Voting Analysis",
+    },
+    {
+       "label": "MDST Dashboard",
+    },
+    {
+       "label": "Breast Cancer Detection",
+    },
+    {
+       "label": "Image Style Transfer",
+    },
+    {
+       "label": "JARVIS",
+    }
+    ],
     "Fall 2024": [
         {
             "label": "Spotify Analysis"
