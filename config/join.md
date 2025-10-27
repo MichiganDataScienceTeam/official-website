@@ -20,7 +20,7 @@ MDST is hosting two mass meetings this year. Join us on January 12, 2025 at 12:0
 
 Take a look at our slides and recording from last semester's mass meeting:
 
-<p className="md-button-wrapper"><a className="md-button" href="https://docs.google.com/presentation/d/1Mwjlcn5mIzR_os_4xjpWfFwecRu8stc1w-tb_76mVak/edit?usp=sharing"> Mass Meeting Slides</a></p>
+<p className="md-button-wrapper"><a className="md-button" href="https://docs.google.com/presentation/d/1t3gDbbn2A0olplKDnWa6BW6DsYrYDCFih-7RqGtmZMo/edit?usp=sharing"> Mass Meeting Slides</a></p>
 
 <hr>
 
