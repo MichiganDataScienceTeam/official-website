@@ -5,7 +5,7 @@
     "leads": [
       {
         "name": "Akshith Pulgam",
-        "image": "blank.webp"
+        "image": "akshithpulgam.jpeg"
       }
     ]
   },
@@ -15,11 +15,11 @@
     "leads": [
       {
         "name": "William McKanna",
-        "image": "blank.webp"
+        "image": "williammckanna.jpeg"
       },
       {
         "name": "Ryan Zimmel",
-        "image": "blank.webp"
+        "image": "ryanzimmel.jpg"
       }
     ]
   },
@@ -53,11 +53,11 @@
     "leads": [
       {
         "name": "Dennis Farmer",
-        "image": "blank.webp"
+        "image": "dennisfarmer.jpeg"
       },
       {
         "name": "Evan Teal",
-        "image": "blank.webp"
+        "image": "evanteal.jpg"
       }
     ]
   },
@@ -71,7 +71,7 @@
       },
       {
         "name": "Timothy Baker",
-        "image": "blank.webp"
+        "image": "timothybaker.png"
       }
     ]
   },
@@ -81,7 +81,7 @@
     "leads": [
       {
         "name": "Yunwoo Chang",
-        "image": "blank.webp"
+        "image": "yunwoochang.png"
       },
       {
         "name": "Muhammad Siddiq",
@@ -95,7 +95,7 @@
     "leads": [
       {
         "name": "Jeffrey Lu",
-        "image": "blank.webp"
+        "image": "jeffreylu.JPG"
       },
       {
         "name": "Anish Nandamuri",
@@ -109,11 +109,11 @@
     "leads": [
       {
         "name": "Nathan Kawamoto",
-        "image": "blank.webp"
+        "image": "temp.jpeg"
       },
       {
         "name": "Jason Majoros",
-        "image": "blank.webp"
+        "image": "temp.jpeg"
       }
     ]
   }
