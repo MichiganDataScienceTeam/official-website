@@ -116,5 +116,15 @@
         "image": "temp.jpeg"
       }
     ]
+  },
+  {
+    "label": "Loan Risk Prediction",
+    "image": "loan_risk_prediction.png",
+    "leads": [
+      {
+        "name": "Raymond Cao",
+        "image": "raymondcao.png"
+      }
+    ]
   }
 ]
