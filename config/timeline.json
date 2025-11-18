@@ -1,45 +1,29 @@
 {
   "show_on_homepage": true,
-  "title": "Recruiting Timeline Fall 2025",
+  "title": "MDST Semester Wrap-Up Timeline",
   "events": [
     {
-      "title": "Mass Meeting #1 @ Michigan Union 2210 ABC",
-      "time": "August 28th 7:30 - 8:30pm",
-      "description": "Join us to learn more about MDST and how to become a member."
-    },
-    {
-      "title": "Mass Meeting 2 @ Online",
-      "time": "September 2nd 7:00 - 8:00pm",
-      "description": "Same content as Mass Meeting #1.",
+      "title": "Project Lead Application Deadline",
+      "time": "November 21st 11:59pm",
+      "description": "Open to members who have completed at least one semester in MDST."
       "external": {
-        "name": "Zoom",
-        "link": "https://umich.zoom.us/j/98575201395"
+        "name": "Project Lead Application Form",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSdf0v7eYJnGPWQYlW8sBpFdUeUXm2bOSSH6GV6LGjVP4LtnCw/viewform?usp=header"
       }
     },
     {
-      "title": "Tutorial #1",
-      "time": "September 5th 6:00 - 7:00pm",
-      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
+      "title": "MDST Final Project Expo",
+      "time": "November 21st 6:00 - 7:00pm",
+      "description": "Teams showcase their semester-long projects to the MDST community.",
+      "external": {
+        "name": "RSVP Here",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSc2Ye054tmB1l3O962QQtbUzh89ecu1BHbZzRipSdgSH2x1gw/viewform?usp=header"
+      }
     },
     {
-      "title": "Project Fair",
-      "time": "September 7th 12:00 - 3:00pm",
-      "description": "Meet with project leads to learn about our projects and ask questions."
-    },
-    {
-      "title": "Office Hours 1 @ Mason Hall 2448",
-      "time": "September 9th 6:00 - 8:00pm",
-      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
-    },
-    {
-      "title": "Office Hours 2 @ Mason Hall 2448",
-      "time": "September 12th 5:00 - 7:00pm",
-      "description": "Troubleshooting session for setup, tutorials, and checkpoints."
-    },
-    {
-      "title": "Application Due",
-      "time": "September 15th 11:59pm",
-      "description": "Submit your application!"
+      "title": "Committee Applications",
+      "time": "Form Release Date: To Be Determined",
+      "description": "MDST committees work behind the scenes to organize events, manage club operations, lead community engagement, and help the organization run smoothly."
     }
   ]
 }
