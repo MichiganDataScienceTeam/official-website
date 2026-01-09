@@ -1,29 +1,45 @@
 {
   "show_on_homepage": true,
-  "title": "MDST Semester Wrap-Up Timeline",
+  "title": "MDST W26 Recruitment Schedule",
   "events": [
     {
-      "title": "Project Lead Application Deadline",
-      "time": "November 21st 11:59pm",
-      "description": "Open to members who have completed at least one semester in MDST.",
+      "title": "Mass Meeting #1",
+      "time": "January 12th 6:30-7:30 PM",
+      "description": "Join us to learn more about MDST and how to become a member.",
       "external": {
-        "name": "Project Lead Application Form",
-        "link": "https://docs.google.com/forms/d/e/1FAIpQLSdf0v7eYJnGPWQYlW8sBpFdUeUXm2bOSSH6GV6LGjVP4LtnCw/viewform?usp=header"
+        "name": "(Zoom Link TBD)",
+        "link": ""
       }
     },
     {
-      "title": "MDST Final Project Expo",
-      "time": "November 21st 6:00 - 7:00pm",
-      "description": "Teams showcase their semester-long projects to the MDST community.",
-      "external": {
-        "name": "RSVP Here",
-        "link": "https://docs.google.com/forms/d/e/1FAIpQLSc2Ye054tmB1l3O962QQtbUzh89ecu1BHbZzRipSdgSH2x1gw/viewform?usp=header"
-      }
+      "title": "Office Hours #1",
+      "time": "January 13th 6-8 PM",
+      "description": "Drop by 3302 Mason Hall to ask questions, get help with tutorials, or chat with current members."
     },
     {
-      "title": "Committee Applications",
-      "time": "Form Release Date: To Be Determined",
-      "description": "MDST committees work behind the scenes to organize events, manage club operations, lead community engagement, and help the organization run smoothly."
+      "title": "Mass Meeting #2",
+      "time": "January 14th 6-7 PM",
+      "description": "Join us to learn about MDST and meet the team in person at the Kuenzel Room in the Union."
+    },
+    {
+      "title": "Project Fair",
+      "time": "January 18th 12-1:30 PM",
+      "description": "Meet project leads, explore this semester's projects, and find the right team for you. Room TBA."
+    },
+    {
+      "title": "Office Hours #2",
+      "time": "January 19th 6-8 PM",
+      "description": "Stop by 2407 Mason Hall for last-minute tutorial help or any questions before the deadline."
+    },
+    {
+      "title": "Tutorials Due",
+      "time": "January 20th 11:59 PM",
+      "description": "Submit your completed tutorials by this deadline to be eligible for project placement."
+    },
+    {
+      "title": "First Work Session",
+      "time": "January 25th 12-3 PM",
+      "description": "Kick off the semester with your project team! Meet your teammates and start working together."
     }
   ]
 }
