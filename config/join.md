@@ -16,7 +16,7 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 <!--- Still need place for mass meetings --->
 
-MDST is hosting two mass meetings this year. Join us on January 12, 2025 at 12:00pm or 6:00pm. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
+MDST is hosting two mass meetings this year. Join us on January 12, 2026 from 6:30-7:30 PM or on January 14th from 6-7 PM. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
 Take a look at our slides and recording from last semester's mass meeting:
 
@@ -29,7 +29,7 @@ Take a look at our slides and recording from last semester's mass meeting:
 New members are required to **complete two checkpoints** giving an introduction to data science and programming in Python. The purpose of these tutorials is to make sure that all of our members, despite their background, are able to equally contribute to MDST projects.
 
 <div className="callout font-normal">
-    The tutorials for Winter 2025 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/MDST-Onboarding). The repository contains all the materials and instructions you need to complete the tutorials, as well as information about the support we provide if you have any questions.
+    The tutorials for Winter 2026 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/MDST-Onboarding). The repository contains all the materials and instructions you need to complete the tutorials, as well as information about the support we provide if you have any questions.
 </div>
 
 <span className="highlight">Note: </span> Please direct all technical and logistical questions regarding tutorials to our <a href="https://edstem.org/us/join/Mx3ut8">forum</a> for better visibility.
@@ -46,7 +46,7 @@ See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboard
 
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
-The submission form will be due **September 15th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2025 semester.
+The submission form will be due **January 20th, 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Winter 2026 semester.
 
 <hr>
 
@@ -54,10 +54,10 @@ The submission form will be due **September 15th, 11:59 PM**, after which we wil
 
 <!--- Need to add time and place --->
 
-Before joining the club, we will host a project exploration fair on **Setember 7th, 2025** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
+Before joining the club, we will host a project exploration fair on **January 18th, 2025** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
 
 After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty).
 
 <div className="callout font-normal">
-    ⚠️ You **must attend** the exploration fair to be placed on a project this semester. If you are unable to attend but would still like to participate in projects, you must [email us](mailto:mdst-coms@umich.edu) in advance letting us know, and we will consider your request on a case-by-case basis. If emailing us, please include `[EXPLORATION FAIR]` in your email title.
+    ⚠️ You **must attend** the exploration fair to be placed on a project this semester. If you are unable to attend but would still like to participate in projects, you must fill out the [Project Fair Absence Form](https://docs.google.com/forms/d/e/1FAIpQLSceYGR_2Td0_SfHCC3c1xj4fiAqbdm3hO2BtIiI-et2Pqx6eA/viewform) in advance letting us know, and we will consider your request on a case-by-case basis.
 </div>
