@@ -24,7 +24,11 @@
     {
       "title": "Project Fair",
       "time": "January 18th 12-1:30 PM",
-      "description": "Meet project leads, explore this semester's projects, and find the right team for you. Room: CCCB 2460."
+      "description": "Meet project leads, explore this semester's projects, and find the right team for you. Room: CCCB 2460. Note: Sponsored project application forms can be found in the Project Sign Up Form.",
+      "external": {
+        "name": "(Project Sign Up Form)",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSc_8tbTvXq_iFNs2m1VhCIleMtBjJ9srLRsKvN1NIMXHJaOdw/viewform"
+      }
     },
     {
       "title": "Office Hours #2",
