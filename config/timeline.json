@@ -34,7 +34,11 @@
     {
       "title": "Tutorials and Project Matching Form Due",
       "time": "January 20th 11:59 PM",
-      "description": "Submit your completed tutorials and project matching form by this deadline to be eligible for project placement."
+      "description": "Submit your completed tutorials and project matching form by this deadline to be eligible for project placement. Note links to separate applications for sponsored projects can be found in the Project Sign Up Application",
+      "external": {
+        "name": "Project Sign Up Application",
+        "link": "https://docs.google.com/forms/d/e/1FAIpQLSc_8tbTvXq_iFNs2m1VhCIleMtBjJ9srLRsKvN1NIMXHJaOdw/viewform"
+      }
     },
     {
       "title": "First Work Session",
