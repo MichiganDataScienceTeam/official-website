@@ -8,7 +8,7 @@ export default function ProjectCard({ project, basePath }) {
     .split(" ")
     .join("_")}.jpg`;
   return (
-    <div className="text-left sm:text-center rounded bg-grey py-2 sm:py-4 px-2 sm:px-8 w-full sm:w-60 flex sm:block gap-8">
+    <div className="text-left sm:text-center rounded bg-grey py-2 sm:py-4 px-2 sm:px-8 w-full sm:w-60 flex sm:block gap-8 transition duration-300 hover:scale-105 hover:shadow-lg">
       <Image
         className="sm:mx-auto sm:mb-4 sm:w-44 sm:h-44 w-24 h-24 my-auto rounded-full object-cover"
         width="176"
@@ -25,7 +25,7 @@ export default function ProjectCard({ project, basePath }) {
             <li>
               <Link
                 href={project.github}
-                className="hover:text-gray"
+                className="hover:text-gray transition"
                 aria-label="Github Repo"
               >
                 <Icon name="github" className="text-3xl" />
@@ -36,7 +36,7 @@ export default function ProjectCard({ project, basePath }) {
             <li>
               <Link
                 href={project.googleSlides}
-                className="hover:text-gray"
+                className="hover:text-gray transition"
                 aria-label="Google Slides"
               >
                 <Icon name="file-pdf" className="text-3xl" />

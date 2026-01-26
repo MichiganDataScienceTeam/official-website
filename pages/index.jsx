@@ -7,6 +7,9 @@ import SponsorSection from "@/components/sponsorSection";
 import CompanySection from "@/components/companySection";
 import Timeline from "@/components/timeline";
 import CommunityImages from "@/components/communityImages";
+import FadeIn from "@/components/animations/FadeIn";
+import StaggerContainer from "@/components/animations/StaggerContainer";
+import Section from "@/components/Section";
 import loadStaticData from "@/shared/static";
 import Image from "next/image";
 import Link from "next/link";
@@ -33,7 +36,7 @@ export default function Home({
       />
       <Hero>
         <div className="flex gap-8 items-center md:flex-row flex-col p-8">
-          <div className="md:w-1/2 w-full">
+          <FadeIn direction="left" className="md:w-1/2 w-full">
             <h1 className="mb-2 md:mb-5 lg:text-5xl md:text-4xl text-3xl font-bold font-sans tracking-tight">
               U-M&apos;s Premier Applied Data Science Club
             </h1>
@@ -46,97 +49,106 @@ export default function Home({
               <Button href="/join" text="Join Us" />
               <Button href="/sponsors" text="Work with Us" />
             </div>
-          </div>
-          <Image
-            className="md:w-1/2 w-full"
-            width="500"
-            height="500"
-            src={
-              basePath
-                ? `${basePath}/images/Dataframe_Graphic.svg`
-                : "/images/Dataframe_Graphic.svg"
-            }
-            alt="Dataframe of movie reviews and distribution"
-            priority={true}
-          />
+          </FadeIn>
+          <FadeIn direction="right" delay={0.2} className="md:w-1/2 w-full">
+            <Image
+              className="w-full"
+              width="500"
+              height="500"
+              src={
+                basePath
+                  ? `${basePath}/images/Dataframe_Graphic.svg`
+                  : "/images/Dataframe_Graphic.svg"
+              }
+              alt="Dataframe of movie reviews and distribution"
+              priority={true}
+            />
+          </FadeIn>
         </div>
       </Hero>
-      <div
-        className={`container mx-auto px-7  ${timeline.show_on_homepage
-          ? "grid gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
-          : "flex max-w-6xl"
-          }`}
-      >
-        {timeline.show_on_homepage && (
-          <div className="bg-grey p-4 sm:p-8 rounded-lg">
-            <h2 className="text-3xl font-bold mb-4 gradient-text">
-              {timeline.title}
-            </h2>
-            <Timeline events={timeline.events} />
-          </div>
-        )}
-        <div className="lg:order-none order-first">
-          <div className="xl:sticky top-24">
-            <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-2">
-              <div className="mb-4">
-                <span className="font-bold">
-                  Michigan Data Science Team (MDST)
-                </span>{" "}
-                is the largest data science club at the University of Michigan,
-                dedicated to equipping U-M students with the skills needed for
-                future data-driven careers.
-              </div>
-              <div className="mb-4">
-                We believe data science is for everyone. Each semester, MDST
-                runs team-based projects, allowing you to learn and practice
-                data science skills and their applications in a variety of
-                domains.
-              </div>
-              <div className="mb-4">
-                We also host guest talks, workshops, and socials - all
-                opportunities to meet and interact with the larger data science
-                community at the U-M and beyond.
-              </div>
-            </div>
-            <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-8 flex">
-              <p className="sm:flex block">
-                All U-M students are welcome to join MDST.&nbsp;
-                <Link
-                  href="/join"
-                  className="font-bold flex whitespace-nowrap content-center hover:underline transition"
-                >
-                  Join now&nbsp;
-                  <Icon name="arrow-stem-left" className="my-auto font-bold" />
-                </Link>
-              </p>
-            </div>
-            <div
-              className={`flex flex-col md:flex-row gap-4 ${timeline.show_on_homepage ? "lg:flex-col" : ""
-                } xl:flex-row`}
-            >
-              <Factbox fact="250+" closer="community members"></Factbox>
-              <Factbox fact="14+" closer="project teams"></Factbox>
-              <Factbox
-                fact="10+"
-                closer="socials, workshops, tech talks, and more"
-              ></Factbox>
+      <section className="py-16 lg:py-24 px-4 lg:px-6">
+        <div
+          className={`max-w-screen-xl mx-auto ${timeline.show_on_homepage
+            ? "grid gap-6 lg:gap-8 lg:grid-cols-2 lg:grid-rows-1 grid-auto-rows flex-row-reverse"
+            : "flex max-w-6xl"
+            }`}
+        >
+          {timeline.show_on_homepage && (
+            <FadeIn direction="left" className="bg-grey p-4 sm:p-8 rounded-lg">
+              <h2 className="text-3xl font-bold mb-6 lg:mb-8 gradient-text">
+                {timeline.title}
+              </h2>
+              <Timeline events={timeline.events} />
+            </FadeIn>
+          )}
+          <div className="lg:order-none order-first">
+            <div className="xl:sticky top-24">
+              <FadeIn direction="up">
+                <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-2">
+                  <div className="mb-4">
+                    <span className="font-bold">
+                      Michigan Data Science Team (MDST)
+                    </span>{" "}
+                    is the largest data science club at the University of Michigan,
+                    dedicated to equipping U-M students with the skills needed for
+                    future data-driven careers.
+                  </div>
+                  <div className="mb-4">
+                    We believe data science is for everyone. Each semester, MDST
+                    runs team-based projects, allowing you to learn and practice
+                    data science skills and their applications in a variety of
+                    domains.
+                  </div>
+                  <div className="mb-4">
+                    We also host guest talks, workshops, and socials - all
+                    opportunities to meet and interact with the larger data science
+                    community at the U-M and beyond.
+                  </div>
+                </div>
+                <div className="xl:text-xl lg:text-lg text-base font-light tracking-normal mb-6 lg:mb-8 flex">
+                  <p className="sm:flex block">
+                    All U-M students are welcome to join MDST.&nbsp;
+                    <Link
+                      href="/join"
+                      className="font-bold flex whitespace-nowrap content-center hover:underline transition"
+                    >
+                      Join now&nbsp;
+                      <Icon name="arrow-stem-left" className="my-auto font-bold" />
+                    </Link>
+                  </p>
+                </div>
+              </FadeIn>
+              <StaggerContainer
+                staggerDelay={0.1}
+                className={`flex flex-col md:flex-row gap-6 lg:gap-8 ${timeline.show_on_homepage ? "lg:flex-col" : ""
+                  } xl:flex-row`}
+              >
+                <Factbox fact="250+" closer="community members"></Factbox>
+                <Factbox fact="14+" closer="project teams"></Factbox>
+                <Factbox
+                  fact="10+"
+                  closer="socials, workshops, tech talks, and more"
+                ></Factbox>
+              </StaggerContainer>
             </div>
           </div>
         </div>
-      </div>
+      </section>
       <Carousel projects={projects} basePath={basePath} />
       <CommunityImages basePath={basePath} images={communityImages} />
-      <div className="container mx-auto px-2 mt-8">
-        <h2 className="text-3xl text-center">
-          MDST is proudly supported by our sponsors
-        </h2>
-        <SponsorSection basePath={basePath} group={sponsors[0]} />
-        <SponsorSection basePath={basePath} group={sponsors[1]} />
-      </div>
-      <div className="container mx-auto px-2 mt-8">
-        <h2 className="text-3xl text-center">Companies We Worked With:</h2>
-        <CompanySection basePath={basePath} group={companies[0]} />
-      </div>
+      <Section title="MDST is proudly supported by our sponsors">
+        <FadeIn>
+          <SponsorSection basePath={basePath} group={sponsors[0]} />
+        </FadeIn>
+        <FadeIn delay={0.1}>
+          <SponsorSection basePath={basePath} group={sponsors[1]} />
+        </FadeIn>
+      </Section>
+      <Section title="Companies We Worked With:">
+        <FadeIn>
+          <CompanySection basePath={basePath} group={companies[0]} />
+        </FadeIn>
+      </Section>
     </Layout>
   );
 }
@@ -145,7 +157,7 @@ function ProjectCard({ json, basePath }) {
   return (
     <Link
       href={json.link}
-      className="bg-grey-light p-5 rounded-lg drop-shadow-sm max-w-[350px] transition hover:-translate-y-1 min-w-[200px] w-full"
+      className="block bg-grey-light p-5 rounded-lg drop-shadow-sm transition hover:-translate-y-1 hover:shadow-lg w-full h-full"
     >
       <Image
         className="w-full rounded mb-3 h-44 md:h-56 lg:h-72 xl:h-80 object-cover"
@@ -228,16 +240,20 @@ function Carousel({ projects, basePath }) {
   }
   return (
     <div className="bg-grey">
-      <div className="container mx-auto mt-16 mb-16 py-4 p-4 relative overflow-hidden">
-        <h2 className="text-3xl text-center font-bold">Recent Projects</h2>
+      <div className="max-w-screen-xl mx-auto py-16 lg:py-24 px-4 lg:px-6 relative overflow-hidden">
+        <FadeIn>
+          <h2 className="text-3xl text-center font-bold mb-6 lg:mb-8">Recent Projects</h2>
+        </FadeIn>
         <div
-          className="flex gap-4 flex-row p-4 justify-center transition"
+          className="flex gap-6 lg:gap-8 flex-row justify-center transition"
           style={{
             transform: `translateX(${translation})`,
           }}
         >
           {projects.map((project, index) => (
-            <ProjectCard key={index} basePath={basePath} json={project} />
+            <FadeIn key={index} delay={0.1 + index * 0.15} className="max-w-[350px] min-w-[200px]">
+              <ProjectCard basePath={basePath} json={project} />
+            </FadeIn>
           ))}
         </div>
         <button

@@ -21,6 +21,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
+    "framer-motion": "^12.29.2",
     "markdown-to-jsx": "^7.2.0",
     "material-icons": "^1.13.8",
     "next": "13.3.1",

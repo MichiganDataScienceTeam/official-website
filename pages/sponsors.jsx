@@ -19,8 +19,8 @@ export default function Sponsors({ sponsors }) {
       />
 
       <Hero title="MDST Sponsors" />
-      <div className="bg-grey py-8">
-        <div className=" container mx-auto px-7 text-lg">
+      <div className="bg-grey py-16 lg:py-24">
+        <div className="max-w-screen-xl mx-auto px-4 lg:px-6 text-lg">
           MDST sponsors directly support our data science education efforts and
           have direct access to our top data science talent. Reach out to{" "}
           <Link className="underline" href="mailto:mdst-coms@umich.edu">

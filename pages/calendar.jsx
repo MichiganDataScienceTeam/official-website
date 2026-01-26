@@ -6,8 +6,8 @@ import googleCalendarPlugin from '@fullcalendar/google-calendar';
 import Button from "@/components/button";
 import loadStaticData from "@/shared/static";
 import HeadContent from "@/components/headContent";
-export default function CalendarPage({ calendarLink }) {
 
+export default function CalendarPage({ calendarLink }) {
   return (
     <Layout>
       <HeadContent
@@ -17,9 +17,10 @@ export default function CalendarPage({ calendarLink }) {
         }
       />
       <Hero title="Calendar" />
-      <div className="mx-auto container p-2">
-
-        <div className="mb-4"><Button className='mb-4' href={calendarLink} text={"Add to Google Calendar"} /></div>
+      <section className="py-16 lg:py-24 px-4 lg:px-6 max-w-screen-xl mx-auto">
+        <div className="mb-6 lg:mb-8">
+          <Button className='mb-4' href={calendarLink} text={"Add to Google Calendar"} />
+        </div>
         <FullCalendar
           plugins={[listPlugin, googleCalendarPlugin]}
           initialView="listMonth"
@@ -28,12 +29,10 @@ export default function CalendarPage({ calendarLink }) {
             googleCalendarId: 'c_22ca0c151585760442cad5796fb91bd18b7db11d813e9143e38549aadce65afe@group.calendar.google.com',
           }}
         />
-      </div>
-
+      </section>
     </Layout>
   );
 }
-
 
 export async function getStaticProps() {
   const data = loadStaticData("links.json");

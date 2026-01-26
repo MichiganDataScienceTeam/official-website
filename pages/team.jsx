@@ -2,6 +2,8 @@ import HeadContent from "@/components/headContent";
 import Hero from "@/components/hero";
 import Icon from "@/components/icon";
 import Layout from "@/components/layout";
+import FadeIn from "@/components/animations/FadeIn";
+import StaggerContainer from "@/components/animations/StaggerContainer";
 import loadStaticData from "@/shared/static";
 import Image from "next/image";
 import Link from "next/link";
@@ -34,23 +36,30 @@ export async function getStaticProps() {
 
 function GroupSection({ group, basePath }) {
   return (
-    <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-      <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-        <h2 className="text-3xl mb-4">{group.groupName}</h2>
-        <p className="font-light sm:text-xl">{group.description}</p>
+    <div className="py-16 lg:py-24 px-4 lg:px-6 mx-auto max-w-screen-xl text-center">
+      <div className="mx-auto mb-6 lg:mb-8 max-w-screen-sm">
+        <FadeIn>
+          <h2 className="text-3xl mb-4">{group.groupName}</h2>
+        </FadeIn>
+        <FadeIn delay={0.1}>
+          <p className="font-light sm:text-xl">{group.description}</p>
+        </FadeIn>
       </div>
-      <div className="flex flex-wrap justify-center gap-4 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <StaggerContainer
+        staggerDelay={0.1}
+        className="flex flex-wrap justify-center gap-6 lg:gap-8"
+      >
         {group.members.map((memberinfo, index) => (
           <MemberCard key={index} basePath={basePath} json={memberinfo} />
         ))}
-      </div>
+      </StaggerContainer>
     </div>
   );
 }
 
 function MemberCard({ json, basePath }) {
   return (
-    <div className="text-left sm:text-center rounded bg-grey py-2 sm:py-4 px-2 sm:px-8 w-full sm:w-60 flex sm:block gap-8">
+    <div className="text-left sm:text-center rounded bg-grey py-2 sm:py-4 px-2 sm:px-8 w-full sm:w-60 flex sm:block gap-8 transition hover:scale-105 hover:shadow-lg">
       <Image
         className="sm:mx-auto sm:mb-4 sm:w-44 sm:h-44 w-24 h-24 my-auto rounded-full object-cover"
         width="176"
@@ -82,7 +91,6 @@ function MemberCard({ json, basePath }) {
           ) : null}
         </ul>
       </div>
-
     </div>
   );
 }
