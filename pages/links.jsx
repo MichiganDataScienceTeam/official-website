@@ -23,17 +23,17 @@ export default function Links({ linksjson }) {
           basePath ? `${basePath}/images/favicon.png` : "/images/favicon.png"
         }
       />
-      <h1 className=" lg:text-3xl text-2xl font-bold text-center">
+      <h1 className="lg:text-3xl text-2xl font-bold text-center">
         MDST - Michigan Data Science Team Links
       </h1>
       <div
         className={`fixed top-4 ${showToast ? "" : "-translate-y-40"
-          } duration-75	transition-transform left-1/2 transform -translate-x-1/2 p-2 bg-green-600 rounded text-white `}
+          } duration-75 transition-transform left-1/2 transform -translate-x-1/2 p-2 bg-green-600 rounded text-white`}
       >
         Copied!
       </div>
 
-      <div className="py-8 px-2 flex flex-col justify-center items-center gap-4">
+      <div className="py-8 px-4 lg:px-6 flex flex-col justify-center items-center gap-6 lg:gap-8">
         {linksjson.map((link) => (
           <LinkElement
             key={link.name}
@@ -58,7 +58,7 @@ function LinkElement({ link, toast }) {
       href={link.href}
       target="_blank"
       className={`p-4 ${link?.color === "primary" ? "bg-primary-dark" : "bg-grey"
-        } rounded-lg grid w-72 items-center gap-6 link hover:-translate-y-1 `}
+        } rounded-lg grid w-72 items-center gap-6 link transition hover:-translate-y-1 hover:shadow-lg`}
     >
       <Icon name={link.icon_name} className="text-4xl" />
       <h2 className="font-bold text-lg">{link.name}</h2>

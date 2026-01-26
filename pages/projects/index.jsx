@@ -5,6 +5,8 @@ import Hero from "@/components/hero";
 import Layout from "@/components/layout";
 import CurrentProjectCard from "@/components/currentProjectCard";
 import ProjectCard from "@/components/projectCard";
+import FadeIn from "@/components/animations/FadeIn";
+import StaggerContainer from "@/components/animations/StaggerContainer";
 import { useRouter } from "next/router";
 
 export default function Projects({ groupedLinks, currentProjects }) {
@@ -21,24 +23,31 @@ export default function Projects({ groupedLinks, currentProjects }) {
       />
       <Hero title="Our Projects" />
 
-      <section className="current-projects py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-        <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <h2 className="text-3xl mb-4">Current Projects 2025 Fall</h2>
-          <h3>
-            More project details are on our{" "}
-            <a
-              href="https://mdst-club.notion.site/Fall-2025-Project-Directory-25dc107f9e9580f9beb0f7c64595ef1d"
-              style={{
-                color: "#C8BAF3",
-                fontWeight: "bold",
-                textDecoration: "underline",
-              }}
-            >
-              Notion Page
-            </a>
-          </h3>
+      <section className="py-16 lg:py-24 px-4 lg:px-6 mx-auto max-w-screen-xl text-center">
+        <div className="mx-auto mb-6 lg:mb-8 max-w-screen-sm">
+          <FadeIn>
+            <h2 className="text-3xl mb-4">Current Projects 2025 Fall</h2>
+          </FadeIn>
+          <FadeIn delay={0.1}>
+            <h3>
+              More project details are on our{" "}
+              <a
+                href="https://mdst-club.notion.site/Fall-2025-Project-Directory-25dc107f9e9580f9beb0f7c64595ef1d"
+                style={{
+                  color: "#C8BAF3",
+                  fontWeight: "bold",
+                  textDecoration: "underline",
+                }}
+              >
+                Notion Page
+              </a>
+            </h3>
+          </FadeIn>
         </div>
-        <div className="flex flex-wrap justify-center gap-8">
+        <StaggerContainer
+          staggerDelay={0.1}
+          className="flex flex-wrap justify-center gap-6 lg:gap-8"
+        >
           {currentProjects.map((project, index) => (
             <CurrentProjectCard
               key={index}
@@ -46,7 +55,7 @@ export default function Projects({ groupedLinks, currentProjects }) {
               basePath={basePath}
             />
           ))}
-        </div>
+        </StaggerContainer>
       </section>
 
       {Object.entries(groupedLinks)
@@ -75,15 +84,20 @@ export default function Projects({ groupedLinks, currentProjects }) {
 
 function GroupSection({ semester, projects, basePath }) {
   return (
-    <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-      <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-        <h2 className="text-3xl mb-4">{semester}</h2>
+    <div className="py-16 lg:py-24 px-4 lg:px-6 mx-auto max-w-screen-xl text-center">
+      <div className="mx-auto mb-6 lg:mb-8 max-w-screen-sm">
+        <FadeIn>
+          <h2 className="text-3xl mb-4">{semester}</h2>
+        </FadeIn>
       </div>
-      <div className="flex flex-wrap justify-center gap-4 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+      <StaggerContainer
+        staggerDelay={0.1}
+        className="flex flex-wrap justify-center gap-6 lg:gap-8"
+      >
         {projects.map((project, index) => (
           <ProjectCard key={index} basePath={basePath} project={project} />
         ))}
-      </div>
+      </StaggerContainer>
     </div>
   );
 }
