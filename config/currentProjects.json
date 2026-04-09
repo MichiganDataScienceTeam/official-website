@@ -1,25 +1,59 @@
 [
-  {
+    {
     "label": "American Airlines",
     "image": "american_airlines.png",
     "leads": [
       {
-        "name": "Akshith Pulgam",
-        "image": "akshithpulgam.jpeg"
+        "name": "Pallak Dhabalia",
+        "image": "temp.jpeg"
       }
     ]
   },
   {
-    "label": "Recidivism Analysis",
+    "label": "Blueprintes for Pangaea",
+    "image": "american_airlines.png",
+    "leads": [
+      {
+        "name": "Russell Day",
+        "image": "russellday.jpg"
+      }
+    ]
+  },
+  {
+    "label": "UMSI SO-ELL",
+    "image": "american_airlines.png",
+    "leads": [
+      {
+        "name": "Shlok Kinikar",
+        "image": "temp.jpeg"
+      }
+    ]
+  },
+  {
+    "label": "Uber Data Analysis",
+    "image": "american_airlines.png",
+    "leads": [
+      {
+        "name": "Angela Zhou",
+        "image": "temp.jpeg"
+      },
+      {
+        "name": "Kenny Li",
+        "image": "temp.jpeg"
+      },
+    ]
+  },
+  {
+    "label": "Economic Forecasting",
     "image": "recidivism_analysis.png",
     "leads": [
       {
-        "name": "William McKanna",
-        "image": "williammckanna.jpeg"
+        "name": "Varsha Rajesh",
+        "image": "varsharajesh.jpeg"
       },
       {
-        "name": "Ryan Zimmel",
-        "image": "ryanzimmel.jpg"
+        "name": "Carter Adamski",
+        "image": "temp.jpeg"
       }
     ]
   },
@@ -34,99 +68,95 @@
     ]
   },
   {
-    "label": "Building ML Models",
+    "label": "Building Interpretable AI in Healthcare",
     "image": "building_ml_models.png",
     "leads": [
       {
-        "name": "Kevin Calopisis",
-        "image": "kevincalopisis.jpg"
+        "name": "William McKanna",
+        "image": "williammckanna.jpeg"
       },
       {
-        "name": "Isaac Heitmann",
-        "image": "isaacheitmann.jpg"
+        "name": "Seena Simkani",
+        "image": "temp.jpeg"
       }
     ]
   },
   {
-    "label": "Shazam Clone",
+    "label": "Heart Failure Survival Analysis",
     "image": "shazam_clone.png",
     "leads": [
       {
-        "name": "Dennis Farmer",
-        "image": "dennisfarmer.jpeg"
+        "name": "Sina Bonakdar",
+        "image": "temp.jpeg"
       },
       {
-        "name": "Evan Teal",
-        "image": "evanteal.jpg"
+        "name": "Terry Zhang",
+        "image": "honghaozhang.png"
       }
     ]
   },
   {
-    "label": "Alzheimer's MRI Classifier",
+    "label": "Sign Language Translator",
     "image": "alzheimers_mri_classifier.png",
     "leads": [
       {
-        "name": "Aman Amith Shastry",
-        "image": "amanamithshastry.jpg"
+        "name": "Dennis Farmer",
+        "image": "denniesfarmer.jpeg"
       },
       {
-        "name": "Timothy Baker",
-        "image": "timothybaker.png"
+        "name": "Sharanya Singh",
+        "image": "temp.jpeg"
       }
     ]
   },
   {
-    "label": "Text-to-Image Generator",
+    "label": "Image Collage Generator",
     "image": "text_to_image_generator.png",
     "leads": [
       {
-        "name": "Yunwoo Chang",
-        "image": "yunwoochang.png"
+        "name": "Layne Malek",
+        "image": "temp.jpeg"
       },
       {
-        "name": "Muhammad Siddiq",
-        "image": "muhammadsiddiq.jpeg"
+        "name": "Yuqi Sun",
+        "image": "temp.jpeg"
       }
     ]
   },
   {
-    "label": "Mini-Stocks",
+    "label": "Alpha Trade",
     "image": "mini_stocks.png",
+    "leads": [
+      {
+        "name": "Muhammad Siddiq",
+        "image": "muhammadsiddiq.jpeg"
+      },
+      {
+        "name": "Huy Le",
+        "image": "temp.jpeg"
+      }
+    ]
+  },
+  {
+    "label": "PaperZero",
+    "image": "replicating_gpt_2.png",
     "leads": [
       {
         "name": "Jeffrey Lu",
         "image": "jeffreylu.JPG"
-      },
-      {
-        "name": "Anish Nandamuri",
-        "image": "anishnandamuri.png"
       }
     ]
   },
   {
-    "label": "Replicating GPT-2",
-    "image": "replicating_gpt_2.png",
-    "leads": [
-      {
-        "name": "Nathan Kawamoto",
-        "image": "temp.jpeg"
-      },
-      {
-        "name": "Jason Majoros",
-        "image": "temp.jpeg"
-      }
-    ]
-  },
-  {
-    "label": "Loan Risk Prediction",
+    "label": "Replicating AlphaFold",
     "image": "loan_risk_prediction.png",
     "leads": [
       {
-        "name": "Raymond Cao",
-        "image": "raymondcao.png"
+        "name": "Timothy Baker",
+        "image": "timothybaker.png"
       },
       {
-        "name": "Layne Malek",
+        "name": "Margaret Yu",
         "image": "temp.jpeg"
       }
     ]
