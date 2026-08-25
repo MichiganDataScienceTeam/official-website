@@ -4,34 +4,36 @@
     "description": "The leadership team determining the vision and direction of MDST.",
     "members": [
       {
-        "name": "Shiva Chandran",
-        "title": "President",
-        "linkedin": "https://www.linkedin.com/in/shiva-chandran-215434268",
-        "image": "shivac.jpg"
-      },
-      {
         "name": "Russell Day",
-        "title": "VP of Education",
+        "title": "President",
         "linkedin": "https://www.linkedin.com/in/russell-day/",
         "github": "https://github.com/Russell-Day",
         "image": "russellday.jpg"
       },
       {
-        "name": "Amy Do",
+        "name": "Maragaret Yu",
+        "title": "VP of Education",
+        "linkedin": "https://www.linkedin.com/in/hmyu-margaret-yu",
+        "image": "margaretyu.jpg"
+      },
+      {
+        "name": "Will McKanna",
         "title": "VP of External Affairs",
-        "linkedin": "https://www.linkedin.com/in/amy-do-8549a722b/",
-        "image": "amydo.jpeg"
+        "linkedin": "https://www.linkedin.com/in/will-mckanna/",
+        "image": "williammckanna.jpg"
       },
       {
-        "name": "Noah Pendo",
-        "title": "VP of Finance",
-        "linkedin": "https://www.linkedin.com/in/noah-pendo/",
-        "image": "noahpendo.jpg"
+        "name": "Varsha Rajesh",
+        "title": "Budgeting Lead",
+        "linkedin": "http://www.linkedin.com/in/varsha-rajesh08",
+        "image": "varsharajesh.jpeg"
       },
       {
-        "name": "Jordyn Ives",
+        "name": "Carter Adamski",
         "title": "VP of Internal Affairs",
-        "image": "jordynives.png"
+        "linkedin": "https://www.linkedin.com/in/carter-adamski",
+        "github": "https://github.com/carteradamski",
+        "image": "carteradamski.jpeg"
       },
       {
         "name": "Linda Ru",
@@ -47,25 +49,24 @@
     "description": "Supervises all of MDST's onboarding and educational initiatives, supporting our members as they deepen their data science knowledge. Led by the VP of Education.",
     "members": [
       {
-        "name": "Jeremy Moon",
-        "title": "Recruitment Lead",
+        "name": "Yuqi Sun",
+        "title": "Workshop Lead",
         "linkedin": "https://www.linkedin.com/in/jeremy-moon7/",
         "github": "jere67.github.io",
-        "image": "jeremoon.png"
+        "image": "yuqisun.jpg"
       },
       {
-        "name": "Grace Liu",
-        "title": "Education Developer",
-        "linkedin": "https://www.linkedin.com/in/grace-liu15/",
-        "github": "https://github.com/graceliu15",
-        "image": "graceliu.jpg"
+        "name": "Angela Zhou",
+        "title": "Workshop Lead",
+        "linkedin": "https://www.linkedin.com/in/angela-zhou-8637b5345/",
+        "github": "https://github.com/angelazzhou110-ctrl",
+        "image": "angelazhou.jpeg"
       },
       {
-        "name": "Connor Tivadar",
-        "title": "Education Developer",
-        "linkedin": "https://www.linkedin.com/in/connortivadar/",
-        "github": "https://github.com/ctivadar",
-        "image": "connortivadar.jpg"
+        "name": "Bianca Chandel",
+        "title": "Workshop Lead",
+        "linkedin": "www.linkedin.com/in/bianca-chandel-5057a92aa",
+        "image": "biancachandel.png"
       },
       {
         "name": "Layne Malek",
@@ -86,10 +87,10 @@
         "image": "ishantripathy.png"
       },
       {
-        "name": "Will McKanna",
+        "name": "Rianna Nikhade",
         "title": "Outreach Lead",
-        "linkedin": "https://www.linkedin.com/in/will-mckanna-63a798331/",
-        "image": "williammckanna.jpeg"
+        "linkedin": "https://www.linkedin.com/in/riannan2/",
+        "image": "riannanikhade.jpeg"
       },
       {
         "name": "Julia Sochava",
@@ -98,18 +99,17 @@
         "image": "jsochava.JPG"
       },
       {
-        "name": "Harish Jaisankar",
-        "title": "Web Developer",
-        "linkedin": "https://www.linkedin.com/in/harishjai",
-        "github": "https://github.com/harishj-um",
-        "image": "harishj.png"
+        "name": "Jobandeep Dhillon",
+        "title": "Web Developent Lead",
+        "linkedin": "https://www.linkedin.com/in/jobandeep-dhillon/",
+        "github": "https://github.com/jobdhill",
+        "image": "jobandeepdhillon.jpg"
       },
       {
-        "name": "Sriyan Madugula",
-        "title": "Web Developer",
-        "linkedin": "https://www.linkedin.com/in/sriyanm",
-        "github": "https://github.com/sriyan-madugula-um",
-        "image": "sriyan.png"
+        "name": "Manishika Balamurugan",
+        "title": "Web Development Lead",
+        "linkedin": "https://www.linkedin.com/in/manishikab/",
+        "image": "manishkabalamuragan.jpeg"
       }
     ]
   },
@@ -118,10 +118,23 @@
     "description": "The financial backbone of MDST, planning and allocating our monetary resources. Led by the VP of Finance.",
     "members": [
       {
-        "name": "Varsha Rajesh",
+        "name": "Madhav Sivadasan",
         "title": "Budgeting Lead",
-        "linkedin": "http://www.linkedin.com/in/varsha-rajesh08",
-        "image": "varsharajesh.jpeg"
+        "linkedin": "https://www.linkedin.com/in/madhav-sivadasan/",
+        "image": "madhavsivadasan.jpg"
+      },
+      {
+        "name": "Connor Dugan",
+        "title": "Budgeting Lead",
+        "linkedin": "https://www.linkedin.com/in/connor-dugan-9248a1284",
+        "github": "https://github.com/connorfdugan-gif",
+        "image": "connordugan.jpeg"
+      },
+      {
+        "name": "Kenny Li",
+        "title": "Budgeting Lead",
+        "linkedin": "https://linkedin.com/in/kennylimich",
+        "image": "kennyli.jpeg"
       }
     ]
   },
@@ -164,38 +177,16 @@
     "description": "Creates opportunities for MDST members to network and have fun outside of our regular project work. Led by the VP of Internal Affairs.",
     "members": [
       {
-        "name": "Jonathon Rosevelt",
-        "title": "Social Planner",
-        "image": "jrosevel.jpeg"
+        "name": "John Fourness",
+        "title": "Internal Lead",
+        "linkedin": "https://www.linkedin.com/in/john-fourness-3a384b382/",
+        "image": "johnfourness.png"
       },
       {
-        "name": "Amelia Weyhing",
-        "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/amelia-weyhing/ ",
-        "github": "https://github.com/aweyhing",
-        "image": "aweyhing.JPG"
-      },
-      {
-        "name": "Taylor Lane",
-        "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/taynlane/",
-        "image": "taylornl.png"
-      },
-      {
-        "name": "Henry Chen",
-        "title": "Social Planner",
-        "linkedin": "https://www.linkedin.com/in/ching-yao-henry-chen/",
-        "image": "henrychen.jpeg"
-      },
-      {
-        "name": "Chris Chen",
-        "title": "Social Planner",
-        "image": "temp.jpeg"
-      },
-      {
-        "name": "Uma Iyer",
-        "title": "Social Planner",
-        "image": "uiyer.jpeg"
+        "name": "Mia Johnson",
+        "title": "Internal Lead",
+        "linkedin": "https://www.linkedin.com/in/mia-johnson-83346a328/",
+        "image": "miajohnson.jpeg"
       }
     ]
   }
