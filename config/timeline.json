@@ -1,49 +1,50 @@
 {
   "show_on_homepage": true,
-  "title": "MDST W26 Recruitment Schedule",
+  "title": "MDST F26 Recruitment Schedule",
   "events": [
     {
-      "title": "Mass Meeting #1",
-      "time": "January 12th 6:30-7:30 PM",
-      "description": "Join us to learn more about MDST and how to become a member.",
-      "external": {
-        "name": "(https://umich.zoom.us/j/93765449144)",
-        "link": ""
-      }
+      "title": "Festifall - Central Campus",
+      "time": "September 2nd (Wednesday) 6-8 PM",
+      "description": "Come visit us during Festifall at Table E-065!"
     },
     {
-      "title": "Office Hours #1",
-      "time": "January 13th 6-8 PM",
-      "description": "Drop by 3302 Mason Hall to ask questions, get help with tutorials, or chat with current members."
+      "title": "Mass Meeting #1",
+      "time": "September 4th (Friday) - Time TBD",
+      "description": "Join us to learn more about MDST and how to become a member. Location TBD."
     },
     {
       "title": "Mass Meeting #2",
-      "time": "January 14th 6-7 PM",
-      "description": "Join us to learn about MDST and meet the team in person at the Kuenzel Room in the Union."
+      "time": "September 8th (Tuesday) - Time TBD",
+      "description": "Join us to learn more about MDST and how to become a member. Location TBD."
+    },
+    {
+      "title": "Office Hours #1",
+      "time": "September 9th (Wednesday) 6-8 PM",
+      "description": "Drop by to ask questions, get help with tutorials, or chat with current members. Location TBD."
     },
     {
       "title": "Project Fair",
-      "time": "January 18th 12-1:30 PM",
-      "description": "Meet project leads, explore this semester's projects, and find the right team for you. Room: CCCB 2460. Note: Sponsored project application forms can be found in the Project Sign Up Form.",
+      "time": "September 13th (Sunday) 12-3 PM",
+      "description": "Meet project leads, explore this semester's projects, and find the right team for you. Location TBD. Note: Sponsored project application forms can be found in the Project Sign Up Form.",
       "external": {
         "name": "(Project Sign Up Form)",
         "link": "https://docs.google.com/forms/d/e/1FAIpQLSc_8tbTvXq_iFNs2m1VhCIleMtBjJ9srLRsKvN1NIMXHJaOdw/viewform"
       }
     },
     {
-      "title": "Office Hours #2",
-      "time": "January 19th 6-8 PM",
-      "description": "Stop by 2407 Mason Hall for last-minute tutorial help or any questions before the deadline."
+      "title": "Final Office Hours",
+      "time": "September 20th (Sunday) 11 AM-1 PM",
+      "description": "Stop by for last-minute tutorial help or any questions before the deadline. Location TBD."
     },
     {
       "title": "Tutorials and Project Matching Form Due",
-      "time": "January 20th 11:59 PM",
+      "time": "September 21st (Monday) 11:59 PM",
       "description": "Submit your completed tutorials and project matching form by this deadline to be eligible for project placement."
     },
     {
       "title": "First Work Session",
-      "time": "January 25th 12-3 PM",
-      "description": "Kick off the semester with your project team! Meet your teammates and start working together."
+      "time": "September 27th (Sunday) 12-3 PM",
+      "description": "Kick off the semester with your project team! Meet your teammates and start working together. Location TBD."
     }
   ]
 }
