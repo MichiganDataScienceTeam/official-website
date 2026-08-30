@@ -36,11 +36,11 @@
         "image": "carteradamski.jpeg"
       },
       {
-        "name": "Linda Ru",
+        "name": "Huy Le",
         "title": "VP of Projects",
-        "linkedin": "https://www.linkedin.com/in/caiyilindaru/",
-        "github": "https://github.com/clindaru",
-        "image": "clindaru.png"
+        "linkedin": "https://www.linkedin.com/in/huy-dinh-le/",
+        "github": "https://github.com/HuyLe61",
+        "image": "huyle.jpg"
       }
     ]
   },
@@ -50,28 +50,23 @@
     "members": [
       {
         "name": "Yuqi Sun",
-        "title": "Workshop Lead",
+        "title": "Workshop Lead, Autoemailer Dev",
         "linkedin": "https://www.linkedin.com/in/jeremy-moon7/",
         "github": "jere67.github.io",
         "image": "yuqisun.jpg"
       },
       {
         "name": "Angela Zhou",
-        "title": "Workshop Lead",
+        "title": "Workshop Lead, Autoemailer & Autograder Dev",
         "linkedin": "https://www.linkedin.com/in/angela-zhou-8637b5345/",
         "github": "https://github.com/angelazzhou110-ctrl",
         "image": "angelazhou.jpeg"
       },
       {
         "name": "Bianca Chandel",
-        "title": "Workshop Lead",
+        "title": "Workshop Lead, Technical Training Lead",
         "linkedin": "www.linkedin.com/in/bianca-chandel-5057a92aa",
         "image": "biancachandel.png"
-      },
-      {
-        "name": "Layne Malek",
-        "title": "Education Developer",
-        "image": "temp.jpeg"
       }
     ]
   },
@@ -143,32 +138,15 @@
     "description": "Project advisors who help MDST operate our projects smoothly and at scale. Led by the VP of Projects.",
     "members": [
       {
-        "name": "Aaron Williams",
+        "name": "Spendan Ghosh",
         "title": "Project Planner",
-        "image": "aaron.jpg"
-      },
-      {
-        "name": "Daniel Griggs",
-        "title": "Project Planner",
-        "linkedin": "https://www.linkedin.com/in/glenngr",
-        "github": "https://github.com/glenngriggs",
-        "image": "glenngr.jpeg"
-      },
-      {
-        "name": "Honghao Zhang",
-        "title": "Project Planner",
-        "linkedin": "https://www.linkedin.com/in/honghaozhang1/",
-        "image": "honghaozhang.png"
+        "linkedin": "https://www.linkedin.com/in/spandan-ghosh-4b0606294/",
+        "image": "spandanghosh.jpg"
       },
       {
         "name": "Elizabeth Szwajnos",
         "title": "Project Planner",
         "image": "elaszwaj.jpg"
-      },
-      {
-        "name": "Layne Malek",
-        "title": "Project Planner",
-        "image": "temp.jpeg"
       }
     ]
   },
