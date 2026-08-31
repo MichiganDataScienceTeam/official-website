@@ -10,18 +10,20 @@ export default function Timeline({ events }) {
               {event.time}
             </time>
             <h3 className="text-lg font-semibold text-white snap-center">
-              {event.title}{" "}
-              {event.external && (
-                <Link
-                  href={event.external.link}
-                  className="font-bold underline"
-                >
-                  {event.external.name}
-                </Link>
-              )}
+              {event.title}
             </h3>
             <p className="mb-4 text-base font-normal text-white">
               {event.description}
+              {event.external && (
+                <>
+                  {" "}
+                  <Link
+                    href={event.external.link} target="_blank" rel="noopener noreferrer" className="font-bold underline"
+                  >
+                    {event.external.name}
+                  </Link>
+                </>
+              )}
             </p>
           </li>
         ))}
