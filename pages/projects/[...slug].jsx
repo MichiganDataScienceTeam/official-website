@@ -10,8 +10,10 @@ import HeadContent from "@/components/headContent";
 // Function to get all projects from JSON files
 const getAllProjects = () => {
   try {
-    const pastProjects = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'pastProjects.json'), 'utf-8'));
-    const currentProjects = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'currentProjects.json'), 'utf-8'));
+    const pastProjectsRaw = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'pastProjects.json'), 'utf-8'));
+    const currentProjectsRaw = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'config', 'currentProjects.json'), 'utf-8'));
+    const pastProjects = Array.isArray(pastProjectsRaw) ? pastProjectsRaw : Object.values(pastProjectsRaw).flat();
+    const currentProjects = Array.isArray(currentProjectsRaw) ? currentProjectsRaw : Object.values(currentProjectsRaw).flat();
     return [...pastProjects, ...currentProjects];
   } catch (error) {
     console.error("Error reading or parsing JSON files:", error);
@@ -67,11 +69,13 @@ export async function getStaticProps({ params }) {
 export async function getStaticPaths() {
   const allProjects = getAllProjects();
 
-  const paths = allProjects.map(project => ({
-    params: {
-      slug: [project.subdirectory, project.innerDir],
-    },
-  }));
+  const paths = allProjects
+    .filter((project) => project.subdirectory && project.innerDir)
+    .map((project) => ({
+      params: {
+        slug: [project.subdirectory, project.innerDir],
+      },
+    }));
 
   return {
     paths,

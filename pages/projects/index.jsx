@@ -3,11 +3,10 @@ import path from "path";
 import HeadContent from "@/components/headContent";
 import Hero from "@/components/hero";
 import Layout from "@/components/layout";
-import CurrentProjectCard from "@/components/currentProjectCard";
 import ProjectCard from "@/components/projectCard";
 import { useRouter } from "next/router";
 
-export default function Projects({ groupedLinks, currentProjects }) {
+export default function Projects({ groupedLinks }) {
   const router = useRouter();
   const basePath = router.basePath;
 
@@ -23,29 +22,12 @@ export default function Projects({ groupedLinks, currentProjects }) {
 
       <section className="current-projects py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
         <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <h2 className="text-3xl mb-4">Current Projects Winter 2026</h2>
-          <h3>
-            More project details are on our{" "}
-            <a
-              href="https://mdst-club.notion.site/winter-2026-project-directory"
-              style={{
-                color: "#C8BAF3",
-                fontWeight: "bold",
-                textDecoration: "underline",
-              }}
-            >
-              Notion Page
-            </a>
-          </h3>
-        </div>
-        <div className="flex flex-wrap justify-center gap-8">
-          {currentProjects.map((project, index) => (
-            <CurrentProjectCard
-              key={index}
-              project={project}
-              basePath={basePath}
-            />
-          ))}
+          <h2 className="text-3xl mb-4">Fall 2026 Projects</h2>
+          <p className="text-lg font-light text-gray-500 dark:text-gray-400">
+            To be updated — please come to our Project Fair on September 13.
+            We have more consulting projects than normal this semester, which
+            means project spots will be more limited.
+          </p>
         </div>
       </section>
 
@@ -106,19 +88,9 @@ export async function getStaticProps() {
     {}
   );
 
-  const currentProjectsPath = path.join(
-    process.cwd(),
-    "config",
-    "currentProjects.json"
-  );
-  const currentProjects = JSON.parse(
-    fs.readFileSync(currentProjectsPath, "utf-8")
-  );
-
   return {
     props: {
       groupedLinks,
-      currentProjects,
     },
   };
 }

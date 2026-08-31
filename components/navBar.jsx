@@ -69,17 +69,6 @@ function MobileNav({ open, setOpen }) {
         </Link>
         <Link
           className="text-xl font-normal my-4"
-          href="https://mdst-club.notion.site/Engineering-MDST-1b1c107f9e958089ab84cc6c9898e9ed"
-          onClick={() =>
-            setTimeout(() => {
-              setOpen(!open);
-            }, 100)
-          }
-        >
-          Blog
-        </Link>
-        <Link
-          className="text-xl font-normal my-4"
           href="/join"
           onClick={() =>
             setTimeout(() => {
@@ -132,9 +121,6 @@ export default function Navbar() {
           <NavLink to="/team">Our Team</NavLink>
           <NavLink to="/sponsors">Our Sponsors</NavLink>
           <NavLink to="/contact">Contact</NavLink>
-          <NavLink to="https://mdst-club.notion.site/Engineering-MDST-1b1c107f9e958089ab84cc6c9898e9ed">
-            Blog
-          </NavLink>
           <NavLink to="/join">Join</NavLink>
         </div>
       </div>

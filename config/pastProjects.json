@@ -1,4 +1,45 @@
-{   "Winter 2025":[
+{   "Winter 2026": [
+        {
+            "label": "American Airlines"
+        },
+        {
+            "label": "Blueprints for Pangaea"
+        },
+        {
+            "label": "UMSI SO-ELL"
+        },
+        {
+            "label": "Uber Data Analysis"
+        },
+        {
+            "label": "Economic Forecasting"
+        },
+        {
+            "label": "Sports Data Analysis"
+        },
+        {
+            "label": "Building Interpretable AI in Healthcare"
+        },
+        {
+            "label": "Heart Failure Survival Analysis"
+        },
+        {
+            "label": "Sign Language Translator"
+        },
+        {
+            "label": "Image Collage Generator"
+        },
+        {
+            "label": "Alpha Trade"
+        },
+        {
+            "label": "PaperZero"
+        },
+        {
+            "label": "Replicating AlphaFold"
+        }
+    ],
+    "Winter 2025":[
         {
            "label": "American Airlines"
         },
