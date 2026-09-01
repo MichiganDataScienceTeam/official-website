@@ -14,9 +14,7 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 ### Step 2 (Optional): Attend our Mass Meetings
 
-<!--- Still need place for mass meetings --->
-
-MDST is hosting two mass meetings this year. Join us on September 4th (Friday) or on September 8th (Tuesday) — Time and Location TBD. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
+MDST is hosting two mass meetings this year. Join us on September 4th (Friday) 6-7 PM virtually ([Zoom](https://umich.zoom.us/j/93165627866)) or on September 9th (Wednesday) 8:15-9:15 PM in CCCB 3420. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
 Come visit us during **Festifall on September 2nd (Wednesday) 6-8 PM at Table E-065, Central Campus — Session 2**!
 
@@ -34,7 +32,7 @@ New members are required to **complete two checkpoints** giving an introduction 
     The tutorials for Fall 2026 are now published in the tutorial GitHub [repository](https://github.com/MichiganDataScienceTeam/MDST-Onboarding). The repository contains all the materials and instructions you need to complete the tutorials, as well as information about the support we provide if you have any questions.
 </div>
 
-Need help with the tutorials? Drop by our office hours: **September 9th (Wednesday) 6-8 PM** and **Final Office Hours September 20th (Sunday) 11 AM-1 PM** — Locations TBD.
+Need help with the tutorials? Drop by our office hours: **September 10th (Thursday) 6-8 PM in 3353 Mason Hall** and **Final Office Hours September 20th (Sunday) 11 AM-1 PM in 3330 Mason Hall**.
 
 <hr>
 
@@ -48,15 +46,13 @@ See our [Tutorials Repo](https://github.com/MichiganDataScienceTeam/MDST-Onboard
 
 - <span className="highlight">If your checkpoints are incomplete, then you will not be allowed to join MDST for that semester.</span> In such circumstance, you may attempt the checkpoints again the next semester and resubmit.
 
-The submission form will be due **September 21st (Monday), 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2026 semester.
+The submission form will be due **September 21st (Monday) 11:59 PM**, after which we will no longer accept sign-ups to join MDST for the Fall 2026 semester.
 
 <hr>
 
 ### Step 5: Attend the Project Exploration Fair
 
-<!--- Need to add time and place --->
-
-Before joining the club, we will host a project exploration fair on **September 13th (Sunday), 12-3 PM — Location TBD** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
+Before joining the club, we will host a project exploration fair on **September 13th (Sunday) 12-3 PM in CCCB 3420** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
 
 After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty).
 
