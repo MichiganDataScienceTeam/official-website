@@ -12,11 +12,9 @@ Our mailing list is going to be the fastest way for us to reach you with the lat
 
 <hr>
 
-### Step 2 (Optional): Attend our Mass Meetings
+### Step 2 (Optional): Attend our Mass Meeting
 
-MDST is hosting two mass meetings this year. Join us on September 4th (Friday) 6-7 PM virtually ([Zoom](https://umich.zoom.us/j/93165627866)) or on September 9th (Wednesday) 8:15-9:15 PM in CCCB 3420. At these meetings, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
-
-Come visit us during **Festifall on September 2nd (Wednesday) 6-8 PM at Table E-065, Central Campus — Session 2**!
+MDST is hosting a mass meeting this year. Join us on September 9th (Wednesday) 8:15-9:15 PM in CCCB 3420. At this meeting, we will discuss details about our club, what we do, and how to join. You'll also have the opportunity to ask questions you may have about joining.
 
 Take a look at our slides and recording from last semester's mass meeting:
 

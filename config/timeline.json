@@ -3,21 +3,7 @@
   "title": "MDST F26 Recruitment Schedule",
   "events": [
     {
-      "title": "Festifall - Central Campus",
-      "time": "September 2nd (Wednesday) 6-8 PM",
-      "description": "Come visit us during Festifall at Table E-065!"
-    },
-    {
-      "title": "Mass Meeting #1",
-      "time": "September 4th (Friday) 6-7 PM",
-      "description": "Join us virtually to learn more about MDST and how to become a member.",
-      "external": {
-        "name": "Meeting Link.",
-        "link": "https://umich.zoom.us/j/93165627866"
-      }
-    },
-    {
-      "title": "Mass Meeting #2",
+      "title": "Mass Meeting",
       "time": "September 9th (Wednesday) 8:15-9:15 PM",
       "description": "Join us in CCCB 3420 to learn more about MDST and how to become a member."
     },
