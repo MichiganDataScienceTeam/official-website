@@ -25,7 +25,11 @@
     {
       "title": "Tutorials and Project Matching Form Due",
       "time": "September 21st (Monday) 11:59 PM",
-      "description": "Submit your completed tutorials and project matching form by this deadline to be eligible for project placement."
+      "description": "Submit your completed tutorials and project matching form by this deadline to be eligible for project placement.",
+      "external": {
+        "name": "Apply to Projects",
+        "link": "https://mdst-projects.vercel.app/apply"
+      }
     },
     {
       "title": "First Work Session",

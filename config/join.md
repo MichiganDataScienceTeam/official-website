@@ -52,7 +52,7 @@ The submission form will be due **September 21st (Monday) 11:59 PM**, after whic
 
 Before joining the club, we will host a project exploration fair on **September 13th (Sunday) 12-3 PM in CCCB 3420** to share the projects which we will run this semester. You can speak with our project leads and learn first-hand about the type of work being done in each project, what the prerequistes are, and if the project is a good fit for you.
 
-After attending, you will be given access to a form to specify your top 3 project choices, from which we will place you into your preferred project (subject to constraints and appropriate difficulty).
+After attending, apply to projects ranking them by interest, from which we will place you into your preferred project (subject to constraints and appropriate difficulty).
 
 <div className="callout font-normal">
     ⚠️ You **must attend** the exploration fair to be placed on a project this semester. If you are unable to attend but would still like to participate in projects, you must fill out the [Project Fair Absence Form](https://docs.google.com/forms/d/e/1FAIpQLSceYGR_2Td0_SfHCC3c1xj4fiAqbdm3hO2BtIiI-et2Pqx6eA/viewform) in advance letting us know, and we will consider your request on a case-by-case basis.

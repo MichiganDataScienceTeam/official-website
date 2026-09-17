@@ -24,10 +24,11 @@ export default function Projects({ groupedLinks }) {
         <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
           <h2 className="text-3xl mb-4">Fall 2026 Projects</h2>
           <p className="text-lg font-light text-gray-500 dark:text-gray-400">
-            To be updated — please come to our Project Fair on September 13.
             We have more consulting projects than normal this semester, which
-            means project spots will be more limited.
+            means project spots will be more limited. Projects can be found on 
+            our new website: <br /> <br />
           </p>
+          <a href="https://mdst-projects.vercel.app/" className="text-blue-500 hover:underline bold">MDST-PROJECTS</a>
         </div>
       </section>
 

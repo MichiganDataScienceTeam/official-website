@@ -22,7 +22,7 @@ For a detailed schedule, please see our [events calendar](https://calendar.googl
 
 ### Will I be able to choose which project team I am on?
 
-Yes! After you join the club, you will be asked to rank your top 5 projects after talking with project leaders. Historically, 90+% of people are placed into one of their top two preferences.
+Yes! After you join the club, you will be asked to rank the projects after talking with project leaders. Historically, 90+% of people are placed into one of their top two preferences.
 
 ### How much time commitment do you require?
 
