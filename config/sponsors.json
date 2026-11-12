@@ -18,6 +18,11 @@
         "image": "intuit.png"
       },
       {
+        "name": "Amazon",
+        "link": "https://www.amazon.jobs/",
+        "image": "amazon.png"
+      },
+      {
         "name": "College of Engineering",
         "link": "https://www.engin.umich.edu/",
         "image": "coe.png"
