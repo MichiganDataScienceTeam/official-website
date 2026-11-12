@@ -3,6 +3,11 @@
     "type": "large",
     "sponsors": [
       {
+        "name": "Amazon",
+        "link": "https://www.amazon.jobs/",
+        "image": "amazon.png"
+      },
+      {
         "name": "Rocket Companies",
         "link": "https://www.myrocketcareer.com/",
         "image": "rocket.png"
@@ -16,11 +21,6 @@
         "name": "Intuit",
         "link": "https://www.intuit.com/",
         "image": "intuit.png"
-      },
-      {
-        "name": "Amazon",
-        "link": "https://www.amazon.jobs/",
-        "image": "amazon.png"
       },
       {
         "name": "College of Engineering",
