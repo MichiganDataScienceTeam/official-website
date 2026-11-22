@@ -20,15 +20,28 @@ export default function Projects({ groupedLinks }) {
       />
       <Hero title="Our Projects" />
 
-      <section className="current-projects py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
-        <div className="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-          <h2 className="text-3xl mb-4">Fall 2026 Projects</h2>
-          <p className="text-lg font-light text-gray-500 dark:text-gray-400">
+      <section className="current-projects px-4 mx-auto max-w-screen-xl text-center lg:px-6">
+        <div className="mx-auto max-w-screen-sm">
+          <h2 className="text-3xl mb-4">Fall 2026</h2>
+          <p className="text-2xl font-light text-gray-500 dark:text-gray-400">
             We have more consulting projects than normal this semester, which
             means project spots will be more limited. Projects can be found on 
             our new website: <br /> <br />
           </p>
-          <a href="https://mdst-projects.vercel.app/" className="text-blue-500 hover:underline bold">MDST-PROJECTS</a>
+          <a
+            href="https://mdst-projects.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 sm:px-8 sm:py-4 text-sm sm:text-base font-semibold uppercase tracking-widest text-white shadow-lg shadow-primary/30 transition-all duration-200 ease-out hover:-translate-y-0.5 hover:bg-primary-dark hover:shadow-xl hover:shadow-primary-dark/50 active:translate-y-0 active:scale-95 active:shadow-md focus:outline-none focus-visible:ring-4 focus-visible:ring-primary-light/60"
+          >
+            FALL 2026 PROJECTS
+            <span
+              aria-hidden="true"
+              className="transition-transform duration-200 group-hover:translate-x-1"
+            >
+              &rarr;  
+            </span>
+          </a>
         </div>
       </section>
 
